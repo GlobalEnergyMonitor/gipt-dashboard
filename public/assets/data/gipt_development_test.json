@@ -1,0 +1,114 @@
+[
+  {
+    "Country": "United Kingdom",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Oil and gas",
+    "Construction": 414,
+    "Pre-construction": 7630.9,
+    "Announced": 330
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Utility-scale solar",
+    "Construction": 1862.7,
+    "Pre-construction": 24577.6,
+    "Announced": 1137
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Wind",
+    "Construction": 7809.5,
+    "Pre-construction": 89063,
+    "Announced": 10385.9
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Nuclear",
+    "Construction": 3440,
+    "Pre-construction": 5500,
+    "Announced": 3200
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 3350,
+    "Announced": 3000
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Bioenergy",
+    "Construction": 672,
+    "Pre-construction": 428,
+    "Announced": 44
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Geothermal",
+    "Construction": 25,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "United States",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 800
+  },
+  {
+    "Country": "United States",
+    "Source": "Oil and gas",
+    "Construction": 8208.7,
+    "Pre-construction": 13783.7,
+    "Announced": 15475.8
+  },
+  {
+    "Country": "United States",
+    "Source": "Utility-scale solar",
+    "Construction": 28444.6,
+    "Pre-construction": 84763.4,
+    "Announced": 24575.2
+  },
+  {
+    "Country": "United States",
+    "Source": "Wind",
+    "Construction": 11661,
+    "Pre-construction": 62278,
+    "Announced": 43287
+  },
+  {
+    "Country": "United States",
+    "Source": "Nuclear",
+    "Construction": 1250,
+    "Pre-construction": 3487,
+    "Announced": 2810
+  },
+  {
+    "Country": "United States",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 6493,
+    "Announced": 55636
+  },
+  {
+    "Country": "United States",
+    "Source": "Bioenergy",
+    "Construction": 36,
+    "Pre-construction": 0,
+    "Announced": 200
+  },
+  {
+    "Country": "United States",
+    "Source": "Geothermal",
+    "Construction": 155,
+    "Pre-construction": 1029,
+    "Announced": 651
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "Country": "Canada",
+    "Status": "Announced",
+    "Fossil": 7232,
+    "Clean": 1475
+  },
+  {
+    "Country": "Canada",
+    "Status": "Construction",
+    "Fossil": 3676,
+    "Clean": 2066
+  },
+  {
+    "Country": "Canada",
+    "Status": "Operating",
+    "Fossil": 110623.5,
+    "Clean": 30061.3
+  },
+  {
+    "Country": "Canada",
+    "Status": "Pre-construction",
+    "Fossil": 14733.9,
+    "Clean": 3501
+  },
+  {
+    "Country": "France",
+    "Status": "Announced",
+    "Fossil": 17670.2,
+    "Clean": 0
+  },
+  {
+    "Country": "France",
+    "Status": "Pre-construction",
+    "Fossil": 12776.5,
+    "Clean": 0
+  },
+  {
+    "Country": "France",
+    "Status": "Construction",
+    "Fossil": 3837.3,
+    "Clean": 0
+  },
+  {
+    "Country": "France",
+    "Status": "Operating",
+    "Fossil": 117775.3,
+    "Clean": 14047.1
+  },
+  {
+    "Country": "Germany",
+    "Status": "Announced",
+    "Fossil": 8846,
+    "Clean": 7735
+  },
+  {
+    "Country": "Germany",
+    "Status": "Construction",
+    "Fossil": 2618,
+    "Clean": 861
+  },
+  {
+    "Country": "Germany",
+    "Status": "Operating",
+    "Fossil": 78803.6,
+    "Clean": 65972.8
+  },
+  {
+    "Country": "Germany",
+    "Status": "Pre-construction",
+    "Fossil": 14300.8,
+    "Clean": 6137
+  },
+  {
+    "Country": "Italy",
+    "Status": "Announced",
+    "Fossil": 18578.3,
+    "Clean": 0
+  },
+  {
+    "Country": "Italy",
+    "Status": "Construction",
+    "Fossil": 917.3,
+    "Clean": 1393.2
+  },
+  {
+    "Country": "Italy",
+    "Status": "Operating",
+    "Fossil": 29028.5,
+    "Clean": 55836.2
+  },
+  {
+    "Country": "Italy",
+    "Status": "Pre-construction",
+    "Fossil": 32184.2,
+    "Clean": 7224.6
+  },
+  {
+    "Country": "Japan",
+    "Status": "Announced",
+    "Fossil": 15828.3,
+    "Clean": 2381.4
+  },
+  {
+    "Country": "Japan",
+    "Status": "Construction",
+    "Fossil": 7446.9,
+    "Clean": 2805.2
+  },
+  {
+    "Country": "Japan",
+    "Status": "Operating",
+    "Fossil": 68377.5,
+    "Clean": 150322.4
+  },
+  {
+    "Country": "Japan",
+    "Status": "Pre-construction",
+    "Fossil": 10533.5,
+    "Clean": 3750
+  },
+  {
+    "Country": "United Kingdom",
+    "Status": "Announced",
+    "Fossil": 17766.9,
+    "Clean": 2852.5
+  },
+  {
+    "Country": "United Kingdom",
+    "Status": "Construction",
+    "Fossil": 13838.9,
+    "Clean": 749
+  },
+  {
+    "Country": "United Kingdom",
+    "Status": "Operating",
+    "Fossil": 56818.1,
+    "Clean": 38379.4
+  },
+  {
+    "Country": "United Kingdom",
+    "Status": "Pre-construction",
+    "Fossil": 126777.7,
+    "Clean": 12499.4
+  },
+  {
+    "Country": "United States",
+    "Status": "Announced",
+    "Fossil": 127879.2,
+    "Clean": 7495.6
+  },
+  {
+    "Country": "United States",
+    "Status": "Construction",
+    "Fossil": 40296.6,
+    "Clean": 12549.1
+  },
+  {
+    "Country": "United States",
+    "Status": "Operating",
+    "Fossil": 424452,
+    "Clean": 752943.4
+  },
+  {
+    "Country": "United States",
+    "Status": "Pre-construction",
+    "Fossil": 158388.4,
+    "Clean": 15486.8
+  }
+]

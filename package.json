@@ -1,0 +1,30 @@
+{
+  "name": "flourish-api-test",
+  "version": "1.0.6",
+  "description": "testing ground for flourish api dashbaord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "overrides": {
+    "chokidar": "3.5.3",
+    "glob-parent": "6.0.2"
+  },
+  "keywords": [
+    "flourish",
+    "flourish",
+    "api",
+    "dashboard"
+  ],
+  "author": "rushlet",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}

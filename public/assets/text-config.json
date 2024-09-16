@@ -1,0 +1,37 @@
+{
+  "title": "Explore data in the Global Integrated Power Tracker",
+  "footer": "All data comes from GEM's [Global Integrated Power Tracker](https://globalenergymonitor.org/projects/global-integrated-power-tracker/), last updated in July 2024. Units on this page are in gigawatts (GW).",
+  "dropdown_label": "Select a G7 country: ",
+  "no_data": "No data available for {{selected}}",
+  "dropdown": [
+    {
+      "Country": "Canada",
+      "overall_summary": "Text for Canada here"
+    },
+    {
+      "Country": "France",
+      "overall_summary": "Text for France here"
+    },
+    {
+      "Country": "Germany",
+      "overall_summary": "Text for Germany here"
+    },
+    {
+      "Country": "Italy",
+      "overall_summary": "Text for Italy here"
+    },
+    {
+      "Country": "Japan",
+      "overall_summary": "Text for Japan here"
+    },
+    {
+      "Country": "United States",
+      "overall_summary": "The United States has more than **five times** as much clean power in construction than fossil fuel capacity."
+    },
+    {
+      "Country": "United Kingdom",
+      "overall_summary": "The UK has 13 GW of clean energy under construction, most of it wind power."
+    }
+
+  ]  
+}
