@@ -1,7 +1,7 @@
 {
     "18909923": {
-        "title": "Power capacity in operation",
-        "subtitle": "operating power capacity in construction by source, in gigawatts (GW)",
+        "title": "How much power capacity is in operation?",
+        "subtitle": "Operating power capacity by source, in gigawatts (GW)",
         "x_axis": "Power source",
         "values": [
             "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
@@ -12,7 +12,7 @@
         "filter_by": "Country"
     },
     "18910657": {
-        "title": "Power capacity in construction",
+        "title": "How much power capacity is under construction?",
         "subtitle": "Power capacity in construction by source, in gigawatts (GW)",
         "x_axis": "Power source",
         "values": [
@@ -24,8 +24,8 @@
         "filter_by": "Country"
     },
     "18923725": {
-        "title": "Power capacity in development, by status",
-        "subtitle": "Power capacity in development by status and source, in gigawatts (GW)",
+        "title": "How much power capacity is in development?",
+        "subtitle": "Power capacity in development by source and status, in gigawatts (GW)",
         "x_axis": "Source",
         "values": [
             "Construction", "Pre-construction", "Announced"],
@@ -35,8 +35,8 @@
         "filter_by": "Country"
     },
     "18930420": {
-        "title": "Power capacity by type and status",
-        "subtitle": "Proportion (%) of power capacity by type and status ",
+        "title": "How does power capacity break down by status?",
+        "subtitle": "Proportion (%) of power capacity by type and status",
         "x_axis": "Status",
         "values": [
             "Clean", "Fossil"
