@@ -7,7 +7,7 @@
   {
     "Country": "France",
     "summary_1": "<span>{{3.8}} GW</span><br>clean power capacity<br>under construction",
-    "summary_2": "<span>{{0.9}} GW</span><br>fossil fuel capacity<br>under construction"
+    "summary_2": "<span>{{0}} GW</span><br>fossil fuel capacity<br>under construction"
   },
   {
     "Country": "Germany",
@@ -16,8 +16,8 @@
   },
   {
     "Country": "Italy",
-    "summary_1": "<span>{{1.4}} GW</span><br>clean power capacity<br>under construction",
-    "summary_2": "<span>{{0.9}} GW</span><br>fossil fuel capacity<br>under construction"
+    "summary_1": "<span>{{0.9}} GW</span><br>clean power capacity<br>under construction",
+    "summary_2": "<span>{{1.4}} GW</span><br>fossil fuel capacity<br>under construction"
   },
   {
     "Country": "Japan",
