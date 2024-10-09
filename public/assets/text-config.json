@@ -6,7 +6,8 @@
   "dropdown": [
     {
       "Country": "Canada",
-      "overall_summary": "Wind, solar and hydropower make up nearly two-thirds of capacity under construction in Canada."
+      "overall_summary": "Wind, solar and hydropower make up nearly two-thirds of capacity under construction in Canada.",
+      "font-size": "3rem"
     },
     {
       "Country": "France",
