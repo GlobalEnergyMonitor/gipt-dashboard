@@ -1,6 +1,6 @@
 {
     "18909923": {
-        "title": "How much power capacity is in operation?",
+        "title": "How much power capacity is operating?",
         "subtitle": "Operating power capacity by source, in gigawatts (GW)",
         "x_axis": "Power source",
         "values": [
