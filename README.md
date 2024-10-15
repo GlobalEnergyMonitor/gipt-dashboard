@@ -1,329 +1,393 @@
-# Flourish API dashboard template
-This is a template to create dashboards using Flourish graphics - such as [this one](https://flourish-dashboard-a98edc888829.herokuapp.com/)
+# Global Integrated Power Tracker dashboard
 
-These are developed to be configurable. You can update content in the various configs to change the graphs/data/tickers/text shown on the page. You can also duplicate it and update the configs and data to create a new dashboard.  
+This repository hosts the code for the [Global Integrated Power Tracker dashboard](https://gipt-dashboard-b8f457be7fe8.herokuapp.com/), built using the [Flourish API dashboard template setup](https://github.com/GlobalEnergyMonitor/Flourish-API-dashboard-template). For the full instructions on how the Flourish API framework, you can go through the comprehensive README that includes all the different steps on how to set and configure a new dashboard in the template Github repo. This repo will focus on how to update and make changes to the Global Integrated Power tracker dashboard, which has not yet launched (as of October 2024) and is in draft mode, including only the G7 countries as a test version.  
 
-# Overview / How it works
-There are a number of config files which control what the dashboard is showing. These can be found in `public/assets/`
+This README itself is split up into four different sections. The first section explains how each of the dashboard components are set up, with a snapshot of the data structure that make up each of the elements. Then there is a short guide to updating the dashboard. The third section provides detail on how each of the different elements making the dashboard up are structured and created, while the last section provides a more detailed step-by-step guide to updating the dashboard. 
 
+## How the GIPT dashboard is set up
+
+The dashboard has been created using the Flourish API template, and is made up of:  
+- a text summary, the summary phrase that provides a key fact about the country/region selected
+- a "data ticker": the three large numbers and text that animates for every country/region selected
+- four separate Flourish data visualisations  
+
+It therefore has six different elements, each with its own data file and structure. Below we will go through the key details for each one, including the data structure each of these elements needs - however it is worth a very brief introduction into how the dashboard set up works and is updated, with the full details in the [Flourish API dashboard template setup README](https://github.com/GlobalEnergyMonitor/Flourish-API-dashboard-template). 
+
+### Overview / How it works
+There are a number of config files which control what the dashboard is showing. These can be found in `public/assets/`:
 * `page-config` describes what is in the whole page. Here you can specify the graphs in the page and the order they show, the tickers, the filtering type.
 * `chart-config` contains the details for each chart - there are a number of config options needed, including a reference to the dataset and which keys in the data are being used where in the chart. There are optional additional config opotions, such as if the chart responds to filtering
-* `text-config` this contains the text that appears outside the flourish graphics in the page - the title, any summaries etc
+* `text-config` this contains the text that appears outside the flourish graphics in the page - the title, any summaries etc.
 
 **Things to note:**
 * Datasets for each graphic are expected to live in `public/assets/data`
 * The main page building blocks are `index.js`, `index.html` and `index.css`. A server can be found in `server.js` to handle the API requests to Flourish.
+* The order of the countries in the dropdown is determined in the order the countries appear in the `text-config` data array. 
+* Each of the dataviz except the data tickers has to be created and set up in Flourish, but the title and subtitle, as well as the actual data used in the version that shows up in the dashboard comes from the `chart-config.json` file and the relevant data files in this repo. 
+* For your charts to work, the data header names in your data need to match with the names you assign to the variables in the `chart-config.json`. 
+* In order for a chart to show up for a specific selection, the json file with data for that chart needs to include data for that chart, even if the totals are 0. If a country is not included in the data, when you select that country in the dropdown the chart will appear greyed out - so best to include data with 0s for each entry. 
 
+## Update the dashboard: Quick guide
 
-# To update a dashboard
-To update a dashboard, you can open any of the config files above and make changes to them. 
-Any new data should be pushed to `public/assets/data` and be in `json` format.
-Pushing your changes to the main branch on github should trigger an automatic rebuild on heroku and your changes should be reflected on the published dashboard almost instantly.
+To make changes to the dashboard, you need to:
+* change the data json files
+* amend the relevant info in the config files (chart titles and subtitles or new filenames for your data if you are changing them)  
+* change the summary text in the `text-config.json` file - the order the countries appear in this file sets the order the countries appear in the dropdown
+* make any text changes in other relevant config files (page title, dropdown text, footnote)  
 
-## An overview of each config and the options expected
+*If adding a new datapoint, (eg a new year's data), you may also need to make some minor changes to the original Flourish links (such as changing the axis labels for example).*
 
-### page-config.json
-**Overview**
-```
-{
-    "flourish_ids": [], // array of ids of each flourish graphic
-    "input_type": "", // "buttons" or "dropdown"
-    "input_filter": "", // string or array. If string: the value of datasets that should be filtered on, needs to match an id column in every dataset. if Array: names of columns which can be filtered on, must be present across graphs; can also have 'All' (optional)
-    "input_default": "", // the default value of this filter - needs to match a value in the id column or if using array/column approach the name of one of the columns or 'All' if added as an option
-    "input_key": "", // only needed if input_filter is an array - key in text-config dropdown/buttons option which references each filter value in input_filter
-    "overall_summary": true, // boolean true/false - if there is an overall summary displayed above the graphs
-    "tickers": [{ // array of objects, each representing a ticker to be shown in the intro. If no tickers needed, set to `null`
-        "id": "", // id of ticker (must match dataset)
-        "decimal_places": 0, // optional - can specify number of decimal places to be shown, will remove trailing 0s
-        "style": {
-            "color": "", // optional - can set a colour for the main number/ticking value
-            "font-weight": "", // optional - can set to bold etc
-            "font-size": "" // optional font size for number value
-        }
-    }],
-    "ticker_text_font-size": "", // optional - font size for the text in the ticker (not the number)
-    "ticker_data": "", // references the datset to feed the tickers, expected to live at `public/assets/data`. Without `.json` suffix
-    "extra_visualisations": [] // array of IDs for extra visualisations which dont get updated with other interaction
-}
-```
+**Datasets**
+Any new data should be pushed to `public/assets/data` and be in `json` format. Each json file in the data folder is used in each of the elements that make up the page (data ticker numbers at the top and the four charts). 
+* `gipt_operating_g7_v1.json`  
+* `gipt_construction_g7_v1.json`    
+* `gipt_development_g7_v1.json`  
+* `gipt_type_status_g7_v1.json`
+* `gipt_data_ticker_g7_v1.json` 
 
-**Example:**
-```
-{
-    "flourish_ids": [
-        "16659638",
-        "16659864",
-        "16533187",
-        "16566530",
-        "15821879",
-        "16716119"
+If changing the filename of the data file, as you will probably want to do once moving to a final version from the test version with just G7 countries, you will need to amend the value of the `dataset` variable in the `chart-config.json` document. If you make any changes to your data column names, you will need to change the relevant values in the chart config file, but if you replicate the existing structure, this should not cause any issues. 
 
-    ],
-    "input_type": "buttons",
-    "input_filter": "Country",
-    "input_default": "Global",
-    "overall_summary": true,
-    "ticker_text_font-size": "2rem",
-    "ticker_data": "data_ticker",
-    "tickers": [{
-        "id": "summary_1",
-        "decimal_places": 0,
-        "style": {
-            "color": "#BF532C",
-            "font-weight": "bold",
-            "font-size": "3.5rem"
-        }
+**Summary text**
+To update the summary text, you must do so in the `text-config.json` file. The order the countries appear here are the order they appear in the dropdown. Remember, a country must be included here to show up in the dropdown. Even if it is included in all the data files, if it is not listed in the text config file, it will not show up. 
+
+**Other text**
+All other text that is included in the page comes from either the text-config page (footnote and dropdown text for example) and the title comes from the index.html page. The chart title and subtitle text are defined in the `chart-config.json`, not the Flourish page. 
+
+**Flourish changes**
+For any updates or changes to the visualizations beyond the data, title and subtitle, the changes should be made in the Flourish links for each of the graphics. So if you want to change the footnote, the suffix, the colours or any other tweaks to the charts themselves beyond the datak, title and subtitle, you need to do so in the Flourish links
+
+**Data download links**
+You can add a data download link at the bottom left of each chart, like in the [GCPT](https://globalenergymonitor.org/projects/global-coal-plant-tracker/dashboard/) and [GOGPT](https://globalenergymonitor.org/projects/global-oil-gas-plant-tracker/dashboard/) dashboards. If you do add the download links to each Flourish chart, these files are updated manually - the new data first needs to be uploaded to the GEM Wordpress media library so that a link can be generated for them, and then that link should be updated in the `Footer` section of the respective Flourish link. 
+
+**Putting your changes live**
+
+Pushing your changes to the main branch on Github should trigger an automatic rebuild on Heroku and your changes should be reflected on the published dashboard almost instantly.
+
+Below, you will find more detail about each element of the dashboard, the data structure for each and the full process into updating it with each release, including how to generate the datasets.   
+
+## GIPT dashboard detail
+
+### Element 1: Summary text
+
+![Summary text screenshot from GIPT dashboard](readme_images/gipt_dashboard_summary_text.png)
+
+The summary text is optional for a dashboard, as well as it being possible to include summary text for some selections and not have any for others. Currently, this is how the GIPT test version is set up, with summary text for every country, but this can be amended as this moves into the live version. 
+
+There is no Flourish ID or Flourish visualisation associated with the summary text, it is all included and set up in the `public/assets/text-config.json` file. 
+
+Important to note however that even if you do not have any summary text, the text-config file needs to include the name of each of the dropdown/filter selections - while the **order they are in your text-config file will be the order of your dropdown**. 
+
+**Data structure:**
+
+``` 
+[
+    {
+      "Country": "Canada",
+      "overall_summary": "Wind, solar and hydropower make up nearly two-thirds of capacity under construction in Canada."
     },
     {
-        "id": "summary_2",
-        "decimal_places": 1,
-        "style": {
-            "color": "#3f6950",
-            "font-weight": "bold",
-            "font-size": "3.5rem"
-        }
+      "Country": "France",
+      "overall_summary": "France has no fossil-fuelled power projects in development."
     },
     {
-        "id": "summary_3",
-        "decimal_places": 2,
-        "style": {
-            "color": "#761201",
-            "font-weight": "bold",
-            "font-size": "3.5rem"
-        }
+      "Country": "Germany",
+      "overall_summary": "Around three-quarters of capacity under construction in Germany is wind and solar."
     },
     {
-        "id": "summary_4",
-        "decimal_places": 2,
-        "style": {
-            "color": "#761201",
-            "font-weight": "bold",
-            "font-size": "3.5rem"
-        }
-    }],
-    "extra_visualisations": ["15745513", "14662890"]
-}
-```
-
-**Example with Column names for filtering**
-```
-{
-    "flourish_ids": [
-        "16647921",
-        "16644559"
-    ],
-    "input_type": "dropdown",
-    "input_filter": ["All", "Construction", "Permitted", "Pre-permit", "Announced"],
-    "input_default": "All",
-    "input_key": "status" // this is needed if using series filter
-}
-```
-Make sure to add the property `"input_key"` which references the key used in the dropdown/buttons object in `text-config` to configure the different info shown on filter.
-
-If you don't want to have an 'All' option to combine the columns, you can remove it, eg:
-```
-{
-    "flourish_ids": [
-        "16647921",
-        "16644559"
-    ],
-    "input_type": "dropdown",
-    "input_filter": ["Construction", "Permitted", "Pre-permit", "Announced"],
-    "input_default": "Construction",
-    "input_key": "status"
-}
-```
-
-### chart-config.json
-**Overview**
-```
-{
-    "FLOURISH_ID": {
-        "title": "", // title of chart
-        "subtitle": "", // subtitle of chart
-        "x_axis": "", // column name in data
-        "values": [], // array of strings of column names to be represented. Can be one or more (eg for simple bar vs stacked column)
-        "summary": "", // the key in `text-config.json` to show as a summary above the chart. Make`null` if not needed
-        "dataset": "", // the name of the datset, expected to live at `public/assets/data`. Without `.json` suffix
-        "filterable": true, // boolean true/false: if chart responds to page level filtering
-        "filter_by": "", // the initial key of the id column on landing - would usually match `input_filter` in page-config
-        "initial_state": "", // the initial value of the id column on landing - would usually match `input_default` in page-config
-    }
-}
-```
-
-**Example:**
-```
-{
-    "15821879": {
-        "title": "Coal plant capacity starting construction outside China is on track for record annual low",
-        "subtitle": "Coal-fired power capacity beginning construction outside China, in gigawatts (GW)",
-        "x_axis": "Period",
-        "values": [
-            "Yearly Construction Starts"
-        ],
-        "dataset": "data_construction",
-        "summary": null,
-        "filterable": false
+      "Country": "Italy",
+      "overall_summary": "Oil and gas plants constitute the largest source of capacity under construction in Italy."
     },
-    "16566530": {
-        "title": "What is the age breakdown of coal plants?",
-        "subtitle": "Coal-fired power capacity by age and type of coal plants, in megawatts (MW)",
-        "x_axis": "decade",
-        "values": [
-            "CFB",
-            "IGCC",
-            "Subcritical",
-            "Supercritical",
-            "Ultra-supercritical",
-            "Unknown"
-        ],
-        "summary": null,
-        "dataset": "data_age",
-        "initial_state": "Global",
-        "filterable": true,
-        "filter_by": "Country"
+    {
+      "Country": "Japan",
+      "overall_summary": "Oil and gas plants constitute the largest source of capacity under construction in Japan."
     },
-    "16533187": {
-        "title": "How has coal power capacity changed since 2000?",
-        "subtitle": "Coal-fired power capacity by status each year, in megawatts (MW)",
-        "x_axis": "Year",
-        "values": [
-            "Capacity"
-        ],
-        "summary": "cumulative_summary",
-        "dataset": "data_cumulative",
-        "initial_state": "Global",
-        "filterable": true,
-        "filter_by": "Country"
-    }
-}
+    {
+      "Country": "United States",
+      "overall_summary": "The United States has more than **five times** as much clean power in construction than fossil fuel capacity."
+    },
+    {
+      "Country": "United Kingdom",
+      "overall_summary": "The UK has 14 GW of clean energy under construction, with two-thirds of it wind power."
+    },
+    ....
+]
 ```
 
-### text-config.json
-**Overview**
+### Element 2: Data ticker  
+
+![Data ticker screenshot from GIPT dashboard](readme_images/gipt_dashboard_data_tickers.png)  
+
+Data tickers are also optional for a dashboard, as well as it being possible to choose the number of data points you want to display. Currently, the GIPT draft dashboard is set up with two key data points, which are:
+- Clean capacity under construction 
+- Fossil fuel capacity under construction
+
+The attributes for the tickers are customisable and can be set within the `page-config` file and the colours set in the config file are fallbacks in this case. The colours for each of the text selections can also set within the `public/assets/data/gipt_data_ticker.json` file, you can see how the other GCPT and GOGPT dashboard code and json files are structured on how to do that.
+
+
+**Data structure:**
 ```
-{
-    "title": "", // title of the whole dashboard
-    "footer": "", // optional: text shown at the bottom of the page
-    "no_data": "No data available for {{selected}}", // no data message - {{selected}} will be replaced by an option from the buttons/dropdown. If not using filtering, remove this from the no data message.
-    "buttons_label": "",  // This is the CTA before the input. If using a dropdown, the key should be `dropdown_label`
-    "buttons": [ // Each entry here reflects a dropdown/button option and the values that will be outputted when it is selected. if using a dropdown, the key should be `dropdown`. 
-      {
-        "INPUT_FILTER": "INPUT_VALUE", // this is only needed if filtering on ID value, using the string option for filter_input rather than the array option
-        "overall_summary": "", // summary shown above all graphs / in intro
-        "graph-1_text": "", // summary shown above graph 1
-        "graph-2_text": "", // summary shown above graph 2
-      }
-    ]
-}
+[
+ 
+    "Country": "Canada",
+    "summary_1": "<span>{{3.7}} GW</span><br>clean power capacity<br>under construction",
+    "summary_2": "<span>{{2.1}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "France",
+    "summary_1": "<span>{{3.8}} GW</span><br>clean power capacity<br>under construction",
+    "summary_2": "<span>{{0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Germany",
+    "summary_1": "<span>{{2.6}} GW</span><br>clean power capacity<br>under construction",
+    "summary_2": "<span>{{0.9}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  ....
+]
 ```
 
-Things to note 
-* buttons/dropdown can handle any number of options. For buttons it is not recommended to use more than 6
-  
+### Element 3: Operating capacity by source viz
 
-**Example:**
+![Operating capacity by source in GIPT dashboard](readme_images/gipt_dashboard_operating_chart.png)
+
+The Flourish ID for this data visualisation is `18909923` and the link to the Flourish file is:  
+https://app.flourish.studio/visualisation/18909923/edit 
+
+
+**Data structure:**
+```
+[
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Coal",
+    "Coal": 196.2154
+  },
+    {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Bioenergy",
+    "Bioenergy": 7.396
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Hydropower",
+    "Hydropower": 86.625
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Geothermal",
+    "Geothermal": 3.6305
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Wind",
+    "Wind": 144.962
+  },
+   {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 79.3635
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Nuclear",
+    "Nuclear": 102.475
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Oil and gas",
+    "Oil and gas": 556.728
+  },
+  ....
+]
+```
+
+### Element 4: Capacity in construction by source viz
+
+![Capacity in construction by source in GIPT dashboard](readme_images/gipt_dashboard_construction_chart.png)
+
+The Flourish ID for this data visualisation is `18910657` and the link to the Flourish file is:  
+https://app.flourish.studio/visualisation/18910657/edit
+
+**Data structure:**
+```
+[
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0.036
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Hydropower",
+    "Hydropower": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Geothermal",
+    "Geothermal": 0.155
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Wind",
+    "Wind": 11.661
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 28.4446
+  },
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Nuclear",
+    "Nuclear": 0
+  },
+    {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Oil and gas",
+    "Oil and gas": 12.5491
+  },
+  ....
+]
+```
+
+
+### Element 5: Capacity in development by source and status viz
+
+![Capacity in development by source and status in GIPT dashboard](readme_images/gipt_dashboard_development_chart.png)
+
+The Flourish ID for this data visualisation is `18923725` and the link to the Flourish file is:  
+https://app.flourish.studio/visualisation/18923725/edit
+
+**Data structure**
 
 ```
-{
-    "title": "Coal dashboard",
-    "footer": "Footer content here",
-    "no_data": "No data available for {{selected}}",
-    "buttons_label": "Select a country: ",
-    "buttons": [
-      {
-        "Country": "Global",
-        "overall_summary": "Global summary sentence here",
-        "cumulative_text": "coal capacity has almost doubled from 2000",
-        "change_text": "Need to develop a sentence for Global",
-        "status_text": "Global has 2,095,041 MW of operating coal power capacity and 557,465 MW under development",
-        "age_text": "The largest share of coal power in Global is 10-19 years old"
-      },
-      {
-        "Country": "United Kingdom",
-        "overall_summary": "_UK_ summary sentence here",
-        "cumulative_text": "has no operating coal power",
-        "change_text": "neither added or retired any coal",
-        "status_text": "UK TEXT.CONFIG",
-        "age_text": "UK"
-      },
-      {
+[
+    {
+    "Country": "United States",
+    "Source": "Utility-scale solar",
+    "Construction": 28444.6,
+    "Pre-construction": 84763.4,
+    "Announced": 24575.2
+    },
+    {
         "Country": "United States",
-        "overall_summary": "**USA**summary sentence here",
-        "cumulative_text": "increased its coal power capacity from 2000",
-        "change_text": "has not retired any coal since 2000",
-        "status_text": "USA has 495 MW of operating coal power capacity and 120 MW under development",
-        "age_text": "The largest share of coal power in USA is 40-49 years old"
-      }
-    ]
-}
+        "Source": "Oil and gas",
+        "Construction": 12549.1,
+        "Pre-construction": 15086.8,
+        "Announced": 7095.6
+    },
+    {
+        "Country": "United States",
+        "Source": "Nuclear",
+        "Construction": 0,
+        "Pre-construction": 3825,
+        "Announced": 3530
+    },
+    {
+        "Country": "United States",
+        "Source": "Hydropower",
+        "Construction": 0,
+        "Pre-construction": 6493,
+        "Announced": 55636
+    },
+    {
+        "Country": "United States",
+        "Source": "Geothermal",
+        "Construction": 155,
+        "Pre-construction": 1029,
+        "Announced": 651
+    },
+    {
+        "Country": "United States",
+        "Source": "Coal",
+        "Construction": 0,
+        "Pre-construction": 400,
+        "Announced": 400
+    },
+    {
+        "Country": "United States",
+        "Source": "Bioenergy",
+        "Construction": 36,
+        "Pre-construction": 0,
+        "Announced": 200
+    },
+    {
+        "Country": "United States",
+        "Source": "Wind",
+        "Construction": 11661,
+        "Pre-construction": 62278,
+        "Announced": 43287
+    }
+    ....
+]
 ```
 
-# To create a new dashboard
-[TODO: TEST THIS AND UPDATE]
-1. To create a new dashboard, you will need to duplicate this template/repo. You can do this either via the GH dashboard or the terminal.
-    
-    *via the GitHub UI*
-    * Scroll to the top of this page and click code > Download Zip
-    * Go to the GEM main page, and create a new repo, giving it a name etc
-    * On the next page, click 'uploading an existing file' (if you can't see that, you can add `/upload` to the url in the address bar)
-    * Drag all the files from the downloaded zip file into the uploader
-    * You can then make any changes you like from within github (or clone the project and work with it locally)
+### Element 6: Clean or fossil proportion by status viz
 
-    *via the terminal*
-    * Clone this repo
-    * Create a new repo on GitHub in GEM organisation
-    * Make a new folder on your machine
-    * Copy the files over from your cloned version of this repo, into the new folder. Make sure the `.gitignore` is also copied over. If you're doing this in Finder you can press `Command + Shift + . (period)` to show the hidden files. If you can't copy it, make a new one and copy the contents from this repo.
-    * Make a new folder on your machine
-    * Run:
-    ```
-        git init
-        git remote add origin https://github.com/GlobalEnergyMonitor/[NEW-GIT-REPO].git
-        git branch -M main
-        git push -u origin main
-    ```
-    * Proceed to work with the new repo, make new branches or any changes you like
+![100% Stacked bar chart showing proportion of fossil fuel or clean capacity by status](readme_images/gipt_dashboard_clean_fossil_chart.png)  
 
-1. Create a new instance on Heroku
-   * Create a new app
-   * Connect to GitHub
-     * Enter the name of your new repo
-     * Connect to main branch (or testing branch if you have one, but remember to change it to main when publishing)
-     * Set to autoupdate
-   * Go to the Settings tab 
-     * Add buildpack -> nodejs
-     * Reveal config vars -> under 'KEY' add 'FLOURISH_API_KEY' and paste a valid Flourish API key here
-     _([Instructions for getting API Key here](https://developers.flourish.studio/api/getting-started/), or ask someone for an existing one)_
-2. Check the URL, hopefully it's all good!
-3. Add page to GEM site
-   * Go to WordPress
-   * Create new page with Tracker template
-   * Paste in Heroku page URL
+The Flourish ID for this data visualisation is `18930420` and the link to the Flourish file is:  
+https://app.flourish.studio/visualisation/18930420/edit 
 
-# To develop the templates / use locally
-* Open your terminal
-* Clone repo
-* `cd` into project run `npm install`
-* Get a flourish API key [following instructions here](https://developers.flourish.studio/api/getting-started/)
-* Create `.env` file in the root of the project (this is important so the code knows where to find it and it doesn't get commited to github)
-* copy the below into it and save:
+**Data structure:**
 ```
-FLOURISH_API_KEY=YOUR_API_KEY_HERE
-PORT=8080
+[
+    {
+    "Country": "United States",
+    "Status": "Announced",
+    "Clean": 127879.2,
+    "Fossil": 7495.6
+    },
+    {
+        "Country": "United States",
+        "Status": "Pre-construction",
+        "Clean": 158388.4,
+        "Fossil": 15486.8
+    },
+    {
+        "Country": "United States",
+        "Status": "Construction",
+        "Clean": 40296.6,
+        "Fossil": 12549.1
+    },
+    {
+        "Country": "United States",
+        "Status": "Operating",
+        "Clean": 424452,
+        "Fossil": 752943.4
+    },
+    ....
+]
 ```
-* run `npm start`
-* open your browser and navigate to http://localhost:8080/
+## Updating the dashboard: step-by-step guide
 
-# To embed as iframe
-* Navigate to WP page and insert HTML code block
-* Copy the below into the code block:
-    ```
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.9/iframeResizer.min.js"></script>
-    <iframe id="ID-OF-IFRAME" width="100%" src="LINK-TO-HEROKU-PAGE" frameborder="0"></iframe>
-    <script>
-        iFrameResize({ checkOrigin: false }, '#ID-OF-IFRAME')
-    </script>
-    ```
-* That _should_ work 🤞 
+TO COME 
