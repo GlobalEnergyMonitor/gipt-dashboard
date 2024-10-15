@@ -388,6 +388,18 @@ https://app.flourish.studio/visualisation/18930420/edit
     ....
 ]
 ```
-## Updating the dashboard: step-by-step guide
+## Updating the dashboard
 
-TO COME 
+To run the dashboard locally, you can follow the relevant [instructions from the main repo](https://github.com/GlobalEnergyMonitor/Flourish-API-dashboard-template?tab=readme-ov-file#to-develop-the-templates--use-locally) and use `npm` to get it set up. 
+
+The dashboard currently includes the elements detailed in the first part of this guide. In order to make any changes, for example you need to follow the instructions above. The main principle is that the data, summary text, footnote text and text around elements like the dropdown, as well as the chart titles and subtitles are set in the json files and configs, whilst almost everything else is set within each of the Flourish visuals linked to above. 
+
+For example, to add more countries to the dashboard you would need to update each of the json files in the `data` folder, as well as include these new countries in the array in the `text.config` file, in the order you would like them to appear in your dropdown. 
+
+You can see how each chart is set up in the dashboard in the `page.config` and `chart.config` files. If you wanted to have a different Flourish viz than the four draft ones included here now, you would need to first create the viz in Flourish and publish it, create a json file with the data for this new viz and adapting the page and chart config to match the elements of the new visualization. 
+
+The colours in the Flourish visualizations are set in the colour tab in the Flourish UI for each visualization and can be changed there, as can other elements in each plot, such as for example the suffixes in the x-axis to denote the units. 
+
+The colours of the large numbers at the top, the data tickers, are set in the `page.config` code and can be changed there. If you wanted to have a different colour for those numbers for each different country for example, you can see how the data ticker json file is set up in the GCPT and GOGPT dashboards and replicate that style, which would overwrite what colour you set in the page config. For now, the data ticker json file doesn't include any reference to the text colour. 
+
+Any changes you make to the Flourish visualizations you need to republish (top right hand button in Flourish) for them to go live and that should go through automatically. Any changes to the data or text that are made within the dashboard code can be pushed live just by updating the main branch of the repository, as the Heroku app that the dashboard is set up with to generate a server and a URL for us is configured to deploy any changes automatically. 
