@@ -392,7 +392,9 @@ https://app.flourish.studio/visualisation/18930420/edit
 
 To run the dashboard locally, you can follow the relevant [instructions from the main repo](https://github.com/GlobalEnergyMonitor/Flourish-API-dashboard-template?tab=readme-ov-file#to-develop-the-templates--use-locally) and use `npm` to get it set up. 
 
-The dashboard currently includes the elements detailed in the first part of this guide. In order to make any changes, for example you need to follow the instructions above. The main principle is that the data, summary text, footnote text and text around elements like the dropdown, as well as the chart titles and subtitles are set in the json files and configs, whilst almost everything else is set within each of the Flourish visuals linked to above. 
+The dashboard currently includes the elements detailed in the first part of this guide. In order to make any changes, for example you need to follow the instructions above, while the general instructions to the Flourish API dashboard framework set up can also provide info on how to add or modify existing elements.  
+
+The main principle is that the data, summary text, footnote text and text around elements like the dropdown, as well as the chart titles and subtitles are set in the json files and configs, whilst almost everything else is set within each of the Flourish visuals linked to above. 
 
 For example, to add more countries to the dashboard you would need to update each of the json files in the `data` folder, as well as include these new countries in the array in the `text.config` file, in the order you would like them to appear in your dropdown. 
 
