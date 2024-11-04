@@ -1,0 +1,394 @@
+[
+  {
+    "Country": "Canada",
+    "Source": "Geothermal",
+    "Construction": 10,
+    "Pre-construction": 225,
+    "Announced": 75
+  },
+  {
+    "Country": "Canada",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Canada",
+    "Source": "Wind",
+    "Construction": 1522,
+    "Pre-construction": 8320,
+    "Announced": 1250
+  },
+  {
+    "Country": "Canada",
+    "Source": "Utility-scale solar",
+    "Construction": 1044,
+    "Pre-construction": 5478.9,
+    "Announced": 170
+  },
+  {
+    "Country": "Canada",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Canada",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 305,
+    "Announced": 1535
+  },
+  {
+    "Country": "Canada",
+    "Source": "Oil and gas",
+    "Construction": 2066,
+    "Pre-construction": 3501,
+    "Announced": 1475
+  },
+  {
+    "Country": "Canada",
+    "Source": "Hydropower",
+    "Construction": 1100,
+    "Pre-construction": 405,
+    "Announced": 4202
+  },
+  {
+    "Country": "France",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "France",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "France",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "France",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "France",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "France",
+    "Source": "Nuclear",
+    "Construction": 1650,
+    "Pre-construction": 3300,
+    "Announced": 6600
+  },
+  {
+    "Country": "France",
+    "Source": "Utility-scale solar",
+    "Construction": 427.7,
+    "Pre-construction": 726.4,
+    "Announced": 2298.2
+  },
+  {
+    "Country": "France",
+    "Source": "Wind",
+    "Construction": 1759.6,
+    "Pre-construction": 8750.1,
+    "Announced": 8772
+  },
+  {
+    "Country": "Germany",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Germany",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Germany",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Germany",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Germany",
+    "Source": "Utility-scale solar",
+    "Construction": 949,
+    "Pre-construction": 6317.8,
+    "Announced": 1969
+  },
+  {
+    "Country": "Germany",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 300,
+    "Announced": 400
+  },
+  {
+    "Country": "Germany",
+    "Source": "Wind",
+    "Construction": 1669,
+    "Pre-construction": 7683,
+    "Announced": 6477
+  },
+  {
+    "Country": "Germany",
+    "Source": "Oil and gas",
+    "Construction": 861,
+    "Pre-construction": 6137,
+    "Announced": 7735
+  },
+  {
+    "Country": "Italy",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 270,
+    "Announced": 0
+  },
+  {
+    "Country": "Italy",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Italy",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Italy",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Italy",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Italy",
+    "Source": "Wind",
+    "Construction": 175.2,
+    "Pre-construction": 29463.6,
+    "Announced": 16727.5
+  },
+  {
+    "Country": "Italy",
+    "Source": "Utility-scale solar",
+    "Construction": 742.1,
+    "Pre-construction": 2450.6,
+    "Announced": 1850.8
+  },
+  {
+    "Country": "Italy",
+    "Source": "Oil and gas",
+    "Construction": 1393.2,
+    "Pre-construction": 7224.6,
+    "Announced": 0
+  },
+  {
+    "Country": "Japan",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Japan",
+    "Source": "Wind",
+    "Construction": 2104.3,
+    "Pre-construction": 8443.5,
+    "Announced": 14836.4
+  },
+  {
+    "Country": "Japan",
+    "Source": "Oil and gas",
+    "Construction": 2805.2,
+    "Pre-construction": 3250,
+    "Announced": 2381.4
+  },
+  {
+    "Country": "Japan",
+    "Source": "Nuclear",
+    "Construction": 2756,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Japan",
+    "Source": "Hydropower",
+    "Construction": 200,
+    "Pre-construction": 400,
+    "Announced": 0
+  },
+  {
+    "Country": "Japan",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 500,
+    "Announced": 0
+  },
+  {
+    "Country": "Japan",
+    "Source": "Bioenergy",
+    "Construction": 1420,
+    "Pre-construction": 770,
+    "Announced": 631
+  },
+  {
+    "Country": "Japan",
+    "Source": "Utility-scale solar",
+    "Construction": 966.6,
+    "Pre-construction": 920,
+    "Announced": 360.9
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Wind",
+    "Construction": 7839.2,
+    "Pre-construction": 89722.1,
+    "Announced": 10385.9
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Utility-scale solar",
+    "Construction": 1862.7,
+    "Pre-construction": 24577.6,
+    "Announced": 1137
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Oil and gas",
+    "Construction": 749,
+    "Pre-construction": 12499.4,
+    "Announced": 2852.5
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 3350,
+    "Announced": 3000
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Geothermal",
+    "Construction": 25,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Bioenergy",
+    "Construction": 672,
+    "Pre-construction": 428,
+    "Announced": 44
+  },
+  {
+    "Country": "United Kingdom",
+    "Source": "Nuclear",
+    "Construction": 3440,
+    "Pre-construction": 8700,
+    "Announced": 3200
+  },
+  {
+    "Country": "United States",
+    "Source": "Utility-scale solar",
+    "Construction": 28444.6,
+    "Pre-construction": 84763.4,
+    "Announced": 24575.2
+  },
+  {
+    "Country": "United States",
+    "Source": "Oil and gas",
+    "Construction": 12549.1,
+    "Pre-construction": 15086.8,
+    "Announced": 7095.6
+  },
+  {
+    "Country": "United States",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 3825,
+    "Announced": 3530
+  },
+  {
+    "Country": "United States",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 6493,
+    "Announced": 55636
+  },
+  {
+    "Country": "United States",
+    "Source": "Geothermal",
+    "Construction": 155,
+    "Pre-construction": 1029,
+    "Announced": 651
+  },
+  {
+    "Country": "United States",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 400,
+    "Announced": 400
+  },
+  {
+    "Country": "United States",
+    "Source": "Bioenergy",
+    "Construction": 36,
+    "Pre-construction": 0,
+    "Announced": 200
+  },
+  {
+    "Country": "United States",
+    "Source": "Wind",
+    "Construction": 11661,
+    "Pre-construction": 62278,
+    "Announced": 43287
+  }
+]

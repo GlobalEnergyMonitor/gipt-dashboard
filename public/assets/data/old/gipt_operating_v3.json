@@ -1,0 +1,394 @@
+[
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "World",
+    "Power source": "Coal",
+    "Coal": 2125.5271
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "World",
+    "Power source": "Bioenergy",
+    "Bioenergy": 75.99433
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "World",
+    "Power source": "Hydropower",
+    "Hydropower": 1133.406
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "World",
+    "Power source": "Geothermal",
+    "Geothermal": 13.9105
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "World",
+    "Power source": "Wind",
+    "Wind": 925.36877
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "World",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 755.1439
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "World",
+    "Power source": "Nuclear",
+    "Nuclear": 396.484
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "World",
+    "Power source": "Oil and gas",
+    "Oil and gas": 2108.005
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "BRICS",
+    "Power source": "Coal",
+    "Coal": 1472.0884
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "BRICS",
+    "Power source": "Bioenergy",
+    "Bioenergy": 34.7685
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "BRICS",
+    "Power source": "Hydropower",
+    "Hydropower": 549.082
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "BRICS",
+    "Power source": "Geothermal",
+    "Geothermal": 0.05
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "BRICS",
+    "Power source": "Wind",
+    "Wind": 466.6932
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "BRICS",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 464.942
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "BRICS",
+    "Power source": "Nuclear",
+    "Nuclear": 104.848
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "BRICS",
+    "Power source": "Oil and gas",
+    "Oil and gas": 473.6025
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "EU27",
+    "Power source": "Coal",
+    "Coal": 97.4918
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "EU27",
+    "Power source": "Bioenergy",
+    "Bioenergy": 13.159
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "EU27",
+    "Power source": "Hydropower",
+    "Hydropower": 104.143
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "EU27",
+    "Power source": "Geothermal",
+    "Geothermal": 0.424
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "EU27",
+    "Power source": "Wind",
+    "Wind": 185.93237
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "EU27",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 92.0304
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "EU27",
+    "Power source": "Nuclear",
+    "Nuclear": 100.745
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "EU27",
+    "Power source": "Oil and gas",
+    "Oil and gas": 196.2687
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G7",
+    "Power source": "Coal",
+    "Coal": 295.9937
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G7",
+    "Power source": "Bioenergy",
+    "Bioenergy": 18.64983
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G7",
+    "Power source": "Hydropower",
+    "Hydropower": 238.584
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G7",
+    "Power source": "Geothermal",
+    "Geothermal": 4.4665
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G7",
+    "Power source": "Wind",
+    "Wind": 278.6878
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G7",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 146.8212
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G7",
+    "Power source": "Nuclear",
+    "Nuclear": 199.286
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G7",
+    "Power source": "Oil and gas",
+    "Oil and gas": 811.5689
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G20",
+    "Power source": "Coal",
+    "Coal": 1968.1992
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G20",
+    "Power source": "Bioenergy",
+    "Bioenergy": 69.88333
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G20",
+    "Power source": "Hydropower",
+    "Hydropower": 898.845
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G20",
+    "Power source": "Geothermal",
+    "Geothermal": 8.9515
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G20",
+    "Power source": "Wind",
+    "Wind": 884.65447
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G20",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 684.1314
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G20",
+    "Power source": "Nuclear",
+    "Nuclear": 364.613
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "G20",
+    "Power source": "Oil and gas",
+    "Oil and gas": 1499.5372
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "OECD",
+    "Power source": "Coal",
+    "Coal": 446.7502
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "OECD",
+    "Power source": "Bioenergy",
+    "Bioenergy": 32.42883
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "OECD",
+    "Power source": "Hydropower",
+    "Hydropower": 404.295
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "OECD",
+    "Power source": "Geothermal",
+    "Geothermal": 8.6315
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "OECD",
+    "Power source": "Wind",
+    "Wind": 422.29427
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "OECD",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 240.12
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "OECD",
+    "Power source": "Nuclear",
+    "Nuclear": 264.274
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "OECD",
+    "Power source": "Oil and gas",
+    "Oil and gas": 1071.3714
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "African Union",
+    "Power source": "Coal",
+    "Coal": 51.9226
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "African Union",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0.761
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "African Union",
+    "Power source": "Hydropower",
+    "Hydropower": 37.41
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "African Union",
+    "Power source": "Geothermal",
+    "Geothermal": 0.814
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "African Union",
+    "Power source": "Wind",
+    "Wind": 9.0696
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "African Union",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 9.9775
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "African Union",
+    "Power source": "Nuclear",
+    "Nuclear": 1.94
+  },
+  {
+    "Region": "Region",
+    "Sub-region": "subregion",
+    "Country": "African Union",
+    "Power source": "Oil and gas",
+    "Oil and gas": 125.3638
+  }
+]

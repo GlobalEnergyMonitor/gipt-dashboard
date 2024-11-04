@@ -1,0 +1,49 @@
+{
+    "18909923": {
+        "title": "How much power capacity is operating?",
+        "subtitle": "Operating power capacity by source, in gigawatts (GW)",
+        "x_axis": "Power source",
+        "values": [
+            "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
+        ],
+        "dataset": "gipt_operating_g7_v1",
+        "initial_state": "Canada",
+        "filterable": true,
+        "filter_by": "Country"
+    },
+    "18910657": {
+        "title": "How much power capacity is under construction?",
+        "subtitle": "Power capacity in construction by source, in gigawatts (GW)",
+        "x_axis": "Power source",
+        "values": [
+            "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
+        ],
+        "dataset": "gipt_construction_g7_v1",
+        "initial_state": "Canada",
+        "filterable": true,
+        "filter_by": "Country"
+    },
+    "18923725": {
+        "title": "How much power capacity is in development?",
+        "subtitle": "Power capacity in development by source and status, in gigawatts (GW)",
+        "x_axis": "Source",
+        "values": [
+            "Construction", "Pre-construction", "Announced"],
+        "dataset": "gipt_development_g7_v1",
+        "initial_state": "Canada",
+        "filterable": true,
+        "filter_by": "Country"
+    },
+    "18930420": {
+        "title": "How does power capacity break down by status?",
+        "subtitle": "Proportion (%) of power capacity by type and status",
+        "x_axis": "Status",
+        "values": [
+            "Non-fossil", "Fossil"
+        ],
+        "dataset": "gipt_type_status_g7_v1",
+        "initial_state": "Canada",
+        "filterable": true,
+        "filter_by": "Country"
+    }
+}

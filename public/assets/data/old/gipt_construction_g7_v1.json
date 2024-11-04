@@ -1,0 +1,345 @@
+[
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0.036
+  },
+  {
+    "Region": "Asia",
+    "Sub-region": "Eastern Asia",
+    "Country": "Japan",
+    "Power source": "Bioenergy",
+    "Bioenergy": 1.42
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Northern Europe",
+    "Country": "United Kingdom",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0.672
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Southern Europe",
+    "Country": "Italy",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "France",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "Canada",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "Germany",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "Canada",
+    "Power source": "Hydropower",
+    "Hydropower": 1.1
+  },
+  {
+    "Region": "Asia",
+    "Sub-region": "Eastern Asia",
+    "Country": "Japan",
+    "Power source": "Hydropower",
+    "Hydropower": 0.2
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Southern Europe",
+    "Country": "Italy",
+    "Power source": "Hydropower",
+    "Hydropower": 0
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "Germany",
+    "Power source": "Hydropower",
+    "Hydropower": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Hydropower",
+    "Hydropower": 0
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Northern Europe",
+    "Country": "United Kingdom",
+    "Power source": "Hydropower",
+    "Hydropower": 0
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "France",
+    "Power source": "Hydropower",
+    "Hydropower": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "Canada",
+    "Power source": "Geothermal",
+    "Geothermal": 0.01
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Geothermal",
+    "Geothermal": 0.155
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Northern Europe",
+    "Country": "United Kingdom",
+    "Power source": "Geothermal",
+    "Geothermal": 0.025
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Southern Europe",
+    "Country": "Italy",
+    "Power source": "Geothermal",
+    "Geothermal": 0
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "France",
+    "Power source": "Geothermal",
+    "Geothermal": 0
+  },
+  {
+    "Region": "Asia",
+    "Sub-region": "Eastern Asia",
+    "Country": "Japan",
+    "Power source": "Geothermal",
+    "Geothermal": 0
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "Germany",
+    "Power source": "Geothermal",
+    "Geothermal": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "Canada",
+    "Power source": "Wind",
+    "Wind": 1.522
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Wind",
+    "Wind": 11.661
+  },
+  {
+    "Region": "Asia",
+    "Sub-region": "Eastern Asia",
+    "Country": "Japan",
+    "Power source": "Wind",
+    "Wind": 2.1043
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Northern Europe",
+    "Country": "United Kingdom",
+    "Power source": "Wind",
+    "Wind": 7.8392
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Southern Europe",
+    "Country": "Italy",
+    "Power source": "Wind",
+    "Wind": 0.1752
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "France",
+    "Power source": "Wind",
+    "Wind": 1.7596
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "Germany",
+    "Power source": "Wind",
+    "Wind": 1.669
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "Canada",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 1.044
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 28.4446
+  },
+  {
+    "Region": "Asia",
+    "Sub-region": "Eastern Asia",
+    "Country": "Japan",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 0.9666
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Northern Europe",
+    "Country": "United Kingdom",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 1.8627
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Southern Europe",
+    "Country": "Italy",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 0.7421
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "France",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 0.4277
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "Germany",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 0.949
+  },
+  {
+    "Region": "Asia",
+    "Sub-region": "Eastern Asia",
+    "Country": "Japan",
+    "Power source": "Nuclear",
+    "Nuclear": 2.756
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Northern Europe",
+    "Country": "United Kingdom",
+    "Power source": "Nuclear",
+    "Nuclear": 3.44
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "France",
+    "Power source": "Nuclear",
+    "Nuclear": 1.65
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Southern Europe",
+    "Country": "Italy",
+    "Power source": "Nuclear",
+    "Nuclear": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "Canada",
+    "Power source": "Nuclear",
+    "Nuclear": 0
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "Germany",
+    "Power source": "Nuclear",
+    "Nuclear": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Nuclear",
+    "Nuclear": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "Canada",
+    "Power source": "Oil and gas",
+    "Oil and gas": 2.066
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "United States",
+    "Power source": "Oil and gas",
+    "Oil and gas": 12.5491
+  },
+  {
+    "Region": "Asia",
+    "Sub-region": "Eastern Asia",
+    "Country": "Japan",
+    "Power source": "Oil and gas",
+    "Oil and gas": 2.8052
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Northern Europe",
+    "Country": "United Kingdom",
+    "Power source": "Oil and gas",
+    "Oil and gas": 0.749
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Southern Europe",
+    "Country": "Italy",
+    "Power source": "Oil and gas",
+    "Oil and gas": 1.3932
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "Germany",
+    "Power source": "Oil and gas",
+    "Oil and gas": 0.861
+  },
+  {
+    "Region": "Europe",
+    "Sub-region": "Western Europe",
+    "Country": "France",
+    "Power source": "Oil and gas",
+    "Oil and gas": 0
+  }
+]

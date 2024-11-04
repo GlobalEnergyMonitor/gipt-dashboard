@@ -1,0 +1,170 @@
+[
+  {
+    "Country": "World",
+    "Status": "Announced",
+    "Non-fossil": 1737069.34,
+    "Fossil": 376490.1
+  },
+  {
+    "Country": "World",
+    "Status": "Construction",
+    "Non-fossil": 860777.85,
+    "Fossil": 437723.3
+  },
+  {
+    "Country": "World",
+    "Status": "Pre-construction",
+    "Non-fossil": 2744488.7,
+    "Fossil": 540673
+  },
+  {
+    "Country": "World",
+    "Status": "Operating",
+    "Non-fossil": 3300307.5,
+    "Fossil": 4233532.1
+  },
+  {
+    "Country": "BRICS",
+    "Status": "Announced",
+    "Non-fossil": 646182.94,
+    "Fossil": 164220.8
+  },
+  {
+    "Country": "BRICS",
+    "Status": "Construction",
+    "Non-fossil": 628077.35,
+    "Fossil": 287211.2
+  },
+  {
+    "Country": "BRICS",
+    "Status": "Pre-construction",
+    "Non-fossil": 1184284.1,
+    "Fossil": 326941.8
+  },
+  {
+    "Country": "BRICS",
+    "Status": "Operating",
+    "Non-fossil": 1620383.7,
+    "Fossil": 1945690.9
+  },
+  {
+    "Country": "EU27",
+    "Status": "Announced",
+    "Non-fossil": 282806.2,
+    "Fossil": 12435
+  },
+  {
+    "Country": "EU27",
+    "Status": "Construction",
+    "Non-fossil": 37425.8,
+    "Fossil": 10851.2
+  },
+  {
+    "Country": "EU27",
+    "Status": "Pre-construction",
+    "Non-fossil": 498270.8,
+    "Fossil": 30490.6
+  },
+  {
+    "Country": "EU27",
+    "Status": "Operating",
+    "Non-fossil": 496433.77,
+    "Fossil": 293760.5
+  },
+  {
+    "Country": "G7",
+    "Status": "Announced",
+    "Non-fossil": 213479.9,
+    "Fossil": 21939.5
+  },
+  {
+    "Country": "G7",
+    "Status": "Construction",
+    "Non-fossil": 72716,
+    "Fossil": 20423.5
+  },
+  {
+    "Country": "G7",
+    "Status": "Pre-construction",
+    "Non-fossil": 369254,
+    "Fossil": 48598.8
+  },
+  {
+    "Country": "G7",
+    "Status": "Operating",
+    "Non-fossil": 886495.33,
+    "Fossil": 1107562.6
+  },
+  {
+    "Country": "G20",
+    "Status": "Announced",
+    "Non-fossil": 1337280.34,
+    "Fossil": 230748.4
+  },
+  {
+    "Country": "G20",
+    "Status": "Construction",
+    "Non-fossil": 741097.05,
+    "Fossil": 329505
+  },
+  {
+    "Country": "G20",
+    "Status": "Pre-construction",
+    "Non-fossil": 2159557,
+    "Fossil": 398619.6
+  },
+  {
+    "Country": "G20",
+    "Status": "Operating",
+    "Non-fossil": 2911078.7,
+    "Fossil": 3467736.4
+  },
+  {
+    "Country": "OECD",
+    "Status": "Announced",
+    "Non-fossil": 703017.3,
+    "Fossil": 52283.9
+  },
+  {
+    "Country": "OECD",
+    "Status": "Construction",
+    "Non-fossil": 144030.6,
+    "Fossil": 45206.7
+  },
+  {
+    "Country": "OECD",
+    "Status": "Pre-construction",
+    "Non-fossil": 1058081.5,
+    "Fossil": 70861.2
+  },
+  {
+    "Country": "OECD",
+    "Status": "Operating",
+    "Non-fossil": 1372043.6,
+    "Fossil": 1518121.6
+  },
+  {
+    "Country": "African Union",
+    "Status": "Announced",
+    "Non-fossil": 160555.8,
+    "Fossil": 38107
+  },
+  {
+    "Country": "African Union",
+    "Status": "Construction",
+    "Non-fossil": 33775.2,
+    "Fossil": 20833.2
+  },
+  {
+    "Country": "African Union",
+    "Status": "Pre-construction",
+    "Non-fossil": 132042.1,
+    "Fossil": 25372
+  },
+  {
+    "Country": "African Union",
+    "Status": "Operating",
+    "Non-fossil": 59972.1,
+    "Fossil": 177286.4
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "World",
+    "Power source": "Coal",
+    "Coal": 227.4985
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "World",
+    "Power source": "Bioenergy",
+    "Bioenergy": 7.957
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "World",
+    "Power source": "Hydropower",
+    "Hydropower": 250.78
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "World",
+    "Power source": "Geothermal",
+    "Geothermal": 1.614
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "World",
+    "Power source": "Wind",
+    "Wind": 235.65465
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "World",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 289.8472
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "World",
+    "Power source": "Nuclear",
+    "Nuclear": 74.925
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "World",
+    "Power source": "Oil and gas",
+    "Oil and gas": 210.2248
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "BRICS",
+    "Power source": "Coal",
+    "Coal": 204.979
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "BRICS",
+    "Power source": "Bioenergy",
+    "Bioenergy": 4.364
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "BRICS",
+    "Power source": "Hydropower",
+    "Hydropower": 198.285
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "BRICS",
+    "Power source": "Geothermal",
+    "Geothermal": 0.12
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "BRICS",
+    "Power source": "Wind",
+    "Wind": 172.66785
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "BRICS",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 196.0625
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "BRICS",
+    "Power source": "Nuclear",
+    "Nuclear": 56.578
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "BRICS",
+    "Power source": "Oil and gas",
+    "Oil and gas": 82.2322
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "EU27",
+    "Power source": "Coal",
+    "Coal": 0.1
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "EU27",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0.385
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "EU27",
+    "Power source": "Hydropower",
+    "Hydropower": 1.95
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "EU27",
+    "Power source": "Geothermal",
+    "Geothermal": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "EU27",
+    "Power source": "Wind",
+    "Wind": 16.1337
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "EU27",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 16.8361
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "EU27",
+    "Power source": "Nuclear",
+    "Nuclear": 2.121
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "EU27",
+    "Power source": "Oil and gas",
+    "Oil and gas": 10.7512
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G7",
+    "Power source": "Coal",
+    "Coal": 0
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G7",
+    "Power source": "Bioenergy",
+    "Bioenergy": 2.213
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G7",
+    "Power source": "Hydropower",
+    "Hydropower": 1.3
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G7",
+    "Power source": "Geothermal",
+    "Geothermal": 0.19
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G7",
+    "Power source": "Wind",
+    "Wind": 26.7303
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G7",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 34.4367
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G7",
+    "Power source": "Nuclear",
+    "Nuclear": 7.846
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G7",
+    "Power source": "Oil and gas",
+    "Oil and gas": 20.4235
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G20",
+    "Power source": "Coal",
+    "Coal": 215.559
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G20",
+    "Power source": "Bioenergy",
+    "Bioenergy": 7.293
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G20",
+    "Power source": "Hydropower",
+    "Hydropower": 198.162
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G20",
+    "Power source": "Geothermal",
+    "Geothermal": 0.863
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G20",
+    "Power source": "Wind",
+    "Wind": 218.14165
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G20",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 255.2994
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G20",
+    "Power source": "Nuclear",
+    "Nuclear": 61.338
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "G20",
+    "Power source": "Oil and gas",
+    "Oil and gas": 113.946
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "OECD",
+    "Power source": "Coal",
+    "Coal": 1.295
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "OECD",
+    "Power source": "Bioenergy",
+    "Bioenergy": 2.827
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "OECD",
+    "Power source": "Hydropower",
+    "Hydropower": 9.774
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "OECD",
+    "Power source": "Geothermal",
+    "Geothermal": 0.533
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "OECD",
+    "Power source": "Wind",
+    "Wind": 49.2038
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "OECD",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 65.7758
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "OECD",
+    "Power source": "Nuclear",
+    "Nuclear": 15.917
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "OECD",
+    "Power source": "Oil and gas",
+    "Oil and gas": 43.9117
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "African Union",
+    "Power source": "Coal",
+    "Coal": 1.67
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "African Union",
+    "Power source": "Bioenergy",
+    "Bioenergy": 0.06
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "African Union",
+    "Power source": "Hydropower",
+    "Hydropower": 15.61
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "African Union",
+    "Power source": "Geothermal",
+    "Geothermal": 0.253
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "African Union",
+    "Power source": "Wind",
+    "Wind": 4.954
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "African Union",
+    "Power source": "Utility-scale solar",
+    "Utility-scale solar": 8.0982
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "African Union",
+    "Power source": "Nuclear",
+    "Nuclear": 4.8
+  },
+  {
+    "Region": "Americas",
+    "Sub-region": "Northern America",
+    "Country": "African Union",
+    "Power source": "Oil and gas",
+    "Oil and gas": 19.1632
+  }
+]

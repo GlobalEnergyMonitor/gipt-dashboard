@@ -1,0 +1,394 @@
+[
+  {
+    "Country": "World",
+    "Source": "Bioenergy",
+    "Construction": 7957,
+    "Pre-construction": 5764,
+    "Announced": 3932
+  },
+  {
+    "Country": "World",
+    "Source": "Coal",
+    "Construction": 227498.5,
+    "Pre-construction": 265075.8,
+    "Announced": 111500
+  },
+  {
+    "Country": "World",
+    "Source": "Geothermal",
+    "Construction": 1614,
+    "Pre-construction": 7933,
+    "Announced": 3305
+  },
+  {
+    "Country": "World",
+    "Source": "Hydropower",
+    "Construction": 250780,
+    "Pre-construction": 528842,
+    "Announced": 309113
+  },
+  {
+    "Country": "World",
+    "Source": "Nuclear",
+    "Construction": 74925,
+    "Pre-construction": 97054,
+    "Announced": 126787
+  },
+  {
+    "Country": "World",
+    "Source": "Oil and gas",
+    "Construction": 210224.8,
+    "Pre-construction": 275597.2,
+    "Announced": 264990.1
+  },
+  {
+    "Country": "World",
+    "Source": "Utility-scale solar",
+    "Construction": 289847.2,
+    "Pre-construction": 939688.7,
+    "Announced": 515907.3
+  },
+  {
+    "Country": "World",
+    "Source": "Wind",
+    "Construction": 235654.65,
+    "Pre-construction": 1165207,
+    "Announced": 778025.04
+  },
+  {
+    "Country": "BRICS",
+    "Source": "Bioenergy",
+    "Construction": 4364,
+    "Pre-construction": 2569,
+    "Announced": 1897
+  },
+  {
+    "Country": "BRICS",
+    "Source": "Coal",
+    "Construction": 204979,
+    "Pre-construction": 236477.8,
+    "Announced": 87365
+  },
+  {
+    "Country": "BRICS",
+    "Source": "Geothermal",
+    "Construction": 120,
+    "Pre-construction": 430,
+    "Announced": 0
+  },
+  {
+    "Country": "BRICS",
+    "Source": "Hydropower",
+    "Construction": 198285,
+    "Pre-construction": 355911,
+    "Announced": 153772
+  },
+  {
+    "Country": "BRICS",
+    "Source": "Nuclear",
+    "Construction": 56578,
+    "Pre-construction": 53714,
+    "Announced": 74020
+  },
+  {
+    "Country": "BRICS",
+    "Source": "Oil and gas",
+    "Construction": 82232.2,
+    "Pre-construction": 90464,
+    "Announced": 76855.8
+  },
+  {
+    "Country": "BRICS",
+    "Source": "Utility-scale solar",
+    "Construction": 196062.5,
+    "Pre-construction": 393903.3,
+    "Announced": 223610.6
+  },
+  {
+    "Country": "BRICS",
+    "Source": "Wind",
+    "Construction": 172667.85,
+    "Pre-construction": 377756.8,
+    "Announced": 192883.34
+  },
+  {
+    "Country": "EU27",
+    "Source": "Bioenergy",
+    "Construction": 385,
+    "Pre-construction": 1335,
+    "Announced": 362
+  },
+  {
+    "Country": "EU27",
+    "Source": "Coal",
+    "Construction": 100,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "EU27",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 36,
+    "Announced": 0
+  },
+  {
+    "Country": "EU27",
+    "Source": "Hydropower",
+    "Construction": 1950,
+    "Pre-construction": 9141,
+    "Announced": 4660
+  },
+  {
+    "Country": "EU27",
+    "Source": "Nuclear",
+    "Construction": 2121,
+    "Pre-construction": 19182,
+    "Announced": 21962
+  },
+  {
+    "Country": "EU27",
+    "Source": "Oil and gas",
+    "Construction": 10751.2,
+    "Pre-construction": 30490.6,
+    "Announced": 12435
+  },
+  {
+    "Country": "EU27",
+    "Source": "Utility-scale solar",
+    "Construction": 16836.1,
+    "Pre-construction": 170114.3,
+    "Announced": 61299.6
+  },
+  {
+    "Country": "EU27",
+    "Source": "Wind",
+    "Construction": 16133.7,
+    "Pre-construction": 298462.5,
+    "Announced": 194522.6
+  },
+  {
+    "Country": "G7",
+    "Source": "Bioenergy",
+    "Construction": 2213,
+    "Pre-construction": 757,
+    "Announced": 554
+  },
+  {
+    "Country": "G7",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 900,
+    "Announced": 400
+  },
+  {
+    "Country": "G7",
+    "Source": "Geothermal",
+    "Construction": 190,
+    "Pre-construction": 1254,
+    "Announced": 726
+  },
+  {
+    "Country": "G7",
+    "Source": "Hydropower",
+    "Construction": 1300,
+    "Pre-construction": 11218,
+    "Announced": 63238
+  },
+  {
+    "Country": "G7",
+    "Source": "Nuclear",
+    "Construction": 7846,
+    "Pre-construction": 16130,
+    "Announced": 14865
+  },
+  {
+    "Country": "G7",
+    "Source": "Oil and gas",
+    "Construction": 20423.5,
+    "Pre-construction": 47698.8,
+    "Announced": 21539.5
+  },
+  {
+    "Country": "G7",
+    "Source": "Utility-scale solar",
+    "Construction": 34436.7,
+    "Pre-construction": 125234.7,
+    "Announced": 32361.1
+  },
+  {
+    "Country": "G7",
+    "Source": "Wind",
+    "Construction": 26730.3,
+    "Pre-construction": 214660.3,
+    "Announced": 101735.8
+  },
+  {
+    "Country": "G20",
+    "Source": "Bioenergy",
+    "Construction": 7293,
+    "Pre-construction": 4491,
+    "Announced": 2837
+  },
+  {
+    "Country": "G20",
+    "Source": "Coal",
+    "Construction": 215559,
+    "Pre-construction": 243570.8,
+    "Announced": 92365
+  },
+  {
+    "Country": "G20",
+    "Source": "Geothermal",
+    "Construction": 863,
+    "Pre-construction": 2893,
+    "Announced": 2006
+  },
+  {
+    "Country": "G20",
+    "Source": "Hydropower",
+    "Construction": 198162,
+    "Pre-construction": 397977,
+    "Announced": 234084
+  },
+  {
+    "Country": "G20",
+    "Source": "Nuclear",
+    "Construction": 61338,
+    "Pre-construction": 88619,
+    "Announced": 117647
+  },
+  {
+    "Country": "G20",
+    "Source": "Oil and gas",
+    "Construction": 113946,
+    "Pre-construction": 155048.8,
+    "Announced": 138383.4
+  },
+  {
+    "Country": "G20",
+    "Source": "Utility-scale solar",
+    "Construction": 255299.4,
+    "Pre-construction": 739589.6,
+    "Announced": 367826.1
+  },
+  {
+    "Country": "G20",
+    "Source": "Wind",
+    "Construction": 218141.65,
+    "Pre-construction": 925987.4,
+    "Announced": 612880.24
+  },
+  {
+    "Country": "OECD",
+    "Source": "Bioenergy",
+    "Construction": 2827,
+    "Pre-construction": 2062,
+    "Announced": 1455
+  },
+  {
+    "Country": "OECD",
+    "Source": "Coal",
+    "Construction": 1295,
+    "Pre-construction": 5453,
+    "Announced": 1400
+  },
+  {
+    "Country": "OECD",
+    "Source": "Geothermal",
+    "Construction": 533,
+    "Pre-construction": 1923,
+    "Announced": 941
+  },
+  {
+    "Country": "OECD",
+    "Source": "Hydropower",
+    "Construction": 9774,
+    "Pre-construction": 29693,
+    "Announced": 75359
+  },
+  {
+    "Country": "OECD",
+    "Source": "Nuclear",
+    "Construction": 15917,
+    "Pre-construction": 30910,
+    "Announced": 40127
+  },
+  {
+    "Country": "OECD",
+    "Source": "Oil and gas",
+    "Construction": 43911.7,
+    "Pre-construction": 65408.2,
+    "Announced": 50883.9
+  },
+  {
+    "Country": "OECD",
+    "Source": "Utility-scale solar",
+    "Construction": 65775.8,
+    "Pre-construction": 392192.1,
+    "Announced": 139471
+  },
+  {
+    "Country": "OECD",
+    "Source": "Wind",
+    "Construction": 49203.8,
+    "Pre-construction": 601301.4,
+    "Announced": 445664.3
+  },
+  {
+    "Country": "African Union",
+    "Source": "Bioenergy",
+    "Construction": 60,
+    "Pre-construction": 320,
+    "Announced": 440
+  },
+  {
+    "Country": "African Union",
+    "Source": "Coal",
+    "Construction": 1670,
+    "Pre-construction": 6119,
+    "Announced": 8320
+  },
+  {
+    "Country": "African Union",
+    "Source": "Geothermal",
+    "Construction": 253,
+    "Pre-construction": 1815,
+    "Announced": 840
+  },
+  {
+    "Country": "African Union",
+    "Source": "Hydropower",
+    "Construction": 15610,
+    "Pre-construction": 15201,
+    "Announced": 20677
+  },
+  {
+    "Country": "African Union",
+    "Source": "Nuclear",
+    "Construction": 4800,
+    "Pre-construction": 4000,
+    "Announced": 0
+  },
+  {
+    "Country": "African Union",
+    "Source": "Oil and gas",
+    "Construction": 19163.2,
+    "Pre-construction": 19253,
+    "Announced": 29787
+  },
+  {
+    "Country": "African Union",
+    "Source": "Utility-scale solar",
+    "Construction": 8098.2,
+    "Pre-construction": 58438.4,
+    "Announced": 74423.8
+  },
+  {
+    "Country": "African Union",
+    "Source": "Wind",
+    "Construction": 4954,
+    "Pre-construction": 52267.7,
+    "Announced": 64175
+  }
+]

@@ -1,0 +1,33 @@
+{
+    "flourish_ids": [
+        "18909923",
+        "18910657",
+        "18923725",
+        "18930420"
+        
+    ],
+    "input_type": "dropdown",
+    "input_filter": "Country",
+    "input_default": "Canada",
+    "overall_summary": true,
+    "ticker_text_font-size": "1.75rem",
+    "ticker_data": "gipt_data_ticker_v1",
+    "tickers": [{
+        "id": "summary_1",
+        "decimal_places": 2,
+        "style": {
+            "color": "#5f9e79",
+            "font-weight": "bold",
+            "font-size": "3rem"
+        }
+    },
+    {
+        "id": "summary_2",
+        "decimal_places": 2,
+        "style": {
+            "color": "#BF532C",
+            "font-weight": "bold",
+            "font-size": "3rem"
+        }
+    }]
+}

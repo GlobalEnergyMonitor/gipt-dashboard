@@ -23,6 +23,7 @@
     "live-server": "^1.1.0"
   },
   "dependencies": {
+    "@flourish/live-api": "^5.2.1",
     "dotenv": "^16.4.1",
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6"
