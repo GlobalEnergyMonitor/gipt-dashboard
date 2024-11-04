@@ -1,0 +1,42 @@
+[
+  {
+    "Country": "Canada",
+    "summary_1": "<span>{{3.7}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.1}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "World",
+    "summary_1": "<span>{{860.77785}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{437.7233}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "France",
+    "summary_1": "<span>{{3.8}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Germany",
+    "summary_1": "<span>{{2.6}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.9}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Italy",
+    "summary_1": "<span>{{0.9}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.4}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Japan",
+    "summary_1": "<span>{{7.4}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.8}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "United Kingdom",
+    "summary_1": "<span>{{13.8}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.7}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "United States",
+    "summary_1": "<span>{{40.3}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{12.5}} GW</span><br>fossil fuel capacity<br>under construction"
+  }
+]

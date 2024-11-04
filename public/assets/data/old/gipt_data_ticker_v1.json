@@ -5,11 +5,6 @@
     "summary_2": "<span>{{2.1}} GW</span><br>fossil fuel capacity<br>under construction"
   },
   {
-    "Country": "World",
-    "summary_1": "<span>{{860.77785}} GW</span><br>non-fossil power capacity<br>under construction",
-    "summary_2": "<span>{{437.7233}} GW</span><br>fossil fuel capacity<br>under construction"
-  },
-  {
     "Country": "France",
     "summary_1": "<span>{{3.8}} GW</span><br>non-fossil power capacity<br>under construction",
     "summary_2": "<span>{{0}} GW</span><br>fossil fuel capacity<br>under construction"

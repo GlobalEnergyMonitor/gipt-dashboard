@@ -1,29 +1,5 @@
 [
   {
-    "Country": "World",
-    "Status": "Announced",
-    "Non-fossil": 1737069.34,
-    "Fossil": 376490.1
-  },
-  {
-    "Country": "World",
-    "Status": "Construction",
-    "Non-fossil": 860777.85,
-    "Fossil": 437723.3
-  },
-  {
-    "Country": "World",
-    "Status": "Pre-construction",
-    "Non-fossil": 2744488.7,
-    "Fossil": 540673
-  },
-  {
-    "Country": "World",
-    "Status": "Operating",
-    "Non-fossil": 3300307.5,
-    "Fossil": 4233532.1
-  },
-  {
     "Country": "Canada",
     "Status": "Announced",
     "Non-fossil": 7232,
@@ -31,15 +7,15 @@
   },
   {
     "Country": "Canada",
-    "Status": "Construction",
-    "Non-fossil": 3676,
-    "Fossil": 2066
-  },  
-  {
-    "Country": "Canada",
     "Status": "Pre-construction",
     "Non-fossil": 14733.9,
     "Fossil": 3501
+  },
+  {
+    "Country": "Canada",
+    "Status": "Construction",
+    "Non-fossil": 3676,
+    "Fossil": 2066
   },
   {
     "Country": "Canada",
