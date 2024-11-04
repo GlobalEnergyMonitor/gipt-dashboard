@@ -127,7 +127,7 @@ The attributes for the tickers are customisable and can be set within the `page-
 **Data structure:**
 ```
 [
-  {
+ 
     "Country": "Canada",
     "summary_1": "<span>{{3.7}} GW</span><br>clean power capacity<br>under construction",
     "summary_2": "<span>{{2.1}} GW</span><br>fossil fuel capacity<br>under construction"
