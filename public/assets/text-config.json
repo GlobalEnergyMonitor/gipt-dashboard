@@ -6,7 +6,7 @@
   "dropdown": [
   {
     "Country": "World",
-    "overall_summary": "Non-fossil capacity under construction is nearly twice that of coal, oil, and gas and mainly comprises utility-scale solar, wind, and hydropower projects."
+    "overall_summary": "Globally, non-fossil capacity under construction is nearly twice that of coal, oil, and gas and mainly comprises utility-scale solar, wind, and hydropower projects."
   },
   {
     "Country": "BRICS",
@@ -62,7 +62,7 @@
   },
   {
     "Country": "Australia",
-    "overall_summary": " "
+    "overall_summary": "Australia's 308 GW of wind and utility-scale solar capacity in development is the thrid largest globally after China and Brazil."
   },
   {
     "Country": "Austria",
@@ -118,7 +118,7 @@
   },
   {
     "Country": "Brazil",
-    "overall_summary": " "
+    "overall_summary": "Brazil's 320 GW of wind and utility-scale solar capacity in development is the second largest globally after China."
   },
   {
     "Country": "Brunei",
@@ -226,7 +226,7 @@
   },
   {
     "Country": "Egypt",
-    "overall_summary": " "
+    "overall_summary": "Four times more non-fossil power than oil and gas capacity under construction in Egypt"
   },
   {
     "Country": "El Salvador",
@@ -250,7 +250,7 @@
   },
   {
     "Country": "Ethiopia",
-    "overall_summary": " "
+    "overall_summary": "Hydropower makes up almost all power capacity underconstruction in Ethiopia"
   },
   {
     "Country": "Faroe Islands",
@@ -334,7 +334,7 @@
   },
   {
     "Country": "India",
-    "overall_summary": " "
+    "overall_summary": "India's 97GW of coal plant capacity in development is the second largest globally after China."
   },
   {
     "Country": "Indonesia",
@@ -342,7 +342,7 @@
   },
   {
     "Country": "Iran",
-    "overall_summary": " "
+    "overall_summary": "Two-thirds of Iran’s power capacity in development is oil & gas"
   },
   {
     "Country": "Iraq",
@@ -602,7 +602,7 @@
   },
   {
     "Country": "Russia",
-    "overall_summary": " "
+    "overall_summary": "GEM data tracks no wind or utility-scale solar capacity under construction in Russia."
   },
   {
     "Country": "Rwanda",
@@ -650,7 +650,7 @@
   },
   {
     "Country": "South Africa",
-    "overall_summary": " "
+    "overall_summary": "Three times more wind and utility-scale solar capacity than coal under construction in South Africa"
   },
   {
     "Country": "South Korea",
@@ -738,7 +738,7 @@
   },
   {
     "Country": "United Arab Emirates",
-    "overall_summary": " "
+    "overall_summary": "Two-thirds of the UAE's power capacity under construction is oil & gas"
   },
   {
     "Country": "United Kingdom",
