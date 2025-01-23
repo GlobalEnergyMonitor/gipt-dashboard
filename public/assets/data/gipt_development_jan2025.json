@@ -407,14 +407,14 @@
   },
   {
     "Country": "Afghanistan",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Afghanistan",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -428,7 +428,7 @@
   },
   {
     "Country": "Afghanistan",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -442,7 +442,7 @@
   },
   {
     "Country": "Afghanistan",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -477,13 +477,6 @@
   },
   {
     "Country": "Albania",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Albania",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -492,6 +485,13 @@
   {
     "Country": "Albania",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Albania",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -526,14 +526,14 @@
   },
   {
     "Country": "Algeria",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Algeria",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -547,21 +547,14 @@
   },
   {
     "Country": "Algeria",
-    "Source": "Wind",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Algeria",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Andorra",
-    "Source": "Oil and gas",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -575,7 +568,14 @@
   },
   {
     "Country": "Andorra",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Andorra",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -589,7 +589,7 @@
   },
   {
     "Country": "Andorra",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -603,14 +603,14 @@
   },
   {
     "Country": "Andorra",
-    "Source": "Utility-scale solar",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Andorra",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -645,13 +645,6 @@
   },
   {
     "Country": "Angola",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Angola",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -660,6 +653,13 @@
   {
     "Country": "Angola",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Angola",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -750,14 +750,14 @@
   },
   {
     "Country": "Armenia",
-    "Source": "Bioenergy",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Armenia",
-    "Source": "Coal",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -771,7 +771,7 @@
   },
   {
     "Country": "Armenia",
-    "Source": "Wind",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -820,14 +820,14 @@
   },
   {
     "Country": "Australia",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Australia",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -855,14 +855,14 @@
   },
   {
     "Country": "Austria",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Austria",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -876,14 +876,14 @@
   },
   {
     "Country": "Austria",
-    "Source": "Bioenergy",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Austria",
-    "Source": "Nuclear",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -918,13 +918,6 @@
   },
   {
     "Country": "Azerbaijan",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Azerbaijan",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -933,6 +926,13 @@
   {
     "Country": "Azerbaijan",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Azerbaijan",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -967,14 +967,14 @@
   },
   {
     "Country": "Bahrain",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Bahrain",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -988,14 +988,14 @@
   },
   {
     "Country": "Bahrain",
-    "Source": "Wind",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Bahrain",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1072,13 +1072,6 @@
   },
   {
     "Country": "Barbados",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Barbados",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -1086,7 +1079,7 @@
   },
   {
     "Country": "Barbados",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1100,6 +1093,13 @@
   },
   {
     "Country": "Barbados",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Barbados",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -1107,7 +1107,7 @@
   },
   {
     "Country": "Barbados",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1121,13 +1121,6 @@
   },
   {
     "Country": "Belarus",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Belarus",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -1135,7 +1128,7 @@
   },
   {
     "Country": "Belarus",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1149,7 +1142,7 @@
   },
   {
     "Country": "Belarus",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1163,7 +1156,14 @@
   },
   {
     "Country": "Belarus",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Belarus",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1198,14 +1198,14 @@
   },
   {
     "Country": "Belgium",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Belgium",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1219,7 +1219,7 @@
   },
   {
     "Country": "Belgium",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1240,14 +1240,14 @@
   },
   {
     "Country": "Benin",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Benin",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1261,7 +1261,7 @@
   },
   {
     "Country": "Benin",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1275,7 +1275,7 @@
   },
   {
     "Country": "Benin",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1289,35 +1289,7 @@
   },
   {
     "Country": "Bermuda",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Bermuda",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Bermuda",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Bermuda",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Bermuda",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1331,7 +1303,35 @@
   },
   {
     "Country": "Bermuda",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Bermuda",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Bermuda",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Bermuda",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Bermuda",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1352,14 +1352,14 @@
   },
   {
     "Country": "Bhutan",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Bhutan",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1373,7 +1373,7 @@
   },
   {
     "Country": "Bhutan",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1387,7 +1387,7 @@
   },
   {
     "Country": "Bhutan",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1429,14 +1429,14 @@
   },
   {
     "Country": "Bolivia",
-    "Source": "Nuclear",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Bolivia",
-    "Source": "Coal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1492,14 +1492,14 @@
   },
   {
     "Country": "Bosnia and Herzegovina",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Bosnia and Herzegovina",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1527,14 +1527,14 @@
   },
   {
     "Country": "Botswana",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Botswana",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1548,14 +1548,14 @@
   },
   {
     "Country": "Botswana",
-    "Source": "Wind",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Botswana",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1632,14 +1632,14 @@
   },
   {
     "Country": "Brunei",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Brunei",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1653,14 +1653,14 @@
   },
   {
     "Country": "Brunei",
-    "Source": "Wind",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Brunei",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1730,13 +1730,6 @@
   },
   {
     "Country": "Burkina Faso",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Burkina Faso",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -1744,7 +1737,7 @@
   },
   {
     "Country": "Burkina Faso",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1752,20 +1745,6 @@
   {
     "Country": "Burkina Faso",
     "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Burkina Faso",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Burkina Faso",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1778,35 +1757,21 @@
     "Announced": 0
   },
   {
-    "Country": "Burundi",
-    "Source": "Oil and gas",
+    "Country": "Burkina Faso",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
-    "Country": "Burundi",
-    "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Burundi",
+    "Country": "Burkina Faso",
     "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
-    "Country": "Burundi",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Burundi",
+    "Country": "Burkina Faso",
     "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
@@ -1814,7 +1779,7 @@
   },
   {
     "Country": "Burundi",
-    "Source": "Bioenergy",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1828,7 +1793,42 @@
   },
   {
     "Country": "Burundi",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Burundi",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Burundi",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Burundi",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Burundi",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Burundi",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1842,35 +1842,7 @@
   },
   {
     "Country": "Cabo Verde",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cabo Verde",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cabo Verde",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cabo Verde",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cabo Verde",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1884,7 +1856,35 @@
   },
   {
     "Country": "Cabo Verde",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cabo Verde",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cabo Verde",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cabo Verde",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cabo Verde",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1919,14 +1919,7 @@
   },
   {
     "Country": "Cambodia",
-    "Source": "Bioenergy",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cambodia",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1940,7 +1933,14 @@
   },
   {
     "Country": "Cambodia",
-    "Source": "Wind",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cambodia",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -1975,13 +1975,6 @@
   },
   {
     "Country": "Cameroon",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cameroon",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -1990,6 +1983,13 @@
   {
     "Country": "Cameroon",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cameroon",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2059,42 +2059,7 @@
   },
   {
     "Country": "Cayman Islands",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cayman Islands",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cayman Islands",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cayman Islands",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cayman Islands",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cayman Islands",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2108,7 +2073,42 @@
   },
   {
     "Country": "Cayman Islands",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cayman Islands",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cayman Islands",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cayman Islands",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cayman Islands",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Cayman Islands",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2129,14 +2129,14 @@
   },
   {
     "Country": "Central African Republic",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Central African Republic",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2150,7 +2150,7 @@
   },
   {
     "Country": "Central African Republic",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2164,7 +2164,7 @@
   },
   {
     "Country": "Central African Republic",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2199,14 +2199,14 @@
   },
   {
     "Country": "Chad",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Chad",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2220,7 +2220,7 @@
   },
   {
     "Country": "Chad",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2269,14 +2269,14 @@
   },
   {
     "Country": "Chile",
-    "Source": "Nuclear",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Chile",
-    "Source": "Coal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2367,14 +2367,14 @@
   },
   {
     "Country": "Colombia",
-    "Source": "Nuclear",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Colombia",
-    "Source": "Coal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2402,28 +2402,7 @@
   },
   {
     "Country": "Costa Rica",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Costa Rica",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Costa Rica",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Costa Rica",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2437,7 +2416,28 @@
   },
   {
     "Country": "Costa Rica",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Costa Rica",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Costa Rica",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Costa Rica",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2472,13 +2472,6 @@
   },
   {
     "Country": "Croatia",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Croatia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -2487,6 +2480,13 @@
   {
     "Country": "Croatia",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Croatia",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2521,13 +2521,6 @@
   },
   {
     "Country": "Cuba",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Cuba",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -2535,7 +2528,7 @@
   },
   {
     "Country": "Cuba",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2555,21 +2548,7 @@
     "Announced": 0
   },
   {
-    "Country": "Curaçao",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Curaçao",
-    "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Curaçao",
+    "Country": "Cuba",
     "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
@@ -2577,21 +2556,7 @@
   },
   {
     "Country": "Curaçao",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Curaçao",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Curaçao",
-    "Source": "Bioenergy",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2605,7 +2570,42 @@
   },
   {
     "Country": "Curaçao",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Curaçao",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Curaçao",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Curaçao",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Curaçao",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Curaçao",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2640,14 +2640,14 @@
   },
   {
     "Country": "Cyprus",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Cyprus",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2661,7 +2661,7 @@
   },
   {
     "Country": "Cyprus",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2696,7 +2696,7 @@
   },
   {
     "Country": "Czech Republic",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2717,7 +2717,7 @@
   },
   {
     "Country": "Czech Republic",
-    "Source": "Utility-scale solar",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2752,13 +2752,6 @@
   },
   {
     "Country": "Côte d'Ivoire",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Côte d'Ivoire",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -2767,6 +2760,13 @@
   {
     "Country": "Côte d'Ivoire",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Côte d'Ivoire",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2808,13 +2808,6 @@
   },
   {
     "Country": "DR Congo",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "DR Congo",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -2823,6 +2816,13 @@
   {
     "Country": "DR Congo",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "DR Congo",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2857,13 +2857,6 @@
   },
   {
     "Country": "Denmark",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Denmark",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -2871,7 +2864,7 @@
   },
   {
     "Country": "Denmark",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2886,6 +2879,13 @@
   {
     "Country": "Denmark",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Denmark",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2920,13 +2920,6 @@
   },
   {
     "Country": "Djibouti",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Djibouti",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -2942,6 +2935,13 @@
   {
     "Country": "Djibouti",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Djibouti",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -2976,13 +2976,6 @@
   },
   {
     "Country": "Dominican Republic",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Dominican Republic",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -2991,6 +2984,13 @@
   {
     "Country": "Dominican Republic",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Dominican Republic",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3039,14 +3039,14 @@
   },
   {
     "Country": "Ecuador",
-    "Source": "Nuclear",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Ecuador",
-    "Source": "Coal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3130,6 +3130,13 @@
   },
   {
     "Country": "El Salvador",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "El Salvador",
     "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3137,7 +3144,14 @@
   },
   {
     "Country": "El Salvador",
-    "Source": "Coal",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "El Salvador",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3152,20 +3166,6 @@
   {
     "Country": "El Salvador",
     "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "El Salvador",
-    "Source": "Bioenergy",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "El Salvador",
-    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3179,35 +3179,7 @@
   },
   {
     "Country": "Equatorial Guinea",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Equatorial Guinea",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Equatorial Guinea",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Equatorial Guinea",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Equatorial Guinea",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3221,7 +3193,35 @@
   },
   {
     "Country": "Equatorial Guinea",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Equatorial Guinea",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3235,13 +3235,6 @@
   },
   {
     "Country": "Eritrea",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Eritrea",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3249,7 +3242,7 @@
   },
   {
     "Country": "Eritrea",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3263,7 +3256,7 @@
   },
   {
     "Country": "Eritrea",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3277,7 +3270,14 @@
   },
   {
     "Country": "Eritrea",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Eritrea",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3312,13 +3312,6 @@
   },
   {
     "Country": "Estonia",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Estonia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3327,6 +3320,13 @@
   {
     "Country": "Estonia",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Estonia",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3368,14 +3368,7 @@
   },
   {
     "Country": "Eswatini",
-    "Source": "Bioenergy",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Eswatini",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3389,7 +3382,14 @@
   },
   {
     "Country": "Eswatini",
-    "Source": "Wind",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Eswatini",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3424,6 +3424,13 @@
   },
   {
     "Country": "Ethiopia",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Ethiopia",
     "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3432,13 +3439,6 @@
   {
     "Country": "Ethiopia",
     "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Ethiopia",
-    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3459,35 +3459,7 @@
   },
   {
     "Country": "Faroe Islands",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Faroe Islands",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Faroe Islands",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Faroe Islands",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Faroe Islands",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3501,14 +3473,35 @@
   },
   {
     "Country": "Faroe Islands",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Faroe Islands",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Faroe Islands",
     "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
-    "Country": "Fiji",
-    "Source": "Oil and gas",
+    "Country": "Faroe Islands",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Faroe Islands",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3522,7 +3515,14 @@
   },
   {
     "Country": "Fiji",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Fiji",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3530,6 +3530,27 @@
   {
     "Country": "Fiji",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Fiji",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Fiji",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Fiji",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3537,27 +3558,6 @@
   {
     "Country": "Fiji",
     "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Fiji",
-    "Source": "Bioenergy",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Fiji",
-    "Source": "Utility-scale solar",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Fiji",
-    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3585,14 +3585,14 @@
   },
   {
     "Country": "Finland",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Finland",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3606,14 +3606,14 @@
   },
   {
     "Country": "Finland",
-    "Source": "Bioenergy",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Finland",
-    "Source": "Nuclear",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3690,13 +3690,6 @@
   },
   {
     "Country": "French Guiana",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "French Guiana",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3704,7 +3697,7 @@
   },
   {
     "Country": "French Guiana",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3718,14 +3711,21 @@
   },
   {
     "Country": "French Guiana",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "French Guiana",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "French Guiana",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3746,14 +3746,14 @@
   },
   {
     "Country": "Gabon",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Gabon",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3767,7 +3767,7 @@
   },
   {
     "Country": "Gabon",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3781,7 +3781,7 @@
   },
   {
     "Country": "Gabon",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3816,13 +3816,6 @@
   },
   {
     "Country": "Georgia",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Georgia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3831,6 +3824,13 @@
   {
     "Country": "Georgia",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Georgia",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3872,13 +3872,6 @@
   },
   {
     "Country": "Germany",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Germany",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3887,6 +3880,13 @@
   {
     "Country": "Germany",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Germany",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3935,13 +3935,6 @@
   },
   {
     "Country": "Ghana",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Ghana",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3950,6 +3943,13 @@
   {
     "Country": "Ghana",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Ghana",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -3984,13 +3984,6 @@
   },
   {
     "Country": "Greece",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Greece",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -3999,6 +3992,13 @@
   {
     "Country": "Greece",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Greece",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4019,6 +4019,20 @@
   },
   {
     "Country": "Guadeloupe",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Guadeloupe",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Guadeloupe",
     "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4026,7 +4040,14 @@
   },
   {
     "Country": "Guadeloupe",
-    "Source": "Coal",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Guadeloupe",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4041,27 +4062,6 @@
   {
     "Country": "Guadeloupe",
     "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Guadeloupe",
-    "Source": "Bioenergy",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Guadeloupe",
-    "Source": "Utility-scale solar",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Guadeloupe",
-    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4082,13 +4082,6 @@
   },
   {
     "Country": "Guatemala",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Guatemala",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4096,7 +4089,7 @@
   },
   {
     "Country": "Guatemala",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4110,6 +4103,13 @@
   },
   {
     "Country": "Guatemala",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Guatemala",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4117,7 +4117,7 @@
   },
   {
     "Country": "Guatemala",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4138,14 +4138,14 @@
   },
   {
     "Country": "Guinea",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Guinea",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4159,7 +4159,7 @@
   },
   {
     "Country": "Guinea",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4173,7 +4173,7 @@
   },
   {
     "Country": "Guinea",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4187,13 +4187,6 @@
   },
   {
     "Country": "Guinea-Bissau",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Guinea-Bissau",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4201,7 +4194,7 @@
   },
   {
     "Country": "Guinea-Bissau",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4215,7 +4208,7 @@
   },
   {
     "Country": "Guinea-Bissau",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4229,7 +4222,14 @@
   },
   {
     "Country": "Guinea-Bissau",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4264,13 +4264,6 @@
   },
   {
     "Country": "Guyana",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Guyana",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4279,6 +4272,13 @@
   {
     "Country": "Guyana",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Guyana",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4299,13 +4299,6 @@
   },
   {
     "Country": "Haiti",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Haiti",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4313,7 +4306,7 @@
   },
   {
     "Country": "Haiti",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4327,7 +4320,7 @@
   },
   {
     "Country": "Haiti",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4341,7 +4334,14 @@
   },
   {
     "Country": "Haiti",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Haiti",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4383,14 +4383,14 @@
   },
   {
     "Country": "Honduras",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Honduras",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4432,13 +4432,6 @@
   },
   {
     "Country": "Hong Kong",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Hong Kong",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4454,6 +4447,13 @@
   {
     "Country": "Hong Kong",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Hong Kong",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4502,14 +4502,14 @@
   },
   {
     "Country": "Hungary",
-    "Source": "Wind",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Hungary",
-    "Source": "Geothermal",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4537,21 +4537,7 @@
   },
   {
     "Country": "Iceland",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Iceland",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Iceland",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4565,7 +4551,21 @@
   },
   {
     "Country": "Iceland",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Iceland",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Iceland",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4754,13 +4754,6 @@
   },
   {
     "Country": "Iraq",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Iraq",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4769,6 +4762,13 @@
   {
     "Country": "Iraq",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Iraq",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4810,13 +4810,6 @@
   },
   {
     "Country": "Ireland",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Ireland",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4825,6 +4818,13 @@
   {
     "Country": "Ireland",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Ireland",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4866,13 +4866,6 @@
   },
   {
     "Country": "Israel",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Israel",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4881,6 +4874,13 @@
   {
     "Country": "Israel",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Israel",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4922,13 +4922,6 @@
   },
   {
     "Country": "Italy",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Italy",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4937,6 +4930,13 @@
   {
     "Country": "Italy",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Italy",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4957,13 +4957,6 @@
   },
   {
     "Country": "Jamaica",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Jamaica",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -4971,7 +4964,7 @@
   },
   {
     "Country": "Jamaica",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4985,7 +4978,7 @@
   },
   {
     "Country": "Jamaica",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -4999,7 +4992,14 @@
   },
   {
     "Country": "Jamaica",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Jamaica",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5069,14 +5069,14 @@
   },
   {
     "Country": "Jordan",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Jordan",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5090,7 +5090,7 @@
   },
   {
     "Country": "Jordan",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5104,7 +5104,7 @@
   },
   {
     "Country": "Jordan",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5244,14 +5244,14 @@
   },
   {
     "Country": "Kosovo",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Kosovo",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5265,7 +5265,7 @@
   },
   {
     "Country": "Kosovo",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5300,14 +5300,14 @@
   },
   {
     "Country": "Kuwait",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Kuwait",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5321,7 +5321,7 @@
   },
   {
     "Country": "Kuwait",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5363,14 +5363,14 @@
   },
   {
     "Country": "Kyrgyzstan",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Kyrgyzstan",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5454,13 +5454,6 @@
   },
   {
     "Country": "Latvia",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Latvia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -5468,7 +5461,7 @@
   },
   {
     "Country": "Latvia",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5482,6 +5475,13 @@
   },
   {
     "Country": "Latvia",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Latvia",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -5489,7 +5489,7 @@
   },
   {
     "Country": "Latvia",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5524,13 +5524,6 @@
   },
   {
     "Country": "Lebanon",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Lebanon",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -5539,6 +5532,13 @@
   {
     "Country": "Lebanon",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Lebanon",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5566,14 +5566,14 @@
   },
   {
     "Country": "Lesotho",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Lesotho",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5587,7 +5587,7 @@
   },
   {
     "Country": "Lesotho",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5601,7 +5601,7 @@
   },
   {
     "Country": "Lesotho",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5622,14 +5622,14 @@
   },
   {
     "Country": "Liberia",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Liberia",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5643,7 +5643,7 @@
   },
   {
     "Country": "Liberia",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5657,7 +5657,7 @@
   },
   {
     "Country": "Liberia",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5685,14 +5685,14 @@
   },
   {
     "Country": "Libya",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Libya",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5706,14 +5706,14 @@
   },
   {
     "Country": "Libya",
-    "Source": "Wind",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Libya",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5741,14 +5741,14 @@
   },
   {
     "Country": "Lithuania",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Lithuania",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5762,14 +5762,14 @@
   },
   {
     "Country": "Lithuania",
-    "Source": "Bioenergy",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Lithuania",
-    "Source": "Nuclear",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5783,35 +5783,7 @@
   },
   {
     "Country": "Luxembourg",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Luxembourg",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Luxembourg",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Luxembourg",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Luxembourg",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5825,7 +5797,35 @@
   },
   {
     "Country": "Luxembourg",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Luxembourg",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Luxembourg",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Luxembourg",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Luxembourg",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5853,7 +5853,7 @@
   },
   {
     "Country": "Macao",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5867,21 +5867,21 @@
   },
   {
     "Country": "Macao",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Macao",
-    "Source": "Utility-scale solar",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Macao",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Macao",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Macao",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5923,14 +5923,14 @@
   },
   {
     "Country": "Madagascar",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Madagascar",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -5979,14 +5979,14 @@
   },
   {
     "Country": "Malawi",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Malawi",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6035,6 +6035,13 @@
   },
   {
     "Country": "Malaysia",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Malaysia",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6043,13 +6050,6 @@
   {
     "Country": "Malaysia",
     "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Malaysia",
-    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6063,13 +6063,6 @@
   },
   {
     "Country": "Maldives",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Maldives",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6077,7 +6070,7 @@
   },
   {
     "Country": "Maldives",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6091,7 +6084,7 @@
   },
   {
     "Country": "Maldives",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6105,7 +6098,14 @@
   },
   {
     "Country": "Maldives",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Maldives",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6126,13 +6126,6 @@
   },
   {
     "Country": "Mali",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Mali",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6140,7 +6133,7 @@
   },
   {
     "Country": "Mali",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6148,13 +6141,6 @@
   {
     "Country": "Mali",
     "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Mali",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6167,21 +6153,14 @@
     "Announced": 0
   },
   {
-    "Country": "Malta",
-    "Source": "Oil and gas",
+    "Country": "Mali",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
-    "Country": "Malta",
-    "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Malta",
+    "Country": "Mali",
     "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6189,21 +6168,7 @@
   },
   {
     "Country": "Malta",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Malta",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Malta",
-    "Source": "Bioenergy",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6217,7 +6182,42 @@
   },
   {
     "Country": "Malta",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Malta",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Malta",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Malta",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Malta",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Malta",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6231,35 +6231,7 @@
   },
   {
     "Country": "Martinique",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Martinique",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Martinique",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Martinique",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Martinique",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6273,7 +6245,35 @@
   },
   {
     "Country": "Martinique",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Martinique",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Martinique",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Martinique",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Martinique",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6308,14 +6308,14 @@
   },
   {
     "Country": "Mauritania",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Mauritania",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6329,7 +6329,7 @@
   },
   {
     "Country": "Mauritania",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6343,13 +6343,6 @@
   },
   {
     "Country": "Mauritius",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Mauritius",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6357,7 +6350,7 @@
   },
   {
     "Country": "Mauritius",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6365,20 +6358,6 @@
   {
     "Country": "Mauritius",
     "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Mauritius",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Mauritius",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6391,35 +6370,21 @@
     "Announced": 0
   },
   {
-    "Country": "Mayotte",
-    "Source": "Oil and gas",
+    "Country": "Mauritius",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
-    "Country": "Mayotte",
-    "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Mayotte",
+    "Country": "Mauritius",
     "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
-    "Country": "Mayotte",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Mayotte",
+    "Country": "Mauritius",
     "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6427,7 +6392,7 @@
   },
   {
     "Country": "Mayotte",
-    "Source": "Bioenergy",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6441,7 +6406,42 @@
   },
   {
     "Country": "Mayotte",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Mayotte",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Mayotte",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Mayotte",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Mayotte",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Mayotte",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6483,63 +6483,28 @@
   },
   {
     "Country": "Mexico",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Mexico",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Mexico",
     "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
-    "Country": "Mexico",
-    "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Mexico",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Moldova",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
     "Country": "Moldova",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Moldova",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Moldova",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Moldova",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Moldova",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6553,7 +6518,42 @@
   },
   {
     "Country": "Moldova",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Moldova",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Moldova",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Moldova",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Moldova",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Moldova",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6595,14 +6595,14 @@
   },
   {
     "Country": "Mongolia",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Mongolia",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6644,13 +6644,6 @@
   },
   {
     "Country": "Montenegro",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Montenegro",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6659,6 +6652,13 @@
   {
     "Country": "Montenegro",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Montenegro",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6679,6 +6679,20 @@
   },
   {
     "Country": "Montserrat",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Montserrat",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Montserrat",
     "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6686,7 +6700,14 @@
   },
   {
     "Country": "Montserrat",
-    "Source": "Coal",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Montserrat",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6701,27 +6722,6 @@
   {
     "Country": "Montserrat",
     "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Montserrat",
-    "Source": "Bioenergy",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Montserrat",
-    "Source": "Utility-scale solar",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Montserrat",
-    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6756,13 +6756,6 @@
   },
   {
     "Country": "Morocco",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Morocco",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6771,6 +6764,13 @@
   {
     "Country": "Morocco",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Morocco",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6819,14 +6819,14 @@
   },
   {
     "Country": "Mozambique",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Mozambique",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6868,13 +6868,6 @@
   },
   {
     "Country": "Myanmar",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Myanmar",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6883,6 +6876,13 @@
   {
     "Country": "Myanmar",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Myanmar",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6931,13 +6931,6 @@
   },
   {
     "Country": "Namibia",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Namibia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -6946,6 +6939,13 @@
   {
     "Country": "Namibia",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Namibia",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -6959,35 +6959,7 @@
   },
   {
     "Country": "Nepal",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Nepal",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Nepal",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Nepal",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Nepal",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7001,7 +6973,35 @@
   },
   {
     "Country": "Nepal",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Nepal",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Nepal",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Nepal",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Nepal",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7050,14 +7050,14 @@
   },
   {
     "Country": "Netherlands",
-    "Source": "Bioenergy",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Netherlands",
-    "Source": "Geothermal",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7071,13 +7071,6 @@
   },
   {
     "Country": "New Caledonia",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "New Caledonia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -7085,7 +7078,7 @@
   },
   {
     "Country": "New Caledonia",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7099,7 +7092,7 @@
   },
   {
     "Country": "New Caledonia",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7113,7 +7106,14 @@
   },
   {
     "Country": "New Caledonia",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "New Caledonia",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7162,14 +7162,14 @@
   },
   {
     "Country": "New Zealand",
-    "Source": "Nuclear",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "New Zealand",
-    "Source": "Coal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7204,13 +7204,6 @@
   },
   {
     "Country": "Nicaragua",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Nicaragua",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -7219,6 +7212,13 @@
   {
     "Country": "Nicaragua",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Nicaragua",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7260,14 +7260,14 @@
   },
   {
     "Country": "Niger",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Niger",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7281,7 +7281,7 @@
   },
   {
     "Country": "Niger",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7316,14 +7316,7 @@
   },
   {
     "Country": "Nigeria",
-    "Source": "Bioenergy",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Nigeria",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7337,7 +7330,14 @@
   },
   {
     "Country": "Nigeria",
-    "Source": "Wind",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Nigeria",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7365,14 +7365,14 @@
   },
   {
     "Country": "North Korea",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "North Korea",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7386,14 +7386,14 @@
   },
   {
     "Country": "North Korea",
-    "Source": "Wind",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "North Korea",
-    "Source": "Bioenergy",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7428,13 +7428,6 @@
   },
   {
     "Country": "North Macedonia",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "North Macedonia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -7443,6 +7436,13 @@
   {
     "Country": "North Macedonia",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "North Macedonia",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7477,14 +7477,14 @@
   },
   {
     "Country": "Norway",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Norway",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7498,14 +7498,14 @@
   },
   {
     "Country": "Norway",
-    "Source": "Bioenergy",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Norway",
-    "Source": "Nuclear",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7540,13 +7540,6 @@
   },
   {
     "Country": "Oman",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Oman",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -7562,6 +7555,13 @@
   {
     "Country": "Oman",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Oman",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7645,14 +7645,14 @@
   },
   {
     "Country": "Palestine",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Palestine",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7666,14 +7666,14 @@
   },
   {
     "Country": "Palestine",
-    "Source": "Wind",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Palestine",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7708,13 +7708,6 @@
   },
   {
     "Country": "Panama",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Panama",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -7723,6 +7716,13 @@
   {
     "Country": "Panama",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Panama",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7743,35 +7743,7 @@
   },
   {
     "Country": "Papua New Guinea",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Papua New Guinea",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Papua New Guinea",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Papua New Guinea",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Papua New Guinea",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7785,7 +7757,35 @@
   },
   {
     "Country": "Papua New Guinea",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Papua New Guinea",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Papua New Guinea",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Papua New Guinea",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Papua New Guinea",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7799,35 +7799,7 @@
   },
   {
     "Country": "Paraguay",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Paraguay",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Paraguay",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Paraguay",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Paraguay",
-    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7841,7 +7813,35 @@
   },
   {
     "Country": "Paraguay",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Paraguay",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Paraguay",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Paraguay",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Paraguay",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -7883,14 +7883,14 @@
   },
   {
     "Country": "Peru",
-    "Source": "Nuclear",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Peru",
-    "Source": "Coal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8037,6 +8037,13 @@
   },
   {
     "Country": "Portugal",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Portugal",
     "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
@@ -8045,13 +8052,6 @@
   {
     "Country": "Portugal",
     "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Portugal",
-    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8072,13 +8072,6 @@
   },
   {
     "Country": "Puerto Rico",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Puerto Rico",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -8086,7 +8079,7 @@
   },
   {
     "Country": "Puerto Rico",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8100,7 +8093,7 @@
   },
   {
     "Country": "Puerto Rico",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8114,7 +8107,14 @@
   },
   {
     "Country": "Puerto Rico",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Puerto Rico",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8142,14 +8142,14 @@
   },
   {
     "Country": "Qatar",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Qatar",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8163,14 +8163,14 @@
   },
   {
     "Country": "Qatar",
-    "Source": "Wind",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Qatar",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8212,6 +8212,13 @@
   },
   {
     "Country": "Republic of the Congo",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Republic of the Congo",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -8220,13 +8227,6 @@
   {
     "Country": "Republic of the Congo",
     "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Republic of the Congo",
-    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8352,7 +8352,7 @@
   },
   {
     "Country": "Rwanda",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8366,7 +8366,7 @@
   },
   {
     "Country": "Rwanda",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8380,14 +8380,14 @@
   },
   {
     "Country": "Rwanda",
-    "Source": "Utility-scale solar",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Rwanda",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8401,35 +8401,7 @@
   },
   {
     "Country": "Réunion",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Réunion",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Réunion",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Réunion",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Réunion",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8443,7 +8415,35 @@
   },
   {
     "Country": "Réunion",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Réunion",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Réunion",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Réunion",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Réunion",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8478,14 +8478,14 @@
   },
   {
     "Country": "Saudi Arabia",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Saudi Arabia",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8499,7 +8499,7 @@
   },
   {
     "Country": "Saudi Arabia",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8534,13 +8534,6 @@
   },
   {
     "Country": "Senegal",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Senegal",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -8549,6 +8542,13 @@
   {
     "Country": "Senegal",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Senegal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8597,13 +8597,6 @@
   },
   {
     "Country": "Serbia",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Serbia",
     "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -8611,14 +8604,14 @@
   },
   {
     "Country": "Serbia",
-    "Source": "Bioenergy",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
-    "Country": "Seychelles",
-    "Source": "Oil and gas",
+    "Country": "Serbia",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8632,7 +8625,14 @@
   },
   {
     "Country": "Seychelles",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Seychelles",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8646,7 +8646,7 @@
   },
   {
     "Country": "Seychelles",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8660,14 +8660,14 @@
   },
   {
     "Country": "Seychelles",
-    "Source": "Utility-scale solar",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Seychelles",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8709,6 +8709,13 @@
   },
   {
     "Country": "Sierra Leone",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Sierra Leone",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -8717,13 +8724,6 @@
   {
     "Country": "Sierra Leone",
     "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Sierra Leone",
-    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8758,13 +8758,6 @@
   },
   {
     "Country": "Singapore",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Singapore",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -8780,6 +8773,13 @@
   {
     "Country": "Singapore",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Singapore",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8814,14 +8814,14 @@
   },
   {
     "Country": "Slovakia",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Slovakia",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8863,14 +8863,21 @@
   },
   {
     "Country": "Slovenia",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Slovenia",
-    "Source": "Coal",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Slovenia",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8885,13 +8892,6 @@
   {
     "Country": "Slovenia",
     "Source": "Bioenergy",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Slovenia",
-    "Source": "Utility-scale solar",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8905,13 +8905,6 @@
   },
   {
     "Country": "Somalia",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Somalia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -8919,7 +8912,7 @@
   },
   {
     "Country": "Somalia",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8933,7 +8926,7 @@
   },
   {
     "Country": "Somalia",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8947,7 +8940,14 @@
   },
   {
     "Country": "Somalia",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Somalia",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -8989,14 +8989,14 @@
   },
   {
     "Country": "South Africa",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "South Africa",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9101,6 +9101,13 @@
   },
   {
     "Country": "South Sudan",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "South Sudan",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9109,13 +9116,6 @@
   {
     "Country": "South Sudan",
     "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "South Sudan",
-    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9157,13 +9157,6 @@
   },
   {
     "Country": "Spain",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Spain",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9172,6 +9165,13 @@
   {
     "Country": "Spain",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Spain",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9206,14 +9206,14 @@
   },
   {
     "Country": "Sri Lanka",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Sri Lanka",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9227,7 +9227,7 @@
   },
   {
     "Country": "Sri Lanka",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9255,7 +9255,7 @@
   },
   {
     "Country": "Sudan",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9269,6 +9269,13 @@
   },
   {
     "Country": "Sudan",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Sudan",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9276,21 +9283,7 @@
   },
   {
     "Country": "Sudan",
-    "Source": "Utility-scale solar",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Sudan",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Suriname",
-    "Source": "Oil and gas",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9304,7 +9297,14 @@
   },
   {
     "Country": "Suriname",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Suriname",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9318,7 +9318,7 @@
   },
   {
     "Country": "Suriname",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9332,14 +9332,14 @@
   },
   {
     "Country": "Suriname",
-    "Source": "Utility-scale solar",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Suriname",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9374,20 +9374,6 @@
   },
   {
     "Country": "Sweden",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Sweden",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Sweden",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9395,7 +9381,21 @@
   },
   {
     "Country": "Sweden",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Sweden",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Sweden",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9423,14 +9423,14 @@
   },
   {
     "Country": "Switzerland",
-    "Source": "Oil and gas",
+    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Switzerland",
-    "Source": "Coal",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9444,14 +9444,14 @@
   },
   {
     "Country": "Switzerland",
-    "Source": "Bioenergy",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Switzerland",
-    "Source": "Nuclear",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9479,14 +9479,14 @@
   },
   {
     "Country": "Syria",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Syria",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9500,14 +9500,14 @@
   },
   {
     "Country": "Syria",
-    "Source": "Wind",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Syria",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9542,13 +9542,6 @@
   },
   {
     "Country": "Taiwan",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Taiwan",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9557,6 +9550,13 @@
   {
     "Country": "Taiwan",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Taiwan",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9584,6 +9584,13 @@
   },
   {
     "Country": "Tajikistan",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Tajikistan",
     "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9598,7 +9605,7 @@
   },
   {
     "Country": "Tajikistan",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9612,14 +9619,7 @@
   },
   {
     "Country": "Tajikistan",
-    "Source": "Utility-scale solar",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Tajikistan",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9710,14 +9710,14 @@
   },
   {
     "Country": "Thailand",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Thailand",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9738,13 +9738,6 @@
   },
   {
     "Country": "The Gambia",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "The Gambia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9752,7 +9745,7 @@
   },
   {
     "Country": "The Gambia",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9766,7 +9759,7 @@
   },
   {
     "Country": "The Gambia",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9780,7 +9773,14 @@
   },
   {
     "Country": "The Gambia",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "The Gambia",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9794,13 +9794,6 @@
   },
   {
     "Country": "Togo",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Togo",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9808,7 +9801,7 @@
   },
   {
     "Country": "Togo",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9822,7 +9815,7 @@
   },
   {
     "Country": "Togo",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9836,7 +9829,14 @@
   },
   {
     "Country": "Togo",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Togo",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9850,13 +9850,6 @@
   },
   {
     "Country": "Trinidad and Tobago",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Trinidad and Tobago",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9864,7 +9857,7 @@
   },
   {
     "Country": "Trinidad and Tobago",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9878,7 +9871,7 @@
   },
   {
     "Country": "Trinidad and Tobago",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9892,7 +9885,14 @@
   },
   {
     "Country": "Trinidad and Tobago",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9927,13 +9927,6 @@
   },
   {
     "Country": "Tunisia",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Tunisia",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -9942,6 +9935,13 @@
   {
     "Country": "Tunisia",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Tunisia",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9969,7 +9969,7 @@
   },
   {
     "Country": "Turkmenistan",
-    "Source": "Hydropower",
+    "Source": "Utility-scale solar",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9983,7 +9983,7 @@
   },
   {
     "Country": "Turkmenistan",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -9997,14 +9997,14 @@
   },
   {
     "Country": "Turkmenistan",
-    "Source": "Utility-scale solar",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Turkmenistan",
-    "Source": "Nuclear",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10095,6 +10095,13 @@
   },
   {
     "Country": "Uganda",
+    "Source": "Coal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Uganda",
     "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
@@ -10103,13 +10110,6 @@
   {
     "Country": "Uganda",
     "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Uganda",
-    "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10151,6 +10151,13 @@
   },
   {
     "Country": "Ukraine",
+    "Source": "Utility-scale solar",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Ukraine",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -10159,13 +10166,6 @@
   {
     "Country": "Ukraine",
     "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Ukraine",
-    "Source": "Utility-scale solar",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10207,13 +10207,6 @@
   },
   {
     "Country": "United Arab Emirates",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "United Arab Emirates",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -10222,6 +10215,13 @@
   {
     "Country": "United Arab Emirates",
     "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10347,13 +10347,6 @@
   },
   {
     "Country": "Uruguay",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Uruguay",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -10361,7 +10354,7 @@
   },
   {
     "Country": "Uruguay",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10375,6 +10368,13 @@
   },
   {
     "Country": "Uruguay",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Uruguay",
     "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
@@ -10382,7 +10382,7 @@
   },
   {
     "Country": "Uruguay",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10452,35 +10452,7 @@
   },
   {
     "Country": "Venezuela",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Venezuela",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Venezuela",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Venezuela",
-    "Source": "Wind",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Venezuela",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10494,7 +10466,35 @@
   },
   {
     "Country": "Venezuela",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Venezuela",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Venezuela",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Venezuela",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Venezuela",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10543,14 +10543,14 @@
   },
   {
     "Country": "Vietnam",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Vietnam",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10564,13 +10564,6 @@
   },
   {
     "Country": "Virgin Islands (U.S.)",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Virgin Islands (U.S.)",
     "Source": "Coal",
     "Construction": 0,
     "Pre-construction": 0,
@@ -10578,7 +10571,7 @@
   },
   {
     "Country": "Virgin Islands (U.S.)",
-    "Source": "Hydropower",
+    "Source": "Oil and gas",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10592,7 +10585,7 @@
   },
   {
     "Country": "Virgin Islands (U.S.)",
-    "Source": "Wind",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10606,7 +10599,14 @@
   },
   {
     "Country": "Virgin Islands (U.S.)",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Virgin Islands (U.S.)",
+    "Source": "Wind",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10620,35 +10620,7 @@
   },
   {
     "Country": "Western Sahara",
-    "Source": "Oil and gas",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Western Sahara",
     "Source": "Coal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Western Sahara",
-    "Source": "Hydropower",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Western Sahara",
-    "Source": "Geothermal",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Western Sahara",
-    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10662,7 +10634,35 @@
   },
   {
     "Country": "Western Sahara",
+    "Source": "Oil and gas",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Western Sahara",
+    "Source": "Geothermal",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Western Sahara",
     "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Western Sahara",
+    "Source": "Bioenergy",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Western Sahara",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10697,14 +10697,14 @@
   },
   {
     "Country": "Yemen",
-    "Source": "Hydropower",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Yemen",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10718,7 +10718,7 @@
   },
   {
     "Country": "Yemen",
-    "Source": "Nuclear",
+    "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10760,14 +10760,14 @@
   },
   {
     "Country": "Zambia",
-    "Source": "Nuclear",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Zambia",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
@@ -10809,13 +10809,6 @@
   },
   {
     "Country": "Zimbabwe",
-    "Source": "Nuclear",
-    "Construction": 0,
-    "Pre-construction": 0,
-    "Announced": 0
-  },
-  {
-    "Country": "Zimbabwe",
     "Source": "Hydropower",
     "Construction": 0,
     "Pre-construction": 0,
@@ -10823,14 +10816,21 @@
   },
   {
     "Country": "Zimbabwe",
-    "Source": "Bioenergy",
+    "Source": "Geothermal",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0
   },
   {
     "Country": "Zimbabwe",
-    "Source": "Geothermal",
+    "Source": "Nuclear",
+    "Construction": 0,
+    "Pre-construction": 0,
+    "Announced": 0
+  },
+  {
+    "Country": "Zimbabwe",
+    "Source": "Bioenergy",
     "Construction": 0,
     "Pre-construction": 0,
     "Announced": 0

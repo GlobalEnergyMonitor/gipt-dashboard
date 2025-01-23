@@ -32,12 +32,17 @@ gipt.loc[gipt['Start year']=='not found','Start year']=np.nan
 gipt['Start year']=gipt['Start year'].astype(float)
 gipt.loc[gipt['Retired year']=='not found','Retired year']=np.nan
 gipt['Retired year']=gipt['Retired year'].astype(float)
+gipt.loc[gipt.Status=='cancelled - inferred 4 y','Status']='cancelled'
+gipt.loc[gipt.Status=='shelved - inferred 2 y','Status']='shelved'
+
 
 (gipt[(gipt.Type.isin(['wind','solar']))&(gipt.Status.isin(['announced','construction','pre-construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
 
 
-(gipt[(gipt['Country/area']=='Australia')].groupby(['Type','Status'])['Capacity (MW)'].sum()/1000).sort_values()
+(gipt[(gipt['Country/area']=='Japan')&(gipt.Status.isin(['construction','pre-construction','announced']))].groupby(['Type'])['Capacity (MW)'].sum()/1000).sort_values()
 
+
+(gipt[(gipt['Country/area']=='Japan')&(gipt.Status.isin(['construction']))].groupby(['Type'])['Capacity (MW)'].sum()/1000).sort_values()
 
 ##Make a list of all the individual countries to include
 
