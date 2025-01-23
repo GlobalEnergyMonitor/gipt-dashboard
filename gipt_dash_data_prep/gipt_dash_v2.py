@@ -20,7 +20,7 @@ from json import loads, dumps
 
 ################################################################################################################################################
 #0: LOAD THE GIPT DATA
-gipt=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/Global Integrated Power September 2024.xlsx',sheet_name='Power facilities')
+gipt=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/Global Integrated Power January 2025.xlsx',sheet_name='Power facilities')
 #
 ## ADJUST 'not found' VALUES IN COMPILED EXCEL
 gipt.loc[gipt['Capacity (MW)']=='not found','Capacity (MW)']=np.nan
@@ -32,6 +32,11 @@ gipt.loc[gipt['Start year']=='not found','Start year']=np.nan
 gipt['Start year']=gipt['Start year'].astype(float)
 gipt.loc[gipt['Retired year']=='not found','Retired year']=np.nan
 gipt['Retired year']=gipt['Retired year'].astype(float)
+
+(gipt[(gipt.Type.isin(['wind','solar']))&(gipt.Status.isin(['announced','construction','pre-construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
+
+
+(gipt[(gipt['Country/area']=='Australia')].groupby(['Type','Status'])['Capacity (MW)'].sum()/1000).sort_values()
 
 
 ##Make a list of all the individual countries to include
@@ -64,7 +69,7 @@ all_countries=sort(gipt[~(gipt['Country/area'].isin(exclude))]['Country/area'].u
 ################################################################################################################################################
 #1: TEXT CONFIG:
 tmp=pandas.DataFrame(columns=['Country','overall_summary'])
-for i in ['World','BRICS','EU27','G7','G20','OECD','African Union']+list(sort(gipt['Country/area'].unique())):
+for i in ['World','BRICS','EU27','G7','G20','OECD','African Union']+list(all_countries):
 	tmp.loc[i]=[i,' ']
 
 
@@ -106,7 +111,7 @@ def rounder(number):
 tmp.summary_1=['<span>{{'+str(rounder(i))+ '}} GW</span><br>non-fossil power capacity<br>under construction' for i in tmp["summary_1"]]
 tmp.summary_2=['<span>{{'+str(rounder(i))+ '}} GW</span><br>fossil fuel capacity<br>under construction' for i in tmp["summary_2"]]
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_data_ticker_v3.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_data_ticker_jan2025.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
 
@@ -127,9 +132,12 @@ for type,name in zip(types,type_names):
 	tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
 	res.append(tmp.to_json(orient='records'))
 
+res_world=gipt[(gipt.Status.isin(status))].groupby('Type')['Capacity (MW)'].sum()
+res_world['Country/Area']='World'
 
 #Region
 regions=['BRICS','EU27','G7','G20','OECD','African Union']
+res_regs=[]
 for reg in regions:
 	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())
 	for type,name in zip(types,type_names):
@@ -141,9 +149,15 @@ for reg in regions:
 		tmp.columns=['Region', 'Sub-region', 'Country', name,'Power source']
 		tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
 		res.append(tmp.to_json(orient='records'))
+	res_reg=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin(names))].groupby('Type')['Capacity (MW)'].sum()
+	res_reg['Country/Area']=reg
+	res_regs.append(res_reg)
+
+pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T])
 
 
 #Countries
+res_country=[]
 for country in all_countries:
 	for type,name in zip(types,type_names):
 		tmp=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))&(gipt.Type==type)].groupby(['Region','Subregion','Country/area'])['Capacity (MW)'].sum().reset_index()
@@ -161,8 +175,14 @@ for country in all_countries:
 			tmp.columns=['Region', 'Sub-region', 'Country', name,'Power source']
 			tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
 			res.append(tmp.to_json(orient='records'))
+	res_c=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))].groupby('Type')['Capacity (MW)'].sum()
+	res_c['Country/Area']=country
+	res_country.append(res_c)
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_v3.json", 'w') as f:
+
+pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_jan2025.csv")
+
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_jan2025.json", 'w') as f:
     f.write('['+','.join(res).replace('[','').replace(']','')+']')
 
 
@@ -183,8 +203,11 @@ for type,name in zip(types,type_names):
 	tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
 	res.append(tmp.to_json(orient='records'))
 
+res_world=gipt[(gipt.Status.isin(status))].groupby('Type')['Capacity (MW)'].sum()
+res_world['Country/Area']='World'
 
 #Region
+res_regs=[]
 regions=['BRICS','EU27','G7','G20','OECD','African Union']
 for reg in regions:
 	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())
@@ -197,9 +220,12 @@ for reg in regions:
 		tmp.columns=['Region', 'Sub-region', 'Country', name,'Power source']
 		tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
 		res.append(tmp.to_json(orient='records'))
-
+	res_reg=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin(names))].groupby('Type')['Capacity (MW)'].sum()
+	res_reg['Country/Area']=reg
+	res_regs.append(res_reg)
 
 #Countries
+res_country=[]
 for country in all_countries:
 	for type,name in zip(types,type_names):
 		tmp=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))&(gipt.Type==type)].groupby(['Region','Subregion','Country/area'])['Capacity (MW)'].sum().reset_index()
@@ -217,8 +243,14 @@ for country in all_countries:
 			tmp.columns=['Region', 'Sub-region', 'Country', name,'Power source']
 			tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
 			res.append(tmp.to_json(orient='records'))
+	res_c=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))].groupby('Type')['Capacity (MW)'].sum()
+	res_c['Country/Area']=country
+	res_country.append(res_c)
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_v3.json", 'w') as f:
+
+pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_jan2025.csv")
+
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_jan2025.json", 'w') as f:
     f.write('['+','.join(res).replace('[','').replace(']','')+']')
 
 ################################################################################################################################################
@@ -270,9 +302,10 @@ tmp.loc[tmp.Source=='nuclear','Source'] = 'Nuclear'
 tmp.loc[tmp.Source=='solar','Source'] = 'Utility-scale solar'
 tmp.loc[tmp.Source=='wind','Source'] = 'Wind'
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_development_v3.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_development_jan2025.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
+tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_dev_jan2025.csv")
 
 
 ################################################################################################################################################
@@ -321,14 +354,41 @@ tmp.loc[tmp.Status=='construction','Status'] = 'Construction'
 tmp.loc[tmp.Status=='pre-construction','Status'] = 'Pre-construction'
 tmp.loc[tmp.Status=='operating','Status'] = 'Operating'
 
-
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_fossil_nonfossil_v3.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_fossil_nonfossil_jan2025.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
 
 
+tmp['Non-fossil share']=tmp['Non-fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
+tmp['Fossil share']=tmp['Fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
+tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_share_jan2025.csv")
 
 
 
+################################################################################################
+
+
+
+iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GEM/GIPT/iea_region_code.xlsx")
+names=list(iea_reg_map[iea_reg_map['OECD']=='Yes'].gem_name.unique())
+status=['announced','construction','pre-construction']
+
+gipt[(gipt['Country/area'].isin(names))&(gipt.Type.isin(['coal','oil/gas']))&(gipt.Status.isin(status))]['Capacity (MW)'].sum()
+
+
+gipt[(gipt['Country/area'].isin(names))&(gipt.Status.isin(status))]['Capacity (MW)'].sum()
+
+
+
+status=['construction']
+
+gipt[(gipt['Country/area'].isin(['China']))&(gipt.Type.isin(['coal','oil/gas']))&(gipt.Status.isin(status))]['Capacity (MW)'].sum()
+gipt[(gipt['Country/area'].isin(['United States']))&(gipt.Type.isin(['wind','solar','hydropower']))&(gipt.Status.isin(status))]['Capacity (MW)'].sum()
+
+
+
+
+
+gipt[(gipt.Type.isin(['solar']))&(gipt.Status.isin(status))].groupby('Country/area')['Capacity (MW)'].sum().sort_values()[-50:]
 
 
