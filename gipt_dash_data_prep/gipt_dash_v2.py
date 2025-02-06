@@ -20,7 +20,8 @@ from json import loads, dumps
 
 ################################################################################################################################################
 #0: LOAD THE GIPT DATA
-gipt=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/Global Integrated Power January 2025.xlsx',sheet_name='Power facilities')
+#gipt=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/Global Integrated Power January 2025.xlsx',sheet_name='Power facilities')
+gipt=pandas.read_excel('C:/Users/james/Documents/GEM/GIPT/Feb_2025_GIPT_update (GCPT)/Global Integrated Power February 2025.xlsx',sheet_name='Power facilities')
 #
 ## ADJUST 'not found' VALUES IN COMPILED EXCEL
 gipt.loc[gipt['Capacity (MW)']=='not found','Capacity (MW)']=np.nan
@@ -116,7 +117,7 @@ def rounder(number):
 tmp.summary_1=['<span>{{'+str(rounder(i))+ '}} GW</span><br>non-fossil power capacity<br>under construction' for i in tmp["summary_1"]]
 tmp.summary_2=['<span>{{'+str(rounder(i))+ '}} GW</span><br>fossil fuel capacity<br>under construction' for i in tmp["summary_2"]]
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_data_ticker_jan2025.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_data_ticker_feb2025_v1.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
 
@@ -185,9 +186,9 @@ for country in all_countries:
 	res_country.append(res_c)
 
 
-pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_jan2025.csv")
+pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_feb2025_v1.csv")
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_jan2025.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_feb2025_v1.json", 'w') as f:
     f.write('['+','.join(res).replace('[','').replace(']','')+']')
 
 
@@ -253,9 +254,9 @@ for country in all_countries:
 	res_country.append(res_c)
 
 
-pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_jan2025.csv")
+pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_feb2025_v1.csv")
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_jan2025.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_feb2025_v1.json", 'w') as f:
     f.write('['+','.join(res).replace('[','').replace(']','')+']')
 
 ################################################################################################################################################
@@ -307,10 +308,10 @@ tmp.loc[tmp.Source=='nuclear','Source'] = 'Nuclear'
 tmp.loc[tmp.Source=='solar','Source'] = 'Utility-scale solar'
 tmp.loc[tmp.Source=='wind','Source'] = 'Wind'
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_development_jan2025.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_development_feb2025_v1.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
-tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_dev_jan2025.csv")
+tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_dev_feb2025_v1.csv")
 
 
 ################################################################################################################################################
@@ -359,14 +360,14 @@ tmp.loc[tmp.Status=='construction','Status'] = 'Construction'
 tmp.loc[tmp.Status=='pre-construction','Status'] = 'Pre-construction'
 tmp.loc[tmp.Status=='operating','Status'] = 'Operating'
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_fossil_nonfossil_jan2025.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_fossil_nonfossil_feb2025_v1.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
 
 
 tmp['Non-fossil share']=tmp['Non-fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
 tmp['Fossil share']=tmp['Fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
-tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_share_jan2025.csv")
+tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_share_feb2025_v1.csv")
 
 
 
