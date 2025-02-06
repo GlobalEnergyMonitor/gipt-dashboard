@@ -1,0 +1,1072 @@
+[
+  {
+    "Country": "World",
+    "summary_1": "<span>{{861}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{437}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "BRICS",
+    "summary_1": "<span>{{628}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{279}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "EU27",
+    "summary_1": "<span>{{37.4}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{11.9}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "G7",
+    "summary_1": "<span>{{72.7}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{21.7}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "G20",
+    "summary_1": "<span>{{741}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{327}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "OECD",
+    "summary_1": "<span>{{144}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{45.9}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "African Union",
+    "summary_1": "<span>{{33.8}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{20.2}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Afghanistan",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Albania",
+    "summary_1": "<span>{{0.27}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Algeria",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{3.7}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "American Samoa",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Andorra",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Angola",
+    "summary_1": "<span>{{2.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.38}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Argentina",
+    "summary_1": "<span>{{3.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.38}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Armenia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Aruba",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Australia",
+    "summary_1": "<span>{{8.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.75}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Austria",
+    "summary_1": "<span>{{1.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Azerbaijan",
+    "summary_1": "<span>{{0.41}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.3}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bahamas",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bahrain",
+    "summary_1": "<span>{{0.12}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.68}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bangladesh",
+    "summary_1": "<span>{{2.6}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{6.1}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Barbados",
+    "summary_1": "<span>{{0.03}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Belarus",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Belgium",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.7}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Benin",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bermuda",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bhutan",
+    "summary_1": "<span>{{2.4}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bolivia",
+    "summary_1": "<span>{{0.51}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.11}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bonaire, Sint Eustatius, and Saba",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "summary_1": "<span>{{0.57}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Botswana",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Brazil",
+    "summary_1": "<span>{{15.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{5.1}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Brunei",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Bulgaria",
+    "summary_1": "<span>{{0.37}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Burkina Faso",
+    "summary_1": "<span>{{0.08}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Burundi",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Cabo Verde",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Cambodia",
+    "summary_1": "<span>{{0.23}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.26}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Cameroon",
+    "summary_1": "<span>{{0.45}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Canada",
+    "summary_1": "<span>{{3.7}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.2}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Cayman Islands",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Central African Republic",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Chad",
+    "summary_1": "<span>{{0.13}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Chile",
+    "summary_1": "<span>{{9.4}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "China",
+    "summary_1": "<span>{{548}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{216}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Christmas Island",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Colombia",
+    "summary_1": "<span>{{6.8}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Comoros",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Costa Rica",
+    "summary_1": "<span>{{0.06}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Croatia",
+    "summary_1": "<span>{{0.19}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.5}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Cuba",
+    "summary_1": "<span>{{0.15}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Curaçao",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Cyprus",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.42}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Czech Republic",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.44}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Côte d'Ivoire",
+    "summary_1": "<span>{{0.13}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.39}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "DR Congo",
+    "summary_1": "<span>{{0.75}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Denmark",
+    "summary_1": "<span>{{0.08}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Djibouti",
+    "summary_1": "<span>{{0.06}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Dominica",
+    "summary_1": "<span>{{0.01}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Dominican Republic",
+    "summary_1": "<span>{{1.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.3}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Ecuador",
+    "summary_1": "<span>{{0.37}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Egypt",
+    "summary_1": "<span>{{11.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.6}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "El Salvador",
+    "summary_1": "<span>{{0.11}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "summary_1": "<span>{{0.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Eritrea",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Estonia",
+    "summary_1": "<span>{{0.36}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Eswatini",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Ethiopia",
+    "summary_1": "<span>{{7.6}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Faroe Islands",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Fiji",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Finland",
+    "summary_1": "<span>{{2.6}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "France",
+    "summary_1": "<span>{{3.9}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "French Guiana",
+    "summary_1": "<span>{{0.18}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Gabon",
+    "summary_1": "<span>{{0.06}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Georgia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Germany",
+    "summary_1": "<span>{{2.6}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.7}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Ghana",
+    "summary_1": "<span>{{0.52}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Greece",
+    "summary_1": "<span>{{3.6}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.7}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Greenland",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Grenada",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Guadeloupe",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Guam",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.18}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Guatemala",
+    "summary_1": "<span>{{0.07}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Guernsey",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Guinea",
+    "summary_1": "<span>{{0.3}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Guyana",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.3}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Haiti",
+    "summary_1": "<span>{{0.01}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Holy See",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Honduras",
+    "summary_1": "<span>{{0.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Hong Kong",
+    "summary_1": "<span>{{0.18}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.77}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Hungary",
+    "summary_1": "<span>{{0.16}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Iceland",
+    "summary_1": "<span>{{0.07}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "India",
+    "summary_1": "<span>{{28.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{29.8}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Indonesia",
+    "summary_1": "<span>{{4.3}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{12.6}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Iran",
+    "summary_1": "<span>{{9.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{13.4}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Iraq",
+    "summary_1": "<span>{{2.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{15.8}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Ireland",
+    "summary_1": "<span>{{1.3}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.78}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Isle of Man",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Israel",
+    "summary_1": "<span>{{0.99}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.2}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Italy",
+    "summary_1": "<span>{{0.92}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.97}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Jamaica",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Japan",
+    "summary_1": "<span>{{7.3}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.8}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Jersey",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Jordan",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Kazakhstan",
+    "summary_1": "<span>{{0.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{3.4}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Kenya",
+    "summary_1": "<span>{{0.53}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Kosovo",
+    "summary_1": "<span>{{0.15}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Kuwait",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.9}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "summary_1": "<span>{{2.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Laos",
+    "summary_1": "<span>{{5.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.66}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Latvia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Lebanon",
+    "summary_1": "<span>{{0.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Lesotho",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Liberia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Libya",
+    "summary_1": "<span>{{0.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{7.1}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Lithuania",
+    "summary_1": "<span>{{0.42}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Luxembourg",
+    "summary_1": "<span>{{0.03}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Macao",
+    "summary_1": "<span>{{0.03}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Madagascar",
+    "summary_1": "<span>{{0.01}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Malawi",
+    "summary_1": "<span>{{0.05}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Malaysia",
+    "summary_1": "<span>{{1.7}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.2}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Maldives",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Mali",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Malta",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Martinique",
+    "summary_1": "<span>{{0.01}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Mauritania",
+    "summary_1": "<span>{{0.03}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Mauritius",
+    "summary_1": "<span>{{0.01}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Mayotte",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Mexico",
+    "summary_1": "<span>{{3.9}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{7.4}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Moldova",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Mongolia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.35}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Montenegro",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Montserrat",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Morocco",
+    "summary_1": "<span>{{2.4}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.46}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Mozambique",
+    "summary_1": "<span>{{0.07}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.5}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Myanmar",
+    "summary_1": "<span>{{0.62}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.2}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Namibia",
+    "summary_1": "<span>{{0.16}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Nepal",
+    "summary_1": "<span>{{3.4}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Netherlands",
+    "summary_1": "<span>{{1.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "New Caledonia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "New Zealand",
+    "summary_1": "<span>{{0.52}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Nicaragua",
+    "summary_1": "<span>{{0.03}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Niger",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Nigeria",
+    "summary_1": "<span>{{0.36}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.9}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "North Korea",
+    "summary_1": "<span>{{0.58}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "North Macedonia",
+    "summary_1": "<span>{{0.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Norway",
+    "summary_1": "<span>{{0.37}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Oman",
+    "summary_1": "<span>{{2.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.13}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Pakistan",
+    "summary_1": "<span>{{10.7}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.73}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Palestine",
+    "summary_1": "<span>{{0.04}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.45}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Panama",
+    "summary_1": "<span>{{0.18}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Papua New Guinea",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Paraguay",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Peru",
+    "summary_1": "<span>{{2.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Philippines",
+    "summary_1": "<span>{{3.5}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.7}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Poland",
+    "summary_1": "<span>{{3.1}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.8}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Portugal",
+    "summary_1": "<span>{{1.4}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Puerto Rico",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Qatar",
+    "summary_1": "<span>{{0.88}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Republic of the Congo",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Romania",
+    "summary_1": "<span>{{0.3}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.87}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Russia",
+    "summary_1": "<span>{{5.3}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{6.8}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Rwanda",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Réunion",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "summary_1": "<span>{{0.04}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Saint Lucia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "summary_1": "<span>{{8.8}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{9.7}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Senegal",
+    "summary_1": "<span>{{0.13}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.3}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Serbia",
+    "summary_1": "<span>{{0.26}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.35}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Seychelles",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Sierra Leone",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.08}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Singapore",
+    "summary_1": "<span>{{0.08}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.5}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Slovakia",
+    "summary_1": "<span>{{0.47}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Slovenia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Somalia",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "South Africa",
+    "summary_1": "<span>{{2.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.8}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "South Korea",
+    "summary_1": "<span>{{4.8}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{5.3}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "South Sudan",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Spain",
+    "summary_1": "<span>{{9.8}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Sri Lanka",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.13}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Sudan",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.73}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Suriname",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Sweden",
+    "summary_1": "<span>{{3.5}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Switzerland",
+    "summary_1": "<span>{{0.12}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Syria",
+    "summary_1": "<span>{{0.16}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{2.6}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Taiwan",
+    "summary_1": "<span>{{5.5}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{9.6}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Tajikistan",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Tanzania",
+    "summary_1": "<span>{{2.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Thailand",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.78}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "The Gambia",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Timor-Leste",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Togo",
+    "summary_1": "<span>{{0.03}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Tonga",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "summary_1": "<span>{{0.11}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Tunisia",
+    "summary_1": "<span>{{0.45}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Turkmenistan",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.6}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Türkiye",
+    "summary_1": "<span>{{7.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{1.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Uganda",
+    "summary_1": "<span>{{0.04}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Ukraine",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.25}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "summary_1": "<span>{{1.8}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{4.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "United Kingdom",
+    "summary_1": "<span>{{14.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.81}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "United States",
+    "summary_1": "<span>{{40.3}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{14.3}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Uruguay",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Uzbekistan",
+    "summary_1": "<span>{{1.6}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{5.9}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Venezuela",
+    "summary_1": "<span>{{2.7}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Vietnam",
+    "summary_1": "<span>{{3.7}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{7.9}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Virgin Islands (U.S.)",
+    "summary_1": "<span>{{0.02}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Western Sahara",
+    "summary_1": "<span>{{0.38}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Yemen",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.3}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Zambia",
+    "summary_1": "<span>{{0.2}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Zimbabwe",
+    "summary_1": "<span>{{0.68}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.27}} GW</span><br>fossil fuel capacity<br>under construction"
+  },
+  {
+    "Country": "Åland Islands",
+    "summary_1": "<span>{{0.0}} GW</span><br>non-fossil power capacity<br>under construction",
+    "summary_2": "<span>{{0.0}} GW</span><br>fossil fuel capacity<br>under construction"
+  }
+]
