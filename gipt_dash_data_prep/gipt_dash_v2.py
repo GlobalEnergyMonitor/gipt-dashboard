@@ -74,6 +74,126 @@ all_countries=sort(gipt[~(gipt['Country/area'].isin(exclude))]['Country/area'].u
 
 
 
+
+##########
+##CONVERT SOLAR ALL TO MWac FOR SUMMARY TABLES FOLLOWING: https://github.com/GlobalEnergyMonitor/Renewables_Others/blob/main/SolarCode/ConvertToMWac.py
+## ***NOTE*** HAVE TO UPDATE THIS WITH NEW SOLAR FILE EACH GIPT UPDATE
+##########
+
+df_file="C:/Users/james/Documents/GEM/GIPT/Feb_2025_GIPT_update (GSPT.GWPT)/Global-Solar-Power-Tracker-February-2025.xlsx"
+
+dfs=[pandas.read_excel(df_file, sheet_name=i) for i in ['20 MW+','1-20 MW']]
+df = pandas.concat(dfs).reset_index()
+
+# this is the conversion between DC to AC. Value from TransitionZero
+conversionFactor = 0.87
+
+# this is the minimum count number in order to use country or subregion value rather than subregion or region value
+minval = 30
+
+# save original capacity to a new column
+df['Capacity (MW) orig'] = df['Capacity (MW)']
+
+# if capacity rating is DC, convert to AC
+df.loc[df['Capacity Rating'] == 'MWp/dc', 'Capacity (MW)'] = df['Capacity (MW) orig']*conversionFactor
+
+# if capacity rating is unknown convert the value based on the probability it's MWac based on the country/subregion/region
+
+# I think we don't want to have government datasets biasing this, so we won't include projects that have an other location or phase ID that's not WEPP or WikiSolar
+## replace nans with blanks
+df.fillna("", inplace=True)
+## loop through every Other IDs location and Other IDs phase and remove WEPP & WKSL so that we can ignore anything with an entry in the Other IDs columns
+for index, row in df.iterrows():
+    loc_id = row['Other IDs (location)']
+    phase_id = row['Other IDs (unit/phase)']
+    # split the ID by commas
+    loc_id_list = loc_id.split(",")
+    phase_id_list = phase_id.split(",")
+    # create a temporary list
+    loc_tmp_lst = []
+    phase_tmp_lst = []
+    # remove any location ID that start with WEPP or WKSL
+    for id in loc_id_list:
+        id = id.strip()
+        if id.startswith("WEPP") | id.startswith("WKSL"):
+            pass
+        else:
+            loc_tmp_lst.append(id)
+    # remove any location ID that start with WEPP
+    for id in phase_id_list:
+        id = id.strip()
+        if id.startswith("WEPP") | id.startswith("WKSL"):
+            pass
+        else:
+            phase_tmp_lst.append(id)
+    # join tmp_lst together as a comma delimited string
+    new_loc_id = ",".join(map(str, loc_tmp_lst))
+    new_phase_id = ",".join(map(str, phase_tmp_lst))
+    # write this to the dataframe row
+    df.loc[index, 'Other IDs (location)'] = new_loc_id
+    df.loc[index, 'Other IDs (unit/phase)'] = new_phase_id
+
+
+## compute liklihood based on the region
+regions = df['Region'].unique().tolist()
+region_prob = []
+for region in regions:
+    countsac = len(df[(df['Region'] == region) & (df['Capacity Rating'] == 'MWac') & (df['Other IDs (unit/phase)'] == '') & (df['Other IDs (location)'] == '')])
+    countsdc = len(df[(df['Region'] == region) & (df['Capacity Rating'] == 'MWp/dc') & (df['Other IDs (unit/phase)'] == '') & (df['Other IDs (location)'] == '')])
+    region_prob.append(countsac/(countsac+countsdc))
+
+
+## compute liklihood based on the sub-region. If ac+dc counts are less than minval use region numbers
+subregions = df['Subregion'].unique().tolist()
+subregion_prob = []
+for subregion in subregions:
+    countsac = len(df[(df['Subregion'] == subregion) & (df['Capacity Rating'] == 'MWac') & (
+                df['Other IDs (unit/phase)'] == '') & (df['Other IDs (location)'] == '')])
+    countsdc = len(df[(df['Subregion'] == subregion) & (df['Capacity Rating'] == 'MWp/dc') & (
+                df['Other IDs (unit/phase)'] == '') & (df['Other IDs (location)'] == '')])
+    if countsac+countsdc >= minval:
+        subregion_prob.append(countsac / (countsac + countsdc))
+    else:
+        # get the region associated with subregions
+        rgn = df.loc[df['Subregion'] == subregion, 'Region'].iloc[0]
+        # find that region's probability
+        idx = regions.index(rgn)
+        subregion_prob.append(region_prob[idx])
+
+
+## compute liklihood based on the country. If ac+dc counts are less than 50 use subregion numbers
+countries = df['Country/Area'].unique().tolist()
+country_prob = []
+for country in countries:
+    countsac = len(df[(df['Country/Area'] == country) & (df['Capacity Rating'] == 'MWac') & (
+                df['Other IDs (unit/phase)'] == '') & (df['Other IDs (location)'] == '')])
+    countsdc = len(df[(df['Country/Area'] == country) & (df['Capacity Rating'] == 'MWp/dc') & (
+                df['Other IDs (unit/phase)'] == '') & (df['Other IDs (location)'] == '')])
+    if countsac+countsdc >= minval:
+        country_prob.append(countsac / (countsac + countsdc))
+    else:
+        # get the subregion associated with country
+        subr = df.loc[df['Country/Area'] == country, 'Subregion'].iloc[0]
+        # find that region's probability
+        idx = subregions.index(subr)
+        country_prob.append(subregion_prob[idx])
+
+# Adjust 'unknown' capacities to MWac
+for index, row in df.iterrows():
+    if row['Capacity Rating'] == 'unknown':
+        idx = countries.index(row['Country/Area'])
+        df.at[index, 'Capacity (MW)'] = ((1-conversionFactor)*country_prob[idx] + conversionFactor)*row['Capacity (MW) orig']
+
+# save original capacity rating to a new column and set capacity rating to MWac
+df['Capacity Rating orig'] = df['Capacity Rating']
+df['Capacity Rating'] = 'MWac'
+
+#Replace gipt capacity values for solar with AC converted values
+gipt=gipt.set_index('GEM unit/phase ID')
+gipt.loc[df['GEM phase ID'],'Capacity (MW)']=df['Capacity (MW)'].values
+
+
+
 ################################################################################################################################################
 #1: TEXT CONFIG:
 tmp=pandas.DataFrame(columns=['Country','overall_summary'])
@@ -119,7 +239,7 @@ def rounder(number):
 tmp.summary_1=['<span>{{'+str(rounder(i))+ '}} GW</span><br>non-fossil power capacity<br>under construction' for i in tmp["summary_1"]]
 tmp.summary_2=['<span>{{'+str(rounder(i))+ '}} GW</span><br>fossil fuel capacity<br>under construction' for i in tmp["summary_2"]]
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_data_ticker_feb2025_v2.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_data_ticker_feb2025_v3.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
 
@@ -188,9 +308,9 @@ for country in all_countries:
 	res_country.append(res_c)
 
 
-pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_feb2025_v2.csv")
+pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_feb2025_v3.csv")
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_feb2025_v2.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_operating_feb2025_v3.json", 'w') as f:
     f.write('['+','.join(res).replace('[','').replace(']','')+']')
 
 
@@ -256,9 +376,9 @@ for country in all_countries:
 	res_country.append(res_c)
 
 
-pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_feb2025_v2.csv")
+pandas.concat([res_world.to_frame().T,pandas.concat(res_regs,axis=1).T,pandas.concat(res_country,axis=1).T]).fillna(0.)[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']].to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_feb2025_v3.csv")
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_feb2025_v2.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_construction_feb2025_v3.json", 'w') as f:
     f.write('['+','.join(res).replace('[','').replace(']','')+']')
 
 ################################################################################################################################################
@@ -310,10 +430,10 @@ tmp.loc[tmp.Source=='nuclear','Source'] = 'Nuclear'
 tmp.loc[tmp.Source=='solar','Source'] = 'Utility-scale solar'
 tmp.loc[tmp.Source=='wind','Source'] = 'Wind'
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_development_feb2025_v2.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_development_feb2025_v3.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
-tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_dev_feb2025_v2.csv")
+tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_dev_feb2025_v3.csv")
 
 
 ################################################################################################################################################
@@ -362,14 +482,14 @@ tmp.loc[tmp.Status=='construction','Status'] = 'Construction'
 tmp.loc[tmp.Status=='pre-construction','Status'] = 'Pre-construction'
 tmp.loc[tmp.Status=='operating','Status'] = 'Operating'
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_fossil_nonfossil_feb2025_v2.json", 'w') as f:
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_fossil_nonfossil_feb2025_v3.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
 
 
 tmp['Non-fossil share']=tmp['Non-fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
 tmp['Fossil share']=tmp['Fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
-tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_share_feb2025_v2.csv")
+tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_share_feb2025_v3.csv")
 
 
 
