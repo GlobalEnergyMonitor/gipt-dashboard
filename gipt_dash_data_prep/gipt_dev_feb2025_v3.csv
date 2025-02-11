@@ -5,7 +5,7 @@
 3,World,Hydropower,250780.0,528842.0,309113.0
 4,World,Nuclear,74925.0,97054.0,126787.0
 5,World,Oil and gas,209040.9,313049.4,275977.8
-6,World,Utility-scale solar,342256.16346831055,989244.2750144793,590748.401545718
+6,World,Utility-scale solar,343192.0081465834,992633.1861491424,591788.4613331017
 7,World,Wind,251469.7,1284666.6,934930.2
 0,BRICS,Bioenergy,4364.0,2569.0,1897.0
 1,BRICS,Coal,236183.0,214748.0,92685.0
@@ -13,7 +13,7 @@
 3,BRICS,Hydropower,198285.0,355911.0,153772.0
 4,BRICS,Nuclear,56578.0,53714.0,74020.0
 5,BRICS,Oil and gas,73858.8,99424.0,68852.8
-6,BRICS,Utility-scale solar,268734.2656519306,445975.1523410389,227583.1335012788
+6,BRICS,Utility-scale solar,269684.1430869262,449721.6027292594,229078.59488515157
 7,BRICS,Wind,194881.1,472154.5,228437.9
 0,EU27,Bioenergy,385.0,1335.0,362.0
 1,EU27,Coal,100.0,0.0,0.0
@@ -21,7 +21,7 @@
 3,EU27,Hydropower,1950.0,9141.0,4660.0
 4,EU27,Nuclear,2121.0,19182.0,21962.0
 5,EU27,Oil and gas,11795.0,31758.9,5235.0
-6,EU27,Utility-scale solar,12610.395881149625,152714.93491248152,53781.63180126633
+6,EU27,Utility-scale solar,12611.901800991125,152719.15577038255,53792.476952575336
 7,EU27,Wind,13059.2,297974.9,192783.1
 0,G7,Bioenergy,2213.0,757.0,554.0
 1,G7,Coal,0.0,900.0,400.0
@@ -29,7 +29,7 @@
 3,G7,Hydropower,1300.0,11218.0,63238.0
 4,G7,Nuclear,7846.0,16130.0,14865.0
 5,G7,Oil and gas,21738.9,63712.6,53880.6
-6,G7,Utility-scale solar,28520.88018403212,105710.03074576767,33350.52137655414
+6,G7,Utility-scale solar,28498.543155666823,105405.90468618351,33335.75511307494
 7,G7,Wind,30186.4,200192.3,116103.8
 0,G20,Bioenergy,7293.0,4491.0,2837.0
 1,G20,Coal,245386.0,218541.0,96685.0
@@ -37,7 +37,7 @@
 3,G20,Hydropower,198162.0,397977.0,234084.0
 4,G20,Nuclear,61338.0,88619.0,117647.0
 5,G20,Oil and gas,111407.4,179944.6,156778.1
-6,G20,Utility-scale solar,321810.95034236176,785654.618694044,353721.8070734201
+6,G20,Utility-scale solar,322756.181517965,789183.1900317502,355242.8986067191
 7,G20,Wind,238787.4,1047417.6,663515.1
 0,OECD,Bioenergy,2827.0,2062.0,1455.0
 1,OECD,Coal,1150.0,2533.0,400.0
@@ -45,7 +45,7 @@
 3,OECD,Hydropower,9774.0,29693.0,75359.0
 4,OECD,Nuclear,15917.0,30910.0,40127.0
 5,OECD,Oil and gas,44610.2,83040.4,81953.6
-6,OECD,Utility-scale solar,51525.47406964085,389286.63019915717,127354.67584554118
+6,OECD,Utility-scale solar,51500.59034969943,388922.7551581314,127346.02315202767
 7,OECD,Wind,46220.1,630367.9,466141.1
 0,African Union,Bioenergy,60.0,320.0,440.0
 1,African Union,Coal,2570.0,7155.0,6170.0
@@ -53,10 +53,10 @@
 3,African Union,Hydropower,15610.0,15201.0,20677.0
 4,African Union,Nuclear,4800.0,4000.0,0.0
 5,African Union,Oil and gas,18485.2,19336.0,27224.0
-6,African Union,Utility-scale solar,5616.308525869791,63523.77949289791,134999.78350980624
+6,African Union,Utility-scale solar,5601.74029315238,63317.20625134968,134485.4717621798
 7,African Union,Wind,5517.0,49695.7,115933.5
 0,Afghanistan,Hydropower,0.0,0.0,407.0
-1,Afghanistan,Utility-scale solar,0.0,0.0,21.55227400468384
+1,Afghanistan,Utility-scale solar,0.0,0.0,21.58215564853557
 2,Afghanistan,Wind,0.0,0.0,200.0
 0,Afghanistan,Geothermal,0.0,0.0,0.0
 0,Afghanistan,Oil and gas,0.0,0.0,0.0
@@ -65,14 +65,14 @@
 0,Afghanistan,Nuclear,0.0,0.0,0.0
 0,Albania,Hydropower,0.0,338.0,0.0
 1,Albania,Oil and gas,0.0,520.0,0.0
-2,Albania,Utility-scale solar,124.75783308931186,723.8622547584188,277.40024890190335
+2,Albania,Utility-scale solar,124.8811911044101,725.669449679608,277.95535996984546
 3,Albania,Wind,234.0,0.0,100.0
 0,Albania,Geothermal,0.0,0.0,0.0
 0,Albania,Bioenergy,0.0,0.0,0.0
 0,Albania,Coal,0.0,0.0,0.0
 0,Albania,Nuclear,0.0,0.0,0.0
 0,Algeria,Oil and gas,3736.0,1200.0,0.0
-1,Algeria,Utility-scale solar,93.42954954954955,2628.01027027027,788.1383783783784
+1,Algeria,Utility-scale solar,92.97611111111111,2621.0066666666667,784.3133333333334
 0,Algeria,Geothermal,0.0,0.0,0.0
 0,Algeria,Hydropower,0.0,0.0,0.0
 0,Algeria,Bioenergy,0.0,0.0,0.0
@@ -89,7 +89,7 @@
 0,Andorra,Nuclear,0.0,0.0,0.0
 0,Angola,Hydropower,2040.0,0.0,303.0
 1,Angola,Oil and gas,375.0,1425.0,0.0
-2,Angola,Utility-scale solar,67.86,91.35,681.13
+2,Angola,Utility-scale solar,67.86,91.35,681.9267741935483
 3,Angola,Wind,0.0,488.0,60.0
 0,Angola,Geothermal,0.0,0.0,0.0
 0,Angola,Bioenergy,0.0,0.0,0.0
@@ -108,7 +108,7 @@
 2,Argentina,Hydropower,1580.0,1699.0,4865.0
 3,Argentina,Nuclear,0.0,1150.0,0.0
 4,Argentina,Oil and gas,265.0,0.0,4015.7
-5,Argentina,Utility-scale solar,483.0551627906977,231.6801860465116,1217.882465116279
+5,Argentina,Utility-scale solar,482.56600000000003,231.60399999999998,1215.963
 6,Argentina,Wind,197.5,205.6,153.0
 0,Armenia,Hydropower,0.0,176.0,0.0
 1,Armenia,Nuclear,0.0,0.0,1200.0
@@ -122,12 +122,12 @@
 1,Australia,Coal,0.0,945.0,0.0
 2,Australia,Hydropower,2250.0,5348.0,6935.0
 3,Australia,Oil and gas,750.0,285.0,4595.0
-4,Australia,Utility-scale solar,2767.2175,73851.9096875,37478.158875
+4,Australia,Utility-scale solar,2767.369540229885,73882.67574712644,37496.699770114945
 5,Australia,Wind,2638.0,104280.0,150545.0
 0,Australia,Geothermal,0.0,0.0,0.0
 0,Australia,Nuclear,0.0,0.0,0.0
 0,Austria,Hydropower,840.0,2297.0,0.0
-1,Austria,Utility-scale solar,105.04462809917355,0.0,0.0
+1,Austria,Utility-scale solar,104.97777777777777,0.0,0.0
 2,Austria,Wind,70.0,238.0,0.0
 0,Austria,Geothermal,0.0,0.0,0.0
 0,Austria,Oil and gas,0.0,0.0,0.0
@@ -136,14 +136,14 @@
 0,Austria,Nuclear,0.0,0.0,0.0
 0,Azerbaijan,Hydropower,182.0,0.0,0.0
 1,Azerbaijan,Oil and gas,1280.0,500.0,0.0
-2,Azerbaijan,Utility-scale solar,0.0,922.7489711934156,179.67078189300412
+2,Azerbaijan,Utility-scale solar,0.0,925.9,180.5
 3,Azerbaijan,Wind,0.0,240.5,240.0
 0,Azerbaijan,Geothermal,0.0,0.0,0.0
 0,Azerbaijan,Bioenergy,0.0,0.0,0.0
 0,Azerbaijan,Coal,0.0,0.0,0.0
 0,Azerbaijan,Nuclear,0.0,0.0,0.0
 0,Bahrain,Oil and gas,681.0,1800.0,0.0
-1,Bahrain,Utility-scale solar,100.0,82.24123456790123,175.179012345679
+1,Bahrain,Utility-scale solar,100.0,82.2885,175.9875
 2,Bahrain,Wind,0.0,0.0,2000.0
 0,Bahrain,Geothermal,0.0,0.0,0.0
 0,Bahrain,Hydropower,0.0,0.0,0.0
@@ -154,11 +154,11 @@
 1,Bangladesh,Coal,2640.0,1050.0,5200.0
 2,Bangladesh,Nuclear,2400.0,0.0,0.0
 3,Bangladesh,Oil and gas,2853.0,2460.0,20695.0
-4,Bangladesh,Utility-scale solar,266.9,1368.6811475409836,1889.7486299765808
+4,Bangladesh,Utility-scale solar,266.9,1369.782050209205,1891.8377238493724
 5,Bangladesh,Wind,0.0,455.0,750.0
 0,Bangladesh,Geothermal,0.0,0.0,0.0
 0,Bangladesh,Hydropower,0.0,0.0,0.0
-0,Barbados,Utility-scale solar,0.0,117.39786871270248,9.313981244671782
+0,Barbados,Utility-scale solar,0.0,117.37700000000001,9.311
 1,Barbados,Wind,30.0,0.0,0.0
 0,Barbados,Geothermal,0.0,0.0,0.0
 0,Barbados,Oil and gas,0.0,0.0,0.0
@@ -166,7 +166,7 @@
 0,Barbados,Bioenergy,0.0,0.0,0.0
 0,Barbados,Coal,0.0,0.0,0.0
 0,Barbados,Nuclear,0.0,0.0,0.0
-0,Belarus,Utility-scale solar,0.0,6.045947368421053,0.0
+0,Belarus,Utility-scale solar,0.0,5.9940375,0.0
 0,Belarus,Geothermal,0.0,0.0,0.0
 0,Belarus,Oil and gas,0.0,0.0,0.0
 0,Belarus,Hydropower,0.0,0.0,0.0
@@ -182,7 +182,7 @@
 0,Belgium,Bioenergy,0.0,0.0,0.0
 0,Belgium,Coal,0.0,0.0,0.0
 0,Belgium,Nuclear,0.0,0.0,0.0
-0,Belize,Utility-scale solar,0.0,0.0,55.88388746803069
+0,Belize,Utility-scale solar,0.0,0.0,55.866
 0,Belize,Geothermal,0.0,0.0,0.0
 0,Belize,Oil and gas,0.0,0.0,0.0
 0,Belize,Hydropower,0.0,0.0,0.0
@@ -191,7 +191,7 @@
 0,Belize,Coal,0.0,0.0,0.0
 0,Belize,Nuclear,0.0,0.0,0.0
 0,Benin,Hydropower,0.0,128.0,0.0
-1,Benin,Utility-scale solar,43.5,0.0,45.39979123173278
+1,Benin,Utility-scale solar,43.5,0.0,45.2230971128609
 0,Benin,Geothermal,0.0,0.0,0.0
 0,Benin,Oil and gas,0.0,0.0,0.0
 0,Benin,Bioenergy,0.0,0.0,0.0
@@ -207,7 +207,7 @@
 0,Bermuda,Coal,0.0,0.0,0.0
 0,Bermuda,Nuclear,0.0,0.0,0.0
 0,Bhutan,Hydropower,2338.0,4935.0,570.0
-1,Bhutan,Utility-scale solar,16.069677985948477,0.0,0.0
+1,Bhutan,Utility-scale solar,16.091958158995816,0.0,0.0
 0,Bhutan,Geothermal,0.0,0.0,0.0
 0,Bhutan,Oil and gas,0.0,0.0,0.0
 0,Bhutan,Bioenergy,0.0,0.0,0.0
@@ -217,7 +217,7 @@
 0,Bolivia,Geothermal,100.0,0.0,0.0
 1,Bolivia,Hydropower,292.0,600.0,439.0
 2,Bolivia,Oil and gas,108.0,0.0,0.0
-3,Bolivia,Utility-scale solar,0.0,296.1846035805627,17.4
+3,Bolivia,Utility-scale solar,0.0,296.0898,17.4
 4,Bolivia,Wind,36.0,0.0,0.0
 0,Bolivia,Bioenergy,0.0,0.0,0.0
 0,Bolivia,Coal,0.0,0.0,0.0
@@ -226,12 +226,12 @@
 1,Bosnia and Herzegovina,Coal,0.0,1050.0,0.0
 2,Bosnia and Herzegovina,Hydropower,159.0,94.0,0.0
 3,Bosnia and Herzegovina,Oil and gas,0.0,0.0,100.0
-4,Bosnia and Herzegovina,Utility-scale solar,95.69999999999999,409.74316251830163,1434.0889311859444
+4,Bosnia and Herzegovina,Utility-scale solar,95.69999999999999,411.8402487749717,1439.3871579344138
 5,Bosnia and Herzegovina,Wind,216.0,2174.0,290.0
 0,Bosnia and Herzegovina,Geothermal,0.0,0.0,0.0
 0,Bosnia and Herzegovina,Nuclear,0.0,0.0,0.0
 0,Botswana,Coal,0.0,600.0,0.0
-1,Botswana,Utility-scale solar,104.4,2656.45375782881,971.7964509394573
+1,Botswana,Utility-scale solar,104.4,2651.1706036745404,968.7926509186352
 2,Botswana,Wind,0.0,0.0,50.0
 0,Botswana,Geothermal,0.0,0.0,0.0
 0,Botswana,Oil and gas,0.0,0.0,0.0
@@ -243,7 +243,7 @@
 2,Brazil,Hydropower,142.0,860.0,18807.0
 3,Brazil,Nuclear,1405.0,0.0,0.0
 4,Brazil,Oil and gas,5082.9,15245.0,10620.8
-5,Brazil,Utility-scale solar,4363.42735483871,115073.58787096775,17156.906290322582
+5,Brazil,Utility-scale solar,4445.7830300000005,117438.91653,17491.29835
 6,Brazil,Wind,3350.7,154482.8,120489.0
 0,British Indian Ocean Territory,Geothermal,0.0,0.0,0.0
 0,British Indian Ocean Territory,Oil and gas,0.0,0.0,0.0
@@ -254,7 +254,7 @@
 0,British Indian Ocean Territory,Coal,0.0,0.0,0.0
 0,British Indian Ocean Territory,Nuclear,0.0,0.0,0.0
 0,Brunei,Oil and gas,0.0,0.0,500.0
-1,Brunei,Utility-scale solar,0.0,30.0,27.225816993464054
+1,Brunei,Utility-scale solar,0.0,30.0,27.235158501440925
 0,Brunei,Geothermal,0.0,0.0,0.0
 0,Brunei,Hydropower,0.0,0.0,0.0
 0,Brunei,Bioenergy,0.0,0.0,0.0
@@ -264,12 +264,12 @@
 0,Bulgaria,Hydropower,0.0,0.0,2440.0
 1,Bulgaria,Nuclear,0.0,2000.0,0.0
 2,Bulgaria,Oil and gas,0.0,558.0,0.0
-3,Bulgaria,Utility-scale solar,294.46000000000004,0.0,1224.911
+3,Bulgaria,Utility-scale solar,294.3933333333333,0.0,1223.9766666666665
 4,Bulgaria,Wind,0.0,0.0,330.0
 0,Bulgaria,Geothermal,0.0,0.0,0.0
 0,Bulgaria,Bioenergy,0.0,0.0,0.0
 0,Bulgaria,Coal,0.0,0.0,0.0
-0,Burkina Faso,Utility-scale solar,18.15991649269311,297.62379958246345,81.59392484342379
+0,Burkina Faso,Utility-scale solar,18.089238845144358,297.45417322834646,81.53031496062992
 0,Burkina Faso,Geothermal,0.0,0.0,0.0
 0,Burkina Faso,Oil and gas,0.0,0.0,0.0
 0,Burkina Faso,Hydropower,0.0,0.0,0.0
@@ -285,7 +285,7 @@
 0,Burundi,Wind,0.0,0.0,0.0
 0,Burundi,Coal,0.0,0.0,0.0
 0,Burundi,Nuclear,0.0,0.0,0.0
-0,Cabo Verde,Utility-scale solar,0.0,0.0,11.349947807933194
+0,Cabo Verde,Utility-scale solar,0.0,0.0,11.305774278215225
 1,Cabo Verde,Wind,5.0,0.0,23.0
 0,Cabo Verde,Geothermal,0.0,0.0,0.0
 0,Cabo Verde,Oil and gas,0.0,0.0,0.0
@@ -296,14 +296,14 @@
 0,Cambodia,Coal,265.0,0.0,0.0
 1,Cambodia,Hydropower,230.0,100.0,4000.0
 2,Cambodia,Oil and gas,0.0,0.0,800.0
-3,Cambodia,Utility-scale solar,0.0,208.73126361655773,1760.6028322440088
+3,Cambodia,Utility-scale solar,0.0,208.8028818443804,1761.206916426513
 4,Cambodia,Wind,0.0,180.0,0.0
 0,Cambodia,Geothermal,0.0,0.0,0.0
 0,Cambodia,Bioenergy,0.0,0.0,0.0
 0,Cambodia,Nuclear,0.0,0.0,0.0
 0,Cameroon,Hydropower,420.0,2083.0,75.0
 1,Cameroon,Oil and gas,0.0,265.0,85.0
-2,Cameroon,Utility-scale solar,0.0,49.764,926.1557411273487
+2,Cameroon,Utility-scale solar,0.0,49.764,922.5511811023622
 3,Cameroon,Wind,0.0,0.0,1040.0
 0,Cameroon,Geothermal,0.0,0.0,0.0
 0,Cameroon,Bioenergy,0.0,0.0,0.0
@@ -313,7 +313,7 @@
 1,Canada,Hydropower,1100.0,405.0,4202.0
 2,Canada,Nuclear,0.0,305.0,1535.0
 3,Canada,Oil and gas,1166.0,3501.0,1475.0
-4,Canada,Utility-scale solar,673.0,6923.926674157303,472.63820224719103
+4,Canada,Utility-scale solar,673.0,6913.9033875,472.1025
 5,Canada,Wind,773.0,10595.0,5766.0
 0,Canada,Bioenergy,0.0,0.0,0.0
 0,Canada,Coal,0.0,0.0,0.0
@@ -334,7 +334,7 @@
 0,Central African Republic,Coal,0.0,0.0,0.0
 0,Central African Republic,Nuclear,0.0,0.0,0.0
 0,Chad,Oil and gas,0.0,0.0,90.0
-1,Chad,Utility-scale solar,31.779853862212946,52.2,468.5619832985387
+1,Chad,Utility-scale solar,31.65616797900263,52.2,466.8551181102363
 2,Chad,Wind,0.0,0.0,100.0
 0,Chad,Geothermal,0.0,0.0,0.0
 0,Chad,Hydropower,0.0,0.0,0.0
@@ -345,7 +345,7 @@
 1,Chile,Geothermal,0.0,100.0,0.0
 2,Chile,Hydropower,1094.0,155.0,0.0
 3,Chile,Oil and gas,0.0,403.8,377.0
-4,Chile,Utility-scale solar,2715.4966120481927,21453.0616626506,737.3029493975904
+4,Chile,Utility-scale solar,2714.355204301075,21385.647849462366,730.1658924731183
 5,Chile,Wind,1350.0,11807.4,11539.2
 0,Chile,Coal,0.0,0.0,0.0
 0,Chile,Nuclear,0.0,0.0,0.0
@@ -354,12 +354,12 @@
 2,China,Hydropower,171411.0,308994.0,81143.0
 3,China,Nuclear,33904.0,21720.0,62800.0
 4,China,Oil and gas,42829.4,60730.0,48439.0
-5,China,Utility-scale solar,233369.1189413526,274020.75399753434,160153.02590912292
+5,China,Utility-scale solar,234223.3371762511,275422.5477669008,161288.7840781387
 6,China,Wind,181400.4,277687.3,85477.4
 0,Colombia,Geothermal,0.0,30.0,0.0
 1,Colombia,Hydropower,2400.0,2469.0,658.0
 2,Colombia,Oil and gas,0.0,0.0,1905.0
-3,Colombia,Utility-scale solar,1509.9780358056266,28013.110943734016,2433.917223358909
+3,Colombia,Utility-scale solar,1509.83431,28012.0529,2433.45361
 4,Colombia,Wind,41.9,6444.8,5025.0
 0,Colombia,Bioenergy,0.0,0.0,0.0
 0,Colombia,Coal,0.0,0.0,0.0
@@ -374,7 +374,7 @@
 0,Cook Islands,Nuclear,0.0,0.0,0.0
 0,Costa Rica,Geothermal,55.0,55.0,0.0
 1,Costa Rica,Hydropower,0.0,0.0,93.0
-2,Costa Rica,Utility-scale solar,0.0,0.0,55.88388746803069
+2,Costa Rica,Utility-scale solar,0.0,0.0,55.866
 0,Costa Rica,Oil and gas,0.0,0.0,0.0
 0,Costa Rica,Bioenergy,0.0,0.0,0.0
 0,Costa Rica,Wind,0.0,0.0,0.0
@@ -382,14 +382,14 @@
 0,Costa Rica,Nuclear,0.0,0.0,0.0
 0,Croatia,Hydropower,0.0,412.0,0.0
 1,Croatia,Oil and gas,500.0,0.0,483.0
-2,Croatia,Utility-scale solar,0.0,894.9882284040996,870.1338213762812
+2,Croatia,Utility-scale solar,0.0,897.480060309084,876.1783641160949
 3,Croatia,Wind,186.0,199.0,481.0
 0,Croatia,Geothermal,0.0,0.0,0.0
 0,Croatia,Bioenergy,0.0,0.0,0.0
 0,Croatia,Coal,0.0,0.0,0.0
 0,Croatia,Nuclear,0.0,0.0,0.0
 0,Cuba,Bioenergy,0.0,0.0,150.0
-1,Cuba,Utility-scale solar,39.305000852514915,194.56906820119352,1001.2529838022166
+1,Cuba,Utility-scale solar,39.29242,194.50679,1000.9325
 2,Cuba,Wind,151.0,65.0,268.0
 0,Cuba,Geothermal,0.0,0.0,0.0
 0,Cuba,Oil and gas,0.0,0.0,0.0
@@ -405,7 +405,7 @@
 0,Curaçao,Coal,0.0,0.0,0.0
 0,Curaçao,Nuclear,0.0,0.0,0.0
 0,Cyprus,Oil and gas,420.0,105.0,80.0
-1,Cyprus,Utility-scale solar,0.0,0.0,64.68148148148148
+1,Cyprus,Utility-scale solar,0.0,0.0,64.98
 2,Cyprus,Wind,16.0,0.0,0.0
 0,Cyprus,Geothermal,0.0,0.0,0.0
 0,Cyprus,Hydropower,0.0,0.0,0.0
@@ -423,7 +423,7 @@
 0,Côte d'Ivoire,Bioenergy,0.0,65.0,0.0
 1,Côte d'Ivoire,Hydropower,112.0,0.0,246.0
 2,Côte d'Ivoire,Oil and gas,390.0,372.0,0.0
-3,Côte d'Ivoire,Utility-scale solar,110.01557411273487,257.52,298.39542797494784
+3,Côte d'Ivoire,Utility-scale solar,109.65511811023622,257.52,297.91128608923884
 0,Côte d'Ivoire,Geothermal,0.0,0.0,0.0
 0,Côte d'Ivoire,Coal,0.0,0.0,0.0
 0,Côte d'Ivoire,Wind,0.0,0.0,0.0
@@ -431,13 +431,13 @@
 0,DR Congo,Bioenergy,0.0,60.0,0.0
 1,DR Congo,Hydropower,150.0,834.0,4558.0
 2,DR Congo,Oil and gas,0.0,0.0,200.0
-3,DR Congo,Utility-scale solar,41.76,339.02983298538624,1238.50630480167
+3,DR Congo,Utility-scale solar,41.76,338.8884776902887,1233.6860892388452
 0,DR Congo,Geothermal,0.0,0.0,0.0
 0,DR Congo,Coal,0.0,0.0,0.0
 0,DR Congo,Wind,0.0,0.0,0.0
 0,DR Congo,Nuclear,0.0,0.0,0.0
 0,Denmark,Bioenergy,0.0,0.0,362.0
-1,Denmark,Utility-scale solar,48.87508196721312,383.7483606557377,536.561475409836
+1,Denmark,Utility-scale solar,48.591530612244895,380.1058163265306,530.1270408163265
 2,Denmark,Wind,0.0,15299.9,15020.0
 0,Denmark,Geothermal,0.0,0.0,0.0
 0,Denmark,Oil and gas,0.0,0.0,0.0
@@ -446,7 +446,7 @@
 0,Denmark,Nuclear,0.0,0.0,0.0
 0,Djibouti,Bioenergy,0.0,40.0,0.0
 1,Djibouti,Oil and gas,0.0,0.0,50.0
-2,Djibouti,Utility-scale solar,0.0,9128.758141962422,0.0
+2,Djibouti,Utility-scale solar,0.0,9093.33097112861,0.0
 3,Djibouti,Wind,0.0,0.0,5045.0
 0,Djibouti,Geothermal,0.0,0.0,0.0
 0,Djibouti,Coal,0.0,0.0,0.0
@@ -463,7 +463,7 @@
 0,Ecuador,Geothermal,0.0,50.0,0.0
 1,Ecuador,Hydropower,0.0,1828.0,7190.0
 2,Ecuador,Oil and gas,996.0,0.0,587.0
-3,Ecuador,Utility-scale solar,0.0,422.6911747655584,72.27649445865303
+3,Ecuador,Utility-scale solar,0.0,422.56,72.25336
 4,Ecuador,Wind,0.0,110.0,249.8
 0,Ecuador,Bioenergy,0.0,0.0,0.0
 0,Ecuador,Coal,0.0,0.0,0.0
@@ -472,12 +472,12 @@
 1,Egypt,Hydropower,2400.0,0.0,0.0
 2,Egypt,Nuclear,4800.0,0.0,0.0
 3,Egypt,Oil and gas,2550.0,0.0,125.0
-4,Egypt,Utility-scale solar,183.5121951219512,10625.827317073172,6584.805609756098
+4,Egypt,Utility-scale solar,182.66666666666666,10580.946666666667,6556.7699999999995
 5,Egypt,Wind,2362.0,33563.0,11611.5
 0,Egypt,Geothermal,0.0,0.0,0.0
 0,Egypt,Coal,0.0,0.0,0.0
 0,El Salvador,Geothermal,64.0,0.0,30.0
-1,El Salvador,Utility-scale solar,25.619,0.0,8.976
+1,El Salvador,Utility-scale solar,25.51214,0.0,8.93856
 0,El Salvador,Oil and gas,0.0,0.0,0.0
 0,El Salvador,Hydropower,0.0,0.0,0.0
 0,El Salvador,Bioenergy,0.0,0.0,0.0
@@ -502,7 +502,7 @@
 0,Eritrea,Nuclear,0.0,0.0,0.0
 0,Estonia,Hydropower,0.0,775.0,0.0
 1,Estonia,Oil and gas,0.0,0.0,300.0
-2,Estonia,Utility-scale solar,0.0,67.29754098360655,0.0
+2,Estonia,Utility-scale solar,0.0,66.49051020408163,0.0
 3,Estonia,Wind,0.0,5550.0,7209.0
 0,Estonia,Geothermal,0.0,0.0,0.0
 0,Estonia,Bioenergy,0.0,0.0,0.0
@@ -511,14 +511,14 @@
 0,Eswatini,Coal,0.0,300.0,0.0
 1,Eswatini,Hydropower,0.0,0.0,120.0
 2,Eswatini,Oil and gas,0.0,0.0,250.0
-3,Eswatini,Utility-scale solar,0.0,155.09968684759917,0.0
+3,Eswatini,Utility-scale solar,0.0,154.83464566929135,0.0
 0,Eswatini,Geothermal,0.0,0.0,0.0
 0,Eswatini,Bioenergy,0.0,0.0,0.0
 0,Eswatini,Wind,0.0,0.0,0.0
 0,Eswatini,Nuclear,0.0,0.0,0.0
 0,Ethiopia,Geothermal,120.0,430.0,0.0
 1,Ethiopia,Hydropower,7410.0,0.0,2668.0
-2,Ethiopia,Utility-scale solar,0.0,988.9979123173277,1511.9937369519832
+2,Ethiopia,Utility-scale solar,0.0,987.2309711286089,1506.6929133858268
 3,Ethiopia,Wind,100.0,0.0,736.0
 0,Ethiopia,Oil and gas,0.0,0.0,0.0
 0,Ethiopia,Bioenergy,0.0,0.0,0.0
@@ -532,7 +532,7 @@
 0,Faroe Islands,Bioenergy,0.0,0.0,0.0
 0,Faroe Islands,Coal,0.0,0.0,0.0
 0,Faroe Islands,Nuclear,0.0,0.0,0.0
-0,Fiji,Utility-scale solar,0.0,0.0,36.95225
+0,Fiji,Utility-scale solar,0.0,0.0,36.97794247787611
 0,Fiji,Geothermal,0.0,0.0,0.0
 0,Fiji,Oil and gas,0.0,0.0,0.0
 0,Fiji,Hydropower,0.0,0.0,0.0
@@ -557,14 +557,14 @@
 0,France,Coal,0.0,0.0,0.0
 0,France,Hydropower,0.0,0.0,0.0
 0,French Guiana,Bioenergy,120.0,0.0,0.0
-1,French Guiana,Utility-scale solar,58.91187212276215,0.0,4.35
+1,French Guiana,Utility-scale solar,58.91062,0.0,4.35
 0,French Guiana,Geothermal,0.0,0.0,0.0
 0,French Guiana,Oil and gas,0.0,0.0,0.0
 0,French Guiana,Hydropower,0.0,0.0,0.0
 0,French Guiana,Wind,0.0,0.0,0.0
 0,French Guiana,Coal,0.0,0.0,0.0
 0,French Guiana,Nuclear,0.0,0.0,0.0
-0,French Polynesia,Utility-scale solar,25.299500000000002,0.0,0.0
+0,French Polynesia,Utility-scale solar,25.310557522123894,0.0,0.0
 0,French Polynesia,Geothermal,0.0,0.0,0.0
 0,French Polynesia,Oil and gas,0.0,0.0,0.0
 0,French Polynesia,Hydropower,0.0,0.0,0.0
@@ -582,7 +582,7 @@
 0,Gabon,Nuclear,0.0,0.0,0.0
 0,Georgia,Hydropower,0.0,280.0,1699.0
 1,Georgia,Oil and gas,0.0,400.0,0.0
-2,Georgia,Utility-scale solar,0.0,0.0,86.24197530864197
+2,Georgia,Utility-scale solar,0.0,0.0,86.64
 3,Georgia,Wind,0.0,0.0,349.0
 0,Georgia,Geothermal,0.0,0.0,0.0
 0,Georgia,Bioenergy,0.0,0.0,0.0
@@ -590,7 +590,7 @@
 0,Georgia,Nuclear,0.0,0.0,0.0
 0,Germany,Hydropower,0.0,300.0,400.0
 1,Germany,Oil and gas,1666.0,7510.9,1590.0
-2,Germany,Utility-scale solar,615.2306611570248,6587.950876033057,1676.8465289256196
+2,Germany,Utility-scale solar,614.8551851851852,6587.591555555556,1676.0877777777778
 3,Germany,Wind,1310.0,7632.5,5178.0
 0,Germany,Geothermal,0.0,0.0,0.0
 0,Germany,Bioenergy,0.0,0.0,0.0
@@ -599,14 +599,14 @@
 0,Ghana,Bioenergy,60.0,0.0,0.0
 1,Ghana,Hydropower,0.0,0.0,90.0
 2,Ghana,Oil and gas,0.0,200.0,0.0
-3,Ghana,Utility-scale solar,225.0991649269311,199.7590814196242,988.9555323590814
+3,Ghana,Utility-scale solar,224.39238845144357,198.98162729658793,985.1742782152231
 4,Ghana,Wind,0.0,1040.0,275.0
 0,Ghana,Geothermal,0.0,0.0,0.0
 0,Ghana,Coal,0.0,0.0,0.0
 0,Ghana,Nuclear,0.0,0.0,0.0
 0,Greece,Hydropower,0.0,935.0,0.0
 1,Greece,Oil and gas,1717.0,2635.0,0.0
-2,Greece,Utility-scale solar,2360.007,45445.024,16706.12241581259
+2,Greece,Utility-scale solar,2360.007,45445.024,16706.554168865434
 3,Greece,Wind,599.5,21578.8,4851.8
 0,Greece,Geothermal,0.0,0.0,0.0
 0,Greece,Bioenergy,0.0,0.0,0.0
@@ -620,7 +620,7 @@
 0,Guadeloupe,Wind,0.0,0.0,0.0
 0,Guadeloupe,Coal,0.0,0.0,0.0
 0,Guadeloupe,Nuclear,0.0,0.0,0.0
-0,Guatemala,Utility-scale solar,195.32832054560956,0.0,35.76568797953964
+0,Guatemala,Utility-scale solar,195.28390000000002,0.0,35.75424
 1,Guatemala,Wind,67.5,0.0,0.0
 0,Guatemala,Geothermal,0.0,0.0,0.0
 0,Guatemala,Oil and gas,0.0,0.0,0.0
@@ -629,14 +629,14 @@
 0,Guatemala,Coal,0.0,0.0,0.0
 0,Guatemala,Nuclear,0.0,0.0,0.0
 0,Guinea,Hydropower,300.0,90.0,294.0
-1,Guinea,Utility-scale solar,0.0,0.0,528.4535699373696
+1,Guinea,Utility-scale solar,0.0,0.0,526.3968503937008
 2,Guinea,Wind,0.0,0.0,120.0
 0,Guinea,Geothermal,0.0,0.0,0.0
 0,Guinea,Oil and gas,0.0,0.0,0.0
 0,Guinea,Bioenergy,0.0,0.0,0.0
 0,Guinea,Coal,0.0,0.0,0.0
 0,Guinea,Nuclear,0.0,0.0,0.0
-0,Guinea-Bissau,Utility-scale solar,0.0,0.0,46.30778705636743
+0,Guinea-Bissau,Utility-scale solar,0.0,0.0,46.12755905511811
 0,Guinea-Bissau,Geothermal,0.0,0.0,0.0
 0,Guinea-Bissau,Oil and gas,0.0,0.0,0.0
 0,Guinea-Bissau,Hydropower,0.0,0.0,0.0
@@ -646,13 +646,13 @@
 0,Guinea-Bissau,Nuclear,0.0,0.0,0.0
 0,Guyana,Hydropower,0.0,165.0,0.0
 1,Guyana,Oil and gas,300.0,0.0,250.0
-2,Guyana,Utility-scale solar,0.0,29.827677749360614,21.237962489343563
+2,Guyana,Utility-scale solar,0.0,29.82732,21.232
 3,Guyana,Wind,0.0,50.0,0.0
 0,Guyana,Geothermal,0.0,0.0,0.0
 0,Guyana,Bioenergy,0.0,0.0,0.0
 0,Guyana,Coal,0.0,0.0,0.0
 0,Guyana,Nuclear,0.0,0.0,0.0
-0,Haiti,Utility-scale solar,11.176777493606139,0.0,0.0
+0,Haiti,Utility-scale solar,11.173200000000001,0.0,0.0
 0,Haiti,Geothermal,0.0,0.0,0.0
 0,Haiti,Oil and gas,0.0,0.0,0.0
 0,Haiti,Hydropower,0.0,0.0,0.0
@@ -662,7 +662,7 @@
 0,Haiti,Nuclear,0.0,0.0,0.0
 0,Honduras,Coal,0.0,0.0,100.0
 1,Honduras,Hydropower,200.0,630.0,98.0
-2,Honduras,Utility-scale solar,0.0,0.0,139.24401960784314
+2,Honduras,Utility-scale solar,0.0,0.0,139.19945
 3,Honduras,Wind,0.0,112.0,0.0
 0,Honduras,Geothermal,0.0,0.0,0.0
 0,Honduras,Bioenergy,0.0,0.0,0.0
@@ -670,7 +670,7 @@
 0,Honduras,Oil and gas,0.0,0.0,0.0
 0,Hong Kong,Bioenergy,180.0,0.0,0.0
 1,Hong Kong,Oil and gas,770.0,130.0,0.0
-2,Hong Kong,Utility-scale solar,0.0,4.498953799799129,0.0
+2,Hong Kong,Utility-scale solar,0.0,4.531778516517765,0.0
 3,Hong Kong,Wind,0.0,0.0,400.0
 0,Hong Kong,Geothermal,0.0,0.0,0.0
 0,Hong Kong,Coal,0.0,0.0,0.0
@@ -697,26 +697,26 @@
 2,India,Hydropower,14922.0,44707.0,47359.0
 3,India,Nuclear,5900.0,25800.0,0.0
 4,India,Oil and gas,370.0,0.0,900.0
-5,India,Utility-scale solar,28742.00235003092,35139.940372294375,34454.79541063698
+5,India,Utility-scale solar,28761.85105123675,35177.762862190815,34502.1608745583
 6,India,Wind,6302.0,5188.5,8155.0
 0,Indonesia,Coal,8583.0,1260.0,3600.0
 1,Indonesia,Geothermal,654.0,1239.0,1245.0
 2,Indonesia,Hydropower,3607.0,12142.0,2945.0
 3,Indonesia,Nuclear,0.0,0.0,3500.0
 4,Indonesia,Oil and gas,2774.0,1065.0,8100.0
-5,Indonesia,Utility-scale solar,21.75,1682.3954248366013,13061.52668845316
+5,Indonesia,Utility-scale solar,21.75,1682.6289625360232,13064.690345821326
 6,Indonesia,Wind,0.0,427.0,1098.0
 0,Iran,Coal,650.0,0.0,0.0
 1,Iran,Hydropower,910.0,0.0,0.0
 2,Iran,Nuclear,6357.0,1057.0,0.0
 3,Iran,Oil and gas,12782.0,4947.0,0.0
-4,Iran,Utility-scale solar,194.29268292682926,0.0,500.0
+4,Iran,Utility-scale solar,194.65857740585773,0.0,500.0
 5,Iran,Wind,50.0,0.0,0.0
 0,Iran,Geothermal,0.0,0.0,0.0
 0,Iran,Bioenergy,0.0,0.0,0.0
 0,Iraq,Hydropower,250.0,0.0,0.0
 1,Iraq,Oil and gas,15808.0,9675.0,1799.0
-2,Iraq,Utility-scale solar,290.5473251028807,5783.988683127573,359.34156378600824
+2,Iraq,Utility-scale solar,291.6875,5808.575,361.0
 3,Iraq,Wind,0.0,0.0,100.0
 0,Iraq,Geothermal,0.0,0.0,0.0
 0,Iraq,Bioenergy,0.0,0.0,0.0
@@ -724,7 +724,7 @@
 0,Iraq,Nuclear,0.0,0.0,0.0
 0,Ireland,Hydropower,0.0,0.0,360.0
 1,Ireland,Oil and gas,779.0,3331.1,291.0
-2,Ireland,Utility-scale solar,211.31225,325.6835,1944.9979375
+2,Ireland,Utility-scale solar,210.90069387755102,324.0275918367347,1935.56725
 3,Ireland,Wind,553.7,38747.8,30031.6
 0,Ireland,Geothermal,0.0,0.0,0.0
 0,Ireland,Bioenergy,0.0,0.0,0.0
@@ -732,7 +732,7 @@
 0,Ireland,Nuclear,0.0,0.0,0.0
 0,Israel,Hydropower,500.0,0.0,0.0
 1,Israel,Oil and gas,2191.5,2775.0,3400.0
-2,Israel,Utility-scale solar,18.585867768595044,366.28669421487604,646.0801652892562
+2,Israel,Utility-scale solar,18.606,366.326,646.78
 3,Israel,Wind,0.0,42.0,0.0
 0,Israel,Geothermal,0.0,0.0,0.0
 0,Israel,Bioenergy,0.0,0.0,0.0
@@ -740,13 +740,13 @@
 0,Israel,Nuclear,0.0,0.0,0.0
 0,Italy,Hydropower,0.0,270.0,0.0
 1,Italy,Oil and gas,968.0,4811.0,385.0
-2,Italy,Utility-scale solar,646.7616714031972,2059.306484902309,1488.1913055062166
+2,Italy,Utility-scale solar,646.8517487001733,2059.653282495667,1488.4104350086654
 3,Italy,Wind,67.2,29362.6,16727.5
 0,Italy,Geothermal,0.0,0.0,0.0
 0,Italy,Bioenergy,0.0,0.0,0.0
 0,Italy,Coal,0.0,0.0,0.0
 0,Italy,Nuclear,0.0,0.0,0.0
-0,Jamaica,Utility-scale solar,0.0,156.02853282182437,0.0
+0,Jamaica,Utility-scale solar,0.0,155.99878,0.0
 0,Jamaica,Geothermal,0.0,0.0,0.0
 0,Jamaica,Oil and gas,0.0,0.0,0.0
 0,Jamaica,Hydropower,0.0,0.0,0.0
@@ -762,7 +762,7 @@
 5,Japan,Utility-scale solar,820.8989830508475,520.1880790960452,245.94881355932205
 6,Japan,Wind,1631.2,10255.8,33560.4
 0,Jordan,Hydropower,0.0,450.0,0.0
-1,Jordan,Utility-scale solar,0.0,482.15277777777777,0.0
+1,Jordan,Utility-scale solar,0.0,478.325,0.0
 2,Jordan,Wind,0.0,0.0,1000.0
 0,Jordan,Geothermal,0.0,0.0,0.0
 0,Jordan,Oil and gas,0.0,0.0,0.0
@@ -773,7 +773,7 @@
 1,Kazakhstan,Hydropower,0.0,0.0,110.0
 2,Kazakhstan,Nuclear,0.0,0.0,3000.0
 3,Kazakhstan,Oil and gas,3253.0,3446.0,2230.0
-4,Kazakhstan,Utility-scale solar,0.0,50.0,12319.671428571428
+4,Kazakhstan,Utility-scale solar,0.0,50.0,12267.677419354837
 5,Kazakhstan,Wind,0.0,155.0,30127.0
 0,Kazakhstan,Geothermal,0.0,0.0,0.0
 0,Kazakhstan,Bioenergy,0.0,0.0,0.0
@@ -781,11 +781,11 @@
 1,Kenya,Geothermal,133.0,885.0,440.0
 2,Kenya,Hydropower,0.0,0.0,1120.0
 3,Kenya,Nuclear,0.0,4000.0,0.0
-4,Kenya,Utility-scale solar,71.11983298538621,74.90965553235908,198.239248434238
+4,Kenya,Utility-scale solar,70.97847769028871,74.61811023622047,197.6031496062992
 5,Kenya,Wind,300.0,280.0,1490.0
 0,Kenya,Oil and gas,0.0,0.0,0.0
 0,Kenya,Coal,0.0,0.0,0.0
-0,Kiribati,Utility-scale solar,7.01625,0.0,8.4195
+0,Kiribati,Utility-scale solar,7.021128318584071,0.0,8.425353982300885
 0,Kiribati,Geothermal,0.0,0.0,0.0
 0,Kiribati,Oil and gas,0.0,0.0,0.0
 0,Kiribati,Hydropower,0.0,0.0,0.0
@@ -794,7 +794,7 @@
 0,Kiribati,Coal,0.0,0.0,0.0
 0,Kiribati,Nuclear,0.0,0.0,0.0
 0,Kosovo,Oil and gas,0.0,0.0,500.0
-1,Kosovo,Utility-scale solar,130.5,33.73988286969253,100.0
+1,Kosovo,Utility-scale solar,130.5,33.97426309837919,100.0
 2,Kosovo,Wind,0.0,80.0,132.0
 0,Kosovo,Geothermal,0.0,0.0,0.0
 0,Kosovo,Hydropower,0.0,0.0,0.0
@@ -802,7 +802,7 @@
 0,Kosovo,Coal,0.0,0.0,0.0
 0,Kosovo,Nuclear,0.0,0.0,0.0
 0,Kuwait,Oil and gas,900.0,13750.0,3600.0
-1,Kuwait,Utility-scale solar,0.0,1380.8518518518517,3200.0
+1,Kuwait,Utility-scale solar,0.0,1381.2250000000001,3200.0
 0,Kuwait,Geothermal,0.0,0.0,0.0
 0,Kuwait,Hydropower,0.0,0.0,0.0
 0,Kuwait,Bioenergy,0.0,0.0,0.0
@@ -812,7 +812,7 @@
 0,Kyrgyzstan,Coal,0.0,0.0,1860.0
 1,Kyrgyzstan,Hydropower,1860.0,2528.0,2788.0
 2,Kyrgyzstan,Oil and gas,0.0,1368.0,750.0
-3,Kyrgyzstan,Utility-scale solar,0.0,1639.5,327.9
+3,Kyrgyzstan,Utility-scale solar,0.0,1632.5806451612902,326.51612903225805
 4,Kyrgyzstan,Wind,100.0,200.0,80.0
 0,Kyrgyzstan,Geothermal,0.0,0.0,0.0
 0,Kyrgyzstan,Bioenergy,0.0,0.0,0.0
@@ -820,12 +820,12 @@
 0,Laos,Coal,660.0,1800.0,1600.0
 1,Laos,Geothermal,0.0,2000.0,0.0
 2,Laos,Hydropower,4122.0,4842.0,430.0
-3,Laos,Utility-scale solar,64.0,2386.8653594771245,1815.054466230937
+3,Laos,Utility-scale solar,64.0,2387.612680115274,1815.6772334293948
 4,Laos,Wind,850.0,3050.0,1000.0
 0,Laos,Oil and gas,0.0,0.0,0.0
 0,Laos,Bioenergy,0.0,0.0,0.0
 0,Laos,Nuclear,0.0,0.0,0.0
-0,Latvia,Utility-scale solar,339.21598360655736,104.58401639344262,672.0659836065573
+0,Latvia,Utility-scale solar,335.14811224489796,103.3298469387755,664.006581632653
 1,Latvia,Wind,0.0,158.0,2000.0
 0,Latvia,Geothermal,0.0,0.0,0.0
 0,Latvia,Oil and gas,0.0,0.0,0.0
@@ -835,14 +835,14 @@
 0,Latvia,Nuclear,0.0,0.0,0.0
 0,Lebanon,Hydropower,100.0,0.0,0.0
 1,Lebanon,Oil and gas,0.0,0.0,190.0
-2,Lebanon,Utility-scale solar,0.0,148.2283950617284,0.0
+2,Lebanon,Utility-scale solar,0.0,148.9125,0.0
 3,Lebanon,Wind,0.0,220.0,0.0
 0,Lebanon,Geothermal,0.0,0.0,0.0
 0,Lebanon,Bioenergy,0.0,0.0,0.0
 0,Lebanon,Coal,0.0,0.0,0.0
 0,Lebanon,Nuclear,0.0,0.0,0.0
 0,Lesotho,Hydropower,0.0,80.0,0.0
-1,Lesotho,Utility-scale solar,0.0,52.95991649269311,90.79958246346555
+1,Lesotho,Utility-scale solar,0.0,52.889238845144355,90.44619422572178
 0,Lesotho,Geothermal,0.0,0.0,0.0
 0,Lesotho,Oil and gas,0.0,0.0,0.0
 0,Lesotho,Bioenergy,0.0,0.0,0.0
@@ -850,7 +850,7 @@
 0,Lesotho,Coal,0.0,0.0,0.0
 0,Lesotho,Nuclear,0.0,0.0,0.0
 0,Liberia,Hydropower,0.0,120.0,0.0
-1,Liberia,Utility-scale solar,17.4,0.0,66.57985386221294
+1,Liberia,Utility-scale solar,17.4,0.0,66.45616797900263
 0,Liberia,Geothermal,0.0,0.0,0.0
 0,Liberia,Oil and gas,0.0,0.0,0.0
 0,Liberia,Bioenergy,0.0,0.0,0.0
@@ -858,7 +858,7 @@
 0,Liberia,Coal,0.0,0.0,0.0
 0,Liberia,Nuclear,0.0,0.0,0.0
 0,Libya,Oil and gas,7060.0,2200.0,855.0
-1,Libya,Utility-scale solar,0.0,46.252252252252255,28128.864864864863
+1,Libya,Utility-scale solar,0.0,46.02777777777778,27992.833333333332
 2,Libya,Wind,0.0,0.0,600.0
 0,Libya,Geothermal,0.0,0.0,0.0
 0,Libya,Hydropower,0.0,0.0,0.0
@@ -866,7 +866,7 @@
 0,Libya,Coal,0.0,0.0,0.0
 0,Libya,Nuclear,0.0,0.0,0.0
 0,Lithuania,Hydropower,0.0,110.0,0.0
-1,Lithuania,Utility-scale solar,0.0,627.2700819672132,70.93524590163935
+1,Lithuania,Utility-scale solar,0.0,623.6602551020408,70.08459183673469
 2,Lithuania,Wind,248.0,431.0,2188.0
 0,Lithuania,Geothermal,0.0,0.0,0.0
 0,Lithuania,Oil and gas,0.0,0.0,0.0
@@ -891,7 +891,7 @@
 0,Macao,Nuclear,0.0,0.0,0.0
 0,Madagascar,Coal,0.0,30.0,0.0
 1,Madagascar,Hydropower,0.0,454.0,0.0
-2,Madagascar,Utility-scale solar,0.0,5.447974947807934,190.2991649269311
+2,Madagascar,Utility-scale solar,0.0,5.426771653543307,189.59238845144355
 3,Madagascar,Wind,16.0,0.0,240.0
 0,Madagascar,Geothermal,0.0,0.0,0.0
 0,Madagascar,Bioenergy,0.0,0.0,0.0
@@ -899,7 +899,7 @@
 0,Madagascar,Oil and gas,0.0,0.0,0.0
 0,Malawi,Coal,0.0,400.0,500.0
 1,Malawi,Hydropower,0.0,488.0,200.0
-2,Malawi,Utility-scale solar,52.57995824634656,125.219624217119,95.33956158663884
+2,Malawi,Utility-scale solar,52.54461942257218,124.9015748031496,94.96850393700788
 3,Malawi,Wind,0.0,50.0,150.0
 0,Malawi,Geothermal,0.0,0.0,0.0
 0,Malawi,Bioenergy,0.0,0.0,0.0
@@ -907,13 +907,13 @@
 0,Malawi,Oil and gas,0.0,0.0,0.0
 0,Malaysia,Hydropower,1585.0,188.0,429.0
 1,Malaysia,Oil and gas,1200.0,3700.0,1150.0
-2,Malaysia,Utility-scale solar,290.55225806451614,1218.0980645161292,3555.8603225806455
+2,Malaysia,Utility-scale solar,290.8740740740741,1220.4703703703703,3563.6774074074074
 0,Malaysia,Geothermal,0.0,0.0,0.0
 0,Malaysia,Bioenergy,0.0,0.0,0.0
 0,Malaysia,Wind,0.0,0.0,0.0
 0,Malaysia,Coal,0.0,0.0,0.0
 0,Malaysia,Nuclear,0.0,0.0,0.0
-0,Maldives,Utility-scale solar,0.0,23.631879391100703,0.0
+0,Maldives,Utility-scale solar,0.0,23.66464435146444,0.0
 0,Maldives,Geothermal,0.0,0.0,0.0
 0,Maldives,Oil and gas,0.0,0.0,0.0
 0,Maldives,Hydropower,0.0,0.0,0.0
@@ -921,7 +921,7 @@
 0,Maldives,Wind,0.0,0.0,0.0
 0,Maldives,Coal,0.0,0.0,0.0
 0,Maldives,Nuclear,0.0,0.0,0.0
-0,Mali,Utility-scale solar,268.5991649269311,72.21000000000001,778.1638622129436
+0,Mali,Utility-scale solar,267.8923884514436,72.21000000000001,778.0472440944882
 1,Mali,Wind,0.0,151.2,0.0
 0,Mali,Geothermal,0.0,0.0,0.0
 0,Mali,Oil and gas,0.0,0.0,0.0
@@ -954,14 +954,14 @@
 0,Martinique,Coal,0.0,0.0,0.0
 0,Martinique,Nuclear,0.0,0.0,0.0
 0,Mauritania,Oil and gas,0.0,120.0,0.0
-1,Mauritania,Utility-scale solar,0.0,0.0,47215.78288100209
+1,Mauritania,Utility-scale solar,0.0,0.0,47032.02099737533
 2,Mauritania,Wind,0.0,0.0,58100.0
 0,Mauritania,Geothermal,0.0,0.0,0.0
 0,Mauritania,Hydropower,0.0,0.0,0.0
 0,Mauritania,Bioenergy,0.0,0.0,0.0
 0,Mauritania,Coal,0.0,0.0,0.0
 0,Mauritania,Nuclear,0.0,0.0,0.0
-0,Mauritius,Utility-scale solar,45.0,24.079958246346557,188.27571816283924
+0,Mauritius,Utility-scale solar,45.0,24.04461942257218,187.69863517060367
 1,Mauritius,Wind,0.0,0.0,100.0
 0,Mauritius,Geothermal,0.0,0.0,0.0
 0,Mauritius,Oil and gas,0.0,0.0,0.0
@@ -980,12 +980,12 @@
 0,Mexico,Bioenergy,0.0,0.0,74.0
 1,Mexico,Hydropower,0.0,750.0,0.0
 2,Mexico,Oil and gas,7418.8,1015.0,397.0
-3,Mexico,Utility-scale solar,4155.823789473684,16011.79857894737,806.3115789473684
+3,Mexico,Utility-scale solar,4153.7425454545455,15984.791545454545,804.8436363636364
 4,Mexico,Wind,827.0,1859.4,0.0
 0,Mexico,Geothermal,0.0,0.0,0.0
 0,Mexico,Coal,0.0,0.0,0.0
 0,Mexico,Nuclear,0.0,0.0,0.0
-0,Micronesia,Utility-scale solar,0.0,2.42105,0.0
+0,Micronesia,Utility-scale solar,0.0,2.421765486725664,0.0
 0,Micronesia,Geothermal,0.0,0.0,0.0
 0,Micronesia,Oil and gas,0.0,0.0,0.0
 0,Micronesia,Hydropower,0.0,0.0,0.0
@@ -1003,7 +1003,7 @@
 0,Moldova,Nuclear,0.0,0.0,0.0
 0,Mongolia,Coal,530.0,1780.0,1050.0
 1,Mongolia,Hydropower,0.0,90.0,415.0
-2,Mongolia,Utility-scale solar,0.0,0.0,44.9895379979913
+2,Mongolia,Utility-scale solar,0.0,0.0,45.317785165177646
 0,Mongolia,Geothermal,0.0,0.0,0.0
 0,Mongolia,Oil and gas,0.0,0.0,0.0
 0,Mongolia,Bioenergy,0.0,0.0,0.0
@@ -1011,7 +1011,7 @@
 0,Mongolia,Nuclear,0.0,0.0,0.0
 0,Montenegro,Hydropower,0.0,172.0,370.0
 1,Montenegro,Oil and gas,0.0,440.0,450.0
-2,Montenegro,Utility-scale solar,0.0,253.19458272327967,2708.393352855051
+2,Montenegro,Utility-scale solar,0.0,253.50297776102525,2719.5880927252165
 3,Montenegro,Wind,0.0,155.0,118.0
 0,Montenegro,Geothermal,0.0,0.0,0.0
 0,Montenegro,Bioenergy,0.0,0.0,0.0
@@ -1027,7 +1027,7 @@
 0,Montserrat,Nuclear,0.0,0.0,0.0
 0,Morocco,Hydropower,335.0,0.0,600.0
 1,Morocco,Oil and gas,457.0,0.0,3700.0
-2,Morocco,Utility-scale solar,854.9906306306307,13925.083603603603,11563.063063063062
+2,Morocco,Utility-scale solar,852.9344444444444,13859.442777777778,11506.944444444445
 3,Morocco,Wind,798.0,7773.0,27500.0
 0,Morocco,Geothermal,0.0,0.0,0.0
 0,Morocco,Bioenergy,0.0,0.0,0.0
@@ -1036,7 +1036,7 @@
 0,Mozambique,Coal,0.0,300.0,300.0
 1,Mozambique,Hydropower,0.0,2620.0,810.0
 2,Mozambique,Oil and gas,500.0,2324.0,200.0
-3,Mozambique,Utility-scale solar,0.0,479.01941544885176,11434.948684759916
+3,Mozambique,Utility-scale solar,0.0,478.5246719160105,11432.14278215223
 4,Mozambique,Wind,120.0,0.0,30.0
 0,Mozambique,Geothermal,0.0,0.0,0.0
 0,Mozambique,Bioenergy,0.0,0.0,0.0
@@ -1052,12 +1052,12 @@
 0,Namibia,Bioenergy,0.0,80.0,0.0
 1,Namibia,Hydropower,0.0,0.0,600.0
 2,Namibia,Oil and gas,0.0,475.0,0.0
-3,Namibia,Utility-scale solar,143.15049895615866,5923.638997912318,3979.6927974947807
+3,Namibia,Utility-scale solar,142.72643307086614,5905.863569553806,3965.1332020997374
 4,Namibia,Wind,50.0,3714.0,3828.0
 0,Namibia,Geothermal,0.0,0.0,0.0
 0,Namibia,Coal,0.0,0.0,0.0
 0,Namibia,Nuclear,0.0,0.0,0.0
-0,Nauru,Utility-scale solar,5.6129999999999995,0.0,0.0
+0,Nauru,Utility-scale solar,5.616902654867257,0.0,0.0
 0,Nauru,Geothermal,0.0,0.0,0.0
 0,Nauru,Oil and gas,0.0,0.0,0.0
 0,Nauru,Hydropower,0.0,0.0,0.0
@@ -1075,13 +1075,13 @@
 0,Nepal,Nuclear,0.0,0.0,0.0
 0,Netherlands,Nuclear,0.0,3300.0,0.0
 1,Netherlands,Oil and gas,0.0,500.0,0.0
-2,Netherlands,Utility-scale solar,280.8491649484536,395.5747237113402,241.86
+2,Netherlands,Utility-scale solar,280.8274748201439,395.5501510791367,241.86
 3,Netherlands,Wind,282.0,19006.0,1080.0
 0,Netherlands,Geothermal,0.0,0.0,0.0
 0,Netherlands,Bioenergy,0.0,0.0,0.0
 0,Netherlands,Coal,0.0,0.0,0.0
 0,Netherlands,Hydropower,0.0,0.0,0.0
-0,New Caledonia,Utility-scale solar,0.0,121.615,0.0
+0,New Caledonia,Utility-scale solar,0.0,121.6995575221239,0.0
 0,New Caledonia,Geothermal,0.0,0.0,0.0
 0,New Caledonia,Oil and gas,0.0,0.0,0.0
 0,New Caledonia,Hydropower,0.0,0.0,0.0
@@ -1100,13 +1100,13 @@
 0,Nicaragua,Bioenergy,30.0,0.0,0.0
 1,Nicaragua,Hydropower,0.0,431.0,203.0
 2,Nicaragua,Oil and gas,0.0,0.0,150.0
-3,Nicaragua,Utility-scale solar,58.678081841432224,155.91604603580564,65.19786871270247
+3,Nicaragua,Utility-scale solar,58.6593,155.86614,65.17699999999999
 4,Nicaragua,Wind,0.0,0.0,55.2
 0,Nicaragua,Geothermal,0.0,0.0,0.0
 0,Nicaragua,Coal,0.0,0.0,0.0
 0,Nicaragua,Nuclear,0.0,0.0,0.0
 0,Niger,Coal,0.0,200.0,0.0
-1,Niger,Utility-scale solar,0.0,9.079958246346555,258.07912317327765
+1,Niger,Utility-scale solar,0.0,9.044619422572179,257.33700787401574
 2,Niger,Wind,0.0,0.0,250.0
 0,Niger,Geothermal,0.0,0.0,0.0
 0,Niger,Oil and gas,0.0,0.0,0.0
@@ -1116,7 +1116,7 @@
 0,Nigeria,Coal,0.0,600.0,0.0
 1,Nigeria,Hydropower,0.0,5707.0,2523.0
 2,Nigeria,Oil and gas,2302.7,0.0,17219.0
-3,Nigeria,Utility-scale solar,0.0,499.75814196242175,1196.988580375783
+3,Nigeria,Utility-scale solar,0.0,498.185564304462,1195.787060367454
 4,Nigeria,Wind,0.0,0.0,220.0
 0,Nigeria,Geothermal,0.0,0.0,0.0
 0,Nigeria,Bioenergy,0.0,0.0,0.0
@@ -1131,7 +1131,7 @@
 0,Norfolk Island,Nuclear,0.0,0.0,0.0
 0,North Korea,Hydropower,550.0,0.0,0.0
 1,North Korea,Nuclear,30.0,0.0,0.0
-2,North Korea,Utility-scale solar,0.0,0.0,2249.4768998995646
+2,North Korea,Utility-scale solar,0.0,0.0,2265.8892582588824
 0,North Korea,Geothermal,0.0,0.0,0.0
 0,North Korea,Oil and gas,0.0,0.0,0.0
 0,North Korea,Bioenergy,0.0,0.0,0.0
@@ -1139,13 +1139,13 @@
 0,North Korea,Coal,0.0,0.0,0.0
 0,North Macedonia,Hydropower,0.0,333.0,287.0
 1,North Macedonia,Oil and gas,0.0,105.0,0.0
-2,North Macedonia,Utility-scale solar,87.89458272327965,577.1295754026354,164.2599560761347
+2,North Macedonia,Utility-scale solar,88.20297776102525,581.1387108933283,165.40101771579344
 3,North Macedonia,Wind,0.0,458.0,87.0
 0,North Macedonia,Geothermal,0.0,0.0,0.0
 0,North Macedonia,Bioenergy,0.0,0.0,0.0
 0,North Macedonia,Coal,0.0,0.0,0.0
 0,North Macedonia,Nuclear,0.0,0.0,0.0
-0,Northern Mariana Islands,Utility-scale solar,0.0,0.0,26.194000000000003
+0,Northern Mariana Islands,Utility-scale solar,0.0,0.0,26.212212389380532
 0,Northern Mariana Islands,Geothermal,0.0,0.0,0.0
 0,Northern Mariana Islands,Oil and gas,0.0,0.0,0.0
 0,Northern Mariana Islands,Hydropower,0.0,0.0,0.0
@@ -1154,7 +1154,7 @@
 0,Northern Mariana Islands,Coal,0.0,0.0,0.0
 0,Northern Mariana Islands,Nuclear,0.0,0.0,0.0
 0,Norway,Hydropower,0.0,83.0,630.0
-1,Norway,Utility-scale solar,0.0,0.0,595.8560655737705
+1,Norway,Utility-scale solar,0.0,0.0,588.7105714285714
 2,Norway,Wind,372.4,5940.2,1660.0
 0,Norway,Geothermal,0.0,0.0,0.0
 0,Norway,Oil and gas,0.0,0.0,0.0
@@ -1163,7 +1163,7 @@
 0,Norway,Nuclear,0.0,0.0,0.0
 0,Oman,Bioenergy,0.0,160.0,0.0
 1,Oman,Oil and gas,132.0,0.0,0.0
-2,Oman,Utility-scale solar,1999.0246913580247,25201.95300411523,12136.537037037038
+2,Oman,Utility-scale solar,2004.0,25315.0625,12189.3375
 3,Oman,Wind,100.0,19146.0,13190.0
 0,Oman,Geothermal,0.0,0.0,0.0
 0,Oman,Coal,0.0,0.0,0.0
@@ -1173,7 +1173,7 @@
 1,Pakistan,Coal,81.5,1950.0,0.0
 2,Pakistan,Hydropower,10322.0,29408.0,4806.0
 3,Pakistan,Nuclear,0.0,1200.0,0.0
-4,Pakistan,Utility-scale solar,0.0,2894.621642857143,283.5825526932084
+4,Pakistan,Utility-scale solar,0.0,2898.634957322176,283.97573221757324
 5,Pakistan,Wind,0.0,500.0,98.0
 0,Pakistan,Geothermal,0.0,0.0,0.0
 0,Pakistan,Oil and gas,0.0,0.0,0.0
@@ -1186,7 +1186,7 @@
 0,Palau,Coal,0.0,0.0,0.0
 0,Palau,Nuclear,0.0,0.0,0.0
 0,Palestine,Oil and gas,450.0,170.0,0.0
-1,Palestine,Utility-scale solar,31.44238683127572,31.44238683127572,0.0
+1,Palestine,Utility-scale solar,31.5875,31.5875,0.0
 0,Palestine,Geothermal,0.0,0.0,0.0
 0,Palestine,Hydropower,0.0,0.0,0.0
 0,Palestine,Bioenergy,0.0,0.0,0.0
@@ -1195,14 +1195,14 @@
 0,Palestine,Nuclear,0.0,0.0,0.0
 0,Panama,Hydropower,0.0,224.0,0.0
 1,Panama,Oil and gas,0.0,0.0,153.0
-2,Panama,Utility-scale solar,201.362,178.089,1533.3988016528926
+2,Panama,Utility-scale solar,201.362,178.089,1533.240572519084
 3,Panama,Wind,44.0,362.0,0.0
 0,Panama,Geothermal,0.0,0.0,0.0
 0,Panama,Bioenergy,0.0,0.0,0.0
 0,Panama,Coal,0.0,0.0,0.0
 0,Panama,Nuclear,0.0,0.0,0.0
 0,Papua New Guinea,Hydropower,0.0,860.0,78.0
-1,Papua New Guinea,Utility-scale solar,0.0,10.2905,19.6455
+1,Papua New Guinea,Utility-scale solar,0.0,10.297654867256638,19.659159292035397
 0,Papua New Guinea,Geothermal,0.0,0.0,0.0
 0,Papua New Guinea,Oil and gas,0.0,0.0,0.0
 0,Papua New Guinea,Bioenergy,0.0,0.0,0.0
@@ -1210,7 +1210,7 @@
 0,Papua New Guinea,Coal,0.0,0.0,0.0
 0,Papua New Guinea,Nuclear,0.0,0.0,0.0
 0,Paraguay,Bioenergy,0.0,220.0,0.0
-1,Paraguay,Utility-scale solar,0.0,0.0,93.13981244671781
+1,Paraguay,Utility-scale solar,0.0,0.0,93.11
 0,Paraguay,Geothermal,0.0,0.0,0.0
 0,Paraguay,Oil and gas,0.0,0.0,0.0
 0,Paraguay,Hydropower,0.0,0.0,0.0
@@ -1231,24 +1231,24 @@
 3,Philippines,Hydropower,0.0,9210.0,1518.0
 4,Philippines,Nuclear,0.0,0.0,40.0
 5,Philippines,Oil and gas,2113.7,15500.0,8377.5
-6,Philippines,Utility-scale solar,3474.13464,22875.072360000002,14074.32616
+6,Philippines,Utility-scale solar,3468.7655240963854,22844.33123493976,14045.930156626506
 7,Philippines,Wind,402.8,66465.9,11509.6
 0,Poland,Bioenergy,0.0,240.0,0.0
 1,Poland,Coal,100.0,0.0,0.0
 2,Poland,Hydropower,750.0,80.0,0.0
 3,Poland,Nuclear,0.0,3750.0,10662.0
 4,Poland,Oil and gas,2692.0,2929.9,550.0
-5,Poland,Utility-scale solar,180.03783783783783,1057.6775675675676,303.49783783783784
+5,Poland,Utility-scale solar,179.52848484848485,1055.4736363636364,303.3509090909091
 6,Poland,Wind,1566.0,9450.0,13735.0
 0,Portugal,Geothermal,0.0,10.0,0.0
 1,Portugal,Hydropower,160.0,0.0,0.0
-2,Portugal,Utility-scale solar,696.1548,3725.6691263157895,1141.8859894736843
+2,Portugal,Utility-scale solar,696.4018448275862,3726.9569827586206,1142.8185
 3,Portugal,Wind,25.0,514.1,5342.0
 0,Portugal,Oil and gas,0.0,0.0,0.0
 0,Portugal,Bioenergy,0.0,0.0,0.0
 0,Portugal,Coal,0.0,0.0,0.0
 0,Portugal,Nuclear,0.0,0.0,0.0
-0,Puerto Rico,Utility-scale solar,21.9,579.9140443307758,55.88388746803069
+0,Puerto Rico,Utility-scale solar,21.9,579.85433,55.866
 0,Puerto Rico,Geothermal,0.0,0.0,0.0
 0,Puerto Rico,Oil and gas,0.0,0.0,0.0
 0,Puerto Rico,Hydropower,0.0,0.0,0.0
@@ -1266,7 +1266,7 @@
 0,Qatar,Nuclear,0.0,0.0,0.0
 0,Republic of the Congo,Hydropower,0.0,331.0,0.0
 1,Republic of the Congo,Oil and gas,0.0,0.0,516.0
-2,Republic of the Congo,Utility-scale solar,0.0,140.79958246346555,0.0
+2,Republic of the Congo,Utility-scale solar,0.0,140.4461942257218,0.0
 0,Republic of the Congo,Geothermal,0.0,0.0,0.0
 0,Republic of the Congo,Bioenergy,0.0,0.0,0.0
 0,Republic of the Congo,Wind,0.0,0.0,0.0
@@ -1275,7 +1275,7 @@
 0,Romania,Hydropower,0.0,1000.0,530.0
 1,Romania,Nuclear,0.0,1902.0,0.0
 2,Romania,Oil and gas,868.0,4638.0,500.0
-3,Romania,Utility-scale solar,274.2606451612903,3567.0093548387094,278.79999999999995
+3,Romania,Utility-scale solar,273.8931578947369,3561.5268421052633,278.1842105263158
 4,Romania,Wind,48.0,3194.0,1900.0
 0,Romania,Geothermal,0.0,0.0,0.0
 0,Romania,Bioenergy,0.0,0.0,0.0
@@ -1285,7 +1285,7 @@
 2,Russia,Hydropower,840.0,1350.0,2295.0
 3,Russia,Nuclear,4212.0,5137.0,11220.0
 4,Russia,Oil and gas,6219.4,5052.0,2548.0
-5,Russia,Utility-scale solar,0.0,24.05,752.5726
+5,Russia,Utility-scale solar,0.0,23.59659090909091,738.3845227272727
 6,Russia,Wind,0.0,71.4,1474.0
 0,Rwanda,Oil and gas,0.0,0.0,72.0
 0,Rwanda,Geothermal,0.0,0.0,0.0
@@ -1311,7 +1311,7 @@
 0,Samoa,Wind,0.0,0.0,0.0
 0,Samoa,Coal,0.0,0.0,0.0
 0,Samoa,Nuclear,0.0,0.0,0.0
-0,Sao Tome and Principe,Utility-scale solar,0.0,0.0,12.477795407098121
+0,Sao Tome and Principe,Utility-scale solar,0.0,0.0,12.47390813648294
 0,Sao Tome and Principe,Geothermal,0.0,0.0,0.0
 0,Sao Tome and Principe,Oil and gas,0.0,0.0,0.0
 0,Sao Tome and Principe,Hydropower,0.0,0.0,0.0
@@ -1320,7 +1320,7 @@
 0,Sao Tome and Principe,Coal,0.0,0.0,0.0
 0,Sao Tome and Principe,Nuclear,0.0,0.0,0.0
 0,Saudi Arabia,Oil and gas,9660.0,3600.0,3600.0
-1,Saudi Arabia,Utility-scale solar,5417.9213580246915,12081.313991769548,3796.707818930041
+1,Saudi Arabia,Utility-scale solar,5437.3375,12121.075,3805.0
 2,Saudi Arabia,Wind,1670.0,1100.0,700.0
 0,Saudi Arabia,Geothermal,0.0,0.0,0.0
 0,Saudi Arabia,Hydropower,0.0,0.0,0.0
@@ -1337,13 +1337,13 @@
 0,Senegal,Nuclear,0.0,0.0,0.0
 0,Serbia,Hydropower,0.0,3030.0,0.0
 1,Serbia,Oil and gas,0.0,0.0,1350.0
-2,Serbia,Utility-scale solar,0.0,583.1789385065886,1719.8461346998536
+2,Serbia,Utility-scale solar,0.0,586.8827629099133,1731.7933584621182
 3,Serbia,Wind,167.5,2585.0,4996.0
 0,Serbia,Geothermal,0.0,0.0,0.0
 0,Serbia,Bioenergy,0.0,0.0,0.0
 0,Serbia,Coal,0.0,0.0,0.0
 0,Serbia,Nuclear,0.0,0.0,0.0
-0,Seychelles,Utility-scale solar,0.0,5.266375782881002,0.0
+0,Seychelles,Utility-scale solar,0.0,5.2458792650918635,0.0
 0,Seychelles,Geothermal,0.0,0.0,0.0
 0,Seychelles,Oil and gas,0.0,0.0,0.0
 0,Seychelles,Hydropower,0.0,0.0,0.0
@@ -1353,7 +1353,7 @@
 0,Seychelles,Nuclear,0.0,0.0,0.0
 0,Sierra Leone,Hydropower,0.0,244.0,0.0
 1,Sierra Leone,Oil and gas,83.5,0.0,0.0
-2,Sierra Leone,Utility-scale solar,42.67580375782881,3.6319832985386222,408.5646012526096
+2,Sierra Leone,Utility-scale solar,42.50971128608924,3.6178477690288715,407.0422047244095
 3,Sierra Leone,Wind,0.0,0.0,267.0
 0,Sierra Leone,Geothermal,0.0,0.0,0.0
 0,Sierra Leone,Bioenergy,0.0,0.0,0.0
@@ -1361,7 +1361,7 @@
 0,Sierra Leone,Nuclear,0.0,0.0,0.0
 0,Singapore,Bioenergy,80.0,0.0,0.0
 1,Singapore,Oil and gas,2480.0,600.0,100.0
-2,Singapore,Utility-scale solar,0.0,495.36842105263156,156.79005847953215
+2,Singapore,Utility-scale solar,0.0,495.3763043478261,156.81195652173912
 3,Singapore,Wind,0.0,0.0,50.0
 0,Singapore,Geothermal,0.0,0.0,0.0
 0,Singapore,Coal,0.0,0.0,0.0
@@ -1369,7 +1369,7 @@
 0,Singapore,Nuclear,0.0,0.0,0.0
 0,Slovakia,Geothermal,0.0,26.0,0.0
 1,Slovakia,Nuclear,471.0,1200.0,0.0
-2,Slovakia,Utility-scale solar,0.0,0.0,53.131052631578946
+2,Slovakia,Utility-scale solar,0.0,0.0,52.674875
 3,Slovakia,Wind,0.0,0.0,50.0
 0,Slovakia,Oil and gas,0.0,0.0,0.0
 0,Slovakia,Bioenergy,0.0,0.0,0.0
@@ -1391,7 +1391,7 @@
 0,Solomon Islands,Wind,0.0,0.0,0.0
 0,Solomon Islands,Coal,0.0,0.0,0.0
 0,Solomon Islands,Nuclear,0.0,0.0,0.0
-0,Somalia,Utility-scale solar,90.79958246346555,0.0,0.0
+0,Somalia,Utility-scale solar,90.44619422572178,0.0,0.0
 0,Somalia,Geothermal,0.0,0.0,0.0
 0,Somalia,Oil and gas,0.0,0.0,0.0
 0,Somalia,Hydropower,0.0,0.0,0.0
@@ -1402,7 +1402,7 @@
 0,South Africa,Coal,800.0,1455.0,0.0
 1,South Africa,Hydropower,0.0,0.0,1500.0
 2,South Africa,Oil and gas,0.0,9450.0,1220.0
-3,South Africa,Utility-scale solar,1829.7121276595744,5499.381702127659,521.9310638297873
+3,South Africa,Utility-scale solar,1823.6465853658538,5481.976341463414,519.9541463414633
 4,South Africa,Wind,1316.0,1161.5,495.0
 0,South Africa,Geothermal,0.0,0.0,0.0
 0,South Africa,Bioenergy,0.0,0.0,0.0
@@ -1411,13 +1411,13 @@
 1,South Korea,Coal,1050.0,0.0,0.0
 2,South Korea,Nuclear,2800.0,2800.0,0.0
 3,South Korea,Oil and gas,4248.0,1000.0,15202.0
-4,South Korea,Utility-scale solar,796.6543283582089,1787.0729552238804,1632.3582089552237
+4,South Korea,Utility-scale solar,795.0463414634146,1784.6663414634147,1628.780487804878
 5,South Korea,Wind,667.6,46049.8,16536.0
 0,South Korea,Geothermal,0.0,0.0,0.0
 0,South Korea,Hydropower,0.0,0.0,0.0
 0,South Sudan,Hydropower,0.0,0.0,890.0
 1,South Sudan,Oil and gas,0.0,0.0,67.0
-2,South Sudan,Utility-scale solar,18.15991649269311,0.0,0.0
+2,South Sudan,Utility-scale solar,18.089238845144358,0.0,0.0
 0,South Sudan,Geothermal,0.0,0.0,0.0
 0,South Sudan,Bioenergy,0.0,0.0,0.0
 0,South Sudan,Wind,0.0,0.0,0.0
@@ -1426,13 +1426,13 @@
 0,Spain,Bioenergy,146.0,0.0,0.0
 1,Spain,Hydropower,200.0,2447.0,210.0
 2,Spain,Oil and gas,0.0,494.0,0.0
-3,Spain,Utility-scale solar,5943.484156968877,79384.73578755074,17641.94191001353
+3,Spain,Utility-scale solar,5950.8234568690095,79418.74427156549,17692.57085543131
 4,Spain,Wind,1315.0,33712.8,6089.4
 0,Spain,Geothermal,0.0,0.0,0.0
 0,Spain,Coal,0.0,0.0,0.0
 0,Spain,Nuclear,0.0,0.0,0.0
 0,Sri Lanka,Oil and gas,130.0,0.0,350.0
-1,Sri Lanka,Utility-scale solar,47.26375878220141,2336.625706674473,1388.325650468384
+1,Sri Lanka,Utility-scale solar,47.32928870292887,2339.8653748953975,1390.2505263598327
 2,Sri Lanka,Wind,0.0,210.0,350.0
 0,Sri Lanka,Geothermal,0.0,0.0,0.0
 0,Sri Lanka,Hydropower,0.0,0.0,0.0
@@ -1457,7 +1457,7 @@
 0,Suriname,Nuclear,0.0,0.0,0.0
 0,Sweden,Bioenergy,75.0,965.0,0.0
 1,Sweden,Hydropower,0.0,0.0,720.0
-2,Sweden,Utility-scale solar,97.44,2232.5652631578946,1760.8413157894736
+2,Sweden,Utility-scale solar,97.44,2217.6909677419353,1740.8182258064517
 3,Sweden,Wind,3163.4,95516.2,35819.0
 0,Sweden,Geothermal,0.0,0.0,0.0
 0,Sweden,Coal,0.0,0.0,0.0
@@ -1472,7 +1472,7 @@
 0,Switzerland,Coal,0.0,0.0,0.0
 0,Switzerland,Nuclear,0.0,0.0,0.0
 0,Syria,Oil and gas,2610.0,750.0,2300.0
-1,Syria,Utility-scale solar,141.93991769547324,52.104526748971196,0.0
+1,Syria,Utility-scale solar,142.595,52.345,0.0
 0,Syria,Geothermal,0.0,0.0,0.0
 0,Syria,Hydropower,0.0,0.0,0.0
 0,Syria,Bioenergy,0.0,0.0,0.0
@@ -1481,7 +1481,7 @@
 0,Syria,Nuclear,0.0,0.0,0.0
 0,Taiwan,Hydropower,0.0,368.0,0.0
 1,Taiwan,Oil and gas,9637.0,20553.0,1396.0
-2,Taiwan,Utility-scale solar,736.5634146341464,1189.2185365853659,106.14951219512196
+2,Taiwan,Utility-scale solar,735.1597419354838,1187.674451612903,105.88083870967742
 3,Taiwan,Wind,2597.0,5326.8,10236.0
 0,Taiwan,Geothermal,0.0,0.0,0.0
 0,Taiwan,Bioenergy,0.0,0.0,0.0
@@ -1489,7 +1489,7 @@
 0,Taiwan,Nuclear,0.0,0.0,0.0
 0,Tajikistan,Coal,0.0,0.0,600.0
 1,Tajikistan,Hydropower,0.0,0.0,1705.0
-2,Tajikistan,Utility-scale solar,0.0,0.0,374.74285714285713
+2,Tajikistan,Utility-scale solar,0.0,0.0,373.1612903225806
 0,Tajikistan,Geothermal,0.0,0.0,0.0
 0,Tajikistan,Oil and gas,0.0,0.0,0.0
 0,Tajikistan,Bioenergy,0.0,0.0,0.0
@@ -1500,12 +1500,12 @@
 2,Tanzania,Geothermal,0.0,200.0,400.0
 3,Tanzania,Hydropower,2115.0,668.0,300.0
 4,Tanzania,Oil and gas,0.0,0.0,650.0
-5,Tanzania,Utility-scale solar,54.479749478079334,65.82969728601253,1752.3343423799583
+5,Tanzania,Utility-scale solar,54.267716535433074,65.57349081364829,1747.5459317585303
 6,Tanzania,Wind,0.0,0.0,1270.0
 0,Thailand,Coal,0.0,600.0,0.0
 1,Thailand,Hydropower,0.0,800.0,900.0
 2,Thailand,Oil and gas,780.0,3990.0,2100.0
-3,Thailand,Utility-scale solar,20.279531249999998,1942.4385937499999,853.5839062499999
+3,Thailand,Utility-scale solar,20.267299270072993,1941.4055474452555,853.0690510948905
 4,Thailand,Wind,0.0,435.0,0.0
 0,Thailand,Geothermal,0.0,0.0,0.0
 0,Thailand,Bioenergy,0.0,0.0,0.0
@@ -1536,7 +1536,7 @@
 0,Trinidad and Tobago,Nuclear,0.0,0.0,0.0
 0,Tunisia,Hydropower,0.0,0.0,400.0
 1,Tunisia,Oil and gas,0.0,900.0,0.0
-2,Tunisia,Utility-scale solar,377.51351351351354,4673.4167567567565,758.536936936937
+2,Tunisia,Utility-scale solar,376.1666666666667,4671.746666666667,754.8555555555556
 3,Tunisia,Wind,30.0,75.0,525.0
 0,Tunisia,Geothermal,0.0,0.0,0.0
 0,Tunisia,Bioenergy,0.0,0.0,0.0
@@ -1555,12 +1555,12 @@
 2,Türkiye,Hydropower,160.0,2338.0,737.0
 3,Türkiye,Nuclear,4800.0,0.0,9900.0
 4,Türkiye,Oil and gas,890.0,0.0,0.0
-5,Türkiye,Utility-scale solar,253.02569721115538,1082.4606294820717,669.7488207171315
+5,Türkiye,Utility-scale solar,253.05572519083967,1082.5677251908396,669.8395419847328
 6,Türkiye,Wind,0.0,2480.2,122.8
 0,Uganda,Bioenergy,0.0,0.0,40.0
 1,Uganda,Geothermal,0.0,300.0,0.0
 2,Uganda,Hydropower,0.0,0.0,980.0
-3,Uganda,Utility-scale solar,0.0,50.0,487.6081837160752
+3,Uganda,Utility-scale solar,0.0,50.0,486.0709448818898
 4,Uganda,Wind,0.0,0.0,130.0
 0,Uganda,Oil and gas,0.0,0.0,0.0
 0,Uganda,Coal,0.0,0.0,0.0
@@ -1576,7 +1576,7 @@
 0,United Arab Emirates,Bioenergy,0.0,80.0,60.0
 1,United Arab Emirates,Hydropower,250.0,0.0,0.0
 2,United Arab Emirates,Oil and gas,4025.1,4000.0,5000.0
-3,United Arab Emirates,Utility-scale solar,52.2,4602.61316872428,5947.102880658436
+3,United Arab Emirates,Utility-scale solar,52.2,4608.625,5974.55
 0,United Arab Emirates,Geothermal,0.0,0.0,0.0
 0,United Arab Emirates,Coal,0.0,0.0,0.0
 0,United Arab Emirates,Wind,0.0,0.0,0.0
@@ -1586,7 +1586,7 @@
 2,United Kingdom,Hydropower,0.0,3350.0,3000.0
 3,United Kingdom,Nuclear,3440.0,8700.0,3200.0
 4,United Kingdom,Oil and gas,814.7,12672.0,6562.5
-5,United Kingdom,Utility-scale solar,2030.137,22317.655,1065.28
+5,United Kingdom,Utility-scale solar,2006.4828983050847,22014.08333898305,1049.0671186440677
 6,United Kingdom,Wind,7948.8,86166.8,8777.0
 0,United States,Bioenergy,36.0,0.0,0.0
 1,United States,Coal,0.0,400.0,400.0
@@ -1594,9 +1594,9 @@
 3,United States,Hydropower,0.0,6493.0,55636.0
 4,United States,Nuclear,0.0,3825.0,3530.0
 5,United States,Oil and gas,14319.0,30700.7,40306.7
-6,United States,Utility-scale solar,23476.809868421053,66691.56863157895,26454.38252631579
+6,United States,Utility-scale solar,23478.412340425533,66701.0500425532,26456.904468085108
 7,United States,Wind,17006.0,47431.6,37383.4
-0,Uruguay,Utility-scale solar,0.0,148.09230179028134,93.13981244671783
+0,Uruguay,Utility-scale solar,0.0,148.0449,93.11
 1,Uruguay,Wind,0.0,0.0,170.0
 0,Uruguay,Geothermal,0.0,0.0,0.0
 0,Uruguay,Oil and gas,0.0,0.0,0.0
@@ -1608,7 +1608,7 @@
 1,Uzbekistan,Hydropower,476.0,0.0,1060.0
 2,Uzbekistan,Nuclear,0.0,0.0,2400.0
 3,Uzbekistan,Oil and gas,5918.0,216.0,3445.2
-4,Uzbekistan,Utility-scale solar,1214.3714285714286,468.4285714285714,2829.5142857142855
+4,Uzbekistan,Utility-scale solar,1213.5806451612902,466.4516129032258,2818.8387096774195
 5,Uzbekistan,Wind,500.0,1600.0,8252.0
 0,Uzbekistan,Geothermal,0.0,0.0,0.0
 0,Uzbekistan,Bioenergy,0.0,0.0,0.0
@@ -1632,11 +1632,11 @@
 1,Vietnam,Coal,4043.0,650.0,0.0
 2,Vietnam,Hydropower,1782.0,80.0,1500.0
 3,Vietnam,Oil and gas,3904.0,20450.0,25690.0
-4,Vietnam,Utility-scale solar,261.0,5048.808766666667,2006.6493333333333
+4,Vietnam,Utility-scale solar,261.0,5041.099034482759,2003.1506896551725
 5,Vietnam,Wind,908.2,52965.8,17031.8
 0,Vietnam,Geothermal,0.0,0.0,0.0
 0,Vietnam,Nuclear,0.0,0.0,0.0
-0,Virgin Islands (U.S.),Utility-scale solar,0.0,16.765166240409208,0.0
+0,Virgin Islands (U.S.),Utility-scale solar,0.0,16.759800000000002,0.0
 0,Virgin Islands (U.S.),Geothermal,0.0,0.0,0.0
 0,Virgin Islands (U.S.),Oil and gas,0.0,0.0,0.0
 0,Virgin Islands (U.S.),Hydropower,0.0,0.0,0.0
@@ -1644,7 +1644,7 @@
 0,Virgin Islands (U.S.),Wind,0.0,0.0,0.0
 0,Virgin Islands (U.S.),Coal,0.0,0.0,0.0
 0,Virgin Islands (U.S.),Nuclear,0.0,0.0,0.0
-0,Western Sahara,Utility-scale solar,0.0,0.0,6475.315315315315
+0,Western Sahara,Utility-scale solar,0.0,0.0,6443.888888888889
 1,Western Sahara,Wind,220.0,1000.0,0.0
 0,Western Sahara,Geothermal,0.0,0.0,0.0
 0,Western Sahara,Oil and gas,0.0,0.0,0.0
@@ -1653,7 +1653,7 @@
 0,Western Sahara,Coal,0.0,0.0,0.0
 0,Western Sahara,Nuclear,0.0,0.0,0.0
 0,Yemen,Oil and gas,300.0,0.0,446.0
-1,Yemen,Utility-scale solar,0.0,40.0,62.884773662551446
+1,Yemen,Utility-scale solar,0.0,40.0,63.175000000000004
 2,Yemen,Wind,0.0,0.0,77.0
 0,Yemen,Geothermal,0.0,0.0,0.0
 0,Yemen,Hydropower,0.0,0.0,0.0
@@ -1662,7 +1662,7 @@
 0,Yemen,Nuclear,0.0,0.0,0.0
 0,Zambia,Coal,300.0,900.0,0.0
 1,Zambia,Hydropower,0.0,381.0,2400.0
-2,Zambia,Utility-scale solar,174.0,2623.449164926931,1457.3536534446764
+2,Zambia,Utility-scale solar,174.0,2622.7423884514437,1451.9821522309712
 3,Zambia,Wind,200.0,0.0,928.0
 0,Zambia,Geothermal,0.0,0.0,0.0
 0,Zambia,Bioenergy,0.0,0.0,0.0
@@ -1670,7 +1670,7 @@
 0,Zambia,Oil and gas,0.0,0.0,0.0
 0,Zimbabwe,Coal,1470.0,1570.0,4970.0
 1,Zimbabwe,Oil and gas,0.0,0.0,800.0
-2,Zimbabwe,Utility-scale solar,554.8214926931106,1015.3209311064719,2469.3854446764094
+2,Zimbabwe,Utility-scale solar,554.392125984252,1011.3693438320211,2459.7746981627297
 3,Zimbabwe,Wind,0.0,100.0,200.0
 0,Zimbabwe,Geothermal,0.0,0.0,0.0
 0,Zimbabwe,Bioenergy,0.0,0.0,0.0
