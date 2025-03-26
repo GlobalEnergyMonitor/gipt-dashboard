@@ -39,7 +39,16 @@ gipt.loc[gipt.Status=='cancelled - inferred 4 y','Status']='cancelled'
 gipt.loc[gipt.Status=='shelved - inferred 2 y','Status']='shelved'
 
 
-(gipt[(gipt.Type.isin(['wind','solar']))&(gipt.Status.isin(['announced','construction','pre-construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
+
+(gipt[(gipt.Type.isin(['coal']))&(gipt.Status.isin(['announced','construction','pre-construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
+
+
+
+(gipt[(gipt.Type.isin(['solar']))&(gipt.Status.isin(['construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
+
+
+
+(gipt[(gipt.Type.isin(['solar']))&(gipt.Status.isin(['construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
 
 
 (gipt[(gipt['Country/area']=='Japan')&(gipt.Status.isin(['construction','pre-construction','announced']))].groupby(['Type'])['Capacity (MW)'].sum()/1000).sort_values()
