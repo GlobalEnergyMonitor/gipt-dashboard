@@ -6,7 +6,7 @@
         "values": [
             "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
         ],
-        "dataset": "gipt_operating_apr2025_v1",
+        "dataset": "gipt_operating_jul2025_v1",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
@@ -18,7 +18,7 @@
         "values": [
             "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
         ],
-        "dataset": "gipt_construction_apr2025_v1",
+        "dataset": "gipt_construction_jul2025_v1",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
@@ -29,7 +29,7 @@
         "x_axis": "Source",
         "values": [
             "Construction", "Pre-construction", "Announced"],
-        "dataset": "gipt_development_apr2025_v1",
+        "dataset": "gipt_development_jul2025_v1",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
@@ -41,7 +41,7 @@
         "values": [
             "Non-fossil", "Fossil"
         ],
-        "dataset": "gipt_fossil_nonfossil_apr2025_v1",
+        "dataset": "gipt_fossil_nonfossil_jul2025_v1",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
