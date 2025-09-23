@@ -8,8 +8,12 @@ if (!process.env.FLOURISH_API_KEY) {
 const express = require('express');
 const path = require("path");
 const { createProxyMiddleware } = require('http-proxy-middleware');
+const compression = require('compression');   // ✅ add this
 
 const app = express();
+
+// ✅ enable gzip compression for all responses
+app.use(compression());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -21,16 +25,16 @@ app.set("view engine", "jade");
 app.use("/", express.static("public"));
 
 app.use("/flourish", createProxyMiddleware({
-		target: "https://flourish-api.com/api/v1/live",
-		onProxyReq: (proxyReq) => {
-			const url = new URL(proxyReq.path, `${proxyReq.protocol}//${proxyReq.host}`);
-			url.searchParams.set("api_key", process.env.FLOURISH_API_KEY);
-			proxyReq.path = `${url.pathname}${url.hash}${url.search}`;
-			console.log('path', proxyReq.path)
-		},
-		changeOrigin: true,
-		pathRewrite: { "^/flourish": "" }
-	}));
+	target: "https://flourish-api.com/api/v1/live",
+	onProxyReq: (proxyReq) => {
+		const url = new URL(proxyReq.path, `${proxyReq.protocol}//${proxyReq.host}`);
+		url.searchParams.set("api_key", process.env.FLOURISH_API_KEY);
+		proxyReq.path = `${url.pathname}${url.hash}${url.search}`;
+		console.log('path', proxyReq.path);
+	},
+	changeOrigin: true,
+	pathRewrite: { "^/flourish": "" }
+}));
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
