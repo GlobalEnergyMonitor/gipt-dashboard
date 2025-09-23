@@ -6,8 +6,8 @@
         "values": [
             "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
         ],
-        "dataset": "gipt_operating_g7_v1",
-        "initial_state": "Canada",
+        "dataset": "gipt_operating_sept2025_v1",
+        "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
     },
@@ -18,8 +18,8 @@
         "values": [
             "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
         ],
-        "dataset": "gipt_construction_g7_v1",
-        "initial_state": "Canada",
+        "dataset": "gipt_construction_sept2025_v1",
+        "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
     },
@@ -29,8 +29,8 @@
         "x_axis": "Source",
         "values": [
             "Construction", "Pre-construction", "Announced"],
-        "dataset": "gipt_development_g7_v1",
-        "initial_state": "Canada",
+        "dataset": "gipt_development_sept2025_v1",
+        "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
     },
@@ -41,8 +41,8 @@
         "values": [
             "Non-fossil", "Fossil"
         ],
-        "dataset": "gipt_type_status_g7_v1",
-        "initial_state": "Canada",
+        "dataset": "gipt_fossil_nonfossil_sept2025_v1",
+        "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
     }

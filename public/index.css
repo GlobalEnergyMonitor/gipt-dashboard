@@ -38,6 +38,9 @@ body {
     padding: 0 0.5rem;
     margin: auto auto 2rem;
     font-size: 1.125rem;
+    position: sticky;
+top: 0;
+background-color: white;
 }
 
 .controls-container--dropdown {
@@ -213,4 +216,62 @@ body {
         flex: 45%;
         margin: 1rem;
     }
+}
+
+/* Map chart full-width layout */
+.chart-container.map-chart-container {
+    flex: 100% !important;
+    width: 100% !important;
+    max-width: none !important;
+    order: -1;
+    margin: 1rem auto;
+}
+
+/* Only stretch the map iframe */
+#chart-23632161 iframe {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+/* Place the map chart on its own row, centered */
+.chart-container.map-chart-container {
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    order: -1;
+    margin: 2rem auto;
+}
+
+/* Constrain the map width and height */
+#chart-23632161 {
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* Make the map iframe scale nicely */
+#chart-23632161 iframe {
+    width: 100% !important;
+    height: 700px !important;
+    display: block;
+    border: none;
+}
+/* Force single-column layout for all charts */
+.flourish-container {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+/* Default width for all charts */
+.chart-container {
+  width: 100%;
+  max-width: 800px;      /* limit width for all except first */
+  margin: 0 0 1.5rem !important;
+  flex: 0 0 auto !important;
+}
+
+/* Let the first chart span full width */
+.chart-container:first-of-type {
+  max-width: none;       /* remove the max width limit */
+  width: 100%;           /* span full container width */
 }

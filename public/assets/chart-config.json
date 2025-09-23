@@ -1,35 +1,23 @@
 {
-    "18909923": {
-        "title": "How much power capacity is operating?",
-        "subtitle": "Operating power capacity by source, in gigawatts (GW)",
-        "x_axis": "Power source",
+    "23631837": {
+        "title": "How has power capacity changed over time?",
+        "subtitle": "Total operating power capacity by year since 2000, in gigawatts (GW)",
+        "x_axis": "Year",
         "values": [
-            "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
+            "Coal","Oil and gas","Hydropower","Nuclear","Utility-scale solar",	"Wind",	"Bioenergy",	"Geothermal"
         ],
-        "dataset": "gipt_operating_sept2025_v1",
+        "dataset": "GEM_capacity_stacked_sept2025_v2",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
     },
-    "18910657": {
-        "title": "How much power capacity is under construction?",
-        "subtitle": "Power capacity in construction by source, in gigawatts (GW)",
-        "x_axis": "Power source",
-        "values": [
-            "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"
-        ],
-        "dataset": "gipt_construction_sept2025_v1",
-        "initial_state": "World",
-        "filterable": true,
-        "filter_by": "Country"
-    },
-    "18923725": {
+        "18923725": {
         "title": "How much power capacity is in development?",
         "subtitle": "Power capacity in development by source and status, in gigawatts (GW)",
         "x_axis": "Source",
         "values": [
             "Construction", "Pre-construction", "Announced"],
-        "dataset": "gipt_development_sept2025_v1",
+        "dataset": "gipt_development_sept2025_v2",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
@@ -41,9 +29,54 @@
         "values": [
             "Non-fossil", "Fossil"
         ],
-        "dataset": "gipt_fossil_nonfossil_sept2025_v1",
+        "dataset": "gipt_fossil_nonfossil_sept2025_v2",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
-    }
+    },
+    "23191160": {
+        "title": "Who owns operating power facilities?",
+        "subtitle": "Circles show operating capacity per parent/owner entity, in gigawatts (GW)",
+        "x_axis": "Parent",
+        "values": [
+            "Type"
+        ],
+        "dataset": "ownership_sept2025_v2",
+        "initial_state": "World",
+        "filterable": true,
+        "filter_by": "Country",
+        "template": "@flourish/hierarchy"
+    },
+    "23183975": {
+        "title": "How much power capacity has been added and retired?",
+        "subtitle": "Power capacity added and retired each year since 2000 by source, in gigawatts (GW)",
+        "x_axis": "Year",
+        "values": [
+            "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal","Coal retired", "Oil and gas retired", "Utility-scale solar retired", "Wind retired", "Nuclear retired", "Hydropower retired", "Bioenergy retired", "Geothermal retired"
+        ],
+        "dataset": "net_capacity_sept2025_v2",
+        "initial_state": "World",
+        "filterable": true,
+        "filter_by": "Country"
+    },
+    "23448121": {
+        "title": "What is the age breakdown of operating power capacity?",
+        "subtitle": "Capacity by age, in gigawatts (GW), with circles sized by proportion of total capacity per technology",
+        "x_axis": "Age Category",
+        "values": ["Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"],
+        "dataset": "age_breakdown_sept2025_v2",
+        "initial_state": "World",
+        "filterable": true,
+        "filter_by": "Country"
+    },
+    "24167887": {
+    "title": "",
+    "subtitle": "",
+    "dataset": "operating_plants_map_sept2025_30k",
+    "initial_state": "World",
+    "filterable": false,
+    "filter_by": "Country/area",
+    "template": "@flourish/time-map"
 }
+}
+

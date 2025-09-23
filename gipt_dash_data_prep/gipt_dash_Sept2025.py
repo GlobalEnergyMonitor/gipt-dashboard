@@ -261,6 +261,140 @@ tmp.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/g
 #     f.write(tmp.to_json(orient='records'))
 
 
+
+################################################################################################
+### #3:MAP
+################################################################################################
+
+json_output_path = "C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/operating_plants_map_aug2025_30k.json"
+
+gipt_map=gipt[gipt.Status=='operating']
+gipt_map=gipt_map[~((gipt_map['Type'].str.lower() == 'solar') & (gipt_map['Capacity (MW)'] < 20))]
+gipt_map=gipt_map[~((gipt_map['Type'].str.lower() == 'wind') & (gipt_map['Capacity (MW)'] < 20))]
+gipt_map.loc[gipt_map.Technology.isnull(),"Technology"]='unknown'
+gipt_map['Type'] = gipt_map['Type'].str.capitalize()
+gipt_map['Type'] = gipt_map['Type'].replace('Solar', 'Utility-scale solar')
+
+gipt_map=gipt_map.groupby("Plant / Project name", as_index=False).agg({
+    "Capacity (MW)": "sum",         # sum this one
+    "Plant / Project name": "first",    # keep first value
+    "Technology": "first",    # keep first value
+    "Country/area": "first",
+    'Longitude':'first',
+    'Latitude':'first',
+    'Type':'first'
+})
+
+iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
+
+# Build mapping dicts
+BRICS = {country: 'BRICS' for country in list(iea_reg_map[iea_reg_map['BRICS']=='Yes'].gem_name.unique())}
+EU27 = {country: 'EU27' for country in list(iea_reg_map[iea_reg_map['EU27']=='Yes'].gem_name.unique())}
+G7 = {country: 'G7' for country in list(iea_reg_map[iea_reg_map['G7']=='Yes'].gem_name.unique())}
+G20 = {country: 'G20' for country in list(iea_reg_map[iea_reg_map['G20']=='Yes'].gem_name.unique())}
+OECD = {country: 'OECD' for country in list(iea_reg_map[iea_reg_map['OECD']=='Yes'].gem_name.unique())}
+AU = {country: 'African Union' for country in list(iea_reg_map[iea_reg_map['African Union']=='Yes'].gem_name.unique())}
+
+# --- Collect them all ---
+all_maps = [BRICS, EU27, G7,G20,OECD,AU]
+
+# --- Function to collect memberships ---
+def get_regions(country, mappings):
+    regions = []
+    for mapping in mappings:
+        if country in mapping:
+            regions.append(mapping[country])
+    return regions if regions else None  # None if no membership
+
+# Apply to DataFrame
+gipt_map["Region"] = gipt_map["Country/area"].apply(lambda c: get_regions(c, all_maps))
+
+# iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
+# regions=['BRICS','EU27','G7','G20','OECD','African Union']
+# res_region=[]
+# for reg in regions:
+# 	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
+# 	gipt_map.loc[(gipt_map['Country/area'].isin(names)),'Country/area']=gipt_map.loc[(gipt_map['Country/area'].isin(names)),'Country/area'].apply(lambda x: [x, reg])
+
+import json
+# Convert to list of dicts and save
+valid_data = gipt_map[['Type',	'Longitude',	'Latitude',	'Capacity (MW)',	'Plant / Project name',	'Country/area','Region','Technology']].to_dict(orient="records")
+
+with open(json_output_path, "w", encoding="utf-8") as f:
+    json.dump(valid_data, f, indent=2)
+
+def make_bounds_from_df(df,
+                        country_col="Country/area",
+                        region_col="Region",
+                        lat_col="Latitude",
+                        lon_col="Longitude",
+                        pad=0.5,
+                        round_decimals=2):
+    """
+    Generate bounding boxes per country and per region from a DataFrame of lat/lon points.
+    Assumes `Region` column contains Python lists (e.g. ["BRICS","G20"]).
+    Returns a dict ready to dump to JSON.
+    """
+    bounds_dict = {}
+    def compute_bounds(subset):
+        """Helper to compute bounds for a subset of rows."""
+        latitudes = subset[lat_col].dropna().tolist()
+        longitudes = subset[lon_col].dropna().tolist()
+        if not latitudes or not longitudes:
+            return None
+        return {
+            "lat_min": round(min(latitudes) - pad, round_decimals),
+            "lat_max": round(max(latitudes) + pad, round_decimals),
+            "lng_min": round(min(longitudes) - pad, round_decimals),
+            "lng_max": round(max(longitudes) + pad, round_decimals)
+        }
+    # Per country
+    for country, group in df.groupby(country_col):
+        b = compute_bounds(group)
+        if b:
+            bounds_dict[country] = b
+    # Per region (loop each row’s regions array)
+    region_map = {}
+    for _, row in df.iterrows():
+        regions = row[region_col]
+        if not isinstance(regions, list):
+            continue
+        for region in regions:
+            region_map.setdefault(region, []).append((row[lat_col], row[lon_col]))
+    for region, coords in region_map.items():
+        lats = [lat for lat, lon in coords if pd.notna(lat)]
+        lons = [lon for lat, lon in coords if pd.notna(lon)]
+        if lats and lons:
+            bounds_dict[region] = {
+                "lat_min": round(min(lats) - pad, round_decimals),
+                "lat_max": round(max(lats) + pad, round_decimals),
+                "lng_min": round(min(lons) - pad, round_decimals),
+                "lng_max": round(max(lons) + pad, round_decimals)
+            }
+    # Add world bounds
+    b = compute_bounds(df)
+    if b:
+        bounds_dict["World"] = b
+    return bounds_dict
+
+
+json_output_path = "C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/map-bounds.json"
+
+with open(json_output_path, "w", encoding="utf-8") as f:
+    json.dump(make_bounds_from_df(gipt_map), f, indent=2)
+
+
+
+
+
+
+
+
+
+
+
+
+
 ################################################################################################################################################
 #3: OPERATING
 status=['operating']
@@ -276,7 +410,7 @@ for type,name in zip(types,type_names):
 	tmp['Power source']=name
 	tmp.columns=['Region', 'Sub-region', 'Country', name,'Power source']
 	tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
-	res.append(tmp.to_json(orient='records'))
+	res.append(tmp)
 
 res_world=gipt[(gipt.Status.isin(status))].groupby('Type')['Capacity (MW)'].sum()
 res_world['Country/Area']='World'
@@ -294,7 +428,7 @@ for reg in regions:
 		tmp['Power source']=name
 		tmp.columns=['Region', 'Sub-region', 'Country', name,'Power source']
 		tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
-		res.append(tmp.to_json(orient='records'))
+		res.append(tmp)
 	res_reg=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin(names))].groupby('Type')['Capacity (MW)'].sum()
 	res_reg['Country/Area']=reg
 	res_regs.append(res_reg)
@@ -314,13 +448,13 @@ for country in all_countries:
 			tmp['Power source']=name
 			tmp.columns=['Region', 'Sub-region', 'Country', name,'Power source']
 			tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
-			res.append(tmp.to_json(orient='records'))
+			res.append(tmp)
 		else:
 			tmp['Capacity (MW)']=tmp['Capacity (MW)'].fillna(0.0)/1000
 			tmp['Power source']=name
 			tmp.columns=['Region', 'Sub-region', 'Country', name,'Power source']
 			tmp=tmp[['Region', 'Sub-region', 'Country', 'Power source',name]]
-			res.append(tmp.to_json(orient='records'))
+			res.append(tmp)
 	res_c=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))].groupby('Type')['Capacity (MW)'].sum()
 	res_c['Country/Area']=country
 	res_country.append(res_c)
@@ -341,6 +475,30 @@ json_out.rename(columns={'Country/Area':"Country",
 json_out['Region']='Region'
 json_out['Sub-region']='Sub-region'
 json_out.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_operating_sept2025_v1.json", orient="records", indent=2, force_ascii=False)
+
+
+json_out=pandas.concat(res)#[['Country/Area','coal', 'oil/gas', 'solar', 'wind', 'hydropower','nuclear', 'bioenergy', 'geothermal']]
+json_out.rename(columns={'Country/Area':"Country",
+"coal":"Coal",
+'oil/gas':'Oil and gas',
+'solar':'Utility-scale solar',
+'wind':'Wind',
+'hydropower':'Hydropower',
+'nuclear':'Nuclear',
+'bioenergy':'Bioenergy',
+'geothermal':'Geothermal'}, inplace=True)
+
+# 
+records = json_out.apply(lambda row: row.dropna().to_dict(), axis=1).tolist()
+
+# -> JSON string (no NaN/None keys)
+json_str = json.dumps(records, indent=2, ensure_ascii=False, allow_nan=False)
+
+# -> or write to file
+with open("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_operating_sept2025_v1.json", "w", encoding="utf-8") as f:
+    json.dump(records, f, indent=2, ensure_ascii=False)
+
+
 
 # with open("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_operating_sept2025_v1.json", 'w') as f:
 #     f.write('['+','.join(res).replace('[','').replace(']','')+']')
@@ -1471,58 +1629,6 @@ sorted_df[['Country','Parent', 'Capacity (GW)', 'Type']].to_csv('C:/Users/james/
 
 # Pretty-printed JSON
 sorted_df.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/ownership_aug2025.json", orient="records", indent=2, force_ascii=False)
-
-
-
-
-
-
-
-
-
-################################################################################################
-### extra dash #4: map
-################################################################################################
-
-
-json_output_path = "C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/operating_plants_map_aug2025_30k.json"
-
-gipt_map=gipt[gipt.Status=='operating']
-gipt_map=gipt_map[~((gipt_map['Type'].str.lower() == 'solar') & (gipt_map['Capacity (MW)'] < 20))]
-gipt_map=gipt_map[~((gipt_map['Type'].str.lower() == 'wind') & (gipt_map['Capacity (MW)'] < 20))]
-gipt_map.loc[gipt_map.Technology.isnull(),"Technology"]='unknown'
-gipt_map['Type'] = gipt_map['Type'].str.capitalize()
-gipt_map['Type'] = gipt_map['Type'].replace('Solar', 'Utility-scale solar')
-
-gipt_map=gipt_map.groupby("Plant / Project name", as_index=False).agg({
-    "Capacity (MW)": "sum",         # sum this one
-    "Plant / Project name": "first",    # keep first value
-    "Technology": "first",    # keep first value
-    "Country/area": "first",
-    'Longitude':'first',
-    'Latitude':'first',
-    'Type':'first'
-})
-
-
-# iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
-# regions=['BRICS','EU27','G7','G20','OECD','African Union']
-# res_region=[]
-# for reg in regions:
-# 	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
-# 	gipt_map.loc[(gipt_map['Country/area'].isin(names)),'Country/area']=gipt_map.loc[(gipt_map['Country/area'].isin(names)),'Country/area'].apply(lambda x: [x, reg])
-
-import json
-# Convert to list of dicts and save
-valid_data = gipt_map[['Type',	'Longitude',	'Latitude',	'Capacity (MW)',	'Plant / Project name',	'Country/area','Technology']].to_dict(orient="records")
-
-with open(json_output_path, "w", encoding="utf-8") as f:
-    json.dump(valid_data, f, indent=2)
-
-
-
-
-
 
 
 
