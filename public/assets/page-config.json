@@ -14,7 +14,7 @@
     "input_default": "World",
     "overall_summary": true,
     "ticker_text_font-size": "1.75rem",
-    "ticker_data": "gipt_data_ticker_sept2025_v2",
+    "ticker_data": "gipt_data_ticker_jan2026",
     "tickers": [{
         "id": "summary_1",
         "decimal_places": 2,

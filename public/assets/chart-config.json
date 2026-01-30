@@ -6,7 +6,7 @@
         "values": [
             "Coal","Oil and gas","Hydropower","Nuclear","Utility-scale solar",	"Wind",	"Bioenergy",	"Geothermal"
         ],
-        "dataset": "GEM_capacity_stacked_sept2025_v2",
+        "dataset": "GEM_capacity_stacked_jan2026",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
@@ -17,7 +17,7 @@
         "x_axis": "Source",
         "values": [
             "Construction", "Pre-construction", "Announced"],
-        "dataset": "gipt_development_sept2025_v2",
+        "dataset": "gipt_development_jan2026",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
@@ -29,7 +29,7 @@
         "values": [
             "Non-fossil", "Fossil"
         ],
-        "dataset": "gipt_fossil_nonfossil_sept2025_v2",
+        "dataset": "gipt_fossil_nonfossil_jan2026",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
@@ -41,7 +41,7 @@
         "values": [
             "Type"
         ],
-        "dataset": "ownership_sept2025_v2",
+        "dataset": "ownership_jan2026",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country",
@@ -54,7 +54,7 @@
         "values": [
             "Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal","Coal retired", "Oil and gas retired", "Utility-scale solar retired", "Wind retired", "Nuclear retired", "Hydropower retired", "Bioenergy retired", "Geothermal retired"
         ],
-        "dataset": "net_capacity_sept2025_v2",
+        "dataset": "net_capacity_jan2026",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"
@@ -64,7 +64,7 @@
         "subtitle": "Capacity by age, in gigawatts (GW), with circles sized by proportion of total capacity per technology",
         "x_axis": "Age Category",
         "values": ["Coal", "Oil and gas", "Utility-scale solar", "Wind", "Nuclear", "Hydropower", "Bioenergy", "Geothermal"],
-        "dataset": "age_breakdown_sept2025_v2",
+        "dataset": "age_breakdown_jan2026",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country"

@@ -22,14 +22,7 @@ import pandas as pd
 
 ################################################################################################################################################
 #0: LOAD THE GIPT DATA
-#gipt=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/Global Integrated Power January 2025.xlsx',sheet_name='Power facilities')
-#gipt=pandas.read_excel('C:/Users/james/Documents/GEM/GIPT/Feb_2025_GIPT_update (GCPT)/Global Integrated Power February 2025.xlsx',sheet_name='Power facilities')
-#gipt=pandas.read_excel('C:/Users/james/Documents/GEM/GIPT/Feb_2025_GIPT_update (GSPT.GWPT)/Global Integrated Power February 2025 update II.xlsx',sheet_name='Power facilities')
-#gipt=pandas.read_excel('C:/Users/james/Documents/GEM/GIPT/March 2025 GIPT update GGPT/Global Integrated Power March 2025.xlsx',sheet_name='Power facilities')
-#gipt=pandas.read_excel('C:/Users/james/Documents/GEM/GIPT/April 2025 GIPT update GHPT/Global Integrated Power April 2025.xlsx',sheet_name='Power facilities')
-#gipt=pandas.read_excel('C:/Users/james/Documents/GEM/GIPT/July 2025 GIPT update (GCPT)/Global Integrated Power July 2025.xlsx',sheet_name='Power facilities')
-#gipt=pandas.read_excel('C:/Users/james/Documents/GEM/GIPT/August 2025 GIPT update GOGPT/Global Integrated Power August 2025.xlsx',sheet_name='Power facilities')
-gipt=pandas.read_excel('C:/Users/james/Documents/GEM/GIPT/September 2025 GIPT update Nuclear/Global Integrated Power September 2025.xlsx',sheet_name='Power facilities')
+gipt=pandas.read_excel('C:/Users/james/Downloads/Global Integrated Power September 2025 II (2).xlsx',sheet_name='Power facilities')
 
 #
 ## ADJUST 'not found' VALUES IN COMPILED EXCEL
@@ -46,19 +39,7 @@ gipt.loc[gipt.Status=='cancelled - inferred 4 y','Status']='cancelled'
 gipt.loc[gipt.Status=='shelved - inferred 2 y','Status']='shelved'
 
 
-
-
-
-
-# (gipt[(gipt.Type.isin(['coal']))&(gipt.Status.isin(['announced','construction','pre-construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
-# (gipt[(gipt.Type.isin(['solar']))&(gipt.Status.isin(['construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
-# (gipt[(gipt.Type.isin(['solar']))&(gipt.Status.isin(['construction']))].groupby(['Country/area'])['Capacity (MW)'].sum()/1000).sort_values()
-# (gipt[(gipt['Country/area']=='Japan')&(gipt.Status.isin(['construction','pre-construction','announced']))].groupby(['Type'])['Capacity (MW)'].sum()/1000).sort_values()
-# (gipt[(gipt['Country/area']=='Japan')&(gipt.Status.isin(['construction']))].groupby(['Type'])['Capacity (MW)'].sum()/1000).sort_values()
-
 ##Make a list of all the individual countries to include
-
-
 exclude=['American Samoa',
 'Aruba',
 'Bahamas',
@@ -80,16 +61,10 @@ exclude=['American Samoa',
 'Saint Kitts and Nevis',
 'British Indian Ocean Territory']
 
-
 all_countries=sort(gipt[~(gipt['Country/area'].isin(exclude))]['Country/area'].unique())
 all_countries_in_dash=sort(gipt[~(gipt['Country/area'].isin(exclude))]['Country/area'].unique())
 
 df=gipt[gipt['Country/area'].isin(all_countries)]
-
-# df[(df.Status.isin(['operating']))].groupby('Type')['Capacity (MW)'].sum().to_csv("C:/Users/james/Downloads/out1.csv")
-# df[(df.Status.isin(['operating']))&(df.Parent.notnull())].groupby('Type')['Capacity (MW)'].sum().to_csv("C:/Users/james/Downloads/out2.csv")
-# df[(df.Status.isin(['operating']))&(df.Owner.notnull())].groupby('Type')['Capacity (MW)'].sum().to_csv("C:/Users/james/Downloads/out3.csv")
-
 
 ##########
 ##CONVERT SOLAR ALL TO MWac FOR SUMMARY TABLES FOLLOWING: https://github.com/GlobalEnergyMonitor/Renewables_Others/blob/main/SolarCode/ConvertToMWac.py
@@ -211,19 +186,19 @@ gipt.loc[df['GEM phase ID'],'Capacity (MW)']=df['Capacity (MW)'].values
 
 
 ################################################################################################################################################
-#1: TEXT CONFIG:
+#1: TEXT CONFIG: (for initialising list of countries)
 tmp=pandas.DataFrame(columns=['Country','overall_summary'])
 for i in ['World','BRICS','EU27','G7','G20','OECD','African Union']+list(all_countries):
 	tmp.loc[i]=[i,' ']
 
 
-with open("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_textconfig_v3.json", 'w') as f:
+with open("./GitHub/gipt-dashboard/gipt_dash_data_prep/gipt_textconfig_v3.json", 'w') as f:
     f.write(tmp.to_json(orient='records'))
 
 
 ################################################################################################################################################
 #2: TICKERS
-iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
+iea_reg_map=pandas.read_excel("./gipt_dash_data_prep/iea_region_code.xlsx")
 regions=['BRICS','EU27','G7','G20','OECD','African Union']
 status=['construction']
 type=['coal','oil/gas']
@@ -255,7 +230,7 @@ def rounder(number):
 tmp.summary_1=['<span>{{'+str(rounder(i))+ '}} GW</span><br>non-fossil power capacity<br>under construction' for i in tmp["summary_1"]]
 tmp.summary_2=['<span>{{'+str(rounder(i))+ '}} GW</span><br>fossil fuel capacity<br>under construction' for i in tmp["summary_2"]]
 
-tmp.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_data_ticker_sept2025_v1.json", orient="records", indent=2, force_ascii=False)
+tmp.to_json("./public/assets/data/gipt_data_ticker_sept2025_v2.json", orient="records", indent=2, force_ascii=False)
 
 # with open("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_data_ticker_sept2025_v1.json", 'w') as f:
 #     f.write(tmp.to_json(orient='records'))
@@ -266,11 +241,13 @@ tmp.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/g
 ### #3:MAP
 ################################################################################################
 
-json_output_path = "C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/operating_plants_map_aug2025_30k.json"
+#run it once applying filters or wind and solar
+json_output_path = "./public/assets/data/operating_plants_map_sept2025_30k.json"
 
 gipt_map=gipt[gipt.Status=='operating']
-gipt_map=gipt_map[~((gipt_map['Type'].str.lower() == 'solar') & (gipt_map['Capacity (MW)'] < 20))]
-gipt_map=gipt_map[~((gipt_map['Type'].str.lower() == 'wind') & (gipt_map['Capacity (MW)'] < 20))]
+# gipt_map=gipt_map[~((gipt_map['Type'].str.lower() == 'solar') & (gipt_map['Capacity (MW)'] < 2000))]
+# gipt_map=gipt_map[~((gipt_map['Type'].str.lower() == 'wind') & (gipt_map['Capacity (MW)'] < 2000))]
+# gipt_map=gipt_map[~(gipt_map['Capacity (MW)'] < 1500)]
 gipt_map.loc[gipt_map.Technology.isnull(),"Technology"]='unknown'
 gipt_map['Type'] = gipt_map['Type'].str.capitalize()
 gipt_map['Type'] = gipt_map['Type'].replace('Solar', 'Utility-scale solar')
@@ -285,7 +262,7 @@ gipt_map=gipt_map.groupby("Plant / Project name", as_index=False).agg({
     'Type':'first'
 })
 
-iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
+iea_reg_map=pandas.read_excel("./gipt_dash_data_prep/iea_region_code.xlsx")
 
 # Build mapping dicts
 BRICS = {country: 'BRICS' for country in list(iea_reg_map[iea_reg_map['BRICS']=='Yes'].gem_name.unique())}
@@ -309,13 +286,6 @@ def get_regions(country, mappings):
 # Apply to DataFrame
 gipt_map["Region"] = gipt_map["Country/area"].apply(lambda c: get_regions(c, all_maps))
 
-# iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
-# regions=['BRICS','EU27','G7','G20','OECD','African Union']
-# res_region=[]
-# for reg in regions:
-# 	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
-# 	gipt_map.loc[(gipt_map['Country/area'].isin(names)),'Country/area']=gipt_map.loc[(gipt_map['Country/area'].isin(names)),'Country/area'].apply(lambda x: [x, reg])
-
 import json
 # Convert to list of dicts and save
 valid_data = gipt_map[['Type',	'Longitude',	'Latitude',	'Capacity (MW)',	'Plant / Project name',	'Country/area','Region','Technology']].to_dict(orient="records")
@@ -323,6 +293,9 @@ valid_data = gipt_map[['Type',	'Longitude',	'Latitude',	'Capacity (MW)',	'Plant 
 with open(json_output_path, "w", encoding="utf-8") as f:
     json.dump(valid_data, f, indent=2)
 
+
+
+#make bounds (don't need to rerun)
 def make_bounds_from_df(df,
                         country_col="Country/area",
                         region_col="Region",
@@ -378,17 +351,836 @@ def make_bounds_from_df(df,
     return bounds_dict
 
 
-json_output_path = "C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/map-bounds.json"
+json_output_path = "./public/assets/map-bounds.json"
 
 with open(json_output_path, "w", encoding="utf-8") as f:
     json.dump(make_bounds_from_df(gipt_map), f, indent=2)
 
 
 
+############################################################################################################
+#
+# # 4: MAKE GIPT TIMESERIES
+# #NB: LOAD COAL IN MANUALLY FROM DASHBOARD (this appears to have custom alterations, so taking directly from coal dashboard rather than calculating here)
+#
+############################################################################################################
+
+#RUN FOR INDIVIDUAL COUNTIRES
+res=[]
+for tech in ['oil/gas','wind','solar','hydropower','nuclear','bioenergy','geothermal']:
+	# Drop rows with missing Start year
+	wind_df = gipt[(gipt.Type==tech)&(gipt.Status.isin(['operating','retired']))].dropna(subset=['Start year'])
+	# Rebuild expanded records, excluding the retired year from active capacity
+	records = []
+	for _, row in wind_df.iterrows():
+	    country = row['Country/area']
+	    capacity = row['Capacity (MW)']
+	    start = int(row['Start year'])
+	    retired = int(row['Retired year']) if pd.notnull(row['Retired year']) else None
+	    if row['Status'] == 'retired' and retired:
+	        for year in range(start, retired):  # retired year excluded
+	            records.append((country, year, capacity))
+	    else:
+	        # For operating plants, include all years from start to 2024
+	        for year in range(start, 2025):
+	            records.append((country, year, capacity))
+	# Convert to DataFrame
+	expanded_df_exclusive = pd.DataFrame(records, columns=['Country/area', 'Year', 'Capacity (MW)'])
+	# Group and sum capacity
+	grouped_df = expanded_df_exclusive.groupby(['Country/area', 'Year'])['Capacity (MW)'].sum().reset_index()
+	# Fill in missing years per country
+	min_year = grouped_df['Year'].min()
+	max_year = grouped_df['Year'].max()
+	all_years = range(min_year, max_year + 1)
+	all_the_countries = grouped_df['Country/area'].unique()
+	full_index = pd.MultiIndex.from_product([all_the_countries, all_years], names=['Country/area', 'Year'])
+	#
+	filled_df_exclusive = grouped_df.set_index(['Country/area', 'Year']).reindex(full_index, fill_value=0).reset_index()
+	filled_df_exclusive['Type']=tech
+	filled_df_exclusive.columns=['Area','Year','GEM','Type']
+	res.append(filled_df_exclusive)
+	tech
+
+#RUN FOR REGIONS
+iea_reg_map=pandas.read_excel("./gipt_dash_data_prep/iea_region_code.xlsx")
+regions=['BRICS','EU27','G7','G20','OECD','African Union']
+
+for reg in regions:
+	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())
+	for tech in ['oil/gas','wind','solar','hydropower','nuclear','bioenergy','geothermal']:
+		# Drop rows with missing Start year
+		wind_df = gipt[(gipt.Type==tech)&(gipt.Status.isin(['operating','retired']))&(gipt['Country/area'].isin(names))].dropna(subset=['Start year'])
+		# Rebuild expanded records, excluding the retired year from active capacity
+		records = []
+		for _, row in wind_df.iterrows():
+		    country = reg#row['Country/area']
+		    capacity = row['Capacity (MW)']
+		    start = int(row['Start year'])
+		    retired = int(row['Retired year']) if pd.notnull(row['Retired year']) else None
+		    if row['Status'] == 'retired' and retired:
+		        for year in range(start, retired):  # retired year excluded
+		            records.append((country, year, capacity))
+		    else:
+		        # For operating plants, include all years from start to 2024
+		        for year in range(start, 2025):
+		            records.append((country, year, capacity))
+		# Convert to DataFrame
+		expanded_df_exclusive = pd.DataFrame(records, columns=['Country/area', 'Year', 'Capacity (MW)'])
+		# Group and sum capacity
+		grouped_df = expanded_df_exclusive.groupby(['Country/area', 'Year'])['Capacity (MW)'].sum().reset_index()
+		# Fill in missing years per country
+		min_year = grouped_df['Year'].min()
+		max_year = grouped_df['Year'].max()
+		all_years = range(min_year, max_year + 1)
+		all_the_countries = grouped_df['Country/area'].unique()
+		full_index = pd.MultiIndex.from_product([all_the_countries, all_years], names=['Country/area', 'Year'])
+		#
+		filled_df_exclusive = grouped_df.set_index(['Country/area', 'Year']).reindex(full_index, fill_value=0).reset_index()
+		filled_df_exclusive['Type']=tech
+		filled_df_exclusive.columns=['Area','Year','GEM','Type']
+		res.append(filled_df_exclusive)
+		tech
+
+
+gipt_annual=pandas.concat(res)
+gipt_annual['Type'] = gipt_annual['Type'].apply(lambda x: x[0].upper() + x[1:] if isinstance(x, str) and x else x)
+
+#ADD GLOBAL SUMMATIONS
+gipt_annual_global=gipt_annual[~gipt_annual.Area.isin(regions)].groupby(['Year','Type'])['GEM'].sum().reset_index()
+gipt_annual_global['Area']='World'
+gipt_annual=pandas.concat([gipt_annual,gipt_annual_global])
+gipt_annual['Type']=gipt_annual['Type'].replace({'Hydropower': 'Hydro'})
+gipt_annual['GEM']=gipt_annual['GEM']/1000.
+
+#LOAD COAL DATA DIRECTLY FROM COAL DASHBOARD
+coal_dash=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/coal_dash_sept_2025.xlsx')
+coal_dash.columns=['Area','Year','GEM']
+coal_dash['Type']='Coal'
+coal_dash=coal_dash[coal_dash['Area'].isin(list(all_countries_in_dash)+['Global'])]
+coal_dash['Area']=coal_dash['Area'].replace({'Global': 'World'})
+
+gipt_annual=pandas.concat([gipt_annual,coal_dash])
+
+
+zzz=gipt_annual[['Area',  'Year'    ,    'Type'    ,    'GEM']].pivot_table(
+    index=['Area','Year'],
+    columns='Type',
+    values='GEM'
+).reset_index().fillna(0.)
+zzz.columns=['Country', 'Year', 'Bioenergy', 'Coal', 'Geothermal', 'Hydropower', 'Nuclear','Oil and gas', 'Utility-scale solar', 'Wind']
+
+# Remove rows where the sum of numeric columns is zero
+df_cleaned = zzz[zzz.iloc[:,-8:].sum(axis=1) != 0][['Country', 'Year', 'Coal', 'Oil and gas', 'Utility-scale solar', 'Wind', 'Hydropower','Nuclear', 'Bioenergy', 'Geothermal']]
+df_cleaned=df_cleaned[(df_cleaned.Year>=2000)&(df_cleaned.Year<2025)]
+df_cleaned.to_csv('C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/GEM_capacity_stacked_sept2025_v2.csv',encoding='utf-8-sig')
+
+# Pretty-printed JSON
+df_cleaned.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/GEM_capacity_stacked_sept2025_v2.json", orient="records", indent=2, force_ascii=False)
+
+
+################################################################################################
+### #5: ADDITIONS / RETIREMENTS - PAST 
+################################################################################################
+
+#COUNTRY VALUES:
+res_country=[]
+for country in all_countries:
+	to_save=(gipt[(gipt['Country/area']==country)&(gipt.Status.isin(['operating']))].groupby(['Type','Start year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':'2025']
+	columns=[i.capitalize() for i in to_save.columns]
+	columns=[i+' added'for i in columns]
+	to_save.columns=columns
+	retires=(-gipt[(gipt['Country/area']==country)&(gipt.Status.isin(['retired']))].groupby(['Type','Retired year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':].fillna(0.)
+	columns=[i.capitalize() for i in retires.columns]
+	columns=[i+' retired'for i in columns]
+	retires.columns=columns
+	to_save=pandas.concat([to_save,retires],axis=1)
+	to_save['Net fossil']=to_save[[col for col in ['Coal added','Oil/gas added'] if col in to_save.columns]].sum(axis=1)+to_save[[col for col in ['Coal retired','Oil/gas retired'] if col in to_save.columns]].sum(axis=1)
+	to_save['Net non-fossil']=to_save[[col for col in ['Bioenergy added','Geothermal added','Hydropower added','Nuclear added','Solar added','Wind added'] if col in to_save.columns]].sum(axis=1)+to_save[[col for col in ['Bioenergy retired','Geothermal retired','Hydropower retired', 'Nuclear retired', 'Solar retired', 'Wind retired'] if col in to_save.columns]].sum(axis=1)
+	to_save['Region']=country
+	res_country.append(to_save)
+	country
+
+
+#RUN FOR REGIONS
+iea_reg_map=pandas.read_excel("./gipt_dash_data_prep/iea_region_code.xlsx")
+regions=['BRICS','EU27','G7','G20','OECD','African Union']
+res_region=[]
+for reg in regions:
+	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
+	to_save=(gipt[(gipt['Country/area'].isin(names))&(gipt.Status.isin(['operating']))].groupby(['Type','Start year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':'2025']
+	columns=[i.capitalize() for i in to_save.columns]
+	columns=[i+' added'for i in columns]
+	to_save.columns=columns
+	retires=(-gipt[(gipt['Country/area'].isin(names))&(gipt.Status.isin(['retired']))].groupby(['Type','Retired year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':].fillna(0.)
+	columns=[i.capitalize() for i in retires.columns]
+	columns=[i+' retired'for i in columns]
+	retires.columns=columns
+	to_save=pandas.concat([to_save,retires],axis=1)
+	to_save['Net fossil']=to_save[[col for col in ['Coal added','Oil/gas added'] if col in to_save.columns]].sum(axis=1)+to_save[[col for col in ['Coal retired','Oil/gas retired'] if col in to_save.columns]].sum(axis=1)
+	to_save['Net non-fossil']=to_save[[col for col in ['Bioenergy added','Geothermal added','Hydropower added','Nuclear added','Solar added','Wind added'] if col in to_save.columns]].sum(axis=1)+to_save[[col for col in ['Bioenergy retired','Geothermal retired','Hydropower retired', 'Nuclear retired', 'Solar retired', 'Wind retired'] if col in to_save.columns]].sum(axis=1)
+	to_save['Region']=reg
+	res_region.append(to_save)
+	reg
+
+#GLOBAL VALUES:
+to_save=(gipt[(gipt.Status.isin(['operating']))].groupby(['Type','Start year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':'2025']
+columns=[i.capitalize() for i in to_save.columns]
+columns=[i+' added'for i in columns]
+to_save.columns=columns
+
+retires=(-gipt[(gipt.Status.isin(['retired']))].groupby(['Type','Retired year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':].fillna(0.)
+columns=[i.capitalize() for i in retires.columns]
+columns=[i+' retired'for i in columns]
+retires.columns=columns
+
+to_save=pandas.concat([to_save,retires],axis=1)
+
+to_save['Net fossil']=to_save[['Coal added','Oil/gas added']].sum(axis=1)+to_save[['Coal retired','Oil/gas retired']].sum(axis=1)
+to_save['Net non-fossil']=to_save[['Bioenergy added','Geothermal added','Hydropower added','Nuclear added','Solar added','Wind added']].sum(axis=1)+to_save[['Bioenergy retired','Geothermal retired','Hydropower retired', 'Nuclear retired', 'Solar retired', 'Wind retired']].sum(axis=1)
+to_save['Region']='World'
+res_country.append(to_save)
+
+
+to_save=pandas.concat([pandas.concat(res_region),pandas.concat(res_country)])[['Region','Net fossil','Net non-fossil','Coal added','Oil/gas added','Solar added','Wind added','Hydropower added','Nuclear added','Bioenergy added','Geothermal added','Coal retired','Oil/gas retired','Solar retired','Wind retired','Hydropower retired','Nuclear retired','Bioenergy retired','Geothermal retired']]
+
+#to_save=pandas.concat(res_region)[['Region','Net fossil','Net non-fossil','Coal added','Oil/gas added','Solar added','Wind added','Hydropower added','Nuclear added','Bioenergy added','Geothermal added','Coal retired','Oil/gas retired','Solar retired','Wind retired','Hydropower retired','Nuclear retired','Bioenergy retired','Geothermal retired']]
+
+to_save=to_save.reset_index()
+
+to_save.rename(columns={'Region':'Country','Oil/gas added': 'Oil and gas', 'Oil/gas retired': 'Oil and gas retired','Solar added':'Utility-scale solar','Solar retired':'Utility-scale solar retired',
+	'Wind added':'Wind','Bioenergy added':'Bioenergy','Geothermal added':'Geothermal','Hydropower added':'Hydropower','Nuclear added':'Nuclear','Coal added':'Coal'}, inplace=True)
+
+# Rename 'Unnamed: 0' to 'Year' for clarity
+to_save.rename(columns={'index': 'Year'}, inplace=True)
+
+# Create a complete index for years 2000 to 2025
+full_years = pd.Series(range(2000, 2025), name='Year')
+
+# Get all unique regions
+regions = to_save['Country'].unique()
+
+# Create a MultiIndex of all (Year, Region) combinations
+full_index = pd.MultiIndex.from_product([full_years, regions], names=['Year', 'Country'])
+
+# Reindex the original dataframe to fill in missing (Year, Region) combinations
+df_full = to_save.set_index(['Year', 'Country']).reindex(full_index).reset_index()
+
+#df_full.sort_values(by=['Region', 'Year']).fillna(0.).to_csv("C:/Users/james/Documents/GEM/GIPT/Viz/net_capacity_V4.csv",encoding='utf-8-sig')
+
+df_full['Utility-scale solar'] = df_full['Utility-scale solar'].round(4)   # pick a sensible precision
+df_full['Utility-scale solar retired'] = df_full['Utility-scale solar retired'].round(4)   # pick a sensible precision
+
+df_full.sort_values(by=['Country', 'Year']).fillna(0.).to_csv("./public/assets/data/net_capacity_sept2025_v2.csv",index=False,encoding='utf-8-sig')
+
+# Pretty-printed JSON
+df_full.to_json("./public/assets/data/net_capacity_sept2025_v2.json", orient="records", indent=2, force_ascii=False)
+
+
+# #GRID OF CHART VERSION
+# tech_cols = ['Coal','Oil and gas', 'Utility-scale solar', 'Wind', 'Hydropower', 'Nuclear',
+#        'Bioenergy', 'Geothermal', 'Coal retired', 'Oil and gas retired',
+#        'Utility-scale solar retired', 'Wind retired', 'Hydropower retired',
+#        'Nuclear retired', 'Bioenergy retired', 'Geothermal retired']
+
+# # Melt to long format
+# long_df = df_full.melt(id_vars=["Year", "Country"], 
+#                   value_vars=['Coal','Oil and gas', 'Utility-scale solar', 'Wind', 'Hydropower', 'Nuclear',
+#        'Bioenergy', 'Geothermal', 'Coal retired', 'Oil and gas retired',
+#        'Utility-scale solar retired', 'Wind retired', 'Hydropower retired',
+#        'Nuclear retired', 'Bioenergy retired', 'Geothermal retired'],
+#                   var_name="Type", value_name="Value")
+
+# # Re-spread into wide with blanks for non-matching
+# final_df = long_df.pivot_table(index=["Year","Country","Type"], 
+#                                columns="Type", values="Value", 
+#                                aggfunc="first").reset_index()
+
+# final_df["Type"] = final_df["Type"].str.replace("retired", "", regex=False).str.strip()
+
+# # Define custom order for Type
+# custom_order = ['Coal','Oil and gas', 'Utility-scale solar', 'Wind', 'Hydropower', 'Nuclear',
+#        'Bioenergy', 'Geothermal']
+
+# final_df["Type"] = pd.Categorical(final_df["Type"], categories=custom_order, ordered=True)
+
+# # Sort first by Country alphabetically, then by Type using custom order
+# final_df = final_df.sort_values(by=["Country", "Type"]).reset_index(drop=True)
+
+# final_df[final_df.select_dtypes(include="number").columns] = (
+#     final_df.select_dtypes(include="number").fillna(0)
+# )
+
+# # Merge duplicates by Year, Country, Type
+# # use 'sum' so that values from different columns survive together
+# merged = (
+#     final_df.groupby(["Year", "Country", "Type"], as_index=False)
+#       .sum(numeric_only=True)
+# )
+
+# merged.to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/net_capacity_grid_aug2025.csv",index=False,encoding='utf-8-sig')
+
+# # Pretty-printed JSON
+# df_full.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/net_capacity_grid_aug2025.json", orient="records", indent=2, force_ascii=False)
+
+
+
+################################################################################################################################################
+#5: DEVEOPMENT
+status=['announced','construction','pre-construction']
+res=[]
+#World
+result=gipt[(gipt.Status.isin(status))].groupby(['Type','Status'])['Capacity (MW)'].sum().reset_index()
+result['Country/area']='World'
+result=result.pivot(index = ['Country/area','Type'], columns='Status',values='Capacity (MW)').reset_index().fillna(0.0)
+result.columns=['Country', 'Source', 'Announced', 'Construction','Pre-construction']
+result=result[['Country', 'Source', 'Construction','Pre-construction','Announced']]
+res.append(result)
+
+#Region
+regions=['BRICS','EU27','G7','G20','OECD','African Union']
+for reg in regions:
+	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())
+	result=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin(names))].groupby(['Type','Status'])['Capacity (MW)'].sum().reset_index()
+	result['Country/area']=reg
+	result=result.pivot(index = ['Country/area','Type'], columns='Status',values='Capacity (MW)').reset_index().fillna(0.0)
+	result.columns=['Country', 'Source', 'Announced', 'Construction','Pre-construction']
+	result=result[['Country', 'Source', 'Construction','Pre-construction','Announced']]
+	res.append(result)
+
+#Country
+types=['coal', 'bioenergy', 'hydropower', 'geothermal', 'wind', 'solar','nuclear', 'oil/gas']
+for country in all_countries:
+	result=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))].groupby(['Country/area','Type','Status'])['Capacity (MW)'].sum().reset_index().pivot(index = ['Country/area','Type'], columns='Status',values='Capacity (MW)').reset_index().fillna(0.0)
+	missing=set(status)-set(list(gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))].Status.unique()))
+	if len(missing)>0:
+		for i in missing:
+			result[i]=0
+	missing=set(types)-set(list(result.Type))
+	if len(missing)>1:
+		for i in missing:
+			result=pandas.concat([result,pandas.DataFrame([country,i,0,0,0],index=['Country/area', 'Type', 'announced', 'construction','pre-construction']).T])
+	result=result[['Country/area','Type','construction','pre-construction','announced']]
+	result.columns=['Country', 'Source', 'Construction','Pre-construction','Announced']
+	res.append(result)
+
+tmp=pandas.concat(res)
+tmp.loc[tmp.Source=='bioenergy','Source'] = 'Bioenergy'
+tmp.loc[tmp.Source=='coal','Source'] = 'Coal'
+tmp.loc[tmp.Source=='oil/gas','Source'] = 'Oil and gas'
+tmp.loc[tmp.Source=='geothermal','Source'] = 'Geothermal'
+tmp.loc[tmp.Source=='hydropower','Source'] = 'Hydropower'
+tmp.loc[tmp.Source=='nuclear','Source'] = 'Nuclear'
+tmp.loc[tmp.Source=='solar','Source'] = 'Utility-scale solar'
+tmp.loc[tmp.Source=='wind','Source'] = 'Wind'
+
+tmp.to_json("./public/assets/data//gipt_development_sept2025_v1.json", orient="records", indent=2, force_ascii=False)
+tmp.fillna(0.).to_csv("./public/assets/data//gipt_dev_sept2025_v1.csv",encoding='utf-8-sig')
+
+
+################################################################################################################################################
+##6: FOSSIL / NON-FOSISL SPLIT
+status=['operating','announced','construction','pre-construction']
+gipt_copy=gipt.copy()
+gipt_copy.loc[gipt_copy.Type=='coal','Type']='Fossil'
+gipt_copy.loc[gipt_copy.Type=='oil/gas','Type']='Fossil'
+gipt_copy.loc[gipt_copy.Type!='Fossil','Type']='Non-fossil'
+res=[]
+#World
+result=gipt_copy[(gipt_copy.Status.isin(status))].groupby(['Status','Type'])['Capacity (MW)'].sum().reset_index().pivot(index = ['Status'], columns='Type',values='Capacity (MW)').reset_index().fillna(0.0)
+result['Country']='World'
+result=result[['Country','Status','Fossil','Non-fossil']]
+res.append(result.loc[[0,3,1,2]])
+#Regions
+for reg in regions:
+	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())
+	result=gipt_copy[(gipt_copy.Status.isin(status))&(gipt['Country/area'].isin(names))].groupby(['Status','Type'])['Capacity (MW)'].sum().reset_index().pivot(index = ['Status'], columns='Type',values='Capacity (MW)').reset_index().fillna(0.0)
+	result['Country']=reg
+	result=result[['Country','Status','Fossil','Non-fossil']]
+	res.append(result.loc[[0,3,1,2]])
+
+#Countries
+for country in all_countries:
+	result=gipt_copy[(gipt_copy.Status.isin(status))&(gipt['Country/area'].isin([country]))].groupby(['Country/area','Status','Type'])['Capacity (MW)'].sum().reset_index().pivot(index = ['Country/area','Status'], columns='Type',values='Capacity (MW)').reset_index().fillna(0.0)
+	missing=set(['Country/area', 'Status', 'Fossil','Non-fossil'])-set(result.columns)
+	if len(missing)>0:
+		for i in missing:
+			result[i]=0
+	missing=set(['operating','announced','construction','pre-construction'])-set(list(result.Status))
+	if len(missing)>0:
+		for i in missing:
+			result=pandas.concat([result,pandas.DataFrame([country,i,0,0],index=['Country/area','Status','Fossil','Non-fossil']).T])
+	result=result[['Country/area', 'Status', 'Fossil','Non-fossil']]
+	result.columns=['Country', 'Status', 'Fossil','Non-fossil']
+	res.append(result.sort_values('Status').reset_index()[['Country', 'Status', 'Fossil','Non-fossil']].loc[[0,3,1,2]])
+
+
+
+tmp=pandas.concat(res)
+tmp=tmp[['Country', 'Status','Non-fossil', 'Fossil']]
+
+tmp.loc[tmp.Status=='announced','Status'] = 'Announced'
+tmp.loc[tmp.Status=='construction','Status'] = 'Construction'
+tmp.loc[tmp.Status=='pre-construction','Status'] = 'Pre-construction'
+tmp.loc[tmp.Status=='operating','Status'] = 'Operating'
+
+tmp.to_json("./public/assets/data/gipt_fossil_nonfossil_sept2025_v2.json", orient="records", indent=2, force_ascii=False)
+
+tmp['Non-fossil share']=tmp['Non-fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
+tmp['Fossil share']=tmp['Fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
+tmp.fillna(0.).to_csv("./public/assets/data/gipt_share_sept2025_v2.csv",encoding='utf-8-sig')
+
+
+################################################################################################
+### EXTRA DASH: breakdown by age
+################################################################################################
+
+#BUBBLE VERSION
+# Filter for operating facilities
+df_operating = gipt[gipt["Status"].str.lower() == "operating"][["Country/area", "Type", "Capacity (MW)", "Status", "Start year"]]
+
+# Drop rows with missing start year
+df_operating = df_operating.dropna(subset=["Start year"])
+
+# Calculate age of each facility
+df_operating["Age"] = 2025 - df_operating["Start year"]
+
+# Define the age categorization function
+def categorize_age(age):
+    if age >= 50:
+        return "50+ years"
+    elif age >= 40:
+        return "40-49 years"
+    elif age >= 30:
+        return "30-39 years"
+    elif age >= 20:
+        return "20-29 years"
+    elif age >= 10:
+        return "10-19 years"
+    else:
+        return "0-9 years"
+
+# Apply the categorization
+df_operating['Age Category'] = df_operating['Age'].apply(categorize_age)
+
+# Step 1: Create the base grouped DataFrame with all age categories per Country/area and Type
+age_categories = [
+    "0-9 years", "10-19 years", "20-29 years",
+    "30-39 years", "40-49 years", "50+ years"
+]
+
+country_type_combinations = df_operating[['Country/area', 'Type']].drop_duplicates()
+
+full_index = (
+    country_type_combinations
+    .assign(key=1)
+    .merge(pd.DataFrame({'Age Category': age_categories, 'key': 1}), on='key')
+    .drop(columns='key')
+)
+
+grouped_df = df_operating.groupby(
+    ['Country/area', 'Type', 'Age Category'], as_index=False
+)['Capacity (MW)'].sum()
+
+complete_grouped_df_country = pd.merge(
+    full_index,
+    grouped_df,
+    on=['Country/area', 'Type', 'Age Category'],
+    how='left'
+)
+
+complete_grouped_df_country['Capacity (MW)'] = complete_grouped_df_country['Capacity (MW)'].fillna(0)
+
+
+#REGIONS
+iea_reg_map=pandas.read_excel("./gipt_dash_data_prep/iea_region_code.xlsx")
+regions=['BRICS','EU27','G7','G20','OECD','African Union']
+res_region=[]
+for reg in regions:
+	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
+	# Filter for operating facilities
+	df_operating = gipt[(gipt['Country/area'].isin(names))&(gipt["Status"].str.lower() == "operating")][["Country/area", "Type", "Capacity (MW)", "Status", "Start year"]]
+	df_operating['Country/area']=reg
+	# Drop rows with missing start year
+	df_operating = df_operating.dropna(subset=["Start year"])
+	# Calculate age of each facility
+	df_operating["Age"] = 2025 - df_operating["Start year"]
+	# Define the age categorization function
+	def categorize_age(age):
+	    if age >= 50:
+	        return "50+ years"
+	    elif age >= 40:
+	        return "40-49 years"
+	    elif age >= 30:
+	        return "30-39 years"
+	    elif age >= 20:
+	        return "20-29 years"
+	    elif age >= 10:
+	        return "10-19 years"
+	    else:
+	        return "0-9 years"
+	# Apply the categorization
+	df_operating['Age Category'] = df_operating['Age'].apply(categorize_age)
+	# Step 1: Create the base grouped DataFrame with all age categories per Country/area and Type
+	age_categories = [
+	    "0-9 years", "10-19 years", "20-29 years",
+	    "30-39 years", "40-49 years", "50+ years"
+	]
+	country_type_combinations = df_operating[['Country/area', 'Type']].drop_duplicates()
+	full_index = (
+	    country_type_combinations
+	    .assign(key=1)
+	    .merge(pd.DataFrame({'Age Category': age_categories, 'key': 1}), on='key')
+	    .drop(columns='key')
+	)
+	grouped_df = df_operating.groupby(
+	    ['Country/area', 'Type', 'Age Category'], as_index=False
+	)['Capacity (MW)'].sum()
+	complete_grouped_df = pd.merge(
+	    full_index,
+	    grouped_df,
+	    on=['Country/area', 'Type', 'Age Category'],
+	    how='left'
+	)
+	complete_grouped_df['Capacity (MW)'] = complete_grouped_df['Capacity (MW)'].fillna(0)
+	res_region.append(complete_grouped_df)
+
+
+
+#"World" totals across all countries, by Type and Age Category
+world_agg = (
+    complete_grouped_df_country
+    .groupby(['Type', 'Age Category'], as_index=False)['Capacity (MW)']
+    .sum()
+)
+world_agg['Country/area'] = 'World'
+
+# Combine world data with the complete grouped data
+final_df = pd.concat([pandas.concat([pandas.concat(res_region),complete_grouped_df_country]), world_agg], ignore_index=True)
+
+
+final_df['Type'] = final_df['Type'].replace({
+    'bioenergy': 'Bioenergy',
+    'coal': 'Coal',
+    'geothermal':'Geothermal',
+    'hydropower':'Hydropower',
+    'nuclear':'Nuclear',
+    'oil/gas':'Oil and gas',
+    'solar':'Utility-scale solar',
+    'wind':'Wind',
+})
+
+# final_df['Capacity %'] = (
+#     final_df.groupby(['Type', 'Country/area'])['Capacity (MW)']
+#     .transform(lambda x: x / x.sum() * 100)
+# )
+
+# Calculate total capacity per country
+country_totals = final_df.groupby("Country/area")["Capacity (MW)"].transform("sum")
+
+# Add new column with percentage of total capacity per country
+final_df["Capacity %"] = (final_df["Capacity (MW)"] / country_totals) * 100
+
+
+# Define desired order for 'Type'
+type_order = [
+    "Coal",
+    "Oil and gas",
+    "Utility-scale solar",
+    "Wind",
+    "Hydropower",
+    "Nuclear",
+    "Bioenergy",
+    "Geothermal"
+]
+
+# Convert 'Type' to a categorical with the defined order
+final_df['Type'] = pd.Categorical(final_df['Type'], categories=type_order, ordered=True)
+
+# Sort the DataFrame by Country/area, Type, and Age Category
+final_df_sorted = final_df.sort_values(by=['Country/area', 'Type', 'Age Category'])
+final_df_sorted['Capacity (MW)']=final_df_sorted['Capacity (MW)']/1000.
+
+final_df_sorted.columns=['Country', 'Type', 'Age Category', 'Capacity (MW)', 'Capacity %']
+
+final_df_sorted.to_csv('./public/assets/data/age_breakdown_sept2025_v2.csv',index=False,encoding='utf-8-sig')
+
+# Pretty-printed JSON
+final_df_sorted.to_json("./public/assets/data/age_breakdown_sept2025_v2.json", orient="records", indent=2, force_ascii=False)
+
+
+################################################################################################
+### extra dash: ownership
+################################################################################################
+
+# ----- SUMMARY OF CAPACITY PER PARENT/OWNER
+# ----- FIRST HANDLE COMBUSTION 'PARENTS' IN A BIG LOOP
+
+# Helper function to parse owners and calculate proportional shares
+def parse_parent_with_percentages(row):
+    owners_raw = str(row["Parent"])
+    capacity = row["Capacity (MW)"]
+    # Find all owners and optional percentages
+    pattern = r'([^;\[]+?)(?:\s*\[\s*(\d+(?:\.\d+)?)\s*%\s*\])?(?:;|$)'
+    matches = re.findall(pattern, owners_raw)
+    owners = []
+    total_percent = 0
+    percent_info = []
+    for owner, pct in matches:
+        owner = owner.strip()
+        if pct:
+            percent = float(pct)
+            total_percent += percent
+            percent_info.append((owner, percent))
+        else:
+            owners.append(owner)
+    # Normalize capacity by percentage or equally split if no percentages
+    result = []
+    if percent_info:
+        for owner, percent in percent_info:
+            share = capacity * (percent / 100)
+            result.append({
+                "Country/area": row["Country/area"],
+                "Parent": owner,
+                "Capacity (MW)": share
+            })
+    elif owners:
+        share = capacity / len(owners)
+        for owner in owners:
+            result.append({
+                "Country/area": row["Country/area"],
+                "Parent": owner,
+                "Capacity (MW)": share
+            })
+    return result
+
+res=[]
+for tech in ['coal','oil/gas']:
+	for status,status_name in zip([['operating'],['construction'],['pre-construction'],['announced'],['construction','pre-construction','announced']],['operating','construction','pre-construction','announced','in-dev']):
+		df_tmp=gipt[(gipt.Type==tech)&(gipt.Status.isin(status))]
+		df_tmp.loc[df_tmp.Parent.isnull(),'Parent']='unknown'
+		# Expand rows using the helper function
+		tmp_rows = []
+		for _, row in df_tmp.iterrows():
+		    tmp_rows.extend(parse_parent_with_percentages(row))
+		df_tmp_expanded = pandas.DataFrame(tmp_rows)
+		# Aggregate capacity
+		df_tmp_aggregated = df_tmp_expanded.groupby(["Country/area", "Parent"], as_index=False)["Capacity (MW)"].sum()
+		# Add rank per country
+		df_tmp_aggregated["Rank"] = df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].rank(method="dense", ascending=False).astype(int)
+		# Sort
+		df_tmp_aggregated.sort_values(by=["Country/area", "Rank"], inplace=True)
+		# Calculate percentage of total capacity per country
+		df_tmp_aggregated["Total Capacity (MW)"] = df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].transform("sum")
+		df_tmp_aggregated["Percentage of Total Capacity (%)"] = (df_tmp_aggregated["Capacity (MW)"] / df_tmp_aggregated["Total Capacity (MW)"])
+		# Calculate cumulative percentage of total capacity per country
+		df_tmp_aggregated["Cumulative Percentage (%)"] = df_tmp_aggregated.groupby("Country/area")["Percentage of Total Capacity (%)"].cumsum()
+		# Sort again for clarity
+		df_tmp_aggregated.sort_values(by=["Country/area", "Rank"], inplace=True)
+		# Add some indexing/categories
+		df_tmp_aggregated['Technology']=tech
+		df_tmp_aggregated['Status']=status_name
+		# Repeat sets above but aggregating globally
+		global_df_tmp_aggregated=df_tmp_aggregated.groupby(['Parent', 'Technology']).agg({'Capacity (MW)': 'sum',}).reset_index().sort_values('Capacity (MW)',ascending=False)
+		global_df_tmp_aggregated['Country/area']='World'
+		global_df_tmp_aggregated["Total Capacity (MW)"] = global_df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].transform("sum")
+		global_df_tmp_aggregated["Percentage of Total Capacity (%)"] = (global_df_tmp_aggregated["Capacity (MW)"] / global_df_tmp_aggregated["Total Capacity (MW)"])
+		global_df_tmp_aggregated["Cumulative Percentage (%)"] = global_df_tmp_aggregated.groupby("Country/area")["Percentage of Total Capacity (%)"].cumsum()
+		global_df_tmp_aggregated=global_df_tmp_aggregated[global_df_tmp_aggregated['Capacity (MW)']!=0.]
+		global_df_tmp_aggregated['Rank']=global_df_tmp_aggregated['Capacity (MW)'].rank(method="dense", ascending=False).astype(int)
+		global_df_tmp_aggregated['Status']=status_name
+		# Stick togther country and global outputs per technology
+		res.append(pandas.concat([global_df_tmp_aggregated,df_tmp_aggregated]))
+
+out1=pandas.concat(res)
+out1["Technology"] = out1["Technology"].str.title()
+
+
+# ----- NOW HANDLE NON-COMBUSTION 'OWNERS' IN A BIG LOOP
+
+# Helper function to parse owners and calculate proportional shares
+def parse_owners_with_percentages(row):
+    owners_raw = str(row["Owner"])
+    capacity = row["Capacity (MW)"]
+    # Find all owners and optional percentages
+    pattern = r'([^;\[]+?)(?:\s*\[\s*(\d+(?:\.\d+)?)\s*%\s*\])?(?:;|$)'
+    matches = re.findall(pattern, owners_raw)
+    owners = []
+    total_percent = 0
+    percent_info = []
+    for owner, pct in matches:
+        owner = owner.strip()
+        if pct:
+            percent = float(pct)
+            total_percent += percent
+            percent_info.append((owner, percent))
+        else:
+            owners.append(owner)
+    # Normalize capacity by percentage or equally split if no percentages
+    result = []
+    if percent_info:
+        for owner, percent in percent_info:
+            share = capacity * (percent / 100)
+            result.append({
+                "Country/area": row["Country/area"],
+                "Owner": owner,
+                "Capacity (MW)": share
+            })
+    elif owners:
+        share = capacity / len(owners)
+        for owner in owners:
+            result.append({
+                "Country/area": row["Country/area"],
+                "Owner": owner,
+                "Capacity (MW)": share
+            })
+    return result
+
+
+res2=[]
+for tech in ['solar','wind','hydropower','bioenergy','geothermal','nuclear']:
+	for status,status_name in zip([['operating'],['construction'],['pre-construction'],['announced'],['construction','pre-construction','announced']],['operating','construction','pre-construction','announced','in-dev']):
+		df_tmp=gipt[(gipt.Type==tech)&(gipt.Status.isin(status))]
+		df_tmp.loc[df_tmp.Owner.isnull(),'Owner']='unknown'
+		# Expand rows using the helper function
+		tmp_rows = []
+		for _, row in df_tmp.iterrows():
+		    tmp_rows.extend(parse_owners_with_percentages(row))
+		df_tmp_expanded = pandas.DataFrame(tmp_rows)
+		# Aggregate capacity
+		df_tmp_aggregated = df_tmp_expanded.groupby(["Country/area", "Owner"], as_index=False)["Capacity (MW)"].sum()
+		# Add rank per country
+		df_tmp_aggregated["Rank"] = df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].rank(method="dense", ascending=False).astype(int)
+		# Sort
+		df_tmp_aggregated.sort_values(by=["Country/area", "Rank"], inplace=True)
+		# Calculate percentage of total capacity per country
+		df_tmp_aggregated["Total Capacity (MW)"] = df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].transform("sum")
+		df_tmp_aggregated["Percentage of Total Capacity (%)"] = (df_tmp_aggregated["Capacity (MW)"] / df_tmp_aggregated["Total Capacity (MW)"])
+		# Calculate cumulative percentage of total capacity per country
+		df_tmp_aggregated["Cumulative Percentage (%)"] = df_tmp_aggregated.groupby("Country/area")["Percentage of Total Capacity (%)"].cumsum()
+		# Sort again for clarity
+		df_tmp_aggregated.sort_values(by=["Country/area", "Rank"], inplace=True)
+		df_tmp_aggregated['Technology']=tech
+		df_tmp_aggregated['Status']=status_name
+		# Repeat sets above but aggregating globally
+		global_df_tmp_aggregated=df_tmp_aggregated.groupby(['Owner', 'Technology']).agg({'Capacity (MW)': 'sum',}).reset_index().sort_values('Capacity (MW)',ascending=False)
+		global_df_tmp_aggregated['Country/area']='World'
+		global_df_tmp_aggregated["Total Capacity (MW)"] = global_df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].transform("sum")
+		global_df_tmp_aggregated["Percentage of Total Capacity (%)"] = (global_df_tmp_aggregated["Capacity (MW)"] / global_df_tmp_aggregated["Total Capacity (MW)"])
+		global_df_tmp_aggregated["Cumulative Percentage (%)"] = global_df_tmp_aggregated.groupby("Country/area")["Percentage of Total Capacity (%)"].cumsum()
+		global_df_tmp_aggregated=global_df_tmp_aggregated[global_df_tmp_aggregated['Capacity (MW)']!=0.]
+		global_df_tmp_aggregated['Rank']=global_df_tmp_aggregated['Capacity (MW)'].rank(method="dense", ascending=False).astype(int)
+		global_df_tmp_aggregated['Status']=status_name
+		# Stick togther country and global outputs per technology
+		res2.append(pandas.concat([global_df_tmp_aggregated,df_tmp_aggregated]))
+
+out2=pandas.concat(res2)
+out2["Technology"] = out2["Technology"].str.title()
+
+# RENAME TO ALLOW STICKING TOGETHER OF DATAFRAMES
+out2.rename(columns={'Owner': 'Parent'}, inplace=True)
+
+# STICK TOGETHER DATAFRAMES
+owners_df=pandas.concat([out1,out2])[['Technology','Country/area','Status','Parent','Capacity (MW)','Rank','Percentage of Total Capacity (%)','Cumulative Percentage (%)']]
+
+#REGIONS
+iea_reg_map=pandas.read_excel("./gipt_dash_data_prep/iea_region_code.xlsx")
+regions=['BRICS','EU27','G7','G20','OECD','African Union']
+res_region=[]
+for reg in regions:
+	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
+	df_operating = owners_df[(owners_df['Country/area'].isin(names))]
+	df_operating['Country/area']=reg
+	res_region.append(df_operating)
+
+
+owners_df=pandas.concat([owners_df,pandas.concat(res_region)])
+
+
+owners_df_operating=owners_df[owners_df.Status=='operating'][['Country/area','Parent','Capacity (MW)','Technology']]
+
+#RENAME OIL/GAS AND SOLAR
+owners_df_operating['Technology'].replace({
+    'Oil/Gas': 'Oil and gas',
+    'Solar': 'Utility-scale solar',
+}, inplace=True)
 
 
 
 
+# Group by Country/area and Technology and apply the top 20 logic
+top_20 = (
+    owners_df_operating.groupby(['Country/area', 'Technology'], group_keys=False)
+    .apply(lambda x: x.nlargest(20, 'Capacity (MW)'))
+)
+
+# Now filter out the rows that are not in the top 20
+df_remaining = pd.concat([owners_df_operating, top_20]).drop_duplicates(keep=False)
+# Aggregate the remaining rows
+others = (
+    df_remaining.groupby(['Country/area', 'Technology'], as_index=False)
+    .agg({'Capacity (MW)': 'sum'})
+)
+others['Parent'] = 'Others'
+# Combine top 20 with aggregated "Others" rows
+final_df = pd.concat([top_20, others], ignore_index=True)
+
+
+#final_df[(final_df['Country/area']=='China')&(final_df.Technology=='Solar')]
+
+
+# Divide 'Capacity (MW)' by 1000 to convert to GW
+final_df['Capacity (MW)'] = final_df['Capacity (MW)'] / 1000
+
+# Create a custom sort key: 0 for 'Global', 1 for all others
+final_df['CountrySortKey'] = final_df['Country/area'].apply(lambda x: 0 if x == 'World' else 1)
+
+# Sort by the custom key and then by 'Country/area'
+sorted_df = final_df.sort_values(by=['CountrySortKey', 'Country/area']).drop(columns='CountrySortKey')
+
+#DROP GLOBAL UNKNONW AND OTHER
+sorted_df = sorted_df[~((sorted_df['Country/area'] == 'World') & (sorted_df['Parent'].isin(['unknown','other','Unknown','Other','Others','others'])))]
+
+#HARMONISE OTHERS/UNKNOWN
+sorted_df['Parent'].replace({
+    'unknown': 'Unknown',
+    'other': 'Others',
+    'Other': 'Others',
+    'others': 'Others'
+}, inplace=True)
+
+
+sorted_df.columns=['Country','Parent', 'Capacity (GW)', 'Type']
+sorted_df[['Country','Parent', 'Capacity (GW)', 'Type']].to_csv('./public/assets/data/ownership_sept2025_v2.csv',encoding='utf-8-sig', index=False)
+
+# Pretty-printed JSON
+sorted_df.to_json("./public/assets/data/ownership_sept2025_v2.json", orient="records", indent=2, force_ascii=False)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############################################################################################################
+#
+# NOT USED
 
 
 
@@ -592,120 +1384,6 @@ with open("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gip
 # with open("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_construction_aug2025_v1.json", 'w') as f:
 #     f.write('['+','.join(res).replace('[','').replace(']','')+']')
 
-################################################################################################################################################
-#5: DEVEOPMENT
-status=['announced','construction','pre-construction']
-res=[]
-#World
-result=gipt[(gipt.Status.isin(status))].groupby(['Type','Status'])['Capacity (MW)'].sum().reset_index()
-result['Country/area']='World'
-result=result.pivot(index = ['Country/area','Type'], columns='Status',values='Capacity (MW)').reset_index().fillna(0.0)
-result.columns=['Country', 'Source', 'Announced', 'Construction','Pre-construction']
-result=result[['Country', 'Source', 'Construction','Pre-construction','Announced']]
-res.append(result)
-
-#Region
-regions=['BRICS','EU27','G7','G20','OECD','African Union']
-for reg in regions:
-	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())
-	result=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin(names))].groupby(['Type','Status'])['Capacity (MW)'].sum().reset_index()
-	result['Country/area']=reg
-	result=result.pivot(index = ['Country/area','Type'], columns='Status',values='Capacity (MW)').reset_index().fillna(0.0)
-	result.columns=['Country', 'Source', 'Announced', 'Construction','Pre-construction']
-	result=result[['Country', 'Source', 'Construction','Pre-construction','Announced']]
-	res.append(result)
-
-#Country
-types=['coal', 'bioenergy', 'hydropower', 'geothermal', 'wind', 'solar','nuclear', 'oil/gas']
-for country in all_countries:
-	result=gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))].groupby(['Country/area','Type','Status'])['Capacity (MW)'].sum().reset_index().pivot(index = ['Country/area','Type'], columns='Status',values='Capacity (MW)').reset_index().fillna(0.0)
-	missing=set(status)-set(list(gipt[(gipt.Status.isin(status))&(gipt['Country/area'].isin([country]))].Status.unique()))
-	if len(missing)>0:
-		for i in missing:
-			result[i]=0
-	missing=set(types)-set(list(result.Type))
-	if len(missing)>1:
-		for i in missing:
-			result=pandas.concat([result,pandas.DataFrame([country,i,0,0,0],index=['Country/area', 'Type', 'announced', 'construction','pre-construction']).T])
-	result=result[['Country/area','Type','construction','pre-construction','announced']]
-	result.columns=['Country', 'Source', 'Construction','Pre-construction','Announced']
-	res.append(result)
-
-tmp=pandas.concat(res)
-tmp.loc[tmp.Source=='bioenergy','Source'] = 'Bioenergy'
-tmp.loc[tmp.Source=='coal','Source'] = 'Coal'
-tmp.loc[tmp.Source=='oil/gas','Source'] = 'Oil and gas'
-tmp.loc[tmp.Source=='geothermal','Source'] = 'Geothermal'
-tmp.loc[tmp.Source=='hydropower','Source'] = 'Hydropower'
-tmp.loc[tmp.Source=='nuclear','Source'] = 'Nuclear'
-tmp.loc[tmp.Source=='solar','Source'] = 'Utility-scale solar'
-tmp.loc[tmp.Source=='wind','Source'] = 'Wind'
-
-# with open("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_development_aug2025_v1.json", 'w') as f:
-#     f.write(tmp.to_json(orient='records'))
-
-tmp.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_development_sept2025_v1.json", orient="records", indent=2, force_ascii=False)
-
-tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_dev_sept2025_v1.csv",encoding='utf-8-sig')
-
-
-################################################################################################################################################
-##6: FOSSIL / NON-FOSISL SPLIT
-status=['operating','announced','construction','pre-construction']
-gipt_copy=gipt.copy()
-gipt_copy.loc[gipt_copy.Type=='coal','Type']='Fossil'
-gipt_copy.loc[gipt_copy.Type=='oil/gas','Type']='Fossil'
-gipt_copy.loc[gipt_copy.Type!='Fossil','Type']='Non-fossil'
-res=[]
-#World
-result=gipt_copy[(gipt_copy.Status.isin(status))].groupby(['Status','Type'])['Capacity (MW)'].sum().reset_index().pivot(index = ['Status'], columns='Type',values='Capacity (MW)').reset_index().fillna(0.0)
-result['Country']='World'
-result=result[['Country','Status','Fossil','Non-fossil']]
-res.append(result.loc[[0,3,1,2]])
-#Regions
-for reg in regions:
-	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())
-	result=gipt_copy[(gipt_copy.Status.isin(status))&(gipt['Country/area'].isin(names))].groupby(['Status','Type'])['Capacity (MW)'].sum().reset_index().pivot(index = ['Status'], columns='Type',values='Capacity (MW)').reset_index().fillna(0.0)
-	result['Country']=reg
-	result=result[['Country','Status','Fossil','Non-fossil']]
-	res.append(result.loc[[0,3,1,2]])
-
-#Countries
-for country in all_countries:
-	result=gipt_copy[(gipt_copy.Status.isin(status))&(gipt['Country/area'].isin([country]))].groupby(['Country/area','Status','Type'])['Capacity (MW)'].sum().reset_index().pivot(index = ['Country/area','Status'], columns='Type',values='Capacity (MW)').reset_index().fillna(0.0)
-	missing=set(['Country/area', 'Status', 'Fossil','Non-fossil'])-set(result.columns)
-	if len(missing)>0:
-		for i in missing:
-			result[i]=0
-	missing=set(['operating','announced','construction','pre-construction'])-set(list(result.Status))
-	if len(missing)>0:
-		for i in missing:
-			result=pandas.concat([result,pandas.DataFrame([country,i,0,0],index=['Country/area','Status','Fossil','Non-fossil']).T])
-	result=result[['Country/area', 'Status', 'Fossil','Non-fossil']]
-	result.columns=['Country', 'Status', 'Fossil','Non-fossil']
-	res.append(result.sort_values('Status').reset_index()[['Country', 'Status', 'Fossil','Non-fossil']].loc[[0,3,1,2]])
-
-
-
-tmp=pandas.concat(res)
-tmp=tmp[['Country', 'Status','Non-fossil', 'Fossil']]
-
-tmp.loc[tmp.Status=='announced','Status'] = 'Announced'
-tmp.loc[tmp.Status=='construction','Status'] = 'Construction'
-tmp.loc[tmp.Status=='pre-construction','Status'] = 'Pre-construction'
-tmp.loc[tmp.Status=='operating','Status'] = 'Operating'
-
-tmp.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_fossil_nonfossil_sept2025_v1.json", orient="records", indent=2, force_ascii=False)
-
-# with open("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_fossil_nonfossil_aug2025_v1.json", 'w') as f:
-#     f.write(tmp.to_json(orient='records'))
-
-
-tmp['Non-fossil share']=tmp['Non-fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
-tmp['Fossil share']=tmp['Fossil'].astype(float).divide(tmp['Non-fossil'].astype(float)+tmp['Fossil'].astype(float))
-tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/gipt_share_sept2025_v1.csv",encoding='utf-8-sig')
-
-
 
 
 
@@ -713,314 +1391,7 @@ tmp.fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard/public/ass
 ############################################################################################################
 #
 # DASHBOARD DEVELOPMENT - EXTRA DATA WRANGLING
-# MAKE GIPT TIMESERIES
-# LOAD COAL IN MANUALL FROM DASHBOARD
 #
-############################################################################################################
-
-#RUN FOR INDIVIDUAL COUNTIRES
-res=[]
-for tech in ['oil/gas','wind','solar','hydropower','nuclear','bioenergy','geothermal']:
-	# Drop rows with missing Start year
-	wind_df = gipt[(gipt.Type==tech)&(gipt.Status.isin(['operating','retired']))].dropna(subset=['Start year'])
-	# Rebuild expanded records, excluding the retired year from active capacity
-	records = []
-	for _, row in wind_df.iterrows():
-	    country = row['Country/area']
-	    capacity = row['Capacity (MW)']
-	    start = int(row['Start year'])
-	    retired = int(row['Retired year']) if pd.notnull(row['Retired year']) else None
-	    if row['Status'] == 'retired' and retired:
-	        for year in range(start, retired):  # retired year excluded
-	            records.append((country, year, capacity))
-	    else:
-	        # For operating plants, include all years from start to 2024
-	        for year in range(start, 2025):
-	            records.append((country, year, capacity))
-	# Convert to DataFrame
-	expanded_df_exclusive = pd.DataFrame(records, columns=['Country/area', 'Year', 'Capacity (MW)'])
-	# Group and sum capacity
-	grouped_df = expanded_df_exclusive.groupby(['Country/area', 'Year'])['Capacity (MW)'].sum().reset_index()
-	# Fill in missing years per country
-	min_year = grouped_df['Year'].min()
-	max_year = grouped_df['Year'].max()
-	all_years = range(min_year, max_year + 1)
-	all_the_countries = grouped_df['Country/area'].unique()
-	full_index = pd.MultiIndex.from_product([all_the_countries, all_years], names=['Country/area', 'Year'])
-	#
-	filled_df_exclusive = grouped_df.set_index(['Country/area', 'Year']).reindex(full_index, fill_value=0).reset_index()
-	filled_df_exclusive['Type']=tech
-	filled_df_exclusive.columns=['Area','Year','GEM','Type']
-	res.append(filled_df_exclusive)
-	tech
-
-#RUN FOR REGIONS
-iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
-regions=['BRICS','EU27','G7','G20','OECD','African Union']
-
-for reg in regions:
-	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())
-	for tech in ['oil/gas','wind','solar','hydropower','nuclear','bioenergy','geothermal']:
-		# Drop rows with missing Start year
-		wind_df = gipt[(gipt.Type==tech)&(gipt.Status.isin(['operating','retired']))&(gipt['Country/area'].isin(names))].dropna(subset=['Start year'])
-		# Rebuild expanded records, excluding the retired year from active capacity
-		records = []
-		for _, row in wind_df.iterrows():
-		    country = reg#row['Country/area']
-		    capacity = row['Capacity (MW)']
-		    start = int(row['Start year'])
-		    retired = int(row['Retired year']) if pd.notnull(row['Retired year']) else None
-		    if row['Status'] == 'retired' and retired:
-		        for year in range(start, retired):  # retired year excluded
-		            records.append((country, year, capacity))
-		    else:
-		        # For operating plants, include all years from start to 2024
-		        for year in range(start, 2025):
-		            records.append((country, year, capacity))
-		# Convert to DataFrame
-		expanded_df_exclusive = pd.DataFrame(records, columns=['Country/area', 'Year', 'Capacity (MW)'])
-		# Group and sum capacity
-		grouped_df = expanded_df_exclusive.groupby(['Country/area', 'Year'])['Capacity (MW)'].sum().reset_index()
-		# Fill in missing years per country
-		min_year = grouped_df['Year'].min()
-		max_year = grouped_df['Year'].max()
-		all_years = range(min_year, max_year + 1)
-		all_the_countries = grouped_df['Country/area'].unique()
-		full_index = pd.MultiIndex.from_product([all_the_countries, all_years], names=['Country/area', 'Year'])
-		#
-		filled_df_exclusive = grouped_df.set_index(['Country/area', 'Year']).reindex(full_index, fill_value=0).reset_index()
-		filled_df_exclusive['Type']=tech
-		filled_df_exclusive.columns=['Area','Year','GEM','Type']
-		res.append(filled_df_exclusive)
-		tech
-
-
-gipt_annual=pandas.concat(res)
-gipt_annual['Type'] = gipt_annual['Type'].apply(lambda x: x[0].upper() + x[1:] if isinstance(x, str) and x else x)
-
-#ADD GLOBAL SUMMATIONS
-gipt_annual_global=gipt_annual.groupby(['Year','Type'])['GEM'].sum().reset_index()
-gipt_annual_global['Area']='World'
-gipt_annual=pandas.concat([gipt_annual,gipt_annual_global])
-gipt_annual['Type']=gipt_annual['Type'].replace({'Hydropower': 'Hydro'})
-gipt_annual['GEM']=gipt_annual['GEM']/1000.
-
-
-#LOAD COAL DATA DIRECTLY FROM COAL DASHBOARD
-coal_dash=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/coal_dash1.xlsx')
-coal_dash.columns=['Area','Year','GEM']
-coal_dash['Type']='Coal'
-coal_dash=coal_dash[coal_dash['Area'].isin(list(all_countries_in_dash)+['Global'])]
-coal_dash['Area']=coal_dash['Area'].replace({'Global': 'World'})
-
-
-gipt_annual=pandas.concat([gipt_annual,coal_dash])
-
-#gipt_annual.to_csv('C:/Users/james/Documents/GEM/GIPT/Viz/gipt_aunnual1.csv',encoding='utf-8-sig')
-
-zzz=gipt_annual[['Area',  'Year'    ,    'Type'    ,    'GEM']].pivot_table(
-    index=['Area','Year'],
-    columns='Type',
-    values='GEM'
-).reset_index().fillna(0.)
-zzz.columns=['Country', 'Year', 'Bioenergy', 'Coal', 'Geothermal', 'Hydropower', 'Nuclear','Oil and gas', 'Utility-scale solar', 'Wind']
-
-# Remove rows where the sum of numeric columns is zero
-df_cleaned = zzz[zzz.iloc[:,-8:].sum(axis=1) != 0][['Country', 'Year', 'Coal', 'Oil and gas', 'Utility-scale solar', 'Wind', 'Hydropower','Nuclear', 'Bioenergy', 'Geothermal']]
-df_cleaned=df_cleaned[(df_cleaned.Year>=2000)&(df_cleaned.Year<2025)]
-df_cleaned.to_csv('C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/GEM_capacity_stacked_aug2025.csv',encoding='utf-8-sig')
-
-# Pretty-printed JSON
-df_cleaned.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/GEM_capacity_stacked_aug2025.json", orient="records", indent=2, force_ascii=False)
-
-
-
-
-################################################################################################
-### extra dash #GLOBAL ADDITIONS / RETIREMENTS - PAST 
-################################################################################################
-
-
-#COUNTRY VALUES:
-res_country=[]
-for country in all_countries:
-	to_save=(gipt[(gipt['Country/area']==country)&(gipt.Status.isin(['operating']))].groupby(['Type','Start year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':'2025']
-	columns=[i.capitalize() for i in to_save.columns]
-	columns=[i+' added'for i in columns]
-	to_save.columns=columns
-	retires=(-gipt[(gipt['Country/area']==country)&(gipt.Status.isin(['retired']))].groupby(['Type','Retired year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':].fillna(0.)
-	columns=[i.capitalize() for i in retires.columns]
-	columns=[i+' retired'for i in columns]
-	retires.columns=columns
-	to_save=pandas.concat([to_save,retires],axis=1)
-	to_save['Net fossil']=to_save[[col for col in ['Coal added','Oil/gas added'] if col in to_save.columns]].sum(axis=1)+to_save[[col for col in ['Coal retired','Oil/gas retired'] if col in to_save.columns]].sum(axis=1)
-	to_save['Net non-fossil']=to_save[[col for col in ['Bioenergy added','Geothermal added','Hydropower added','Nuclear added','Solar added','Wind added'] if col in to_save.columns]].sum(axis=1)+to_save[[col for col in ['Bioenergy retired','Geothermal retired','Hydropower retired', 'Nuclear retired', 'Solar retired', 'Wind retired'] if col in to_save.columns]].sum(axis=1)
-	to_save['Region']=country
-	res_country.append(to_save)
-	country
-
-
-#RUN FOR REGIONS
-iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
-regions=['BRICS','EU27','G7','G20','OECD','African Union']
-res_region=[]
-for reg in regions:
-	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
-	to_save=(gipt[(gipt['Country/area'].isin(names))&(gipt.Status.isin(['operating']))].groupby(['Type','Start year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':'2025']
-	columns=[i.capitalize() for i in to_save.columns]
-	columns=[i+' added'for i in columns]
-	to_save.columns=columns
-	retires=(-gipt[(gipt['Country/area'].isin(names))&(gipt.Status.isin(['retired']))].groupby(['Type','Retired year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':].fillna(0.)
-	columns=[i.capitalize() for i in retires.columns]
-	columns=[i+' retired'for i in columns]
-	retires.columns=columns
-	to_save=pandas.concat([to_save,retires],axis=1)
-	to_save['Net fossil']=to_save[[col for col in ['Coal added','Oil/gas added'] if col in to_save.columns]].sum(axis=1)+to_save[[col for col in ['Coal retired','Oil/gas retired'] if col in to_save.columns]].sum(axis=1)
-	to_save['Net non-fossil']=to_save[[col for col in ['Bioenergy added','Geothermal added','Hydropower added','Nuclear added','Solar added','Wind added'] if col in to_save.columns]].sum(axis=1)+to_save[[col for col in ['Bioenergy retired','Geothermal retired','Hydropower retired', 'Nuclear retired', 'Solar retired', 'Wind retired'] if col in to_save.columns]].sum(axis=1)
-	to_save['Region']=reg
-	res_region.append(to_save)
-	reg
-
-#GLOBAL VALUES:
-to_save=(gipt[(gipt.Status.isin(['operating']))].groupby(['Type','Start year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':'2025']
-columns=[i.capitalize() for i in to_save.columns]
-columns=[i+' added'for i in columns]
-to_save.columns=columns
-
-retires=(-gipt[(gipt.Status.isin(['retired']))].groupby(['Type','Retired year'])['Capacity (MW)'].sum().unstack().T/1000.)['2000':].fillna(0.)
-columns=[i.capitalize() for i in retires.columns]
-columns=[i+' retired'for i in columns]
-retires.columns=columns
-
-to_save=pandas.concat([to_save,retires],axis=1)
-
-to_save['Net fossil']=to_save[['Coal added','Oil/gas added']].sum(axis=1)+to_save[['Coal retired','Oil/gas retired']].sum(axis=1)
-to_save['Net non-fossil']=to_save[['Bioenergy added','Geothermal added','Hydropower added','Nuclear added','Solar added','Wind added']].sum(axis=1)+to_save[['Bioenergy retired','Geothermal retired','Hydropower retired', 'Nuclear retired', 'Solar retired', 'Wind retired']].sum(axis=1)
-to_save['Region']='World'
-res_country.append(to_save)
-
-
-to_save=pandas.concat([pandas.concat(res_region),pandas.concat(res_country)])[['Region','Net fossil','Net non-fossil','Coal added','Oil/gas added','Solar added','Wind added','Hydropower added','Nuclear added','Bioenergy added','Geothermal added','Coal retired','Oil/gas retired','Solar retired','Wind retired','Hydropower retired','Nuclear retired','Bioenergy retired','Geothermal retired']]
-
-#to_save=pandas.concat(res_region)[['Region','Net fossil','Net non-fossil','Coal added','Oil/gas added','Solar added','Wind added','Hydropower added','Nuclear added','Bioenergy added','Geothermal added','Coal retired','Oil/gas retired','Solar retired','Wind retired','Hydropower retired','Nuclear retired','Bioenergy retired','Geothermal retired']]
-
-to_save=to_save.reset_index()
-
-to_save.rename(columns={'Region':'Country','Oil/gas added': 'Oil and gas', 'Oil/gas retired': 'Oil and gas retired','Solar added':'Utility-scale solar','Solar retired':'Utility-scale solar retired',
-	'Wind added':'Wind','Bioenergy added':'Bioenergy','Geothermal added':'Geothermal','Hydropower added':'Hydropower','Nuclear added':'Nuclear','Coal added':'Coal'}, inplace=True)
-
-# Rename 'Unnamed: 0' to 'Year' for clarity
-to_save.rename(columns={'index': 'Year'}, inplace=True)
-
-# Create a complete index for years 2000 to 2025
-full_years = pd.Series(range(2000, 2025), name='Year')
-
-# Get all unique regions
-regions = to_save['Country'].unique()
-
-# Create a MultiIndex of all (Year, Region) combinations
-full_index = pd.MultiIndex.from_product([full_years, regions], names=['Year', 'Country'])
-
-# Reindex the original dataframe to fill in missing (Year, Region) combinations
-df_full = to_save.set_index(['Year', 'Country']).reindex(full_index).reset_index()
-
-#df_full.sort_values(by=['Region', 'Year']).fillna(0.).to_csv("C:/Users/james/Documents/GEM/GIPT/Viz/net_capacity_V4.csv",encoding='utf-8-sig')
-
-df_full['Utility-scale solar'] = df_full['Utility-scale solar'].round(4)   # pick a sensible precision
-df_full['Utility-scale solar retired'] = df_full['Utility-scale solar retired'].round(4)   # pick a sensible precision
-
-df_full.sort_values(by=['Country', 'Year']).fillna(0.).to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/net_capacity_aug2025.csv",index=False,encoding='utf-8-sig')
-
-# Pretty-printed JSON
-df_full.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/net_capacity_aug2025.json", orient="records", indent=2, force_ascii=False)
-
-
-
-
-tech_cols = ['Coal','Oil and gas', 'Utility-scale solar', 'Wind', 'Hydropower', 'Nuclear',
-       'Bioenergy', 'Geothermal', 'Coal retired', 'Oil and gas retired',
-       'Utility-scale solar retired', 'Wind retired', 'Hydropower retired',
-       'Nuclear retired', 'Bioenergy retired', 'Geothermal retired']
-
-
-
-# Melt to long format
-long_df = df_full.melt(id_vars=["Year", "Country"], 
-                  value_vars=['Coal','Oil and gas', 'Utility-scale solar', 'Wind', 'Hydropower', 'Nuclear',
-       'Bioenergy', 'Geothermal', 'Coal retired', 'Oil and gas retired',
-       'Utility-scale solar retired', 'Wind retired', 'Hydropower retired',
-       'Nuclear retired', 'Bioenergy retired', 'Geothermal retired'],
-                  var_name="Type", value_name="Value")
-
-# Re-spread into wide with blanks for non-matching
-final_df = long_df.pivot_table(index=["Year","Country","Type"], 
-                               columns="Type", values="Value", 
-                               aggfunc="first").reset_index()
-
-
-final_df["Type"] = final_df["Type"].str.replace("retired", "", regex=False).str.strip()
-
-# Define custom order for Type
-custom_order = ['Coal','Oil and gas', 'Utility-scale solar', 'Wind', 'Hydropower', 'Nuclear',
-       'Bioenergy', 'Geothermal']
-
-final_df["Type"] = pd.Categorical(final_df["Type"], categories=custom_order, ordered=True)
-
-# Sort first by Country alphabetically, then by Type using custom order
-final_df = final_df.sort_values(by=["Country", "Type"]).reset_index(drop=True)
-
-
-
-final_df[final_df.select_dtypes(include="number").columns] = (
-    final_df.select_dtypes(include="number").fillna(0)
-)
-
-# Merge duplicates by Year, Country, Type
-# use 'sum' so that values from different columns survive together
-merged = (
-    final_df.groupby(["Year", "Country", "Type"], as_index=False)
-      .sum(numeric_only=True)
-)
-
-
-merged.to_csv("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/net_capacity_grid_aug2025.csv",index=False,encoding='utf-8-sig')
-
-
-
-# Pretty-printed JSON
-df_full.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/net_capacity_grid_aug2025.json", orient="records", indent=2, force_ascii=False)
-
-
-
-
-
-
-
-
-
-
-# 2) Make helper Type/Value columns (long format)
-long = df_full.melt(
-    id_vars=["Year", "Country"],
-    value_vars=tech_cols,
-    var_name="Type",
-    value_name="Value"
-)
-
-# 3) Bring back the wide columns and blank out non-matching ones per row
-out = long.merge(df_full[["Year", "Country"] + tech_cols], on=["Year", "Country"], how="left")
-
-for c in tech_cols:
-    # keep only the column that matches the row's Type; blank out others
-    out[c] = out[c].where(out["Type"].eq(c))
-
-
-
-out["Type"] = out["Type"].str.replace("retired", "", regex=False).str.strip()
-
-
-
-
 ################################################################################################
 ### extra dash UNUSED: #GLOBAL ADDITIONS FUTURE
 ################################################################################################
@@ -1125,184 +1496,6 @@ tmp['Status']=tmp['Status'].replace({'announced':'Announced','construction':'Con
 tmp[['Country/area','Type', 'Status', 'Starts', 'Capacity (MW)']].to_csv("C:/Users/james/Documents/GEM/GIPT/Viz/in_dev_startyear_v2.csv",encoding='utf-8-sig')
 
 
-################################################################################################
-### EXTRA DASH: breakdown by age
-################################################################################################
-
-#BUBBLE VERSION
-# Filter for operating facilities
-df_operating = gipt[gipt["Status"].str.lower() == "operating"][["Country/area", "Type", "Capacity (MW)", "Status", "Start year"]]
-
-# Drop rows with missing start year
-df_operating = df_operating.dropna(subset=["Start year"])
-
-# Calculate age of each facility
-df_operating["Age"] = 2025 - df_operating["Start year"]
-
-# Define the age categorization function
-def categorize_age(age):
-    if age >= 50:
-        return "50+ years"
-    elif age >= 40:
-        return "40-49 years"
-    elif age >= 30:
-        return "30-39 years"
-    elif age >= 20:
-        return "20-29 years"
-    elif age >= 10:
-        return "10-19 years"
-    else:
-        return "0-9 years"
-
-# Apply the categorization
-df_operating['Age Category'] = df_operating['Age'].apply(categorize_age)
-
-# Step 1: Create the base grouped DataFrame with all age categories per Country/area and Type
-age_categories = [
-    "0-9 years", "10-19 years", "20-29 years",
-    "30-39 years", "40-49 years", "50+ years"
-]
-
-country_type_combinations = df_operating[['Country/area', 'Type']].drop_duplicates()
-
-full_index = (
-    country_type_combinations
-    .assign(key=1)
-    .merge(pd.DataFrame({'Age Category': age_categories, 'key': 1}), on='key')
-    .drop(columns='key')
-)
-
-grouped_df = df_operating.groupby(
-    ['Country/area', 'Type', 'Age Category'], as_index=False
-)['Capacity (MW)'].sum()
-
-complete_grouped_df_country = pd.merge(
-    full_index,
-    grouped_df,
-    on=['Country/area', 'Type', 'Age Category'],
-    how='left'
-)
-
-complete_grouped_df_country['Capacity (MW)'] = complete_grouped_df_country['Capacity (MW)'].fillna(0)
-
-
-#REGIONS
-iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
-regions=['BRICS','EU27','G7','G20','OECD','African Union']
-res_region=[]
-for reg in regions:
-	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
-	# Filter for operating facilities
-	df_operating = gipt[(gipt['Country/area'].isin(names))&(gipt["Status"].str.lower() == "operating")][["Country/area", "Type", "Capacity (MW)", "Status", "Start year"]]
-	df_operating['Country/area']=reg
-	# Drop rows with missing start year
-	df_operating = df_operating.dropna(subset=["Start year"])
-	# Calculate age of each facility
-	df_operating["Age"] = 2025 - df_operating["Start year"]
-	# Define the age categorization function
-	def categorize_age(age):
-	    if age >= 50:
-	        return "50+ years"
-	    elif age >= 40:
-	        return "40-49 years"
-	    elif age >= 30:
-	        return "30-39 years"
-	    elif age >= 20:
-	        return "20-29 years"
-	    elif age >= 10:
-	        return "10-19 years"
-	    else:
-	        return "0-9 years"
-	# Apply the categorization
-	df_operating['Age Category'] = df_operating['Age'].apply(categorize_age)
-	# Step 1: Create the base grouped DataFrame with all age categories per Country/area and Type
-	age_categories = [
-	    "0-9 years", "10-19 years", "20-29 years",
-	    "30-39 years", "40-49 years", "50+ years"
-	]
-	country_type_combinations = df_operating[['Country/area', 'Type']].drop_duplicates()
-	full_index = (
-	    country_type_combinations
-	    .assign(key=1)
-	    .merge(pd.DataFrame({'Age Category': age_categories, 'key': 1}), on='key')
-	    .drop(columns='key')
-	)
-	grouped_df = df_operating.groupby(
-	    ['Country/area', 'Type', 'Age Category'], as_index=False
-	)['Capacity (MW)'].sum()
-	complete_grouped_df = pd.merge(
-	    full_index,
-	    grouped_df,
-	    on=['Country/area', 'Type', 'Age Category'],
-	    how='left'
-	)
-	complete_grouped_df['Capacity (MW)'] = complete_grouped_df['Capacity (MW)'].fillna(0)
-	res_region.append(complete_grouped_df)
-
-
-
-#"World" totals across all countries, by Type and Age Category
-world_agg = (
-    complete_grouped_df_country
-    .groupby(['Type', 'Age Category'], as_index=False)['Capacity (MW)']
-    .sum()
-)
-world_agg['Country/area'] = 'World'
-
-# Combine world data with the complete grouped data
-final_df = pd.concat([pandas.concat([pandas.concat(res_region),complete_grouped_df_country]), world_agg], ignore_index=True)
-
-
-final_df['Type'] = final_df['Type'].replace({
-    'bioenergy': 'Bioenergy',
-    'coal': 'Coal',
-    'geothermal':'Geothermal',
-    'hydropower':'Hydropower',
-    'nuclear':'Nuclear',
-    'oil/gas':'Oil and gas',
-    'solar':'Utility-scale solar',
-    'wind':'Wind',
-})
-
-# final_df['Capacity %'] = (
-#     final_df.groupby(['Type', 'Country/area'])['Capacity (MW)']
-#     .transform(lambda x: x / x.sum() * 100)
-# )
-
-# Calculate total capacity per country
-country_totals = final_df.groupby("Country/area")["Capacity (MW)"].transform("sum")
-
-# Add new column with percentage of total capacity per country
-final_df["Capacity %"] = (final_df["Capacity (MW)"] / country_totals) * 100
-
-
-# Define desired order for 'Type'
-type_order = [
-    "Coal",
-    "Oil and gas",
-    "Utility-scale solar",
-    "Wind",
-    "Hydropower",
-    "Nuclear",
-    "Bioenergy",
-    "Geothermal"
-]
-
-# Convert 'Type' to a categorical with the defined order
-final_df['Type'] = pd.Categorical(final_df['Type'], categories=type_order, ordered=True)
-
-# Sort the DataFrame by Country/area, Type, and Age Category
-final_df_sorted = final_df.sort_values(by=['Country/area', 'Type', 'Age Category'])
-final_df_sorted['Capacity (MW)']=final_df_sorted['Capacity (MW)']/1000.
-
-final_df_sorted.columns=['Country', 'Type', 'Age Category', 'Capacity (MW)', 'Capacity %']
-
-final_df_sorted.to_csv('C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/age_breakdown_aug2025.csv',index=False,encoding='utf-8-sig')
-
-# Pretty-printed JSON
-final_df_sorted.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/age_breakdown_aug2025.json", orient="records", indent=2, force_ascii=False)
-
-
 
 # #OLD
 # # Categorize age groups
@@ -1384,268 +1577,6 @@ final_df_sorted.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/p
 
 
 ################################################################################################
-### extra dash #4: ownership
-################################################################################################
-
-# ----- SUMMARY OF CAPACITY PER PARENT/OWNER
-# ----- FIRST HANDLE COMBUSTION 'PARENTS' IN A BIG LOOP
-
-# Helper function to parse owners and calculate proportional shares
-def parse_parent_with_percentages(row):
-    owners_raw = str(row["Parent"])
-    capacity = row["Capacity (MW)"]
-    # Find all owners and optional percentages
-    pattern = r'([^;\[]+?)(?:\s*\[\s*(\d+(?:\.\d+)?)\s*%\s*\])?(?:;|$)'
-    matches = re.findall(pattern, owners_raw)
-    owners = []
-    total_percent = 0
-    percent_info = []
-    for owner, pct in matches:
-        owner = owner.strip()
-        if pct:
-            percent = float(pct)
-            total_percent += percent
-            percent_info.append((owner, percent))
-        else:
-            owners.append(owner)
-    # Normalize capacity by percentage or equally split if no percentages
-    result = []
-    if percent_info:
-        for owner, percent in percent_info:
-            share = capacity * (percent / 100)
-            result.append({
-                "Country/area": row["Country/area"],
-                "Parent": owner,
-                "Capacity (MW)": share
-            })
-    elif owners:
-        share = capacity / len(owners)
-        for owner in owners:
-            result.append({
-                "Country/area": row["Country/area"],
-                "Parent": owner,
-                "Capacity (MW)": share
-            })
-    return result
-
-res=[]
-for tech in ['coal','oil/gas']:
-	for status,status_name in zip([['operating'],['construction'],['pre-construction'],['announced'],['construction','pre-construction','announced']],['operating','construction','pre-construction','announced','in-dev']):
-		df_tmp=gipt[(gipt.Type==tech)&(gipt.Status.isin(status))]
-		df_tmp.loc[df_tmp.Parent.isnull(),'Parent']='unknown'
-		# Expand rows using the helper function
-		tmp_rows = []
-		for _, row in df_tmp.iterrows():
-		    tmp_rows.extend(parse_parent_with_percentages(row))
-		df_tmp_expanded = pandas.DataFrame(tmp_rows)
-		# Aggregate capacity
-		df_tmp_aggregated = df_tmp_expanded.groupby(["Country/area", "Parent"], as_index=False)["Capacity (MW)"].sum()
-		# Add rank per country
-		df_tmp_aggregated["Rank"] = df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].rank(method="dense", ascending=False).astype(int)
-		# Sort
-		df_tmp_aggregated.sort_values(by=["Country/area", "Rank"], inplace=True)
-		# Calculate percentage of total capacity per country
-		df_tmp_aggregated["Total Capacity (MW)"] = df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].transform("sum")
-		df_tmp_aggregated["Percentage of Total Capacity (%)"] = (df_tmp_aggregated["Capacity (MW)"] / df_tmp_aggregated["Total Capacity (MW)"])
-		# Calculate cumulative percentage of total capacity per country
-		df_tmp_aggregated["Cumulative Percentage (%)"] = df_tmp_aggregated.groupby("Country/area")["Percentage of Total Capacity (%)"].cumsum()
-		# Sort again for clarity
-		df_tmp_aggregated.sort_values(by=["Country/area", "Rank"], inplace=True)
-		# Add some indexing/categories
-		df_tmp_aggregated['Technology']=tech
-		df_tmp_aggregated['Status']=status_name
-		# Repeat sets above but aggregating globally
-		global_df_tmp_aggregated=df_tmp_aggregated.groupby(['Parent', 'Technology']).agg({'Capacity (MW)': 'sum',}).reset_index().sort_values('Capacity (MW)',ascending=False)
-		global_df_tmp_aggregated['Country/area']='World'
-		global_df_tmp_aggregated["Total Capacity (MW)"] = global_df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].transform("sum")
-		global_df_tmp_aggregated["Percentage of Total Capacity (%)"] = (global_df_tmp_aggregated["Capacity (MW)"] / global_df_tmp_aggregated["Total Capacity (MW)"])
-		global_df_tmp_aggregated["Cumulative Percentage (%)"] = global_df_tmp_aggregated.groupby("Country/area")["Percentage of Total Capacity (%)"].cumsum()
-		global_df_tmp_aggregated=global_df_tmp_aggregated[global_df_tmp_aggregated['Capacity (MW)']!=0.]
-		global_df_tmp_aggregated['Rank']=global_df_tmp_aggregated['Capacity (MW)'].rank(method="dense", ascending=False).astype(int)
-		global_df_tmp_aggregated['Status']=status_name
-		# Stick togther country and global outputs per technology
-		res.append(pandas.concat([global_df_tmp_aggregated,df_tmp_aggregated]))
-
-out1=pandas.concat(res)
-out1["Technology"] = out1["Technology"].str.title()
-
-
-# ----- NOW HANDLE NON-COMBUSTION 'OWNERS' IN A BIG LOOP
-
-# Helper function to parse owners and calculate proportional shares
-def parse_owners_with_percentages(row):
-    owners_raw = str(row["Owner"])
-    capacity = row["Capacity (MW)"]
-    # Find all owners and optional percentages
-    pattern = r'([^;\[]+?)(?:\s*\[\s*(\d+(?:\.\d+)?)\s*%\s*\])?(?:;|$)'
-    matches = re.findall(pattern, owners_raw)
-    owners = []
-    total_percent = 0
-    percent_info = []
-    for owner, pct in matches:
-        owner = owner.strip()
-        if pct:
-            percent = float(pct)
-            total_percent += percent
-            percent_info.append((owner, percent))
-        else:
-            owners.append(owner)
-    # Normalize capacity by percentage or equally split if no percentages
-    result = []
-    if percent_info:
-        for owner, percent in percent_info:
-            share = capacity * (percent / 100)
-            result.append({
-                "Country/area": row["Country/area"],
-                "Owner": owner,
-                "Capacity (MW)": share
-            })
-    elif owners:
-        share = capacity / len(owners)
-        for owner in owners:
-            result.append({
-                "Country/area": row["Country/area"],
-                "Owner": owner,
-                "Capacity (MW)": share
-            })
-    return result
-
-
-res2=[]
-for tech in ['solar','wind','hydropower','bioenergy','geothermal','nuclear']:
-	for status,status_name in zip([['operating'],['construction'],['pre-construction'],['announced'],['construction','pre-construction','announced']],['operating','construction','pre-construction','announced','in-dev']):
-		df_tmp=gipt[(gipt.Type==tech)&(gipt.Status.isin(status))]
-		df_tmp.loc[df_tmp.Owner.isnull(),'Owner']='unknown'
-		# Expand rows using the helper function
-		tmp_rows = []
-		for _, row in df_tmp.iterrows():
-		    tmp_rows.extend(parse_owners_with_percentages(row))
-		df_tmp_expanded = pandas.DataFrame(tmp_rows)
-		# Aggregate capacity
-		df_tmp_aggregated = df_tmp_expanded.groupby(["Country/area", "Owner"], as_index=False)["Capacity (MW)"].sum()
-		# Add rank per country
-		df_tmp_aggregated["Rank"] = df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].rank(method="dense", ascending=False).astype(int)
-		# Sort
-		df_tmp_aggregated.sort_values(by=["Country/area", "Rank"], inplace=True)
-		# Calculate percentage of total capacity per country
-		df_tmp_aggregated["Total Capacity (MW)"] = df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].transform("sum")
-		df_tmp_aggregated["Percentage of Total Capacity (%)"] = (df_tmp_aggregated["Capacity (MW)"] / df_tmp_aggregated["Total Capacity (MW)"])
-		# Calculate cumulative percentage of total capacity per country
-		df_tmp_aggregated["Cumulative Percentage (%)"] = df_tmp_aggregated.groupby("Country/area")["Percentage of Total Capacity (%)"].cumsum()
-		# Sort again for clarity
-		df_tmp_aggregated.sort_values(by=["Country/area", "Rank"], inplace=True)
-		df_tmp_aggregated['Technology']=tech
-		df_tmp_aggregated['Status']=status_name
-		# Repeat sets above but aggregating globally
-		global_df_tmp_aggregated=df_tmp_aggregated.groupby(['Owner', 'Technology']).agg({'Capacity (MW)': 'sum',}).reset_index().sort_values('Capacity (MW)',ascending=False)
-		global_df_tmp_aggregated['Country/area']='World'
-		global_df_tmp_aggregated["Total Capacity (MW)"] = global_df_tmp_aggregated.groupby("Country/area")["Capacity (MW)"].transform("sum")
-		global_df_tmp_aggregated["Percentage of Total Capacity (%)"] = (global_df_tmp_aggregated["Capacity (MW)"] / global_df_tmp_aggregated["Total Capacity (MW)"])
-		global_df_tmp_aggregated["Cumulative Percentage (%)"] = global_df_tmp_aggregated.groupby("Country/area")["Percentage of Total Capacity (%)"].cumsum()
-		global_df_tmp_aggregated=global_df_tmp_aggregated[global_df_tmp_aggregated['Capacity (MW)']!=0.]
-		global_df_tmp_aggregated['Rank']=global_df_tmp_aggregated['Capacity (MW)'].rank(method="dense", ascending=False).astype(int)
-		global_df_tmp_aggregated['Status']=status_name
-		# Stick togther country and global outputs per technology
-		res2.append(pandas.concat([global_df_tmp_aggregated,df_tmp_aggregated]))
-
-out2=pandas.concat(res2)
-out2["Technology"] = out2["Technology"].str.title()
-
-# RENAME TO ALLOW STICKING TOGETHER OF DATAFRAMES
-out2.rename(columns={'Owner': 'Parent'}, inplace=True)
-
-# STICK TOGETHER DATAFRAMES
-owners_df=pandas.concat([out1,out2])[['Technology','Country/area','Status','Parent','Capacity (MW)','Rank','Percentage of Total Capacity (%)','Cumulative Percentage (%)']]
-
-#REGIONS
-iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GitHub/gipt-dashboard/gipt_dash_data_prep/iea_region_code.xlsx")
-regions=['BRICS','EU27','G7','G20','OECD','African Union']
-res_region=[]
-for reg in regions:
-	names=list(iea_reg_map[iea_reg_map[reg]=='Yes'].gem_name.unique())#
-	df_operating = owners_df[(owners_df['Country/area'].isin(names))]
-	df_operating['Country/area']=reg
-	res_region.append(df_operating)
-
-
-owners_df=pandas.concat([owners_df,pandas.concat(res_region)])
-
-
-owners_df_operating=owners_df[owners_df.Status=='operating'][['Country/area','Parent','Capacity (MW)','Technology']]
-
-#RENAME OIL/GAS AND SOLAR
-owners_df_operating['Technology'].replace({
-    'Oil/Gas': 'Oil and gas',
-    'Solar': 'Utility-scale solar',
-}, inplace=True)
-
-
-
-
-# Group by Country/area and Technology and apply the top 20 logic
-top_20 = (
-    owners_df_operating.groupby(['Country/area', 'Technology'], group_keys=False)
-    .apply(lambda x: x.nlargest(20, 'Capacity (MW)'))
-)
-
-# Now filter out the rows that are not in the top 20
-df_remaining = pd.concat([owners_df_operating, top_20]).drop_duplicates(keep=False)
-# Aggregate the remaining rows
-others = (
-    df_remaining.groupby(['Country/area', 'Technology'], as_index=False)
-    .agg({'Capacity (MW)': 'sum'})
-)
-others['Parent'] = 'Others'
-# Combine top 20 with aggregated "Others" rows
-final_df = pd.concat([top_20, others], ignore_index=True)
-
-
-#final_df[(final_df['Country/area']=='China')&(final_df.Technology=='Solar')]
-
-
-# Divide 'Capacity (MW)' by 1000 to convert to GW
-final_df['Capacity (MW)'] = final_df['Capacity (MW)'] / 1000
-
-# Create a custom sort key: 0 for 'Global', 1 for all others
-final_df['CountrySortKey'] = final_df['Country/area'].apply(lambda x: 0 if x == 'World' else 1)
-
-# Sort by the custom key and then by 'Country/area'
-sorted_df = final_df.sort_values(by=['CountrySortKey', 'Country/area']).drop(columns='CountrySortKey')
-
-#DROP GLOBAL UNKNONW AND OTHER
-sorted_df = sorted_df[~((sorted_df['Country/area'] == 'World') & (sorted_df['Parent'].isin(['unknown','other','Unknown','Other','Others','others'])))]
-
-#HARMONISE OTHERS/UNKNOWN
-sorted_df['Parent'].replace({
-    'unknown': 'Unknown',
-    'other': 'Others',
-    'Other': 'Others',
-    'others': 'Others'
-}, inplace=True)
-
-
-sorted_df.columns=['Country','Parent', 'Capacity (GW)', 'Type']
-sorted_df[['Country','Parent', 'Capacity (GW)', 'Type']].to_csv('C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/ownership_aug2025.csv',encoding='utf-8-sig', index=False)
-
-# Pretty-printed JSON
-sorted_df.to_json("C:/Users/james/Documents/GitHub/gipt-dashboard-V2-dev/public/assets/data/ownership_aug2025.json", orient="records", indent=2, force_ascii=False)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-################################################################################################
 
 
 iea_reg_map=pandas.read_excel("C:/Users/james/Documents/GEM/GIPT/iea_region_code.xlsx")
@@ -1669,5 +1600,74 @@ gipt[(gipt['Country/area'].isin(['United States']))&(gipt.Type.isin(['wind','sol
 
 
 gipt[(gipt.Type.isin(['solar']))&(gipt.Status.isin(status))].groupby('Country/area')['Capacity (MW)'].sum().sort_values()[-50:]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+brics=['Armenia', 'Azerbaijan', 'Georgia', 'Kazakhstan', 'Kyrgyzstan','Tajikistan', 'Uzbekistan','Turkmenistan']
+
+res=[]
+for country in brics:
+  brics_gipt=gipt[(gipt['Country/area']==country)]
+  tmp=brics_gipt.groupby(['Type','Status'])['Capacity (MW)'].sum().unstack()
+  missing=list(set(list(gipt.Status.unique()))-set(tmp.columns))
+  if len(missing)>0:
+    for i in missing:
+      tmp[i]=0.0
+  missing=list(set(['coal','oil/gas','solar','wind','nuclear','hydropower','bioenergy','geothermal'])-set(list(tmp.index)))
+  if len(missing)>0:
+    for i in missing:
+      tmp.loc[i]=0.0
+  tmp=tmp.loc[['coal','oil/gas','solar','wind','nuclear','hydropower','bioenergy','geothermal']][['announced','pre-construction', 'construction', 'shelved', 'operating', 'mothballed', 'cancelled','retired']]
+  tmp.columns=['Announced','Pre-construction', 'Construction', 'Shelved', 'Operating', 'Mothballed', 'Cancelled','Retired']
+  tmp.index=['Coal','Oil and gas','Utility-scale solar','Wind','Nuclear','Hydropower','Bioenergy','Geothermal']
+  tmp['region']=country
+  res.append(tmp)
+
+
+pandas.concat(res).fillna(0.0)
+
+
+tmp=pandas.concat(res).fillna(0.0)
+pandas.concat([tmp,pandas.concat(res).fillna(0.0).reset_index().set_index('region').groupby('index').sum()]).to_csv('C:/Users/james/Documents/GEM/GIPT/summarytable_sept2025.csv',float_format='%g')
+
+
+tmp=pandas.concat(res).fillna(0.0)
+tmp[['Construction','region']].reset_index().pivot_table(
+    index='region',
+    columns='index',
+    values='Construction'
+)[['Coal', 'Oil and gas', 'Utility-scale solar', 'Wind','Nuclear','Hydropower', 'Bioenergy']]
+
+
+
+
+tmp=pandas.concat(res).fillna(0.0)
+tmp[['Pre-construction','region']].reset_index().pivot_table(
+    index='region',
+    columns='index',
+    values='Pre-construction'
+)[['Coal', 'Oil and gas', 'Utility-scale solar', 'Wind','Nuclear','Hydropower', 'Bioenergy']]
+
+
+
+tmp=pandas.concat(res).fillna(0.0)
+tmp[['Announced','region']].reset_index().pivot_table(
+    index='region',
+    columns='index',
+    values='Announced'
+)[['Coal', 'Oil and gas', 'Utility-scale solar', 'Wind','Nuclear','Hydropower', 'Bioenergy']]
+
 
 
