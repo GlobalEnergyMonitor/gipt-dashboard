@@ -41,7 +41,7 @@
         "values": [
             "Type"
         ],
-        "dataset": "ownership_jan2026",
+        "dataset": "ownership_sept2025_v2",
         "initial_state": "World",
         "filterable": true,
         "filter_by": "Country",
