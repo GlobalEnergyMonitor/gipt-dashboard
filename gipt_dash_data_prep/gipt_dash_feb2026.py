@@ -460,10 +460,10 @@ gipt_annual['Type']=gipt_annual['Type'].replace({'Hydropower': 'Hydro'})
 gipt_annual['GEM']=gipt_annual['GEM']/1000.
 
 #LOAD COAL DATA DIRECTLY FROM COAL DASHBOARD
-coal_dash=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/coal_dash_feb_2026.xlsx')
+coal_dash=pandas.read_excel('C:/Users/james/Documents/GitHub/gipt-dashboard/public/assets/data/coal_dash_feb_2026.xlsx',skiprows=3)
 coal_dash.columns=['Area','Year','GEM']
 coal_dash['Type']='Coal'
-coal_dash=coal_dash[coal_dash['Area'].isin(list(all_countries_in_dash)+['Global'])]
+coal_dash=coal_dash[coal_dash['Area'].isin(list(all_countries_in_dash)+['Global']+regions)]
 coal_dash['Area']=coal_dash['Area'].replace({'Global': 'World'})
 
 gipt_annual=pandas.concat([gipt_annual,coal_dash])
