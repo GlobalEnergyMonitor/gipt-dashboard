@@ -9,13 +9,13 @@
     "Country":"Others",
     "Parent":0.2666,
     "Capacity (GW)":"Afghanistan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.079948,
     "Capacity (GW)":"Afghanistan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -51,13 +51,13 @@
     "Country":"Others",
     "Parent":134.217459,
     "Capacity (GW)":"African Union",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":14.73790945,
     "Capacity (GW)":"African Union",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -75,7 +75,7 @@
     "Country":"Others",
     "Parent":0.3223565,
     "Capacity (GW)":"Albania",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -87,13 +87,13 @@
     "Country":"Others",
     "Parent":27.5806,
     "Capacity (GW)":"Algeria",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.42356,
     "Capacity (GW)":"Algeria",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -105,13 +105,13 @@
     "Country":"Others",
     "Parent":0.023,
     "Capacity (GW)":"American Samoa",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.001309,
     "Capacity (GW)":"American Samoa",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -129,7 +129,7 @@
     "Country":"Others",
     "Parent":0.0033,
     "Capacity (GW)":"Andorra",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -147,13 +147,13 @@
     "Country":"Others",
     "Parent":0.929,
     "Capacity (GW)":"Angola",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.490414,
     "Capacity (GW)":"Angola",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -165,13 +165,13 @@
     "Country":"Others",
     "Parent":0.0012,
     "Capacity (GW)":"Anguilla",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.0103,
     "Capacity (GW)":"Antigua and Barbuda",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -201,13 +201,13 @@
     "Country":"Others",
     "Parent":22.194542,
     "Capacity (GW)":"Argentina",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":2.7550185,
     "Capacity (GW)":"Argentina",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -231,25 +231,25 @@
     "Country":"Others",
     "Parent":1.0254,
     "Capacity (GW)":"Armenia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.267597,
     "Capacity (GW)":"Armenia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.194,
     "Capacity (GW)":"Aruba",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0088,
     "Capacity (GW)":"Aruba",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -279,13 +279,13 @@
     "Country":"Others",
     "Parent":19.82371,
     "Capacity (GW)":"Australia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":12.9785575,
     "Capacity (GW)":"Australia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -309,13 +309,13 @@
     "Country":"Others",
     "Parent":4.826573,
     "Capacity (GW)":"Austria",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.826784,
     "Capacity (GW)":"Austria",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -339,13 +339,13 @@
     "Country":"Others",
     "Parent":7.1409,
     "Capacity (GW)":"Azerbaijan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.3015,
     "Capacity (GW)":"Azerbaijan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -387,13 +387,13 @@
     "Country":"Others",
     "Parent":550.5162842,
     "Capacity (GW)":"BRICS",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":715.84569465,
     "Capacity (GW)":"BRICS",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -405,25 +405,25 @@
     "Country":"Others",
     "Parent":0.2463,
     "Capacity (GW)":"Bahamas",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0035,
     "Capacity (GW)":"Bahamas",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":8.743882,
     "Capacity (GW)":"Bahrain",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0116,
     "Capacity (GW)":"Bahrain",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -447,13 +447,13 @@
     "Country":"Others",
     "Parent":20.23338,
     "Capacity (GW)":"Bangladesh",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1.10666,
     "Capacity (GW)":"Bangladesh",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -465,13 +465,13 @@
     "Country":"Others",
     "Parent":0.183,
     "Capacity (GW)":"Barbados",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.02395,
     "Capacity (GW)":"Barbados",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -495,13 +495,13 @@
     "Country":"Others",
     "Parent":9.2302,
     "Capacity (GW)":"Belarus",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.2625325,
     "Capacity (GW)":"Belarus",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -525,13 +525,13 @@
     "Country":"Others",
     "Parent":6.0116,
     "Capacity (GW)":"Belgium",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.881011,
     "Capacity (GW)":"Belgium",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -549,31 +549,31 @@
     "Country":"Others",
     "Parent":0.0042,
     "Capacity (GW)":"Belize",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.1274,
     "Capacity (GW)":"Benin",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.02465,
     "Capacity (GW)":"Benin",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.114,
     "Capacity (GW)":"Bermuda",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.006,
     "Capacity (GW)":"Bermuda",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -585,7 +585,7 @@
     "Country":"Others",
     "Parent":0.015138,
     "Capacity (GW)":"Bhutan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -609,13 +609,13 @@
     "Country":"Others",
     "Parent":2.4317,
     "Capacity (GW)":"Bolivia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.1659125,
     "Capacity (GW)":"Bolivia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -627,7 +627,7 @@
     "Country":"Others",
     "Parent":0.0085,
     "Capacity (GW)":"Bonaire, Sint Eustatius, and Saba",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -651,7 +651,7 @@
     "Country":"Others",
     "Parent":0.5072275,
     "Capacity (GW)":"Bosnia and Herzegovina",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -669,13 +669,13 @@
     "Country":"Others",
     "Parent":0.07,
     "Capacity (GW)":"Botswana",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.1188,
     "Capacity (GW)":"Botswana",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -705,13 +705,13 @@
     "Country":"Others",
     "Parent":23.2260316,
     "Capacity (GW)":"Brazil",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":23.3586785,
     "Capacity (GW)":"Brazil",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -723,7 +723,7 @@
     "Country":"Others",
     "Parent":0.0038,
     "Capacity (GW)":"British Indian Ocean Territory",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -735,13 +735,13 @@
     "Country":"Others",
     "Parent":0.212,
     "Capacity (GW)":"Brunei",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0052,
     "Capacity (GW)":"Brunei",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -765,13 +765,13 @@
     "Country":"Others",
     "Parent":0.761,
     "Capacity (GW)":"Bulgaria",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.3668445,
     "Capacity (GW)":"Bulgaria",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -783,13 +783,13 @@
     "Country":"Others",
     "Parent":0.2019,
     "Capacity (GW)":"Burkina Faso",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.196332,
     "Capacity (GW)":"Burkina Faso",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -807,19 +807,19 @@
     "Country":"Others",
     "Parent":0.03,
     "Capacity (GW)":"Burundi",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.014,
     "Capacity (GW)":"Burundi",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.0129265,
     "Capacity (GW)":"Cabo Verde",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -849,13 +849,13 @@
     "Country":"Others",
     "Parent":0.8005,
     "Capacity (GW)":"Cambodia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.498905,
     "Capacity (GW)":"Cambodia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -867,13 +867,13 @@
     "Country":"Others",
     "Parent":0.364,
     "Capacity (GW)":"Cameroon",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.071973,
     "Capacity (GW)":"Cameroon",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -915,13 +915,13 @@
     "Country":"Others",
     "Parent":29.392278,
     "Capacity (GW)":"Canada",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.977895,
     "Capacity (GW)":"Canada",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -933,37 +933,37 @@
     "Country":"Others",
     "Parent":0.1537,
     "Capacity (GW)":"Cayman Islands",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0049,
     "Capacity (GW)":"Cayman Islands",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.05,
     "Capacity (GW)":"Central African Republic",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.043255,
     "Capacity (GW)":"Central African Republic",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.089,
     "Capacity (GW)":"Chad",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.114675,
     "Capacity (GW)":"Chad",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -993,13 +993,13 @@
     "Country":"Others",
     "Parent":6.7604981,
     "Capacity (GW)":"Chile",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":12.7062475,
     "Capacity (GW)":"Chile",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1041,13 +1041,13 @@
     "Country":"Others",
     "Parent":179.957484,
     "Capacity (GW)":"China",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":578.5048929,
     "Capacity (GW)":"China",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1077,13 +1077,13 @@
     "Country":"Others",
     "Parent":3.515986,
     "Capacity (GW)":"Colombia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":2.5430655,
     "Capacity (GW)":"Colombia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1095,13 +1095,13 @@
     "Country":"Others",
     "Parent":0.0237505,
     "Capacity (GW)":"Comoros",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.0010285,
     "Capacity (GW)":"Cook Islands",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1125,13 +1125,13 @@
     "Country":"Others",
     "Parent":0.5467,
     "Capacity (GW)":"Costa Rica",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0218,
     "Capacity (GW)":"Costa Rica",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1161,13 +1161,13 @@
     "Country":"Others",
     "Parent":1.4208,
     "Capacity (GW)":"Croatia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.2716,
     "Capacity (GW)":"Croatia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1185,13 +1185,13 @@
     "Country":"Others",
     "Parent":1.241514,
     "Capacity (GW)":"Cuba",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.8190105,
     "Capacity (GW)":"Cuba",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1209,13 +1209,13 @@
     "Country":"Others",
     "Parent":1.853,
     "Capacity (GW)":"Cyprus",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.3959,
     "Capacity (GW)":"Cyprus",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1251,13 +1251,13 @@
     "Country":"Others",
     "Parent":1.819,
     "Capacity (GW)":"Czech Republic",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":2.79911,
     "Capacity (GW)":"Czech Republic",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1275,13 +1275,13 @@
     "Country":"Others",
     "Parent":1.28398,
     "Capacity (GW)":"Côte d'Ivoire",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.03306,
     "Capacity (GW)":"Côte d'Ivoire",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1293,7 +1293,7 @@
     "Country":"Others",
     "Parent":0.03136,
     "Capacity (GW)":"DR Congo",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1311,13 +1311,13 @@
     "Country":"Others",
     "Parent":1.2032,
     "Capacity (GW)":"Denmark",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.084445,
     "Capacity (GW)":"Denmark",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1329,13 +1329,13 @@
     "Country":"Others",
     "Parent":0.108,
     "Capacity (GW)":"Djibouti",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.1547,
     "Capacity (GW)":"Djibouti",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1365,13 +1365,13 @@
     "Country":"Others",
     "Parent":2.663916,
     "Capacity (GW)":"Dominican Republic",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1.085381,
     "Capacity (GW)":"Dominican Republic",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1413,13 +1413,13 @@
     "Country":"Others",
     "Parent":196.4502218,
     "Capacity (GW)":"EU27",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":131.40807879,
     "Capacity (GW)":"EU27",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1443,13 +1443,13 @@
     "Country":"Others",
     "Parent":1.6018,
     "Capacity (GW)":"Ecuador",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.023494,
     "Capacity (GW)":"Ecuador",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1473,13 +1473,13 @@
     "Country":"Others",
     "Parent":54.4521,
     "Capacity (GW)":"Egypt",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.3103075,
     "Capacity (GW)":"Egypt",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1509,13 +1509,13 @@
     "Country":"Others",
     "Parent":0.9295,
     "Capacity (GW)":"El Salvador",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.7654,
     "Capacity (GW)":"El Salvador",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1533,25 +1533,25 @@
     "Country":"Others",
     "Parent":0.218,
     "Capacity (GW)":"Equatorial Guinea",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.004675,
     "Capacity (GW)":"Equatorial Guinea",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.168,
     "Capacity (GW)":"Eritrea",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0228,
     "Capacity (GW)":"Eritrea",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1563,13 +1563,13 @@
     "Country":"Others",
     "Parent":0.4581,
     "Capacity (GW)":"Estonia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1.015388,
     "Capacity (GW)":"Estonia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1587,7 +1587,7 @@
     "Country":"Others",
     "Parent":0.01405,
     "Capacity (GW)":"Eswatini",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1605,7 +1605,7 @@
     "Country":"Others",
     "Parent":0.0015,
     "Capacity (GW)":"Ethiopia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1635,7 +1635,7 @@
     "Country":"Others",
     "Parent":0.128,
     "Capacity (GW)":"Fiji",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
@@ -1671,13 +1671,13 @@
     "Country":"Others",
     "Parent":2.704016,
     "Capacity (GW)":"Finland",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.199744,
     "Capacity (GW)":"Finland",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1719,13 +1719,13 @@
     "Country":"Others",
     "Parent":11.39042,
     "Capacity (GW)":"France",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":12.534275,
     "Capacity (GW)":"France",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1749,19 +1749,19 @@
     "Country":"Others",
     "Parent":0.1446,
     "Capacity (GW)":"French Guiana",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.037475,
     "Capacity (GW)":"French Guiana",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.016876,
     "Capacity (GW)":"French Polynesia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1797,13 +1797,13 @@
     "Country":"Others",
     "Parent":1544.9909622,
     "Capacity (GW)":"G20",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1102.89844979,
     "Capacity (GW)":"G20",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1845,13 +1845,13 @@
     "Country":"Others",
     "Parent":796.807429,
     "Capacity (GW)":"G7",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":249.9231395,
     "Capacity (GW)":"G7",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1869,13 +1869,13 @@
     "Country":"Others",
     "Parent":0.496,
     "Capacity (GW)":"Gabon",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.00957,
     "Capacity (GW)":"Gabon",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1887,13 +1887,13 @@
     "Country":"Others",
     "Parent":1.1682,
     "Capacity (GW)":"Georgia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0129,
     "Capacity (GW)":"Georgia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1929,13 +1929,13 @@
     "Country":"Others",
     "Parent":33.8723122,
     "Capacity (GW)":"Germany",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":33.21506,
     "Capacity (GW)":"Germany",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -1953,19 +1953,19 @@
     "Country":"Others",
     "Parent":3.5765,
     "Capacity (GW)":"Ghana",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.350988,
     "Capacity (GW)":"Ghana",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.0864,
     "Capacity (GW)":"Gibraltar",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
@@ -1983,13 +1983,13 @@
     "Country":"Others",
     "Parent":7.9641,
     "Capacity (GW)":"Greece",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":5.208678,
     "Capacity (GW)":"Greece",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2019,13 +2019,13 @@
     "Country":"Others",
     "Parent":0.2922,
     "Capacity (GW)":"Guadeloupe",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0366,
     "Capacity (GW)":"Guadeloupe",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2037,13 +2037,13 @@
     "Country":"Others",
     "Parent":0.198,
     "Capacity (GW)":"Guam",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.084564,
     "Capacity (GW)":"Guam",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2073,13 +2073,13 @@
     "Country":"Others",
     "Parent":0.356,
     "Capacity (GW)":"Guatemala",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.322668,
     "Capacity (GW)":"Guatemala",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2097,13 +2097,13 @@
     "Country":"Others",
     "Parent":0.389,
     "Capacity (GW)":"Guinea",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.00935,
     "Capacity (GW)":"Guinea-Bissau",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2115,13 +2115,13 @@
     "Country":"Others",
     "Parent":0.072,
     "Capacity (GW)":"Guyana",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0049475,
     "Capacity (GW)":"Guyana",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2145,13 +2145,13 @@
     "Country":"Others",
     "Parent":1.22032,
     "Capacity (GW)":"Honduras",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.626923,
     "Capacity (GW)":"Honduras",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2169,13 +2169,13 @@
     "Country":"Others",
     "Parent":3.22515,
     "Capacity (GW)":"Hong Kong",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.000935,
     "Capacity (GW)":"Hong Kong",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2205,13 +2205,13 @@
     "Country":"Others",
     "Parent":3.024244,
     "Capacity (GW)":"Hungary",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.908129,
     "Capacity (GW)":"Hungary",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2259,13 +2259,13 @@
     "Country":"Others",
     "Parent":27.475968,
     "Capacity (GW)":"India",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":94.90597,
     "Capacity (GW)":"India",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2301,13 +2301,13 @@
     "Country":"Others",
     "Parent":25.113056,
     "Capacity (GW)":"Indonesia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.87966,
     "Capacity (GW)":"Indonesia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2337,13 +2337,13 @@
     "Country":"Others",
     "Parent":77.897003,
     "Capacity (GW)":"Iran",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.7997,
     "Capacity (GW)":"Iran",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2367,13 +2367,13 @@
     "Country":"Others",
     "Parent":46.8906,
     "Capacity (GW)":"Iraq",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.73275,
     "Capacity (GW)":"Iraq",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2391,13 +2391,13 @@
     "Country":"Others",
     "Parent":6.3602,
     "Capacity (GW)":"Ireland",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.841339,
     "Capacity (GW)":"Ireland",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2409,7 +2409,7 @@
     "Country":"Others",
     "Parent":0.1739,
     "Capacity (GW)":"Isle of Man",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
@@ -2427,13 +2427,13 @@
     "Country":"Others",
     "Parent":13.523908,
     "Capacity (GW)":"Israel",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":2.613081,
     "Capacity (GW)":"Israel",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2469,13 +2469,13 @@
     "Country":"Others",
     "Parent":46.7895266,
     "Capacity (GW)":"Italy",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":4.796936,
     "Capacity (GW)":"Italy",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2487,13 +2487,13 @@
     "Country":"Others",
     "Parent":0.627,
     "Capacity (GW)":"Jamaica",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0702876,
     "Capacity (GW)":"Jamaica",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2535,13 +2535,13 @@
     "Country":"Others",
     "Parent":97.35713,
     "Capacity (GW)":"Japan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":33.660386,
     "Capacity (GW)":"Japan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2553,7 +2553,7 @@
     "Country":"Others",
     "Parent":0.003741,
     "Capacity (GW)":"Jersey",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2565,13 +2565,13 @@
     "Country":"Others",
     "Parent":4.14803,
     "Capacity (GW)":"Jordan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1.697545,
     "Capacity (GW)":"Jordan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2595,13 +2595,13 @@
     "Country":"Others",
     "Parent":4.95985,
     "Capacity (GW)":"Kazakhstan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1.21339,
     "Capacity (GW)":"Kazakhstan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2631,13 +2631,13 @@
     "Country":"Others",
     "Parent":0.511445,
     "Capacity (GW)":"Kenya",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.2811,
     "Capacity (GW)":"Kenya",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2649,7 +2649,7 @@
     "Country":"Others",
     "Parent":0.0041375,
     "Capacity (GW)":"Kiribati",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2667,7 +2667,7 @@
     "Country":"Others",
     "Parent":0.0169,
     "Capacity (GW)":"Kosovo",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2679,13 +2679,13 @@
     "Country":"Others",
     "Parent":20.3355,
     "Capacity (GW)":"Kuwait",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0313,
     "Capacity (GW)":"Kuwait",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2721,7 +2721,7 @@
     "Country":"Others",
     "Parent":1.05845,
     "Capacity (GW)":"Laos",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2745,13 +2745,13 @@
     "Country":"Others",
     "Parent":1.087,
     "Capacity (GW)":"Latvia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.569765,
     "Capacity (GW)":"Latvia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2769,19 +2769,19 @@
     "Country":"Others",
     "Parent":2.824,
     "Capacity (GW)":"Lebanon",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0051,
     "Capacity (GW)":"Lebanon",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.0292,
     "Capacity (GW)":"Lesotho",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2793,19 +2793,19 @@
     "Country":"Others",
     "Parent":0.038,
     "Capacity (GW)":"Liberia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":14.672,
     "Capacity (GW)":"Libya",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.4675,
     "Capacity (GW)":"Libya",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2823,13 +2823,13 @@
     "Country":"Others",
     "Parent":1.148,
     "Capacity (GW)":"Lithuania",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.84339,
     "Capacity (GW)":"Lithuania",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2853,7 +2853,7 @@
     "Country":"Others",
     "Parent":0.0945285,
     "Capacity (GW)":"Luxembourg",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2871,7 +2871,7 @@
     "Country":"Others",
     "Parent":0.4072,
     "Capacity (GW)":"Macao",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
@@ -2889,13 +2889,13 @@
     "Country":"Others",
     "Parent":0.287,
     "Capacity (GW)":"Madagascar",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.090211,
     "Capacity (GW)":"Madagascar",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2913,13 +2913,13 @@
     "Country":"Others",
     "Parent":0.103,
     "Capacity (GW)":"Malawi",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.10087,
     "Capacity (GW)":"Malawi",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2943,25 +2943,25 @@
     "Country":"Others",
     "Parent":17.238,
     "Capacity (GW)":"Malaysia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":2.50459,
     "Capacity (GW)":"Malaysia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.142,
     "Capacity (GW)":"Maldives",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0019,
     "Capacity (GW)":"Maldives",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -2973,25 +2973,25 @@
     "Country":"Others",
     "Parent":0.254,
     "Capacity (GW)":"Mali",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.15577,
     "Capacity (GW)":"Mali",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.47933,
     "Capacity (GW)":"Malta",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0187,
     "Capacity (GW)":"Malta",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3003,13 +3003,13 @@
     "Country":"Others",
     "Parent":0.3636,
     "Capacity (GW)":"Martinique",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.02455,
     "Capacity (GW)":"Martinique",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3021,13 +3021,13 @@
     "Country":"Others",
     "Parent":0.42006,
     "Capacity (GW)":"Mauritania",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.12262,
     "Capacity (GW)":"Mauritania",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3057,13 +3057,13 @@
     "Country":"Others",
     "Parent":0.456,
     "Capacity (GW)":"Mauritius",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.1056835,
     "Capacity (GW)":"Mauritius",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3075,7 +3075,7 @@
     "Country":"Others",
     "Parent":0.013494,
     "Capacity (GW)":"Mayotte",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3111,13 +3111,13 @@
     "Country":"Others",
     "Parent":52.295937,
     "Capacity (GW)":"Mexico",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":13.3407881,
     "Capacity (GW)":"Mexico",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3129,7 +3129,7 @@
     "Country":"Others",
     "Parent":0.003741,
     "Capacity (GW)":"Micronesia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3141,13 +3141,13 @@
     "Country":"Others",
     "Parent":1.168,
     "Capacity (GW)":"Moldova",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.1657,
     "Capacity (GW)":"Moldova",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3159,7 +3159,7 @@
     "Country":"Others",
     "Parent":0.18425,
     "Capacity (GW)":"Mongolia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3183,7 +3183,7 @@
     "Country":"Others",
     "Parent":0.0169,
     "Capacity (GW)":"Montenegro",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3213,13 +3213,13 @@
     "Country":"Others",
     "Parent":1.901,
     "Capacity (GW)":"Morocco",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.97869,
     "Capacity (GW)":"Morocco",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3237,13 +3237,13 @@
     "Country":"Others",
     "Parent":0.5631,
     "Capacity (GW)":"Mozambique",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.099301,
     "Capacity (GW)":"Mozambique",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3261,13 +3261,13 @@
     "Country":"Others",
     "Parent":3.174669,
     "Capacity (GW)":"Myanmar",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.36115,
     "Capacity (GW)":"Myanmar",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3291,13 +3291,13 @@
     "Country":"Others",
     "Parent":0.0495,
     "Capacity (GW)":"Namibia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.3034275,
     "Capacity (GW)":"Namibia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3309,7 +3309,7 @@
     "Country":"Others",
     "Parent":0.00561,
     "Capacity (GW)":"Nauru",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3321,7 +3321,7 @@
     "Country":"Others",
     "Parent":0.16385,
     "Capacity (GW)":"Nepal",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3345,13 +3345,13 @@
     "Country":"Others",
     "Parent":14.5505,
     "Capacity (GW)":"Netherlands",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":6.4617495,
     "Capacity (GW)":"Netherlands",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3375,13 +3375,13 @@
     "Country":"Others",
     "Parent":0.299,
     "Capacity (GW)":"New Caledonia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.11,
     "Capacity (GW)":"New Caledonia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3417,13 +3417,13 @@
     "Country":"Others",
     "Parent":1.6031,
     "Capacity (GW)":"New Zealand",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.272675,
     "Capacity (GW)":"New Zealand",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3453,13 +3453,13 @@
     "Country":"Others",
     "Parent":0.30748,
     "Capacity (GW)":"Nicaragua",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0574335,
     "Capacity (GW)":"Nicaragua",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3477,13 +3477,13 @@
     "Country":"Others",
     "Parent":0.237,
     "Capacity (GW)":"Niger",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0535,
     "Capacity (GW)":"Niger",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3501,13 +3501,13 @@
     "Country":"Others",
     "Parent":10.706374,
     "Capacity (GW)":"Nigeria",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.146588,
     "Capacity (GW)":"Nigeria",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3555,13 +3555,13 @@
     "Country":"Others",
     "Parent":0.418,
     "Capacity (GW)":"North Macedonia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.43552,
     "Capacity (GW)":"North Macedonia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3579,13 +3579,13 @@
     "Country":"Others",
     "Parent":0.523,
     "Capacity (GW)":"Norway",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.032966,
     "Capacity (GW)":"Norway",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3627,13 +3627,13 @@
     "Country":"Others",
     "Parent":1068.7152011,
     "Capacity (GW)":"OECD",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":395.07698589,
     "Capacity (GW)":"OECD",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3645,13 +3645,13 @@
     "Country":"Others",
     "Parent":14.0780154,
     "Capacity (GW)":"Oman",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.12622,
     "Capacity (GW)":"Oman",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3687,13 +3687,13 @@
     "Country":"Others",
     "Parent":20.790775,
     "Capacity (GW)":"Pakistan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1.296275,
     "Capacity (GW)":"Pakistan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3705,19 +3705,19 @@
     "Country":"Others",
     "Parent":0.013311,
     "Capacity (GW)":"Palau",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.14,
     "Capacity (GW)":"Palestine",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.03634,
     "Capacity (GW)":"Palestine",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3735,13 +3735,13 @@
     "Country":"Others",
     "Parent":1.284755,
     "Capacity (GW)":"Panama",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.758354,
     "Capacity (GW)":"Panama",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3771,13 +3771,13 @@
     "Country":"Others",
     "Parent":0.189,
     "Capacity (GW)":"Papua New Guinea",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.00087,
     "Capacity (GW)":"Papua New Guinea",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3789,7 +3789,7 @@
     "Country":"Others",
     "Parent":0.004305,
     "Capacity (GW)":"Paraguay",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3807,13 +3807,13 @@
     "Country":"Others",
     "Parent":7.047,
     "Capacity (GW)":"Peru",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1.0294845,
     "Capacity (GW)":"Peru",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3849,13 +3849,13 @@
     "Country":"Others",
     "Parent":6.7743152,
     "Capacity (GW)":"Philippines",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.380523,
     "Capacity (GW)":"Philippines",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3885,13 +3885,13 @@
     "Country":"Others",
     "Parent":5.212,
     "Capacity (GW)":"Poland",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":8.2730485,
     "Capacity (GW)":"Poland",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3921,13 +3921,13 @@
     "Country":"Others",
     "Parent":4.6515,
     "Capacity (GW)":"Portugal",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.1206115,
     "Capacity (GW)":"Portugal",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3945,13 +3945,13 @@
     "Country":"Others",
     "Parent":5.114,
     "Capacity (GW)":"Puerto Rico",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.1841,
     "Capacity (GW)":"Puerto Rico",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3969,13 +3969,13 @@
     "Country":"Others",
     "Parent":11.661036,
     "Capacity (GW)":"Qatar",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":1.47425,
     "Capacity (GW)":"Qatar",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -3993,7 +3993,7 @@
     "Country":"Others",
     "Parent":0.534,
     "Capacity (GW)":"Republic of the Congo",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
@@ -4023,13 +4023,13 @@
     "Country":"Others",
     "Parent":3.3498,
     "Capacity (GW)":"Romania",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":3.480894,
     "Capacity (GW)":"Romania",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4071,13 +4071,13 @@
     "Country":"Others",
     "Parent":114.1492416,
     "Capacity (GW)":"Russia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":2.1418525,
     "Capacity (GW)":"Russia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4095,13 +4095,13 @@
     "Country":"Others",
     "Parent":0.1109,
     "Capacity (GW)":"Rwanda",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0136855,
     "Capacity (GW)":"Rwanda",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4119,13 +4119,13 @@
     "Country":"Others",
     "Parent":0.2996,
     "Capacity (GW)":"Réunion",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.133378,
     "Capacity (GW)":"Réunion",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4143,43 +4143,43 @@
     "Country":"Others",
     "Parent":0.021,
     "Capacity (GW)":"Saint Pierre and Miquelon",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0012,
     "Capacity (GW)":"Saint Vincent and the Grenadines",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.051,
     "Capacity (GW)":"Samoa",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.007801,
     "Capacity (GW)":"Samoa",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.011329,
     "Capacity (GW)":"Sao Tome and Principe",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":100.6202,
     "Capacity (GW)":"Saudi Arabia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":11.15246125,
     "Capacity (GW)":"Saudi Arabia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4203,13 +4203,13 @@
     "Country":"Others",
     "Parent":0.8025,
     "Capacity (GW)":"Senegal",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.254285,
     "Capacity (GW)":"Senegal",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4239,13 +4239,13 @@
     "Country":"Others",
     "Parent":0.593622,
     "Capacity (GW)":"Serbia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.197445,
     "Capacity (GW)":"Serbia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4257,13 +4257,13 @@
     "Country":"Others",
     "Parent":0.093,
     "Capacity (GW)":"Seychelles",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.006775,
     "Capacity (GW)":"Seychelles",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4287,13 +4287,13 @@
     "Country":"Others",
     "Parent":0.237,
     "Capacity (GW)":"Sierra Leone",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.01045,
     "Capacity (GW)":"Sierra Leone",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4305,13 +4305,13 @@
     "Country":"Others",
     "Parent":14.726,
     "Capacity (GW)":"Singapore",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.224986,
     "Capacity (GW)":"Singapore",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4335,13 +4335,13 @@
     "Country":"Others",
     "Parent":1.076,
     "Capacity (GW)":"Slovakia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.88585,
     "Capacity (GW)":"Slovakia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4365,31 +4365,31 @@
     "Country":"Others",
     "Parent":0.535,
     "Capacity (GW)":"Slovenia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.093249,
     "Capacity (GW)":"Slovenia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.00274,
     "Capacity (GW)":"Solomon Islands",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.065,
     "Capacity (GW)":"Somalia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.06256,
     "Capacity (GW)":"Somalia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4419,13 +4419,13 @@
     "Country":"Others",
     "Parent":3.7053,
     "Capacity (GW)":"South Africa",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":4.86955325,
     "Capacity (GW)":"South Africa",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4461,13 +4461,13 @@
     "Country":"Others",
     "Parent":50.678184,
     "Capacity (GW)":"South Korea",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":11.195264,
     "Capacity (GW)":"South Korea",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4479,13 +4479,13 @@
     "Country":"Others",
     "Parent":0.118,
     "Capacity (GW)":"South Sudan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.04292,
     "Capacity (GW)":"South Sudan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4515,13 +4515,13 @@
     "Country":"Others",
     "Parent":31.284,
     "Capacity (GW)":"Spain",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":33.61465529,
     "Capacity (GW)":"Spain",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4551,13 +4551,13 @@
     "Country":"Others",
     "Parent":1.4254,
     "Capacity (GW)":"Sri Lanka",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.152635,
     "Capacity (GW)":"Sri Lanka",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4581,13 +4581,13 @@
     "Country":"Others",
     "Parent":1.4508,
     "Capacity (GW)":"Sudan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.06299,
     "Capacity (GW)":"Sudan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4599,13 +4599,13 @@
     "Country":"Others",
     "Parent":0.222,
     "Capacity (GW)":"Suriname",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.007701,
     "Capacity (GW)":"Suriname",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4629,13 +4629,13 @@
     "Country":"Others",
     "Parent":2.619,
     "Capacity (GW)":"Sweden",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.606394,
     "Capacity (GW)":"Sweden",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4665,13 +4665,13 @@
     "Country":"Others",
     "Parent":0.0988,
     "Capacity (GW)":"Switzerland",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0907265,
     "Capacity (GW)":"Switzerland",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4689,13 +4689,13 @@
     "Country":"Others",
     "Parent":7.6623,
     "Capacity (GW)":"Syria",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.18962,
     "Capacity (GW)":"Syria",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4725,13 +4725,13 @@
     "Country":"Others",
     "Parent":21.406724,
     "Capacity (GW)":"Taiwan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":4.739776,
     "Capacity (GW)":"Taiwan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4755,13 +4755,13 @@
     "Country":"Others",
     "Parent":0.206,
     "Capacity (GW)":"Tajikistan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0012,
     "Capacity (GW)":"Tajikistan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4779,13 +4779,13 @@
     "Country":"Others",
     "Parent":0.849,
     "Capacity (GW)":"Tanzania",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.1399,
     "Capacity (GW)":"Tanzania",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4809,13 +4809,13 @@
     "Country":"Others",
     "Parent":34.446093,
     "Capacity (GW)":"Thailand",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":4.5463282,
     "Capacity (GW)":"Thailand",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4827,19 +4827,19 @@
     "Country":"Others",
     "Parent":0.121,
     "Capacity (GW)":"The Gambia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.02001,
     "Capacity (GW)":"The Gambia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.255,
     "Capacity (GW)":"Timor-Leste",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
@@ -4851,19 +4851,19 @@
     "Country":"Others",
     "Parent":0.165,
     "Capacity (GW)":"Togo",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0719,
     "Capacity (GW)":"Togo",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.0047,
     "Capacity (GW)":"Tonga",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4875,7 +4875,7 @@
     "Country":"Others",
     "Parent":2.04614,
     "Capacity (GW)":"Trinidad and Tobago",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
@@ -4887,13 +4887,13 @@
     "Country":"Others",
     "Parent":5.518,
     "Capacity (GW)":"Tunisia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.1718,
     "Capacity (GW)":"Tunisia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4905,13 +4905,13 @@
     "Country":"Others",
     "Parent":7.087,
     "Capacity (GW)":"Turkmenistan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.009,
     "Capacity (GW)":"Turkmenistan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4941,13 +4941,13 @@
     "Country":"Others",
     "Parent":26.003916,
     "Capacity (GW)":"Türkiye",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":16.030806,
     "Capacity (GW)":"Türkiye",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -4971,13 +4971,13 @@
     "Country":"Others",
     "Parent":0.189,
     "Capacity (GW)":"Uganda",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.11499,
     "Capacity (GW)":"Uganda",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5001,13 +5001,13 @@
     "Country":"Others",
     "Parent":3.7991,
     "Capacity (GW)":"Ukraine",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":5.339846,
     "Capacity (GW)":"Ukraine",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5037,13 +5037,13 @@
     "Country":"Others",
     "Parent":44.5401,
     "Capacity (GW)":"United Arab Emirates",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":7.07358,
     "Capacity (GW)":"United Arab Emirates",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5073,13 +5073,13 @@
     "Country":"Others",
     "Parent":36.3952,
     "Capacity (GW)":"United Kingdom",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":10.2497985,
     "Capacity (GW)":"United Kingdom",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5121,13 +5121,13 @@
     "Country":"Others",
     "Parent":541.6105622,
     "Capacity (GW)":"United States",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":151.488789,
     "Capacity (GW)":"United States",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5151,13 +5151,13 @@
     "Country":"Others",
     "Parent":1.1022,
     "Capacity (GW)":"Uruguay",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.316073,
     "Capacity (GW)":"Uruguay",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5181,13 +5181,13 @@
     "Country":"Others",
     "Parent":14.1285,
     "Capacity (GW)":"Uzbekistan",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":2.414305,
     "Capacity (GW)":"Uzbekistan",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5199,7 +5199,7 @@
     "Country":"Others",
     "Parent":0.000957,
     "Capacity (GW)":"Vanuatu",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5217,13 +5217,13 @@
     "Country":"Others",
     "Parent":2.3326,
     "Capacity (GW)":"Venezuela",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.0139,
     "Capacity (GW)":"Venezuela",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5247,13 +5247,13 @@
     "Country":"Others",
     "Parent":9.77,
     "Capacity (GW)":"Vietnam",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":15.125161,
     "Capacity (GW)":"Vietnam",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5265,19 +5265,19 @@
     "Country":"Others",
     "Parent":0.03266,
     "Capacity (GW)":"Virgin Islands (U.S.)",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
     "Parent":0.072,
     "Capacity (GW)":"Western Sahara",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.09245,
     "Capacity (GW)":"Western Sahara",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5289,13 +5289,13 @@
     "Country":"Others",
     "Parent":2.1629,
     "Capacity (GW)":"Yemen",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.254955,
     "Capacity (GW)":"Yemen",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5319,13 +5319,13 @@
     "Country":"Others",
     "Parent":0.105,
     "Capacity (GW)":"Zambia",
-    "Type":"Oil\/Gas"
+    "Type":"Oil and gas"
   },
   {
     "Country":"Others",
     "Parent":0.2835002,
     "Capacity (GW)":"Zambia",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
@@ -5343,7 +5343,7 @@
     "Country":"Others",
     "Parent":0.099854,
     "Capacity (GW)":"Zimbabwe",
-    "Type":"Utility-Scale Solar"
+    "Type":"Utility-scale solar"
   },
   {
     "Country":"Others",
