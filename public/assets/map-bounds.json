@@ -139,7 +139,7 @@
   },
   "Bhutan": {
     "lat_min": 26.37,
-    "lat_max": 28.03,
+    "lat_max": 28.21,
     "lng_min": 89.06,
     "lng_max": 91.7
   },
@@ -315,7 +315,7 @@
     "lat_min": 4.76,
     "lat_max": 10.02,
     "lng_min": -7.54,
-    "lng_max": -3.51
+    "lng_max": -2.66
   },
   "DR Congo": {
     "lat_min": -12.11,
@@ -433,7 +433,7 @@
   },
   "Georgia": {
     "lat_min": 40.86,
-    "lat_max": 43.26,
+    "lat_max": 43.55,
     "lng_min": 41.2,
     "lng_max": 45.57
   },
@@ -535,7 +535,7 @@
   },
   "Indonesia": {
     "lat_min": -10.85,
-    "lat_max": 7.36,
+    "lat_max": 6.04,
     "lng_min": 94.84,
     "lng_max": 141.29
   },
@@ -547,7 +547,7 @@
   },
   "Iraq": {
     "lat_min": 29.71,
-    "lat_max": 37.45,
+    "lat_max": 37.57,
     "lng_min": 40.66,
     "lng_max": 48.48
   },
@@ -571,7 +571,7 @@
   },
   "Italy": {
     "lat_min": 36.28,
-    "lat_max": 47.22,
+    "lat_max": 47.29,
     "lng_min": 6.51,
     "lng_max": 18.93
   },
@@ -630,10 +630,10 @@
     "lng_max": 48.88
   },
   "Kyrgyzstan": {
-    "lat_min": 40.69,
+    "lat_min": 40.66,
     "lat_max": 43.37,
     "lng_min": 71.1,
-    "lng_max": 75.15
+    "lng_max": 76.3
   },
   "Laos": {
     "lat_min": 13.44,
@@ -921,7 +921,7 @@
     "lat_min": -18.49,
     "lat_max": -3.14,
     "lng_min": -81.78,
-    "lng_max": -69.84
+    "lng_max": -69.63
   },
   "Philippines": {
     "lat_min": 5.37,
@@ -972,9 +972,9 @@
     "lng_max": 170.8
   },
   "Rwanda": {
-    "lat_min": -2.78,
+    "lat_min": -3.13,
     "lat_max": -1.38,
-    "lng_min": 28.79,
+    "lng_min": 28.4,
     "lng_max": 31.25
   },
   "R\u00e9union": {
@@ -1140,7 +1140,7 @@
     "lng_max": 122.34
   },
   "Tajikistan": {
-    "lat_min": 37.38,
+    "lat_min": 37.22,
     "lat_max": 40.78,
     "lng_min": 68.27,
     "lng_max": 74.52
@@ -1207,7 +1207,7 @@
   },
   "Uganda": {
     "lat_min": -0.62,
-    "lat_max": 2.75,
+    "lat_max": 3.65,
     "lng_min": 31.3,
     "lng_max": 34.64
   },
@@ -1262,7 +1262,7 @@
   "Vietnam": {
     "lat_min": 8.04,
     "lat_max": 23.68,
-    "lng_min": 102.47,
+    "lng_min": 102.08,
     "lng_max": 110.05
   },
   "Virgin Islands (U.S.)": {
