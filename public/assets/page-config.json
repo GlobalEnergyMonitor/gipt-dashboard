@@ -1,13 +1,13 @@
 {
     "flourish_ids": [
-        "24167887",
-        "23631837",
-        "23183975",
-        "18923725",
-        "18930420",
-        "23448121",
-        "23191160"   
-        
+        "28357063",
+        "28357074",
+        "28357085",
+        "28357088",
+        "28357094",
+        "28357100",
+        "28357105"
+
     ],
     "input_type": "dropdown",
     "input_filter": "Country",
@@ -19,7 +19,7 @@
         "id": "summary_1",
         "decimal_places": 2,
         "style": {
-            "color": "#5f9e79",
+            "color": "#016B83",
             "font-weight": "bold",
             "font-size": "3rem"
         }
@@ -28,7 +28,7 @@
         "id": "summary_2",
         "decimal_places": 2,
         "style": {
-            "color": "#BF532C",
+            "color": "#7F142A",
             "font-weight": "bold",
             "font-size": "3rem"
         }

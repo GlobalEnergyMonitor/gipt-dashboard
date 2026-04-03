@@ -1,9 +1,9 @@
 body {
     position: relative;
     font-size:20px;
-    font-family: 'Open Sans';
+    font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
-    color: #1f1f1f;
+    color: #3A4A50;
     max-width: 2500px;
 }
 
@@ -84,7 +84,7 @@ background-color: white;
 }
 
 .filter-button {
-    border: solid 1px #1f1f1f;
+    border: solid 1px #3A4A50;
     position: relative;
     display: block;
     padding: 1rem;
@@ -112,11 +112,11 @@ background-color: white;
 /* filter button hover ane selected styles */
 
 .filter-button:hover {
-    background-color: rgba(191, 83, 44, 0.5);
+    background-color: rgba(1, 107, 131, 0.5);
 }
 
 .filter-button:has(input:checked) {
-    background-color: #BF532C;
+    background-color: #016B83;
     border: solid 1px #111;
     color: white;
 }
