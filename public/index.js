@@ -31,7 +31,7 @@ async function getData() {
                 config.datasets[id] = [];
             })
             if (config.dashboard.tickers) {
-                dataURLS.push('https://public.flourish.studio/visualisation/16565310/visualisation.json') // this assumes we want the same template for all tickers
+                dataURLS.push('https://public.flourish.studio/visualisation/28342067/visualisation.json') // this assumes we want the same template for all tickers
                 dataURLS.push(`./assets/data/${config.dashboard.ticker_data}.json`)
                 config.datasets.ticker = {};
             }
@@ -337,7 +337,7 @@ function renderVisualisation() {
     container.id = `chart-${id}`;
     container.classList.add('chart-container');
 
-    if (String(id) === "24167887") {
+    if (String(id) === "28357063") {
       container.classList.add('map-chart-container');
     }
 
@@ -430,7 +430,7 @@ function implentGraph(id) {
   graphs[id] = {};
 
   // Special case for the time-map chart
-  if (id === "24167887") {
+  if (id === "28357063") {
   const selected = getSelectedText();
   renderMap(id, selected);
   return;
@@ -506,7 +506,7 @@ bindings: {
             }
 
             const hierarchyCharts = {
-                "23191160": {
+                "28357105": {
                     filter: "Country",
                     nest_columns: ["Type", "Parent"],
                     size_columns: ["Capacity (GW)"]
@@ -582,7 +582,7 @@ function updateGraphs(selectedDisplay) {
     const currentGraph = config.charts[id];
 
     // --- Map special case ---
-    if (id === "24167887") {
+    if (id === "28357063") {
       renderMap(id, selectedDisplay);
       return;
     }
@@ -655,7 +655,7 @@ if (isScatter) {
     // --- Hierarchy ---
     const isHierarchy =
       graphs[id]?.opts?.template === "@flourish/hierarchy" ||
-      ["23191160", "23185423"].includes(id);
+      ["28357105", "23185423"].includes(id);
 
     if (isHierarchy) {
       graphs[id].flourish.update({

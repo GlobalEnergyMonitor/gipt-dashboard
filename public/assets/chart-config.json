@@ -1,5 +1,5 @@
 {
-    "23631837": {
+    "28357074": {
         "title": "How has power capacity changed over time?",
         "subtitle": "Total operating power capacity by year since 2000, in gigawatts (GW)",
         "x_axis": "Year",
@@ -11,7 +11,7 @@
         "filterable": true,
         "filter_by": "Country"
     },
-        "18923725": {
+        "28357088": {
         "title": "How much power capacity is in development?",
         "subtitle": "Power capacity in development by source and status, in gigawatts (GW)",
         "x_axis": "Source",
@@ -22,7 +22,7 @@
         "filterable": true,
         "filter_by": "Country"
     },
-    "18930420": {
+    "28357094": {
         "title": "How does power capacity break down by status?",
         "subtitle": "Proportion (%) of power capacity by type and status",
         "x_axis": "Status",
@@ -34,7 +34,7 @@
         "filterable": true,
         "filter_by": "Country"
     },
-    "23191160": {
+    "28357105": {
         "title": "Who owns operating power facilities?",
         "subtitle": "Circles show operating capacity per parent/owner entity, in gigawatts (GW)",
         "x_axis": "Parent",
@@ -47,7 +47,7 @@
         "filter_by": "Country",
         "template": "@flourish/hierarchy"
     },
-    "23183975": {
+    "28357085": {
         "title": "How much power capacity has been added and retired?",
         "subtitle": "Power capacity added and retired each year since 2000 by source, in gigawatts (GW)",
         "x_axis": "Year",
@@ -59,7 +59,7 @@
         "filterable": true,
         "filter_by": "Country"
     },
-    "23448121": {
+    "28357100": {
         "title": "What is the age breakdown of operating power capacity?",
         "subtitle": "Capacity by age, in gigawatts (GW), with circles sized by proportion of total capacity per technology",
         "x_axis": "Age Category",
@@ -69,7 +69,7 @@
         "filterable": true,
         "filter_by": "Country"
     },
-    "24167887": {
+    "28357063": {
     "title": "",
     "subtitle": "",
     "dataset": "operating_plants_map_mar2026_30k",
