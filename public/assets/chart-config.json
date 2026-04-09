@@ -76,7 +76,8 @@
     "initial_state": "World",
     "filterable": false,
     "filter_by": "Country/area",
-    "template": "@flourish/time-map"
+    "template": "@flourish/time-map",
+    "map_colors": "Coal: #7F142A\nOil/gas: #CA4A50\nUtility-scale solar: #FFE366\nWind: #65BD8B\nHydropower: #099ED8\nNuclear: #4A57A8\nBioenergy: #A0AAE5\nGeothermal: #004F61"
 }
 }
 

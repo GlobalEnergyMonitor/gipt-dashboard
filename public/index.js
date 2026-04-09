@@ -371,21 +371,22 @@ function renderMap(id, selected) {
     });
   }
 
+  // Column order must match base viz 28357063's data structure
   const headers = [
-    "Plant / Project name","Capacity (MW)","Technology","Country/area",
-    "Latitude","Longitude","Type","Capacity (MW)","Type"
+    "Type","Latitude","Longitude","Plant / Project name",
+    "Capacity (MW)","Technology","Country/area","Type","Capacity (MW)"
   ];
 
   const mapped = filtered.map(entry => [
+    entry["Type"],
+    entry["Latitude"],
+    entry["Longitude"],
     entry["Plant / Project name"],
     entry["Capacity (MW)"],
     entry["Technology"],
     entry["Country/area"],
-    entry["Latitude"],
-    entry["Longitude"],
     entry["Type"],
-    entry["Capacity (MW)"],
-    entry["Type"]
+    entry["Capacity (MW)"]
   ]);
 
   const bounds = config.mapBounds[selected] || config.mapBounds["World"];
@@ -397,11 +398,26 @@ function renderMap(id, selected) {
   if (oldIframe) oldIframe.remove();
 
   graphs[id] = graphs[id] || {};
+  const mapState = {
+    ...(config.charts[id]?.state?.map || {}),
+    map_initial_bounds_lat_min: bounds.lat_min,
+    map_initial_bounds_lat_max: bounds.lat_max,
+    map_initial_bounds_lng_min: bounds.lng_min,
+    map_initial_bounds_lng_max: bounds.lng_max,
+    map_initial_type: "bounding_box",
+    points: {
+      colors: {
+        categorical_type: "custom",
+        categorical_custom_palette: config.charts[id]?.map_colors || ""
+      },
+      opacity: 60
+    }
+  };
   graphs[id].flourish = new Flourish.Live({
     template: "@flourish/time-map",
     version: "17.5.2",
     bindings: {
-      events: { metadata:[0,1,2,3], lat:4, lon:5, name:6, scale:7, color:8 },
+      events: { color:0, lat:1, lon:2, metadata:[3,4,5,6], name:7, scale:8 },
       lines: { geojson:0, series:1 },
       regions: { geojson:0 },
       regions_map: { geojson:0, metadata:[], name:1, value:[2] }
@@ -413,14 +429,7 @@ function renderMap(id, selected) {
     data: { events: [headers, ...mapped] },
     state: {
       ...config.charts[id]?.state,
-      map: {
-        ...(config.charts[id]?.state?.map || {}),
-        map_initial_bounds_lat_min: bounds.lat_min,
-        map_initial_bounds_lat_max: bounds.lat_max,
-        map_initial_bounds_lng_min: bounds.lng_min,
-        map_initial_bounds_lng_max: bounds.lng_max,
-        map_initial_type: "bounding_box"
-      }
+      map: mapState
     }
   });
 }
