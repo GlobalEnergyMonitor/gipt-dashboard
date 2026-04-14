@@ -500,9 +500,12 @@ bindings: {
   }
 },
                     data: { data: [headers, ...rows] },
-                    // Keep state minimal to avoid referencing missing columns
+                    // Keep state minimal to avoid referencing missing columns,
+                    // but preserve layout fields (e.g. footer_logo_src) from Flourish state.
                     state: {
+                        ...options.state,
                         layout: {
+                            ...(options.state && options.state.layout),
                             title: (currentGraph.title || '').replace('{{country}}', ''),
                             subtitle: currentGraph.subtitle || ''
                         }
@@ -570,6 +573,7 @@ bindings: {
                 state: {
                     ...options.state,
                     layout: {
+                        ...options.state.layout,
                         title: (config.charts[id].title || '').replace('{{country}}', ''),
                         subtitle: config.charts[id].subtitle || ''
                     }
@@ -643,9 +647,11 @@ if (isScatter) {
 
     // 2) Update layout in next frame
     requestAnimationFrame(() => {
+      const savedLayout = (graphs[id].opts && graphs[id].opts.state && graphs[id].opts.state.layout) || {};
       graphs[id].flourish.update({
         state: {
           layout: {
+            ...savedLayout,
             title: (currentGraph.title || '').replace('{{country}}', selectedDisplay),
             subtitle: currentGraph.subtitle || ''
           }
