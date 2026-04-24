@@ -673,10 +673,19 @@ if (isScatter) {
       ["28357105", "23185423"].includes(id);
 
     if (isHierarchy) {
+      const savedLayout = (graphs[id].opts && graphs[id].opts.state && graphs[id].opts.state.layout) || {};
       graphs[id].flourish.update({
         template: graphs[id].opts.template,
         bindings: graphs[id].opts.bindings,
         data: { data: filteredData },
+        state: {
+          ...(graphs[id].opts && graphs[id].opts.state),
+          layout: {
+            ...savedLayout,
+            title: (currentGraph.title || '').replace('{{country}}', selectedDisplay),
+            subtitle: currentGraph.subtitle || ''
+          }
+        },
         animate: true
       });
       return;
