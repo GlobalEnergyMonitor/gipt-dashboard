@@ -161,6 +161,18 @@
     "lng_min": -4.69,
     "lng_max": 0.13
   },
+  "Burundi": {
+    "lat_min": -4.53,
+    "lat_max": -2.65,
+    "lng_min": 28.86,
+    "lng_max": 30.66
+  },
+  "Cabo Verde": {
+    "lat_min": 14.36,
+    "lat_max": 17.55,
+    "lng_min": -25.61,
+    "lng_max": -22.31
+  },
   "Cambodia": {
     "lat_min": 10.13,
     "lat_max": 14.13,
@@ -232,6 +244,12 @@
     "lat_max": 23.68,
     "lng_min": -83.29,
     "lng_max": -74.36
+  },
+  "Curaçao": {
+    "lat_min": 11.65,
+    "lat_max": 12.73,
+    "lng_min": -69.52,
+    "lng_max": -68.32
   },
   "Cyprus": {
     "lat_min": 34.21,
@@ -412,6 +430,12 @@
     "lat_max": 11.43,
     "lng_min": -14.8,
     "lng_max": -12.16
+  },
+  "Guinea-Bissau": {
+    "lat_min": 11.33,
+    "lat_max": 12.33,
+    "lng_min": -16.17,
+    "lng_max": -15.17
   },
   "Guyana": {
     "lat_min": 6.31,
@@ -646,6 +670,12 @@
     "lat_max": -19.57,
     "lng_min": 56.99,
     "lng_max": 58.2
+  },
+  "Mayotte": {
+    "lat_min": -13.33,
+    "lat_max": -12.23,
+    "lng_min": 44.62,
+    "lng_max": 45.71
   },
   "Mexico": {
     "lat_min": 15.66,
@@ -1084,6 +1114,12 @@
     "lat_max": 12.25,
     "lng_min": -72.13,
     "lng_max": -61.81
+  },
+  "Virgin Islands (U.S.)": {
+    "lat_min": 17.21,
+    "lat_max": 18.84,
+    "lng_min": -65.4,
+    "lng_max": -64.17
   },
   "Vietnam": {
     "lat_min": 8.04,

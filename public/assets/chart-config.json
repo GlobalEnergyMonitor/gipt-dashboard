@@ -72,7 +72,7 @@
     "28357063": {
     "title": "",
     "subtitle": "",
-    "dataset": "operating_plants_map_augI2026_30k",
+    "dataset": "operating_plants_map_augI2026",
     "initial_state": "World",
     "filterable": false,
     "filter_by": "Country/area",

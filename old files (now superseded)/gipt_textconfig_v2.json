@@ -1,0 +1,865 @@
+{
+  "title": "Explore data in the Global Integrated Power Tracker",
+  "footer": "All data comes from GEM's [Global Integrated Power Tracker](https://globalenergymonitor.org/projects/global-integrated-power-tracker/), last updated in September 2024. Units on this page are in gigawatts (GW).  Under development includes all capacity with status announced, pre-permit, permitted, and construction.",
+  "dropdown_label": "Select a country or area: ",
+  "no_data": "No data available for {{selected}}",
+  "dropdown": [
+  {
+    "Country": "World",
+    "overall_summary": ""
+  },
+  {
+    "Country": "BRICS",
+    "overall_summary": ""
+  },
+  {
+    "Country": "EU27",
+    "overall_summary": ""
+  },
+  {
+    "Country": "G7",
+    "overall_summary": ""
+  },
+  {
+    "Country": "G20",
+    "overall_summary": ""
+  },
+  {
+    "Country": "OECD",
+    "overall_summary": ""
+  },
+  {
+    "Country": "African Union",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Afghanistan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Albania",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Algeria",
+    "overall_summary": ""
+  },
+  {
+    "Country": "American Samoa",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Andorra",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Angola",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Argentina",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Armenia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Aruba",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Australia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Austria",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Azerbaijan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bahamas",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bahrain",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bangladesh",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Barbados",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Belarus",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Belgium",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Benin",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bermuda",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bhutan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bolivia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bonaire, Sint Eustatius, and Saba",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Botswana",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Brazil",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Brunei",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Bulgaria",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Burkina Faso",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Burundi",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Cabo Verde",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Cambodia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Cameroon",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Canada",
+    "overall_summary": "Wind, solar and hydropower make up nearly two-thirds of capacity under construction in Canada."
+  },
+  {
+    "Country": "Cayman Islands",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Central African Republic",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Chad",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Chile",
+    "overall_summary": ""
+  },
+  {
+    "Country": "China",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Christmas Island",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Colombia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Comoros",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Costa Rica",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Croatia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Cuba",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Curaçao",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Cyprus",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Czech Republic",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Côte d'Ivoire",
+    "overall_summary": ""
+  },
+  {
+    "Country": "DR Congo",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Denmark",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Djibouti",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Dominica",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Dominican Republic",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Ecuador",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Egypt",
+    "overall_summary": ""
+  },
+  {
+    "Country": "El Salvador",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Eritrea",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Estonia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Eswatini",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Ethiopia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Faroe Islands",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Fiji",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Finland",
+    "overall_summary": ""
+  },
+  {
+    "Country": "France",
+    "overall_summary": "France has no fossil-fuelled power projects in development."
+  },
+  {
+    "Country": "French Guiana",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Gabon",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Georgia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Germany",
+    "overall_summary": "Around three-quarters of capacity under construction in Germany is wind and solar."
+  },
+  {
+    "Country": "Ghana",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Greece",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Greenland",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Grenada",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Guadeloupe",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Guam",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Guatemala",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Guernsey",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Guinea",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Guyana",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Haiti",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Holy See",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Honduras",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Hong Kong",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Hungary",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Iceland",
+    "overall_summary": ""
+  },
+  {
+    "Country": "India",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Indonesia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Iran",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Iraq",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Ireland",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Isle of Man",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Israel",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Italy",
+    "overall_summary": "Oil and gas plants constitute the largest source of capacity under construction in Italy."
+  },
+  {
+    "Country": "Jamaica",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Japan",
+    "overall_summary": "Oil and gas plants constitute the largest source of capacity under construction in Japan."
+  },
+  {
+    "Country": "Jersey",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Jordan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Kazakhstan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Kenya",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Kosovo",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Kuwait",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Laos",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Latvia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Lebanon",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Lesotho",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Liberia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Libya",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Lithuania",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Luxembourg",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Macao",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Madagascar",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Malawi",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Malaysia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Maldives",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Mali",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Malta",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Martinique",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Mauritania",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Mauritius",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Mayotte",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Mexico",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Moldova",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Mongolia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Montenegro",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Montserrat",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Morocco",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Mozambique",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Myanmar",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Namibia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Nepal",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Netherlands",
+    "overall_summary": ""
+  },
+  {
+    "Country": "New Caledonia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "New Zealand",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Nicaragua",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Niger",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Nigeria",
+    "overall_summary": ""
+  },
+  {
+    "Country": "North Korea",
+    "overall_summary": ""
+  },
+  {
+    "Country": "North Macedonia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Norway",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Oman",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Pakistan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Palestine",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Panama",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Papua New Guinea",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Paraguay",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Peru",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Philippines",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Poland",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Portugal",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Puerto Rico",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Qatar",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Republic of the Congo",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Romania",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Russia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Rwanda",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Réunion",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Saint Lucia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Saudi Arabia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Senegal",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Serbia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Seychelles",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Sierra Leone",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Singapore",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Slovakia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Slovenia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Somalia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "South Africa",
+    "overall_summary": ""
+  },
+  {
+    "Country": "South Korea",
+    "overall_summary": ""
+  },
+  {
+    "Country": "South Sudan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Spain",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Sri Lanka",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Sudan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Suriname",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Sweden",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Switzerland",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Syria",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Taiwan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Tajikistan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Tanzania",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Thailand",
+    "overall_summary": ""
+  },
+  {
+    "Country": "The Gambia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Timor-Leste",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Togo",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Tonga",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Tunisia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Turkmenistan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Türkiye",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Uganda",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Ukraine",
+    "overall_summary": ""
+  },
+  {
+    "Country": "United Arab Emirates",
+    "overall_summary": ""
+  },
+  {
+    "Country": "United Kingdom",
+    "overall_summary": "The UK has 14 GW of non-fossil energy under construction, with two-thirds of it wind power."
+  },
+  {
+    "Country": "United States",
+    "overall_summary": "The United States has more than **five times** as much non-fossil power in construction than fossil fuel capacity."
+  },
+  {
+    "Country": "Uruguay",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Uzbekistan",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Venezuela",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Vietnam",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Virgin Islands (U.S.)",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Western Sahara",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Yemen",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Zambia",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Zimbabwe",
+    "overall_summary": ""
+  },
+  {
+    "Country": "Åland Islands",
+    "overall_summary": ""
+  }
+]  
+}
+

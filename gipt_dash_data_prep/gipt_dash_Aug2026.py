@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 
 
-# Both source workbooks are stored in the repository root, one level above
-# this script's gipt_dash_data_prep directory.
+# The integrated and solar source workbooks are stored in the repository root.
+# The cumulative coal workbook is stored alongside this preparation script.
 DATA_PREP_DIRECTORY = Path(__file__).resolve().parent
 REPOSITORY_ROOT = DATA_PREP_DIRECTORY.parent
 PUBLIC_ASSETS_DIRECTORY = REPOSITORY_ROOT / "public" / "assets"
@@ -17,6 +17,10 @@ PUBLIC_DATA_DIRECTORY = PUBLIC_ASSETS_DIRECTORY / "data"
 
 GIPT_FILE = REPOSITORY_ROOT / "Global Integrated Power August 2026.xlsx"
 SOLAR_FILE = REPOSITORY_ROOT / "Global-Solar-Power-Tracker-February-2026.xlsx"
+COAL_HISTORY_FILE = (
+    DATA_PREP_DIRECTORY
+    / "Cumulative coal-fired power capacity by year.xlsx"
+)
 
 OUTPUT_VERSION = "augI2026"
 TEXT_CONFIG_INITIALIZER_FILE = (
@@ -772,36 +776,41 @@ dashboard_display_type_order = [
 ]
 history_years = list(range(HISTORY_START_YEAR, HISTORY_END_YEAR + 1))
 
-# Reconstruct annual operating capacity from commissioned and retired units.
-# Operating rows ignore Retired year because coal can use that field for a
-# planned retirement. Retired rows are removed beginning in their retired year.
-# Unlike the March script, coal is reconstructed from the integrated August
-# workbook too. There is no August curated coal-history workbook in this repo,
-# and using February coal would mix two releases in one chart.
+# Reconstruct annual operating capacity from commissioned and retired units for
+# every technology except coal. Coal uses the July 2026 GCPT cumulative-capacity
+# workbook below.
+historical_gipt_types = [
+    facility_type
+    for facility_type in dashboard_type_order
+    if facility_type != "coal"
+]
 history_statuses = {"operating", "retired"}
 history_missing_start = gipt_country.loc[
-    gipt_country["Status"].isin(history_statuses)
+    gipt_country["Type"].isin(historical_gipt_types)
+    & gipt_country["Status"].isin(history_statuses)
     & gipt_country["Start year"].isna()
 ]
 history_retired_missing_year = gipt_country.loc[
-    gipt_country["Status"].eq("retired")
+    gipt_country["Type"].isin(historical_gipt_types)
+    & gipt_country["Status"].eq("retired")
     & gipt_country["Start year"].notna()
     & gipt_country["Retired year"].isna()
 ]
 
 print(
-    "Historical rows excluded because Start year is missing: "
+    "Non-coal historical rows excluded because Start year is missing: "
     f"{len(history_missing_start):,} "
     f"({history_missing_start['Capacity (MW)'].sum():,.1f} MW)"
 )
 print(
-    "Retired historical rows excluded because Retired year is missing: "
+    "Non-coal retired rows excluded because Retired year is missing: "
     f"{len(history_retired_missing_year):,} "
     f"({history_retired_missing_year['Capacity (MW)'].sum():,.1f} MW)"
 )
 
 history_source = gipt_country.loc[
-    gipt_country["Status"].isin(history_statuses)
+    gipt_country["Type"].isin(historical_gipt_types)
+    & gipt_country["Status"].isin(history_statuses)
     & gipt_country["Start year"].notna()
     & ~(
         gipt_country["Status"].eq("retired")
@@ -811,7 +820,7 @@ history_source = gipt_country.loc[
 
 historical_capacity_parts = []
 
-for facility_type in dashboard_type_order:
+for facility_type in historical_gipt_types:
     type_rows = history_source.loc[
         history_source["Type"].eq(facility_type),
         [
@@ -890,6 +899,68 @@ for facility_type in dashboard_type_order:
     historical_capacity_parts.append(
         world_history[["Area", "Year", "GEM", "Type"]]
     )
+
+# Load the published July 2026 GCPT cumulative coal-capacity series. The source
+# workbook is in GW and includes an H1 2026 row, while this dashboard uses only
+# complete calendar years through 2025.
+coal_history = pd.read_excel(
+    COAL_HISTORY_FILE,
+    skiprows=7,
+    usecols="A:C",
+)
+coal_history.columns = ["Area", "Year", "GEM"]
+coal_history["Year"] = pd.to_numeric(
+    coal_history["Year"], errors="coerce"
+)
+coal_history["GEM"] = pd.to_numeric(
+    coal_history["GEM"], errors="coerce"
+)
+coal_history = coal_history.loc[
+    coal_history["Year"].between(
+        HISTORY_START_YEAR, HISTORY_END_YEAR, inclusive="both"
+    )
+].copy()
+coal_history["Year"] = coal_history["Year"].astype(int)
+coal_history["Area"] = coal_history["Area"].replace({"Global": "World"})
+
+# Convert the source GW values to MW so this section retains one unit until the
+# combined historical table is converted back to GW below.
+coal_history["GEM"] = coal_history["GEM"] * 1_000
+
+# Use the published country rows directly. Do not use the coal workbook's
+# aggregate BRICS, G7, G20, or OECD rows because their memberships differ from
+# the dashboard definitions in the August GIPT Regions tab.
+coal_country_history = coal_history.loc[
+    coal_history["Area"].isin(all_countries)
+].copy()
+coal_country_history["Type"] = "coal"
+historical_capacity_parts.append(
+    coal_country_history[["Area", "Year", "GEM", "Type"]]
+)
+
+for group in DASHBOARD_GROUPS:
+    group_history = (
+        coal_country_history.loc[
+            coal_country_history["Area"].isin(group_members[group])
+        ]
+        .groupby("Year", as_index=False)["GEM"]
+        .sum()
+    )
+    group_history["Area"] = group
+    group_history["Type"] = "coal"
+    historical_capacity_parts.append(
+        group_history[["Area", "Year", "GEM", "Type"]]
+    )
+
+# Retain the source workbook's published Global series rather than summing its
+# rounded country rows.
+coal_world_history = coal_history.loc[
+    coal_history["Area"].eq("World")
+].copy()
+coal_world_history["Type"] = "coal"
+historical_capacity_parts.append(
+    coal_world_history[["Area", "Year", "GEM", "Type"]]
+)
 
 gipt_annual = pd.concat(historical_capacity_parts, ignore_index=True)
 gipt_annual["Type"] = gipt_annual["Type"].map(type_display_names)

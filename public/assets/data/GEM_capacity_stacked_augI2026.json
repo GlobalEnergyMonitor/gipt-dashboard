@@ -2,7 +2,7 @@
   {
     "Country":"World",
     "Year":2000,
-    "Coal":1034.4771,
+    "Coal":1083.115,
     "Oil and gas":640.55385,
     "Utility-scale solar":0.28167,
     "Wind":7.8133,
@@ -14,7 +14,7 @@
   {
     "Country":"World",
     "Year":2001,
-    "Coal":1054.4638,
+    "Coal":1103.362,
     "Oil and gas":709.64825,
     "Utility-scale solar":0.28537,
     "Wind":12.433,
@@ -26,7 +26,7 @@
   {
     "Country":"World",
     "Year":2002,
-    "Coal":1074.9895,
+    "Coal":1123.888,
     "Oil and gas":811.45795,
     "Utility-scale solar":0.50761,
     "Wind":16.4227,
@@ -38,7 +38,7 @@
   {
     "Country":"World",
     "Year":2003,
-    "Coal":1101.3364,
+    "Coal":1150.909,
     "Oil and gas":906.22525,
     "Utility-scale solar":0.50848,
     "Wind":22.6163,
@@ -50,7 +50,7 @@
   {
     "Country":"World",
     "Year":2004,
-    "Coal":1136.0022,
+    "Coal":1185.615,
     "Oil and gas":961.73065,
     "Utility-scale solar":0.542497,
     "Wind":27.3811,
@@ -62,7 +62,7 @@
   {
     "Country":"World",
     "Year":2005,
-    "Coal":1185.3221,
+    "Coal":1235.225,
     "Oil and gas":1016.48025,
     "Utility-scale solar":0.593578,
     "Wind":35.8354,
@@ -74,7 +74,7 @@
   {
     "Country":"World",
     "Year":2006,
-    "Coal":1274.8459,
+    "Coal":1324.697,
     "Oil and gas":1068.74235,
     "Utility-scale solar":0.666092,
     "Wind":47.1332,
@@ -86,7 +86,7 @@
   {
     "Country":"World",
     "Year":2007,
-    "Coal":1355.3019,
+    "Coal":1404.821,
     "Oil and gas":1119.55665,
     "Utility-scale solar":1.0270549016,
     "Wind":62.3506,
@@ -98,7 +98,7 @@
   {
     "Country":"World",
     "Year":2008,
-    "Coal":1416.4872,
+    "Coal":1466.496,
     "Oil and gas":1173.71345,
     "Utility-scale solar":2.0443228851,
     "Wind":83.4558,
@@ -110,7 +110,7 @@
   {
     "Country":"World",
     "Year":2009,
-    "Coal":1482.1578,
+    "Coal":1532.287,
     "Oil and gas":1235.12265,
     "Utility-scale solar":3.3713776443,
     "Wind":113.4024,
@@ -122,7 +122,7 @@
   {
     "Country":"World",
     "Year":2010,
-    "Coal":1551.706,
+    "Coal":1603.349,
     "Oil and gas":1307.90071,
     "Utility-scale solar":6.0825993159,
     "Wind":138.808,
@@ -134,7 +134,7 @@
   {
     "Country":"World",
     "Year":2011,
-    "Coal":1629.8149,
+    "Coal":1681.918,
     "Oil and gas":1364.24901,
     "Utility-scale solar":11.9116173593,
     "Wind":175.2813,
@@ -146,7 +146,7 @@
   {
     "Country":"World",
     "Year":2012,
-    "Coal":1689.6962,
+    "Coal":1741.789,
     "Oil and gas":1427.27581,
     "Utility-scale solar":20.6918606384,
     "Wind":222.4801,
@@ -158,7 +158,7 @@
   {
     "Country":"World",
     "Year":2013,
-    "Coal":1745.3767,
+    "Coal":1797.605,
     "Oil and gas":1501.92069,
     "Utility-scale solar":37.6278291252,
     "Wind":255.5542,
@@ -170,7 +170,7 @@
   {
     "Country":"World",
     "Year":2014,
-    "Coal":1797.1297,
+    "Coal":1848.958,
     "Oil and gas":1587.94569,
     "Utility-scale solar":59.2963526908,
     "Wind":299.6118,
@@ -182,7 +182,7 @@
   {
     "Country":"World",
     "Year":2015,
-    "Coal":1866.0471,
+    "Coal":1916.943,
     "Oil and gas":1646.60799,
     "Utility-scale solar":87.7281451533,
     "Wind":352.6327,
@@ -194,7 +194,7 @@
   {
     "Country":"World",
     "Year":2016,
-    "Coal":1915.5654,
+    "Coal":1966.38,
     "Oil and gas":1709.61729,
     "Utility-scale solar":136.0783180134,
     "Wind":405.5706,
@@ -206,7 +206,7 @@
   {
     "Country":"World",
     "Year":2017,
-    "Coal":1953.8245,
+    "Coal":2004.31,
     "Oil and gas":1769.05229,
     "Utility-scale solar":214.1990308406,
     "Wind":452.8367,
@@ -218,7 +218,7 @@
   {
     "Country":"World",
     "Year":2018,
-    "Coal":1969.4124,
+    "Coal":2018.471,
     "Oil and gas":1852.71239,
     "Utility-scale solar":267.8481730545,
     "Wind":496.0496,
@@ -230,7 +230,7 @@
   {
     "Country":"World",
     "Year":2019,
-    "Coal":2012.2305,
+    "Coal":2060.856,
     "Oil and gas":1918.77259,
     "Utility-scale solar":326.8111608055,
     "Wind":548.8788,
@@ -242,7 +242,7 @@
   {
     "Country":"World",
     "Year":2020,
-    "Coal":2025.6645,
+    "Coal":2073.649,
     "Oil and gas":1957.43879,
     "Utility-scale solar":393.2611793315,
     "Wind":640.5916,
@@ -254,7 +254,7 @@
   {
     "Country":"World",
     "Year":2021,
-    "Coal":2037.1665,
+    "Coal":2085.131,
     "Oil and gas":1995.67759,
     "Utility-scale solar":464.2087589279,
     "Wind":728.1044,
@@ -266,7 +266,7 @@
   {
     "Country":"World",
     "Year":2022,
-    "Coal":2060.7915,
+    "Coal":2107.746,
     "Oil and gas":2042.7524,
     "Utility-scale solar":560.2856265967,
     "Wind":795.3089,
@@ -278,7 +278,7 @@
   {
     "Country":"World",
     "Year":2023,
-    "Coal":2107.7941,
+    "Coal":2155.806,
     "Oil and gas":2082.14705,
     "Utility-scale solar":728.4291744936,
     "Wind":885.8836,
@@ -290,7 +290,7 @@
   {
     "Country":"World",
     "Year":2024,
-    "Coal":2120.2365,
+    "Coal":2168.543,
     "Oil and gas":2137.79335,
     "Utility-scale solar":926.1833695977,
     "Wind":968.8412,
@@ -302,7 +302,7 @@
   {
     "Country":"World",
     "Year":2025,
-    "Coal":2191.8112,
+    "Coal":2238.587,
     "Oil and gas":2194.52283,
     "Utility-scale solar":1118.4486518689,
     "Wind":1065.9712,
@@ -314,7 +314,7 @@
   {
     "Country":"BRICS",
     "Year":2000,
-    "Coal":334.6329,
+    "Coal":351.697,
     "Oil and gas":134.6419,
     "Utility-scale solar":0.0,
     "Wind":0.2159,
@@ -326,7 +326,7 @@
   {
     "Country":"BRICS",
     "Year":2001,
-    "Coal":349.9869,
+    "Coal":366.951,
     "Oil and gas":143.9907,
     "Utility-scale solar":0.0,
     "Wind":0.3079,
@@ -338,7 +338,7 @@
   {
     "Country":"BRICS",
     "Year":2002,
-    "Coal":361.8509,
+    "Coal":378.815,
     "Oil and gas":147.8506,
     "Utility-scale solar":0.0,
     "Wind":0.3079,
@@ -350,7 +350,7 @@
   {
     "Country":"BRICS",
     "Year":2003,
-    "Coal":385.5139,
+    "Coal":403.153,
     "Oil and gas":154.1006,
     "Utility-scale solar":0.0,
     "Wind":0.3379,
@@ -362,7 +362,7 @@
   {
     "Country":"BRICS",
     "Year":2004,
-    "Coal":416.1184,
+    "Coal":433.797,
     "Oil and gas":161.3126,
     "Utility-scale solar":0.0,
     "Wind":0.4405,
@@ -374,7 +374,7 @@
   {
     "Country":"BRICS",
     "Year":2005,
-    "Coal":466.5394,
+    "Coal":484.508,
     "Oil and gas":174.8741,
     "Utility-scale solar":0.0,
     "Wind":0.743,
@@ -386,7 +386,7 @@
   {
     "Country":"BRICS",
     "Year":2006,
-    "Coal":552.7294,
+    "Coal":570.521,
     "Oil and gas":188.815,
     "Utility-scale solar":0.0,
     "Wind":1.9627,
@@ -398,7 +398,7 @@
   {
     "Country":"BRICS",
     "Year":2007,
-    "Coal":630.1518,
+    "Coal":647.611,
     "Oil and gas":203.5519,
     "Utility-scale solar":0.0,
     "Wind":3.5963,
@@ -410,7 +410,7 @@
   {
     "Country":"BRICS",
     "Year":2008,
-    "Coal":689.0165,
+    "Coal":706.966,
     "Oil and gas":214.5213,
     "Utility-scale solar":0.00087,
     "Wind":8.1086,
@@ -422,7 +422,7 @@
   {
     "Country":"BRICS",
     "Year":2009,
-    "Coal":747.1601,
+    "Coal":764.57,
     "Oil and gas":229.6692,
     "Utility-scale solar":0.00957,
     "Wind":16.2884,
@@ -434,7 +434,7 @@
   {
     "Country":"BRICS",
     "Year":2010,
-    "Coal":813.0339,
+    "Coal":830.578,
     "Oil and gas":245.5459,
     "Utility-scale solar":0.1040057392,
     "Wind":27.3341,
@@ -446,7 +446,7 @@
   {
     "Country":"BRICS",
     "Year":2011,
-    "Coal":889.6803,
+    "Coal":906.994,
     "Oil and gas":259.6971,
     "Utility-scale solar":1.1155846999,
     "Wind":46.5463,
@@ -458,7 +458,7 @@
   {
     "Country":"BRICS",
     "Year":2012,
-    "Coal":960.4258,
+    "Coal":977.729,
     "Oil and gas":276.4528,
     "Utility-scale solar":3.4859783379,
     "Wind":66.1717,
@@ -470,7 +470,7 @@
   {
     "Country":"BRICS",
     "Year":2013,
-    "Coal":1027.1353,
+    "Coal":1044.574,
     "Oil and gas":293.94088,
     "Utility-scale solar":11.5297928689,
     "Wind":83.9038,
@@ -482,7 +482,7 @@
   {
     "Country":"BRICS",
     "Year":2014,
-    "Coal":1082.1386,
+    "Coal":1099.177,
     "Oil and gas":320.87098,
     "Utility-scale solar":22.5738525128,
     "Wind":107.9614,
@@ -494,7 +494,7 @@
   {
     "Country":"BRICS",
     "Year":2015,
-    "Coal":1166.4716,
+    "Coal":1182.603,
     "Oil and gas":341.15458,
     "Utility-scale solar":36.9495485282,
     "Wind":137.4088,
@@ -506,7 +506,7 @@
   {
     "Country":"BRICS",
     "Year":2016,
-    "Coal":1226.8461,
+    "Coal":1242.982,
     "Oil and gas":352.95068,
     "Utility-scale solar":67.9700772168,
     "Wind":168.3928,
@@ -518,7 +518,7 @@
   {
     "Country":"BRICS",
     "Year":2017,
-    "Coal":1267.8067,
+    "Coal":1283.574,
     "Oil and gas":370.60508,
     "Utility-scale solar":115.0953979204,
     "Wind":190.2116,
@@ -530,7 +530,7 @@
   {
     "Country":"BRICS",
     "Year":2018,
-    "Coal":1297.7937,
+    "Coal":1313.043,
     "Oil and gas":397.91898,
     "Utility-scale solar":143.7616575432,
     "Wind":211.6938,
@@ -542,7 +542,7 @@
   {
     "Country":"BRICS",
     "Year":2019,
-    "Coal":1353.5761,
+    "Coal":1368.28,
     "Oil and gas":418.47558,
     "Utility-scale solar":171.3757526002,
     "Wind":236.9878,
@@ -554,7 +554,7 @@
   {
     "Country":"BRICS",
     "Year":2020,
-    "Coal":1387.6181,
+    "Coal":1401.718,
     "Oil and gas":432.95488,
     "Utility-scale solar":201.1270674405,
     "Wind":295.2206,
@@ -566,7 +566,7 @@
   {
     "Country":"BRICS",
     "Year":2021,
-    "Coal":1421.1359,
+    "Coal":1434.996,
     "Oil and gas":448.90198,
     "Utility-scale solar":233.4232220117,
     "Wind":346.8957,
@@ -578,7 +578,7 @@
   {
     "Country":"BRICS",
     "Year":2022,
-    "Coal":1454.4689,
+    "Coal":1467.459,
     "Oil and gas":467.81188,
     "Utility-scale solar":291.7207659033,
     "Wind":384.3217,
@@ -590,7 +590,7 @@
   {
     "Country":"BRICS",
     "Year":2023,
-    "Coal":1510.9821,
+    "Coal":1525.029,
     "Oil and gas":488.28038,
     "Utility-scale solar":400.4362289019,
     "Wind":444.4173,
@@ -602,7 +602,7 @@
   {
     "Country":"BRICS",
     "Year":2024,
-    "Coal":1545.4751,
+    "Coal":1559.582,
     "Oil and gas":512.46708,
     "Utility-scale solar":529.524911574,
     "Wind":502.8134,
@@ -614,7 +614,7 @@
   {
     "Country":"BRICS",
     "Year":2025,
-    "Coal":1627.4171,
+    "Coal":1641.284,
     "Oil and gas":544.09682,
     "Utility-scale solar":663.4129188529,
     "Wind":582.9478,
@@ -626,7 +626,7 @@
   {
     "Country":"EU27",
     "Year":2000,
-    "Coal":157.0198,
+    "Coal":164.548,
     "Oil and gas":52.0964,
     "Utility-scale solar":0.00587,
     "Wind":4.3891,
@@ -638,7 +638,7 @@
   {
     "Country":"EU27",
     "Year":2001,
-    "Coal":156.1268,
+    "Coal":163.655,
     "Oil and gas":56.1831,
     "Utility-scale solar":0.00587,
     "Wind":6.9262,
@@ -650,7 +650,7 @@
   {
     "Country":"EU27",
     "Year":2002,
-    "Coal":156.7008,
+    "Coal":164.229,
     "Oil and gas":62.998,
     "Utility-scale solar":0.22511,
     "Wind":10.2303,
@@ -662,7 +662,7 @@
   {
     "Country":"EU27",
     "Year":2003,
-    "Coal":156.6328,
+    "Coal":164.161,
     "Oil and gas":72.1027,
     "Utility-scale solar":0.22598,
     "Wind":14.3012,
@@ -674,7 +674,7 @@
   {
     "Country":"EU27",
     "Year":2004,
-    "Coal":156.0748,
+    "Coal":163.603,
     "Oil and gas":81.6158,
     "Utility-scale solar":0.259997,
     "Wind":17.6408,
@@ -686,7 +686,7 @@
   {
     "Country":"EU27",
     "Year":2005,
-    "Coal":155.1848,
+    "Coal":162.713,
     "Oil and gas":94.4734,
     "Utility-scale solar":0.308978,
     "Wind":22.1393,
@@ -698,7 +698,7 @@
   {
     "Country":"EU27",
     "Year":2006,
-    "Coal":153.8058,
+    "Coal":161.334,
     "Oil and gas":107.6311,
     "Utility-scale solar":0.380492,
     "Wind":27.8103,
@@ -710,7 +710,7 @@
   {
     "Country":"EU27",
     "Year":2007,
-    "Coal":152.7858,
+    "Coal":160.314,
     "Oil and gas":116.2963,
     "Utility-scale solar":0.6349149016,
     "Wind":33.9622,
@@ -722,7 +722,7 @@
   {
     "Country":"EU27",
     "Year":2008,
-    "Coal":152.1418,
+    "Coal":159.67,
     "Oil and gas":127.1143,
     "Utility-scale solar":1.6284128851,
     "Wind":40.0133,
@@ -734,7 +734,7 @@
   {
     "Country":"EU27",
     "Year":2009,
-    "Coal":152.0668,
+    "Coal":160.255,
     "Oil and gas":133.7728,
     "Utility-scale solar":2.7505587111,
     "Wind":47.879,
@@ -746,7 +746,7 @@
   {
     "Country":"EU27",
     "Year":2010,
-    "Coal":150.7228,
+    "Coal":160.231,
     "Oil and gas":147.89976,
     "Utility-scale solar":4.8062203012,
     "Wind":54.0698,
@@ -758,7 +758,7 @@
   {
     "Country":"EU27",
     "Year":2011,
-    "Coal":149.7028,
+    "Coal":159.901,
     "Oil and gas":157.26276,
     "Utility-scale solar":8.1400551025,
     "Wind":60.8705,
@@ -770,7 +770,7 @@
   {
     "Country":"EU27",
     "Year":2012,
-    "Coal":146.5588,
+    "Coal":156.757,
     "Oil and gas":164.28636,
     "Utility-scale solar":12.3385790013,
     "Wind":69.615,
@@ -782,7 +782,7 @@
   {
     "Country":"EU27",
     "Year":2013,
-    "Coal":143.1192,
+    "Coal":153.318,
     "Oil and gas":169.96596,
     "Utility-scale solar":14.2712357056,
     "Wind":77.4535,
@@ -794,7 +794,7 @@
   {
     "Country":"EU27",
     "Year":2014,
-    "Coal":139.8593,
+    "Coal":150.058,
     "Oil and gas":171.41606,
     "Utility-scale solar":15.7004324579,
     "Wind":84.6071,
@@ -806,7 +806,7 @@
   {
     "Country":"EU27",
     "Year":2015,
-    "Coal":138.4623,
+    "Coal":148.661,
     "Oil and gas":173.74556,
     "Utility-scale solar":16.9017122102,
     "Wind":94.7911,
@@ -818,7 +818,7 @@
   {
     "Country":"EU27",
     "Year":2016,
-    "Coal":135.4007,
+    "Coal":145.599,
     "Oil and gas":176.25126,
     "Utility-scale solar":17.8807260568,
     "Wind":102.2091,
@@ -830,7 +830,7 @@
   {
     "Country":"EU27",
     "Year":2017,
-    "Coal":130.7507,
+    "Coal":140.949,
     "Oil and gas":177.78406,
     "Utility-scale solar":28.3790842233,
     "Wind":112.8678,
@@ -842,7 +842,7 @@
   {
     "Country":"EU27",
     "Year":2018,
-    "Coal":129.0297,
+    "Coal":139.228,
     "Oil and gas":178.78476,
     "Utility-scale solar":32.9102782163,
     "Wind":119.2837,
@@ -854,7 +854,7 @@
   {
     "Country":"EU27",
     "Year":2019,
-    "Coal":124.4252,
+    "Coal":134.623,
     "Oil and gas":179.63986,
     "Utility-scale solar":38.6631292335,
     "Wind":128.1233,
@@ -866,7 +866,7 @@
   {
     "Country":"EU27",
     "Year":2020,
-    "Coal":115.5749,
+    "Coal":125.736,
     "Oil and gas":180.69676,
     "Utility-scale solar":45.5383290622,
     "Wind":136.6184,
@@ -878,7 +878,7 @@
   {
     "Country":"EU27",
     "Year":2021,
-    "Coal":100.0433,
+    "Coal":110.205,
     "Oil and gas":181.13876,
     "Utility-scale solar":55.5080558619,
     "Wind":146.6366,
@@ -890,7 +890,7 @@
   {
     "Country":"EU27",
     "Year":2022,
-    "Coal":98.4234,
+    "Coal":108.585,
     "Oil and gas":183.44766,
     "Utility-scale solar":67.6738803766,
     "Wind":158.5604,
@@ -902,7 +902,7 @@
   {
     "Country":"EU27",
     "Year":2023,
-    "Coal":96.4624,
+    "Coal":106.624,
     "Oil and gas":188.16021,
     "Utility-scale solar":85.7903830341,
     "Wind":172.1396,
@@ -914,7 +914,7 @@
   {
     "Country":"EU27",
     "Year":2024,
-    "Coal":84.9875,
+    "Coal":95.148,
     "Oil and gas":191.72211,
     "Utility-scale solar":102.3155923309,
     "Wind":181.6938,
@@ -926,7 +926,7 @@
   {
     "Country":"EU27",
     "Year":2025,
-    "Coal":79.7729,
+    "Coal":89.934,
     "Oil and gas":196.49911,
     "Utility-scale solar":115.4448415934,
     "Wind":187.282,
@@ -938,7 +938,7 @@
   {
     "Country":"G7",
     "Year":2000,
-    "Coal":572.5815,
+    "Coal":583.739,
     "Oil and gas":323.3341,
     "Utility-scale solar":0.28167,
     "Wind":7.3594,
@@ -950,7 +950,7 @@
   {
     "Country":"G7",
     "Year":2001,
-    "Coal":573.5312,
+    "Coal":585.049,
     "Oil and gas":371.1307,
     "Utility-scale solar":0.28537,
     "Wind":11.8151,
@@ -962,7 +962,7 @@
   {
     "Country":"G7",
     "Year":2002,
-    "Coal":576.6319,
+    "Coal":588.15,
     "Oil and gas":444.9124,
     "Utility-scale solar":0.50761,
     "Wind":15.713,
@@ -974,7 +974,7 @@
   {
     "Country":"G7",
     "Year":2003,
-    "Coal":575.3108,
+    "Coal":586.828,
     "Oil and gas":513.3388,
     "Utility-scale solar":0.50848,
     "Wind":21.7516,
@@ -986,7 +986,7 @@
   {
     "Country":"G7",
     "Year":2004,
-    "Coal":577.0811,
+    "Coal":588.598,
     "Oil and gas":551.5242,
     "Utility-scale solar":0.542497,
     "Wind":26.1548,
@@ -998,7 +998,7 @@
   {
     "Country":"G7",
     "Year":2005,
-    "Coal":574.34,
+    "Coal":585.858,
     "Oil and gas":580.6613,
     "Utility-scale solar":0.593578,
     "Wind":33.7184,
@@ -1010,7 +1010,7 @@
   {
     "Country":"G7",
     "Year":2006,
-    "Coal":573.3278,
+    "Coal":584.846,
     "Oil and gas":607.2899,
     "Utility-scale solar":0.666092,
     "Wind":43.381,
@@ -1022,7 +1022,7 @@
   {
     "Country":"G7",
     "Year":2007,
-    "Coal":571.3409,
+    "Coal":582.858,
     "Oil and gas":623.9981,
     "Utility-scale solar":1.0253149016,
     "Wind":56.1437,
@@ -1034,7 +1034,7 @@
   {
     "Country":"G7",
     "Year":2008,
-    "Coal":572.0255,
+    "Coal":583.543,
     "Oil and gas":649.0832,
     "Utility-scale solar":2.0417128851,
     "Wind":71.7565,
@@ -1046,7 +1046,7 @@
   {
     "Country":"G7",
     "Year":2009,
-    "Coal":573.9255,
+    "Coal":586.103,
     "Oil and gas":674.1446,
     "Utility-scale solar":3.3243916596,
     "Wind":91.7875,
@@ -1058,7 +1058,7 @@
   {
     "Country":"G7",
     "Year":2010,
-    "Coal":574.6684,
+    "Coal":588.166,
     "Oil and gas":702.58336,
     "Utility-scale solar":5.8651232497,
     "Wind":104.6887,
@@ -1070,7 +1070,7 @@
   {
     "Country":"G7",
     "Year":2011,
-    "Coal":571.9364,
+    "Coal":586.124,
     "Oil and gas":727.48106,
     "Utility-scale solar":10.2414657552,
     "Wind":120.5649,
@@ -1082,7 +1082,7 @@
   {
     "Country":"G7",
     "Year":2012,
-    "Coal":559.9802,
+    "Coal":574.168,
     "Oil and gas":749.38516,
     "Utility-scale solar":16.2668395194,
     "Wind":145.917,
@@ -1094,7 +1094,7 @@
   {
     "Country":"G7",
     "Year":2013,
-    "Coal":546.1396,
+    "Coal":560.328,
     "Oil and gas":768.09946,
     "Utility-scale solar":24.5610302198,
     "Wind":158.7474,
@@ -1106,7 +1106,7 @@
   {
     "Country":"G7",
     "Year":2014,
-    "Coal":536.2446,
+    "Coal":550.432,
     "Oil and gas":786.83036,
     "Utility-scale solar":34.6309598438,
     "Wind":174.2595,
@@ -1118,7 +1118,7 @@
   {
     "Country":"G7",
     "Year":2015,
-    "Coal":511.8395,
+    "Coal":526.028,
     "Oil and gas":802.05956,
     "Utility-scale solar":46.3484330032,
     "Wind":195.245,
@@ -1130,7 +1130,7 @@
   {
     "Country":"G7",
     "Year":2016,
-    "Coal":488.6343,
+    "Coal":502.821,
     "Oil and gas":823.68036,
     "Utility-scale solar":60.6243071739,
     "Wind":213.1412,
@@ -1142,7 +1142,7 @@
   {
     "Country":"G7",
     "Year":2017,
-    "Coal":475.2785,
+    "Coal":489.466,
     "Oil and gas":839.09856,
     "Utility-scale solar":80.4110772859,
     "Wind":234.7628,
@@ -1154,7 +1154,7 @@
   {
     "Country":"G7",
     "Year":2018,
-    "Coal":454.3104,
+    "Coal":467.588,
     "Oil and gas":865.43346,
     "Utility-scale solar":92.6407173147,
     "Wind":251.5275,
@@ -1166,7 +1166,7 @@
   {
     "Country":"G7",
     "Year":2019,
-    "Coal":431.2621,
+    "Coal":444.651,
     "Oil and gas":878.97136,
     "Utility-scale solar":107.2692570755,
     "Wind":271.438,
@@ -1178,7 +1178,7 @@
   {
     "Country":"G7",
     "Year":2020,
-    "Coal":408.7163,
+    "Coal":422.069,
     "Oil and gas":884.20536,
     "Utility-scale solar":128.9212828561,
     "Wind":297.4213,
@@ -1190,7 +1190,7 @@
   {
     "Country":"G7",
     "Year":2021,
-    "Coal":382.8365,
+    "Coal":396.19,
     "Oil and gas":888.66016,
     "Utility-scale solar":155.0886135387,
     "Wind":321.9385,
@@ -1202,7 +1202,7 @@
   {
     "Country":"G7",
     "Year":2022,
-    "Coal":367.2775,
+    "Coal":380.631,
     "Oil and gas":894.43056,
     "Utility-scale solar":181.9088926708,
     "Wind":346.654,
@@ -1214,7 +1214,7 @@
   {
     "Country":"G7",
     "Year":2023,
-    "Coal":353.7279,
+    "Coal":367.081,
     "Oil and gas":902.14981,
     "Utility-scale solar":221.478246053,
     "Wind":370.7358,
@@ -1226,7 +1226,7 @@
   {
     "Country":"G7",
     "Year":2024,
-    "Coal":331.8063,
+    "Coal":345.159,
     "Oil and gas":913.23311,
     "Utility-scale solar":272.1456028123,
     "Wind":387.8748,
@@ -1238,7 +1238,7 @@
   {
     "Country":"G7",
     "Year":2025,
-    "Coal":321.294,
+    "Coal":335.556,
     "Oil and gas":922.71931,
     "Utility-scale solar":311.9835756601,
     "Wind":399.6387,
@@ -1250,7 +1250,7 @@
   {
     "Country":"G20",
     "Year":2000,
-    "Coal":963.3704,
+    "Coal":992.132,
     "Oil and gas":506.4912,
     "Utility-scale solar":0.28167,
     "Wind":7.7131,
@@ -1262,7 +1262,7 @@
   {
     "Country":"G20",
     "Year":2001,
-    "Coal":982.5931,
+    "Coal":1011.615,
     "Oil and gas":565.5291,
     "Utility-scale solar":0.28537,
     "Wind":12.3108,
@@ -1274,7 +1274,7 @@
   {
     "Country":"G20",
     "Year":2002,
-    "Coal":998.1018,
+    "Coal":1027.124,
     "Oil and gas":654.0817,
     "Utility-scale solar":0.50761,
     "Wind":16.241,
@@ -1286,7 +1286,7 @@
   {
     "Country":"G20",
     "Year":2003,
-    "Coal":1023.0487,
+    "Coal":1052.745,
     "Oil and gas":738.9746,
     "Utility-scale solar":0.50848,
     "Wind":22.3946,
@@ -1298,7 +1298,7 @@
   {
     "Country":"G20",
     "Year":2004,
-    "Coal":1056.9485,
+    "Coal":1086.684,
     "Oil and gas":785.108,
     "Utility-scale solar":0.542497,
     "Wind":26.9544,
@@ -1310,7 +1310,7 @@
   {
     "Country":"G20",
     "Year":2005,
-    "Coal":1105.6584,
+    "Coal":1135.685,
     "Oil and gas":829.7743,
     "Utility-scale solar":0.593578,
     "Wind":35.1275,
@@ -1322,7 +1322,7 @@
   {
     "Country":"G20",
     "Year":2006,
-    "Coal":1192.4162,
+    "Coal":1222.266,
     "Oil and gas":875.0405,
     "Utility-scale solar":0.666092,
     "Wind":46.3608,
@@ -1334,7 +1334,7 @@
   {
     "Country":"G20",
     "Year":2007,
-    "Coal":1270.8552,
+    "Coal":1300.372,
     "Oil and gas":912.2198,
     "Utility-scale solar":1.0253149016,
     "Wind":61.168,
@@ -1346,7 +1346,7 @@
   {
     "Country":"G20",
     "Year":2008,
-    "Coal":1331.9045,
+    "Coal":1361.912,
     "Oil and gas":949.485,
     "Utility-scale solar":2.0425828851,
     "Wind":82.1301,
@@ -1358,7 +1358,7 @@
   {
     "Country":"G20",
     "Year":2009,
-    "Coal":1395.1781,
+    "Coal":1425.306,
     "Oil and gas":992.7368,
     "Utility-scale solar":3.3548416596,
     "Wind":111.7037,
@@ -1370,7 +1370,7 @@
   {
     "Country":"G20",
     "Year":2010,
-    "Coal":1463.6228,
+    "Coal":1495.204,
     "Oil and gas":1050.52386,
     "Utility-scale solar":6.0355207557,
     "Wind":136.7136,
@@ -1382,7 +1382,7 @@
   {
     "Country":"G20",
     "Year":2011,
-    "Coal":1538.6142,
+    "Coal":1570.655,
     "Oil and gas":1093.38516,
     "Utility-scale solar":11.4434422219,
     "Wind":172.8057,
@@ -1394,7 +1394,7 @@
   {
     "Country":"G20",
     "Year":2012,
-    "Coal":1596.7535,
+    "Coal":1628.784,
     "Oil and gas":1135.00366,
     "Utility-scale solar":19.8964567669,
     "Wind":219.3985,
@@ -1406,7 +1406,7 @@
   {
     "Country":"G20",
     "Year":2013,
-    "Coal":1650.1704,
+    "Coal":1682.337,
     "Oil and gas":1183.45024,
     "Utility-scale solar":36.1794379353,
     "Wind":251.7286,
@@ -1418,7 +1418,7 @@
   {
     "Country":"G20",
     "Year":2014,
-    "Coal":1698.3944,
+    "Coal":1730.16,
     "Oil and gas":1248.85014,
     "Utility-scale solar":57.4448892291,
     "Wind":294.1355,
@@ -1430,7 +1430,7 @@
   {
     "Country":"G20",
     "Year":2015,
-    "Coal":1758.9408,
+    "Coal":1789.825,
     "Oil and gas":1297.92494,
     "Utility-scale solar":83.7373006326,
     "Wind":346.0929,
@@ -1442,7 +1442,7 @@
   {
     "Country":"G20",
     "Year":2016,
-    "Coal":1803.1671,
+    "Coal":1833.919,
     "Oil and gas":1343.73214,
     "Utility-scale solar":129.7311277009,
     "Wind":397.3717,
@@ -1454,7 +1454,7 @@
   {
     "Country":"G20",
     "Year":2017,
-    "Coal":1835.3389,
+    "Coal":1865.723,
     "Oil and gas":1387.26434,
     "Utility-scale solar":203.8666854144,
     "Wind":442.9879,
@@ -1466,7 +1466,7 @@
   {
     "Country":"G20",
     "Year":2018,
-    "Coal":1846.0738,
+    "Coal":1875.03,
     "Oil and gas":1454.97724,
     "Utility-scale solar":253.9430279324,
     "Wind":484.2938,
@@ -1478,7 +1478,7 @@
   {
     "Country":"G20",
     "Year":2019,
-    "Coal":1879.6269,
+    "Coal":1908.149,
     "Oil and gas":1498.88274,
     "Utility-scale solar":301.4471765971,
     "Wind":532.9386,
@@ -1490,7 +1490,7 @@
   {
     "Country":"G20",
     "Year":2020,
-    "Coal":1889.3231,
+    "Coal":1917.205,
     "Oil and gas":1526.38414,
     "Utility-scale solar":359.448680068,
     "Wind":622.4953,
@@ -1502,7 +1502,7 @@
   {
     "Country":"G20",
     "Year":2021,
-    "Coal":1898.0491,
+    "Coal":1925.692,
     "Oil and gas":1550.61814,
     "Utility-scale solar":421.4416618164,
     "Wind":703.8139,
@@ -1514,7 +1514,7 @@
   {
     "Country":"G20",
     "Year":2022,
-    "Coal":1918.8481,
+    "Coal":1945.741,
     "Oil and gas":1580.39314,
     "Utility-scale solar":509.5101369988,
     "Wind":767.8098,
@@ -1526,7 +1526,7 @@
   {
     "Country":"G20",
     "Year":2023,
-    "Coal":1961.6827,
+    "Coal":1989.632,
     "Oil and gas":1605.65569,
     "Utility-scale solar":666.7778729078,
     "Wind":853.2829,
@@ -1538,7 +1538,7 @@
   {
     "Country":"G20",
     "Year":2024,
-    "Coal":1975.4401,
+    "Coal":2003.644,
     "Oil and gas":1647.23519,
     "Utility-scale solar":853.7598763199,
     "Wind":932.7924,
@@ -1550,7 +1550,7 @@
   {
     "Country":"G20",
     "Year":2025,
-    "Coal":2047.3198,
+    "Coal":2076.343,
     "Oil and gas":1687.85163,
     "Utility-scale solar":1037.3676448419,
     "Wind":1025.6735,
@@ -1562,7 +1562,7 @@
   {
     "Country":"OECD",
     "Year":2000,
-    "Coal":621.1625,
+    "Coal":631.74,
     "Oil and gas":361.7859,
     "Utility-scale solar":0.28167,
     "Wind":7.555,
@@ -1574,7 +1574,7 @@
   {
     "Country":"OECD",
     "Year":2001,
-    "Coal":625.2332,
+    "Coal":636.171,
     "Oil and gas":414.6163,
     "Utility-scale solar":0.28537,
     "Wind":12.0607,
@@ -1586,7 +1586,7 @@
   {
     "Country":"OECD",
     "Year":2002,
-    "Coal":628.8779,
+    "Coal":639.816,
     "Oil and gas":497.288,
     "Utility-scale solar":0.50761,
     "Wind":16.0441,
@@ -1598,7 +1598,7 @@
   {
     "Country":"OECD",
     "Year":2003,
-    "Coal":630.1618,
+    "Coal":641.099,
     "Oil and gas":575.0644,
     "Utility-scale solar":0.50848,
     "Wind":22.2077,
@@ -1610,7 +1610,7 @@
   {
     "Country":"OECD",
     "Year":2004,
-    "Coal":633.5771,
+    "Coal":644.514,
     "Oil and gas":615.4106,
     "Utility-scale solar":0.542497,
     "Wind":26.8469,
@@ -1622,7 +1622,7 @@
   {
     "Country":"OECD",
     "Year":2005,
-    "Coal":631.831,
+    "Coal":642.769,
     "Oil and gas":648.1612,
     "Utility-scale solar":0.593578,
     "Wind":34.8175,
@@ -1634,7 +1634,7 @@
   {
     "Country":"OECD",
     "Year":2006,
-    "Coal":632.7288,
+    "Coal":643.667,
     "Oil and gas":679.2983,
     "Utility-scale solar":0.666092,
     "Wind":44.8591,
@@ -1646,7 +1646,7 @@
   {
     "Country":"OECD",
     "Year":2007,
-    "Coal":633.6554,
+    "Coal":644.593,
     "Oil and gas":701.1953,
     "Utility-scale solar":1.0253149016,
     "Wind":58.2077,
@@ -1658,7 +1658,7 @@
   {
     "Country":"OECD",
     "Year":2008,
-    "Coal":636.04,
+    "Coal":646.978,
     "Oil and gas":729.0069,
     "Utility-scale solar":2.0417128851,
     "Wind":74.6605,
@@ -1670,7 +1670,7 @@
   {
     "Country":"OECD",
     "Year":2009,
-    "Coal":641.201,
+    "Coal":652.799,
     "Oil and gas":760.4488,
     "Utility-scale solar":3.3465826443,
     "Wind":95.9673,
@@ -1682,7 +1682,7 @@
   {
     "Country":"OECD",
     "Year":2010,
-    "Coal":644.2459,
+    "Coal":657.163,
     "Oil and gas":795.18026,
     "Utility-scale solar":5.8894118098,
     "Wind":109.6315,
@@ -1694,7 +1694,7 @@
   {
     "Country":"OECD",
     "Year":2011,
-    "Coal":643.3539,
+    "Coal":656.271,
     "Oil and gas":824.87026,
     "Utility-scale solar":10.2719596426,
     "Wind":125.9337,
@@ -1706,7 +1706,7 @@
   {
     "Country":"OECD",
     "Year":2012,
-    "Coal":631.2967,
+    "Coal":644.214,
     "Oil and gas":847.00536,
     "Utility-scale solar":16.1467934265,
     "Wind":150.7088,
@@ -1718,7 +1718,7 @@
   {
     "Country":"OECD",
     "Year":2013,
-    "Coal":618.3361,
+    "Coal":631.254,
     "Oil and gas":875.49566,
     "Utility-scale solar":24.3925065685,
     "Wind":163.9368,
@@ -1730,7 +1730,7 @@
   {
     "Country":"OECD",
     "Year":2014,
-    "Coal":610.7668,
+    "Coal":623.684,
     "Oil and gas":907.31766,
     "Utility-scale solar":34.7202203928,
     "Wind":182.1071,
@@ -1742,7 +1742,7 @@
   {
     "Country":"OECD",
     "Year":2015,
-    "Coal":588.9677,
+    "Coal":601.716,
     "Oil and gas":927.99286,
     "Utility-scale solar":47.0549550641,
     "Wind":204.5416,
@@ -1754,7 +1754,7 @@
   {
     "Country":"OECD",
     "Year":2016,
-    "Coal":573.0345,
+    "Coal":585.951,
     "Oil and gas":953.87636,
     "Utility-scale solar":62.4640155966,
     "Wind":225.028,
@@ -1766,7 +1766,7 @@
   {
     "Country":"OECD",
     "Year":2017,
-    "Coal":563.8427,
+    "Coal":576.76,
     "Oil and gas":978.04056,
     "Utility-scale solar":87.4500243752,
     "Wind":249.0266,
@@ -1778,7 +1778,7 @@
   {
     "Country":"OECD",
     "Year":2018,
-    "Coal":543.4746,
+    "Coal":555.482,
     "Oil and gas":1008.51836,
     "Utility-scale solar":108.5723200404,
     "Wind":268.5133,
@@ -1790,7 +1790,7 @@
   {
     "Country":"OECD",
     "Year":2019,
-    "Coal":522.2533,
+    "Coal":534.372,
     "Oil and gas":1027.08626,
     "Utility-scale solar":130.2193901417,
     "Wind":292.1693,
@@ -1802,7 +1802,7 @@
   {
     "Country":"OECD",
     "Year":2020,
-    "Coal":498.2595,
+    "Coal":510.342,
     "Oil and gas":1034.92946,
     "Utility-scale solar":158.7388899249,
     "Wind":323.5931,
@@ -1814,7 +1814,7 @@
   {
     "Country":"OECD",
     "Year":2021,
-    "Coal":475.6627,
+    "Coal":487.746,
     "Oil and gas":1042.54176,
     "Utility-scale solar":190.0707335366,
     "Wind":353.3703,
@@ -1826,7 +1826,7 @@
   {
     "Country":"OECD",
     "Year":2022,
-    "Coal":460.6257,
+    "Coal":472.709,
     "Oil and gas":1050.21526,
     "Utility-scale solar":222.1959990244,
     "Wind":380.7412,
@@ -1838,7 +1838,7 @@
   {
     "Country":"OECD",
     "Year":2023,
-    "Coal":446.6921,
+    "Coal":458.775,
     "Oil and gas":1061.71031,
     "Utility-scale solar":271.513377656,
     "Wind":406.6182,
@@ -1850,7 +1850,7 @@
   {
     "Country":"OECD",
     "Year":2024,
-    "Coal":425.9635,
+    "Coal":438.191,
     "Oil and gas":1078.60901,
     "Utility-scale solar":329.1621250624,
     "Wind":427.2119,
@@ -1862,7 +1862,7 @@
   {
     "Country":"OECD",
     "Year":2025,
-    "Coal":413.8072,
+    "Coal":426.944,
     "Oil and gas":1090.44021,
     "Utility-scale solar":371.5900620378,
     "Wind":440.7171,
@@ -1874,7 +1874,7 @@
   {
     "Country":"African Union",
     "Year":2000,
-    "Coal":38.6343,
+    "Coal":41.244,
     "Oil and gas":23.478,
     "Utility-scale solar":0.0,
     "Wind":0.04,
@@ -1886,7 +1886,7 @@
   {
     "Country":"African Union",
     "Year":2001,
-    "Coal":39.6983,
+    "Coal":42.308,
     "Oil and gas":24.6419,
     "Utility-scale solar":0.0,
     "Wind":0.073,
@@ -1898,7 +1898,7 @@
   {
     "Country":"African Union",
     "Year":2002,
-    "Coal":39.6983,
+    "Coal":42.308,
     "Oil and gas":26.5985,
     "Utility-scale solar":0.0,
     "Wind":0.073,
@@ -1910,7 +1910,7 @@
   {
     "Country":"African Union",
     "Year":2003,
-    "Coal":39.6983,
+    "Coal":42.308,
     "Oil and gas":28.1137,
     "Utility-scale solar":0.0,
     "Wind":0.103,
@@ -1922,7 +1922,7 @@
   {
     "Country":"African Union",
     "Year":2004,
-    "Coal":39.6983,
+    "Coal":42.308,
     "Oil and gas":28.6867,
     "Utility-scale solar":0.0,
     "Wind":0.15,
@@ -1934,7 +1934,7 @@
   {
     "Country":"African Union",
     "Year":2005,
-    "Coal":39.7333,
+    "Coal":42.343,
     "Oil and gas":30.4637,
     "Utility-scale solar":0.0,
     "Wind":0.16,
@@ -1946,7 +1946,7 @@
   {
     "Country":"African Union",
     "Year":2006,
-    "Coal":39.7333,
+    "Coal":42.343,
     "Oil and gas":33.2217,
     "Utility-scale solar":0.0,
     "Wind":0.245,
@@ -1958,7 +1958,7 @@
   {
     "Country":"African Union",
     "Year":2007,
-    "Coal":39.8233,
+    "Coal":42.433,
     "Oil and gas":37.7145,
     "Utility-scale solar":0.0,
     "Wind":0.305,
@@ -1970,7 +1970,7 @@
   {
     "Country":"African Union",
     "Year":2008,
-    "Coal":39.8233,
+    "Coal":42.433,
     "Oil and gas":40.192,
     "Utility-scale solar":0.0,
     "Wind":0.395,
@@ -1982,7 +1982,7 @@
   {
     "Country":"African Union",
     "Year":2009,
-    "Coal":39.8233,
+    "Coal":42.433,
     "Oil and gas":44.8895,
     "Utility-scale solar":0.0,
     "Wind":0.689,
@@ -1994,7 +1994,7 @@
   {
     "Country":"African Union",
     "Year":2010,
-    "Coal":39.8233,
+    "Coal":42.433,
     "Oil and gas":52.7934,
     "Utility-scale solar":0.0375117668,
     "Wind":0.689,
@@ -2006,7 +2006,7 @@
   {
     "Country":"African Union",
     "Year":2011,
-    "Coal":39.9733,
+    "Coal":42.583,
     "Oil and gas":56.3534,
     "Utility-scale solar":0.0775117668,
     "Wind":0.8754,
@@ -2018,7 +2018,7 @@
   {
     "Country":"African Union",
     "Year":2012,
-    "Coal":40.0843,
+    "Coal":42.694,
     "Oil and gas":61.9974,
     "Utility-scale solar":0.0775117668,
     "Wind":1.0367,
@@ -2030,7 +2030,7 @@
   {
     "Country":"African Union",
     "Year":2013,
-    "Coal":40.3843,
+    "Coal":42.994,
     "Oil and gas":67.3374,
     "Utility-scale solar":0.1721765887,
     "Wind":1.2277,
@@ -2042,7 +2042,7 @@
   {
     "Country":"African Union",
     "Year":2014,
-    "Coal":41.3843,
+    "Coal":43.994,
     "Oil and gas":70.0483,
     "Utility-scale solar":1.0893952072,
     "Wind":2.1637,
@@ -2054,7 +2054,7 @@
   {
     "Country":"African Union",
     "Year":2015,
-    "Coal":42.2476,
+    "Coal":44.882,
     "Oil and gas":80.2922,
     "Utility-scale solar":1.2465010761,
     "Wind":2.7622,
@@ -2066,7 +2066,7 @@
   {
     "Country":"African Union",
     "Year":2016,
-    "Coal":42.6826,
+    "Coal":45.182,
     "Oil and gas":84.9062,
     "Utility-scale solar":2.071650376,
     "Wind":3.3236,
@@ -2078,7 +2078,7 @@
   {
     "Country":"African Union",
     "Year":2017,
-    "Coal":44.6222,
+    "Coal":47.122,
     "Oil and gas":91.5102,
     "Utility-scale solar":2.9017146072,
     "Wind":4.2076,
@@ -2090,7 +2090,7 @@
   {
     "Country":"African Union",
     "Year":2018,
-    "Coal":46.8082,
+    "Coal":49.308,
     "Oil and gas":110.4022,
     "Utility-scale solar":4.0977967131,
     "Wind":5.2546,
@@ -2102,7 +2102,7 @@
   {
     "Country":"African Union",
     "Year":2019,
-    "Coal":48.3978,
+    "Coal":50.897,
     "Oil and gas":116.9739,
     "Utility-scale solar":6.0931100814,
     "Wind":5.8826,
@@ -2114,7 +2114,7 @@
   {
     "Country":"African Union",
     "Year":2020,
-    "Coal":49.1978,
+    "Coal":51.697,
     "Oil and gas":118.5358,
     "Utility-scale solar":7.0171670192,
     "Wind":6.5066,
@@ -2126,7 +2126,7 @@
   {
     "Country":"African Union",
     "Year":2021,
-    "Coal":50.9176,
+    "Coal":53.417,
     "Oil and gas":123.1039,
     "Utility-scale solar":7.7497577291,
     "Wind":7.7186,
@@ -2138,7 +2138,7 @@
   {
     "Country":"African Union",
     "Year":2022,
-    "Coal":50.6476,
+    "Coal":53.147,
     "Oil and gas":126.9539,
     "Utility-scale solar":8.9884478752,
     "Wind":8.3476,
@@ -2150,7 +2150,7 @@
   {
     "Country":"African Union",
     "Year":2023,
-    "Coal":51.0126,
+    "Coal":53.512,
     "Oil and gas":127.4089,
     "Utility-scale solar":10.2575780292,
     "Wind":8.9066,
@@ -2162,7 +2162,7 @@
   {
     "Country":"African Union",
     "Year":2024,
-    "Coal":51.9826,
+    "Coal":54.532,
     "Oil and gas":129.7549,
     "Utility-scale solar":12.9110681533,
     "Wind":9.6176,
@@ -2174,7 +2174,7 @@
   {
     "Country":"African Union",
     "Year":2025,
-    "Coal":52.8826,
+    "Coal":55.582,
     "Oil and gas":130.9054,
     "Utility-scale solar":14.4932152012,
     "Wind":11.4756,
@@ -4178,7 +4178,7 @@
   {
     "Country":"Argentina",
     "Year":2022,
-    "Coal":0.525,
+    "Coal":0.645,
     "Oil and gas":21.2837,
     "Utility-scale solar":1.1374338043,
     "Wind":3.4289,
@@ -4190,7 +4190,7 @@
   {
     "Country":"Argentina",
     "Year":2023,
-    "Coal":0.525,
+    "Coal":0.645,
     "Oil and gas":22.1317,
     "Utility-scale solar":1.4314601087,
     "Wind":3.8464,
@@ -4202,7 +4202,7 @@
   {
     "Country":"Argentina",
     "Year":2024,
-    "Coal":0.525,
+    "Coal":0.645,
     "Oil and gas":22.8692,
     "Utility-scale solar":1.7386756522,
     "Wind":4.3844,
@@ -4214,7 +4214,7 @@
   {
     "Country":"Argentina",
     "Year":2025,
-    "Coal":0.525,
+    "Coal":0.645,
     "Oil and gas":23.0022,
     "Utility-scale solar":2.7260091304,
     "Wind":4.6733,
@@ -5858,7 +5858,7 @@
   {
     "Country":"Bangladesh",
     "Year":2006,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":2.702,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5870,7 +5870,7 @@
   {
     "Country":"Bangladesh",
     "Year":2007,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":2.912,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5882,7 +5882,7 @@
   {
     "Country":"Bangladesh",
     "Year":2008,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":3.022,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5894,7 +5894,7 @@
   {
     "Country":"Bangladesh",
     "Year":2009,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":3.0771,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5906,7 +5906,7 @@
   {
     "Country":"Bangladesh",
     "Year":2010,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":3.3321,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5918,7 +5918,7 @@
   {
     "Country":"Bangladesh",
     "Year":2011,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":4.355,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5930,7 +5930,7 @@
   {
     "Country":"Bangladesh",
     "Year":2012,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":4.9428,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5942,7 +5942,7 @@
   {
     "Country":"Bangladesh",
     "Year":2013,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":5.4108,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5954,7 +5954,7 @@
   {
     "Country":"Bangladesh",
     "Year":2014,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":5.9638,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5966,7 +5966,7 @@
   {
     "Country":"Bangladesh",
     "Year":2015,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":8.0366,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5978,7 +5978,7 @@
   {
     "Country":"Bangladesh",
     "Year":2016,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":9.5386,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -5990,7 +5990,7 @@
   {
     "Country":"Bangladesh",
     "Year":2017,
-    "Coal":0.125,
+    "Coal":0.25,
     "Oil and gas":10.999,
     "Utility-scale solar":0.0044,
     "Wind":0.0,
@@ -6002,7 +6002,7 @@
   {
     "Country":"Bangladesh",
     "Year":2018,
-    "Coal":0.4,
+    "Coal":0.525,
     "Oil and gas":13.6749,
     "Utility-scale solar":0.0298,
     "Wind":0.0,
@@ -6014,7 +6014,7 @@
   {
     "Country":"Bangladesh",
     "Year":2019,
-    "Coal":0.4,
+    "Coal":0.525,
     "Oil and gas":16.3916,
     "Utility-scale solar":0.041,
     "Wind":0.0,
@@ -6026,7 +6026,7 @@
   {
     "Country":"Bangladesh",
     "Year":2020,
-    "Coal":1.72,
+    "Coal":1.845,
     "Oil and gas":17.0393,
     "Utility-scale solar":0.0957,
     "Wind":0.0,
@@ -6038,7 +6038,7 @@
   {
     "Country":"Bangladesh",
     "Year":2021,
-    "Coal":1.72,
+    "Coal":1.845,
     "Oil and gas":18.372,
     "Utility-scale solar":0.34723,
     "Wind":0.0,
@@ -6050,7 +6050,7 @@
   {
     "Country":"Bangladesh",
     "Year":2022,
-    "Coal":2.73,
+    "Coal":2.855,
     "Oil and gas":18.833,
     "Utility-scale solar":0.39883,
     "Wind":0.0,
@@ -6062,7 +6062,7 @@
   {
     "Country":"Bangladesh",
     "Year":2023,
-    "Coal":4.65,
+    "Coal":4.775,
     "Oil and gas":19.3295,
     "Utility-scale solar":0.84398,
     "Wind":0.06,
@@ -6074,7 +6074,7 @@
   {
     "Country":"Bangladesh",
     "Year":2024,
-    "Coal":5.91,
+    "Coal":6.035,
     "Oil and gas":20.3535,
     "Utility-scale solar":0.9807148657,
     "Wind":0.06,
@@ -6086,7 +6086,7 @@
   {
     "Country":"Bangladesh",
     "Year":2025,
-    "Coal":7.23,
+    "Coal":7.355,
     "Oil and gas":20.5165,
     "Utility-scale solar":1.0421648657,
     "Wind":0.06,
@@ -8198,7 +8198,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2000,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8210,7 +8210,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2001,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8222,7 +8222,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2002,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8234,7 +8234,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2003,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8246,7 +8246,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2004,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8258,7 +8258,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2005,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8270,7 +8270,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2006,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8282,7 +8282,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2007,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8294,7 +8294,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2008,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8306,7 +8306,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2009,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8318,7 +8318,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2010,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8330,7 +8330,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2011,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8342,7 +8342,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2012,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8354,7 +8354,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2013,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8366,7 +8366,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2014,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8378,7 +8378,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2015,
-    "Coal":1.69,
+    "Coal":1.79,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8390,7 +8390,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2016,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -8402,7 +8402,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2017,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0106,
     "Wind":0.0,
@@ -8414,7 +8414,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2018,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0106,
     "Wind":0.051,
@@ -8426,7 +8426,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2019,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0251,
     "Wind":0.087,
@@ -8438,7 +8438,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2020,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0251,
     "Wind":0.087,
@@ -8450,7 +8450,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2021,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0632,
     "Wind":0.135,
@@ -8462,7 +8462,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2022,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0726,
     "Wind":0.135,
@@ -8474,7 +8474,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2023,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.18175,
     "Wind":0.135,
@@ -8486,7 +8486,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2024,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.4393148316,
     "Wind":0.219,
@@ -8498,7 +8498,7 @@
   {
     "Country":"Bosnia and Herzegovina",
     "Year":2025,
-    "Coal":1.99,
+    "Coal":2.09,
     "Oil and gas":0.0,
     "Utility-scale solar":0.5020288772,
     "Wind":0.244,
@@ -9350,7 +9350,7 @@
   {
     "Country":"Bulgaria",
     "Year":2000,
-    "Coal":5.085,
+    "Coal":5.625,
     "Oil and gas":0.458,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -9362,7 +9362,7 @@
   {
     "Country":"Bulgaria",
     "Year":2001,
-    "Coal":5.085,
+    "Coal":5.625,
     "Oil and gas":0.458,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -9374,7 +9374,7 @@
   {
     "Country":"Bulgaria",
     "Year":2002,
-    "Coal":5.085,
+    "Coal":5.625,
     "Oil and gas":0.458,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -9386,7 +9386,7 @@
   {
     "Country":"Bulgaria",
     "Year":2003,
-    "Coal":5.085,
+    "Coal":5.625,
     "Oil and gas":0.458,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -9398,7 +9398,7 @@
   {
     "Country":"Bulgaria",
     "Year":2004,
-    "Coal":4.965,
+    "Coal":5.505,
     "Oil and gas":0.458,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -9410,7 +9410,7 @@
   {
     "Country":"Bulgaria",
     "Year":2005,
-    "Coal":4.965,
+    "Coal":5.505,
     "Oil and gas":0.458,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -9422,7 +9422,7 @@
   {
     "Country":"Bulgaria",
     "Year":2006,
-    "Coal":4.965,
+    "Coal":5.505,
     "Oil and gas":0.458,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -9434,7 +9434,7 @@
   {
     "Country":"Bulgaria",
     "Year":2007,
-    "Coal":4.965,
+    "Coal":5.505,
     "Oil and gas":0.501,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -9446,7 +9446,7 @@
   {
     "Country":"Bulgaria",
     "Year":2008,
-    "Coal":4.965,
+    "Coal":5.505,
     "Oil and gas":0.501,
     "Utility-scale solar":0.0,
     "Wind":0.045,
@@ -9458,7 +9458,7 @@
   {
     "Country":"Bulgaria",
     "Year":2009,
-    "Coal":5.086,
+    "Coal":5.626,
     "Oil and gas":0.501,
     "Utility-scale solar":0.0,
     "Wind":0.082,
@@ -9470,7 +9470,7 @@
   {
     "Country":"Bulgaria",
     "Year":2010,
-    "Coal":5.086,
+    "Coal":5.626,
     "Oil and gas":0.501,
     "Utility-scale solar":0.0,
     "Wind":0.407,
@@ -9482,7 +9482,7 @@
   {
     "Country":"Bulgaria",
     "Year":2011,
-    "Coal":5.086,
+    "Coal":6.316,
     "Oil and gas":0.551,
     "Utility-scale solar":0.0,
     "Wind":0.554,
@@ -9494,7 +9494,7 @@
   {
     "Country":"Bulgaria",
     "Year":2012,
-    "Coal":5.086,
+    "Coal":6.316,
     "Oil and gas":0.551,
     "Utility-scale solar":0.210453,
     "Wind":0.608,
@@ -9506,7 +9506,7 @@
   {
     "Country":"Bulgaria",
     "Year":2013,
-    "Coal":4.876,
+    "Coal":6.106,
     "Oil and gas":0.551,
     "Utility-scale solar":0.210453,
     "Wind":0.608,
@@ -9518,7 +9518,7 @@
   {
     "Country":"Bulgaria",
     "Year":2014,
-    "Coal":4.666,
+    "Coal":5.896,
     "Oil and gas":0.551,
     "Utility-scale solar":0.210453,
     "Wind":0.608,
@@ -9530,7 +9530,7 @@
   {
     "Country":"Bulgaria",
     "Year":2015,
-    "Coal":3.826,
+    "Coal":5.056,
     "Oil and gas":0.551,
     "Utility-scale solar":0.210453,
     "Wind":0.608,
@@ -9542,7 +9542,7 @@
   {
     "Country":"Bulgaria",
     "Year":2016,
-    "Coal":3.826,
+    "Coal":5.056,
     "Oil and gas":0.551,
     "Utility-scale solar":0.210453,
     "Wind":0.608,
@@ -9554,7 +9554,7 @@
   {
     "Country":"Bulgaria",
     "Year":2017,
-    "Coal":3.879,
+    "Coal":5.109,
     "Oil and gas":0.551,
     "Utility-scale solar":1.299107,
     "Wind":0.608,
@@ -9566,7 +9566,7 @@
   {
     "Country":"Bulgaria",
     "Year":2018,
-    "Coal":3.879,
+    "Coal":5.109,
     "Oil and gas":0.551,
     "Utility-scale solar":1.325007,
     "Wind":0.608,
@@ -9578,7 +9578,7 @@
   {
     "Country":"Bulgaria",
     "Year":2019,
-    "Coal":3.879,
+    "Coal":5.109,
     "Oil and gas":0.761,
     "Utility-scale solar":1.347627,
     "Wind":0.608,
@@ -9590,7 +9590,7 @@
   {
     "Country":"Bulgaria",
     "Year":2020,
-    "Coal":3.879,
+    "Coal":5.109,
     "Oil and gas":0.761,
     "Utility-scale solar":1.350927,
     "Wind":0.608,
@@ -9602,7 +9602,7 @@
   {
     "Country":"Bulgaria",
     "Year":2021,
-    "Coal":3.879,
+    "Coal":5.109,
     "Oil and gas":0.761,
     "Utility-scale solar":1.4992392747,
     "Wind":0.608,
@@ -9614,7 +9614,7 @@
   {
     "Country":"Bulgaria",
     "Year":2022,
-    "Coal":3.879,
+    "Coal":5.109,
     "Oil and gas":0.761,
     "Utility-scale solar":1.8129240386,
     "Wind":0.608,
@@ -9626,7 +9626,7 @@
   {
     "Country":"Bulgaria",
     "Year":2023,
-    "Coal":3.879,
+    "Coal":5.109,
     "Oil and gas":0.761,
     "Utility-scale solar":2.4609262704,
     "Wind":0.608,
@@ -9638,7 +9638,7 @@
   {
     "Country":"Bulgaria",
     "Year":2024,
-    "Coal":3.425,
+    "Coal":4.655,
     "Oil and gas":0.761,
     "Utility-scale solar":3.1540379013,
     "Wind":0.608,
@@ -9650,7 +9650,7 @@
   {
     "Country":"Bulgaria",
     "Year":2025,
-    "Coal":3.425,
+    "Coal":4.655,
     "Oil and gas":0.761,
     "Utility-scale solar":3.3267879013,
     "Wind":0.608,
@@ -10598,7 +10598,7 @@
   {
     "Country":"Canada",
     "Year":2000,
-    "Coal":18.4142,
+    "Coal":18.564,
     "Oil and gas":7.3643,
     "Utility-scale solar":0.0,
     "Wind":0.143,
@@ -10610,7 +10610,7 @@
   {
     "Country":"Canada",
     "Year":2001,
-    "Coal":18.4142,
+    "Coal":18.564,
     "Oil and gas":9.0883,
     "Utility-scale solar":0.0,
     "Wind":0.249,
@@ -10622,7 +10622,7 @@
   {
     "Country":"Canada",
     "Year":2002,
-    "Coal":18.4142,
+    "Coal":18.564,
     "Oil and gas":9.5333,
     "Utility-scale solar":0.0,
     "Wind":0.26,
@@ -10634,7 +10634,7 @@
   {
     "Country":"Canada",
     "Year":2003,
-    "Coal":18.4142,
+    "Coal":18.564,
     "Oil and gas":11.3886,
     "Utility-scale solar":0.0,
     "Wind":0.26,
@@ -10646,7 +10646,7 @@
   {
     "Country":"Canada",
     "Year":2004,
-    "Coal":18.4142,
+    "Coal":18.564,
     "Oil and gas":12.6059,
     "Utility-scale solar":0.0,
     "Wind":0.412,
@@ -10658,7 +10658,7 @@
   {
     "Country":"Canada",
     "Year":2005,
-    "Coal":16.2222,
+    "Coal":16.372,
     "Oil and gas":12.6559,
     "Utility-scale solar":0.0,
     "Wind":0.497,
@@ -10670,7 +10670,7 @@
   {
     "Country":"Canada",
     "Year":2006,
-    "Coal":16.2222,
+    "Coal":16.372,
     "Oil and gas":13.3229,
     "Utility-scale solar":0.0,
     "Wind":1.392,
@@ -10682,7 +10682,7 @@
   {
     "Country":"Canada",
     "Year":2007,
-    "Coal":16.2222,
+    "Coal":16.372,
     "Oil and gas":13.3229,
     "Utility-scale solar":0.0,
     "Wind":1.753,
@@ -10694,7 +10694,7 @@
   {
     "Country":"Canada",
     "Year":2008,
-    "Coal":16.2222,
+    "Coal":16.372,
     "Oil and gas":14.4539,
     "Utility-scale solar":0.0,
     "Wind":2.242,
@@ -10706,7 +10706,7 @@
   {
     "Country":"Canada",
     "Year":2009,
-    "Coal":16.2222,
+    "Coal":16.372,
     "Oil and gas":17.1269,
     "Utility-scale solar":0.0499329485,
     "Wind":3.259,
@@ -10718,7 +10718,7 @@
   {
     "Country":"Canada",
     "Year":2010,
-    "Coal":13.9032,
+    "Coal":14.053,
     "Oil and gas":18.2099,
     "Utility-scale solar":0.2205029485,
     "Wind":3.871,
@@ -10730,7 +10730,7 @@
   {
     "Country":"Canada",
     "Year":2011,
-    "Coal":13.4182,
+    "Coal":13.568,
     "Oil and gas":18.2599,
     "Utility-scale solar":0.3405613402,
     "Wind":5.161,
@@ -10742,7 +10742,7 @@
   {
     "Country":"Canada",
     "Year":2012,
-    "Coal":13.1882,
+    "Coal":13.338,
     "Oil and gas":18.7539,
     "Utility-scale solar":0.439974268,
     "Wind":6.063,
@@ -10754,7 +10754,7 @@
   {
     "Country":"Canada",
     "Year":2013,
-    "Coal":10.1022,
+    "Coal":10.252,
     "Oil and gas":19.1249,
     "Utility-scale solar":0.7299866392,
     "Wind":7.659,
@@ -10766,7 +10766,7 @@
   {
     "Country":"Canada",
     "Year":2014,
-    "Coal":9.8302,
+    "Coal":9.98,
     "Oil and gas":19.1249,
     "Utility-scale solar":1.0732049485,
     "Wind":9.454,
@@ -10778,7 +10778,7 @@
   {
     "Country":"Canada",
     "Year":2015,
-    "Coal":9.8302,
+    "Coal":9.98,
     "Oil and gas":20.3799,
     "Utility-scale solar":1.4892560825,
     "Wind":10.913,
@@ -10790,7 +10790,7 @@
   {
     "Country":"Canada",
     "Year":2016,
-    "Coal":9.8302,
+    "Coal":9.98,
     "Oil and gas":20.4799,
     "Utility-scale solar":1.5911810309,
     "Wind":11.575,
@@ -10802,7 +10802,7 @@
   {
     "Country":"Canada",
     "Year":2017,
-    "Coal":9.8302,
+    "Coal":9.98,
     "Oil and gas":20.7799,
     "Utility-scale solar":1.7523710309,
     "Wind":11.894,
@@ -10814,7 +10814,7 @@
   {
     "Country":"Canada",
     "Year":2018,
-    "Coal":9.1652,
+    "Coal":9.315,
     "Oil and gas":20.7799,
     "Utility-scale solar":1.7753710309,
     "Wind":12.457,
@@ -10826,7 +10826,7 @@
   {
     "Country":"Canada",
     "Year":2019,
-    "Coal":9.0162,
+    "Coal":9.166,
     "Oil and gas":21.1329,
     "Utility-scale solar":1.9106710309,
     "Wind":13.072,
@@ -10838,7 +10838,7 @@
   {
     "Country":"Canada",
     "Year":2020,
-    "Coal":8.6362,
+    "Coal":8.786,
     "Oil and gas":22.2369,
     "Utility-scale solar":2.0300210309,
     "Wind":13.226,
@@ -10850,7 +10850,7 @@
   {
     "Country":"Canada",
     "Year":2021,
-    "Coal":5.1598,
+    "Coal":5.31,
     "Oil and gas":24.9471,
     "Utility-scale solar":2.3032810309,
     "Wind":13.747,
@@ -10862,7 +10862,7 @@
   {
     "Country":"Canada",
     "Year":2022,
-    "Coal":4.7268,
+    "Coal":4.877,
     "Oil and gas":25.0601,
     "Utility-scale solar":3.0797510309,
     "Wind":15.035,
@@ -10874,7 +10874,7 @@
   {
     "Country":"Canada",
     "Year":2023,
-    "Coal":4.1108,
+    "Coal":4.261,
     "Oil and gas":25.6811,
     "Utility-scale solar":3.3446510309,
     "Wind":16.09,
@@ -10886,7 +10886,7 @@
   {
     "Country":"Canada",
     "Year":2024,
-    "Coal":3.2308,
+    "Coal":3.381,
     "Oil and gas":29.0891,
     "Utility-scale solar":3.7789889691,
     "Wind":17.675,
@@ -10898,7 +10898,7 @@
   {
     "Country":"Canada",
     "Year":2025,
-    "Coal":3.2308,
+    "Coal":3.381,
     "Oil and gas":29.0891,
     "Utility-scale solar":3.9222889691,
     "Wind":17.709,
@@ -11486,7 +11486,7 @@
   {
     "Country":"China",
     "Year":2000,
-    "Coal":185.8113,
+    "Coal":200.29,
     "Oil and gas":1.311,
     "Utility-scale solar":0.0,
     "Wind":0.021,
@@ -11498,7 +11498,7 @@
   {
     "Country":"China",
     "Year":2001,
-    "Coal":199.2293,
+    "Coal":213.608,
     "Oil and gas":1.311,
     "Utility-scale solar":0.0,
     "Wind":0.021,
@@ -11510,7 +11510,7 @@
   {
     "Country":"China",
     "Year":2002,
-    "Coal":210.1033,
+    "Coal":224.482,
     "Oil and gas":1.311,
     "Utility-scale solar":0.0,
     "Wind":0.021,
@@ -11522,7 +11522,7 @@
   {
     "Country":"China",
     "Year":2003,
-    "Coal":232.0393,
+    "Coal":247.093,
     "Oil and gas":2.626,
     "Utility-scale solar":0.0,
     "Wind":0.021,
@@ -11534,7 +11534,7 @@
   {
     "Country":"China",
     "Year":2004,
-    "Coal":261.8663,
+    "Coal":276.96,
     "Oil and gas":5.005,
     "Utility-scale solar":0.0,
     "Wind":0.021,
@@ -11546,7 +11546,7 @@
   {
     "Country":"China",
     "Year":2005,
-    "Coal":308.5623,
+    "Coal":323.946,
     "Oil and gas":11.8435,
     "Utility-scale solar":0.0,
     "Wind":0.2185,
@@ -11558,7 +11558,7 @@
   {
     "Country":"China",
     "Year":2006,
-    "Coal":390.3043,
+    "Coal":405.511,
     "Oil and gas":16.852,
     "Utility-scale solar":0.0,
     "Wind":1.0367,
@@ -11570,7 +11570,7 @@
   {
     "Country":"China",
     "Year":2007,
-    "Coal":462.3883,
+    "Coal":477.233,
     "Oil and gas":23.942,
     "Utility-scale solar":0.0,
     "Wind":2.5086,
@@ -11582,7 +11582,7 @@
   {
     "Country":"China",
     "Year":2008,
-    "Coal":515.5704,
+    "Coal":530.905,
     "Oil and gas":26.52,
     "Utility-scale solar":0.00087,
     "Wind":6.3091,
@@ -11594,7 +11594,7 @@
   {
     "Country":"China",
     "Year":2009,
-    "Coal":567.5735,
+    "Coal":582.368,
     "Oil and gas":29.0249,
     "Utility-scale solar":0.00957,
     "Wind":13.7371,
@@ -11606,7 +11606,7 @@
   {
     "Country":"China",
     "Year":2010,
-    "Coal":621.6343,
+    "Coal":636.374,
     "Oil and gas":31.9399,
     "Utility-scale solar":0.1040057392,
     "Wind":23.9038,
@@ -11618,7 +11618,7 @@
   {
     "Country":"China",
     "Year":2011,
-    "Coal":679.8063,
+    "Coal":694.276,
     "Oil and gas":34.7839,
     "Utility-scale solar":0.9958327908,
     "Wind":42.0013,
@@ -11630,7 +11630,7 @@
   {
     "Country":"China",
     "Year":2012,
-    "Coal":728.0663,
+    "Coal":742.446,
     "Oil and gas":36.4039,
     "Utility-scale solar":2.7540014288,
     "Wind":59.5363,
@@ -11642,7 +11642,7 @@
   {
     "Country":"China",
     "Year":2013,
-    "Coal":775.1653,
+    "Coal":789.3,
     "Oil and gas":42.1925,
     "Utility-scale solar":9.8675050911,
     "Wind":75.3218,
@@ -11654,7 +11654,7 @@
   {
     "Country":"China",
     "Year":2014,
-    "Coal":807.3681,
+    "Coal":821.073,
     "Oil and gas":55.2895,
     "Utility-scale solar":19.2831520004,
     "Wind":95.2263,
@@ -11666,7 +11666,7 @@
   {
     "Country":"China",
     "Year":2015,
-    "Coal":868.0703,
+    "Coal":880.725,
     "Oil and gas":64.6135,
     "Utility-scale solar":32.2839108849,
     "Wind":119.6138,
@@ -11678,7 +11678,7 @@
   {
     "Country":"China",
     "Year":2016,
-    "Coal":909.7128,
+    "Coal":922.372,
     "Oil and gas":68.3281,
     "Utility-scale solar":59.6038910126,
     "Wind":145.2418,
@@ -11690,7 +11690,7 @@
   {
     "Country":"China",
     "Year":2017,
-    "Coal":943.0558,
+    "Coal":955.38,
     "Oil and gas":74.4811,
     "Utility-scale solar":93.0829859619,
     "Wind":161.3524,
@@ -11702,7 +11702,7 @@
   {
     "Country":"China",
     "Year":2018,
-    "Coal":966.3308,
+    "Coal":978.137,
     "Oil and gas":83.8975,
     "Utility-scale solar":111.2519540209,
     "Wind":177.5217,
@@ -11714,7 +11714,7 @@
   {
     "Country":"China",
     "Year":2019,
-    "Coal":1008.6916,
+    "Coal":1019.953,
     "Oil and gas":93.5575,
     "Utility-scale solar":128.6592773998,
     "Wind":199.2111,
@@ -11726,7 +11726,7 @@
   {
     "Country":"China",
     "Year":2020,
-    "Coal":1038.8846,
+    "Coal":1049.591,
     "Oil and gas":102.1414,
     "Utility-scale solar":152.5120540621,
     "Wind":254.0918,
@@ -11738,7 +11738,7 @@
   {
     "Country":"China",
     "Year":2021,
-    "Coal":1063.8296,
+    "Coal":1074.296,
     "Oil and gas":112.592,
     "Utility-scale solar":175.1145275365,
     "Wind":298.7225,
@@ -11750,7 +11750,7 @@
   {
     "Country":"China",
     "Year":2022,
-    "Coal":1090.9586,
+    "Coal":1101.23,
     "Oil and gas":124.004,
     "Utility-scale solar":213.6380487652,
     "Wind":330.8249,
@@ -11762,7 +11762,7 @@
   {
     "Country":"China",
     "Year":2023,
-    "Coal":1136.4768,
+    "Coal":1147.19,
     "Oil and gas":135.528,
     "Utility-scale solar":311.3757960599,
     "Wind":382.4777,
@@ -11774,7 +11774,7 @@
   {
     "Country":"China",
     "Year":2024,
-    "Coal":1163.4568,
+    "Coal":1174.23,
     "Oil and gas":154.738,
     "Utility-scale solar":416.1146165442,
     "Wind":434.3803,
@@ -11786,7 +11786,7 @@
   {
     "Country":"China",
     "Year":2025,
-    "Coal":1231.7028,
+    "Coal":1242.236,
     "Oil and gas":177.19304,
     "Utility-scale solar":533.8602674028,
     "Wind":509.7964,
@@ -11978,7 +11978,7 @@
   {
     "Country":"Colombia",
     "Year":2015,
-    "Coal":1.343,
+    "Coal":1.173,
     "Oil and gas":3.289,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -12542,7 +12542,7 @@
   {
     "Country":"Croatia",
     "Year":2000,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.7358,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -12554,7 +12554,7 @@
   {
     "Country":"Croatia",
     "Year":2001,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.7358,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -12566,7 +12566,7 @@
   {
     "Country":"Croatia",
     "Year":2002,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.7358,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -12578,7 +12578,7 @@
   {
     "Country":"Croatia",
     "Year":2003,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.9358,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -12590,7 +12590,7 @@
   {
     "Country":"Croatia",
     "Year":2004,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.9358,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -12602,7 +12602,7 @@
   {
     "Country":"Croatia",
     "Year":2005,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.9358,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -12614,7 +12614,7 @@
   {
     "Country":"Croatia",
     "Year":2006,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.9358,
     "Utility-scale solar":0.0,
     "Wind":0.011,
@@ -12626,7 +12626,7 @@
   {
     "Country":"Croatia",
     "Year":2007,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.9358,
     "Utility-scale solar":0.0,
     "Wind":0.011,
@@ -12638,7 +12638,7 @@
   {
     "Country":"Croatia",
     "Year":2008,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":0.9358,
     "Utility-scale solar":0.0,
     "Wind":0.011,
@@ -12650,7 +12650,7 @@
   {
     "Country":"Croatia",
     "Year":2009,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.0358,
     "Utility-scale solar":0.0,
     "Wind":0.063,
@@ -12662,7 +12662,7 @@
   {
     "Country":"Croatia",
     "Year":2010,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.0358,
     "Utility-scale solar":0.0,
     "Wind":0.063,
@@ -12674,7 +12674,7 @@
   {
     "Country":"Croatia",
     "Year":2011,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.0358,
     "Utility-scale solar":0.0,
     "Wind":0.074,
@@ -12686,7 +12686,7 @@
   {
     "Country":"Croatia",
     "Year":2012,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.0358,
     "Utility-scale solar":0.0,
     "Wind":0.125,
@@ -12698,7 +12698,7 @@
   {
     "Country":"Croatia",
     "Year":2013,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.0358,
     "Utility-scale solar":0.0,
     "Wind":0.236,
@@ -12710,7 +12710,7 @@
   {
     "Country":"Croatia",
     "Year":2014,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.0358,
     "Utility-scale solar":0.0,
     "Wind":0.236,
@@ -12722,7 +12722,7 @@
   {
     "Country":"Croatia",
     "Year":2015,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.0358,
     "Utility-scale solar":0.0,
     "Wind":0.32,
@@ -12734,7 +12734,7 @@
   {
     "Country":"Croatia",
     "Year":2016,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.0358,
     "Utility-scale solar":0.0,
     "Wind":0.354,
@@ -12746,7 +12746,7 @@
   {
     "Country":"Croatia",
     "Year":2017,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.2708,
     "Utility-scale solar":0.0162,
     "Wind":0.453,
@@ -12758,7 +12758,7 @@
   {
     "Country":"Croatia",
     "Year":2018,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.2708,
     "Utility-scale solar":0.023,
     "Wind":0.463,
@@ -12770,7 +12770,7 @@
   {
     "Country":"Croatia",
     "Year":2019,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.2708,
     "Utility-scale solar":0.0339,
     "Wind":0.475,
@@ -12782,7 +12782,7 @@
   {
     "Country":"Croatia",
     "Year":2020,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.2708,
     "Utility-scale solar":0.0401,
     "Wind":0.533,
@@ -12794,7 +12794,7 @@
   {
     "Country":"Croatia",
     "Year":2021,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.2708,
     "Utility-scale solar":0.0421,
     "Wind":0.819,
@@ -12806,7 +12806,7 @@
   {
     "Country":"Croatia",
     "Year":2022,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.2708,
     "Utility-scale solar":0.1058,
     "Wind":0.849,
@@ -12818,7 +12818,7 @@
   {
     "Country":"Croatia",
     "Year":2023,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.2708,
     "Utility-scale solar":0.2095,
     "Wind":0.849,
@@ -12830,7 +12830,7 @@
   {
     "Country":"Croatia",
     "Year":2024,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.4208,
     "Utility-scale solar":0.269,
     "Wind":0.96,
@@ -12842,7 +12842,7 @@
   {
     "Country":"Croatia",
     "Year":2025,
-    "Coal":0.217,
+    "Coal":0.342,
     "Oil and gas":1.4208,
     "Utility-scale solar":0.2716,
     "Wind":0.99,
@@ -13646,7 +13646,7 @@
   {
     "Country":"Czech Republic",
     "Year":2000,
-    "Coal":8.7641,
+    "Coal":8.819,
     "Oil and gas":0.645,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -13658,7 +13658,7 @@
   {
     "Country":"Czech Republic",
     "Year":2001,
-    "Coal":8.7941,
+    "Coal":8.849,
     "Oil and gas":0.668,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -13670,7 +13670,7 @@
   {
     "Country":"Czech Republic",
     "Year":2002,
-    "Coal":8.7941,
+    "Coal":8.849,
     "Oil and gas":0.668,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -13682,7 +13682,7 @@
   {
     "Country":"Czech Republic",
     "Year":2003,
-    "Coal":8.7941,
+    "Coal":8.849,
     "Oil and gas":0.668,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -13694,7 +13694,7 @@
   {
     "Country":"Czech Republic",
     "Year":2004,
-    "Coal":8.8661,
+    "Coal":8.921,
     "Oil and gas":0.668,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -13706,7 +13706,7 @@
   {
     "Country":"Czech Republic",
     "Year":2005,
-    "Coal":8.8661,
+    "Coal":8.921,
     "Oil and gas":0.668,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -13718,7 +13718,7 @@
   {
     "Country":"Czech Republic",
     "Year":2006,
-    "Coal":8.8961,
+    "Coal":8.951,
     "Oil and gas":0.719,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -13730,7 +13730,7 @@
   {
     "Country":"Czech Republic",
     "Year":2007,
-    "Coal":8.8961,
+    "Coal":8.951,
     "Oil and gas":0.719,
     "Utility-scale solar":0.0,
     "Wind":0.042,
@@ -13742,7 +13742,7 @@
   {
     "Country":"Czech Republic",
     "Year":2008,
-    "Coal":8.8661,
+    "Coal":8.921,
     "Oil and gas":0.719,
     "Utility-scale solar":0.0,
     "Wind":0.042,
@@ -13754,7 +13754,7 @@
   {
     "Country":"Czech Republic",
     "Year":2009,
-    "Coal":8.8661,
+    "Coal":8.921,
     "Oil and gas":0.719,
     "Utility-scale solar":0.011,
     "Wind":0.06,
@@ -13766,7 +13766,7 @@
   {
     "Country":"Czech Republic",
     "Year":2010,
-    "Coal":8.8661,
+    "Coal":8.921,
     "Oil and gas":0.719,
     "Utility-scale solar":0.18931,
     "Wind":0.06,
@@ -13778,7 +13778,7 @@
   {
     "Country":"Czech Republic",
     "Year":2011,
-    "Coal":8.8661,
+    "Coal":8.921,
     "Oil and gas":0.719,
     "Utility-scale solar":0.20031,
     "Wind":0.06,
@@ -13790,7 +13790,7 @@
   {
     "Country":"Czech Republic",
     "Year":2012,
-    "Coal":8.2361,
+    "Coal":8.291,
     "Oil and gas":0.719,
     "Utility-scale solar":0.20031,
     "Wind":0.098,
@@ -13802,7 +13802,7 @@
   {
     "Country":"Czech Republic",
     "Year":2013,
-    "Coal":8.2361,
+    "Coal":8.291,
     "Oil and gas":0.777,
     "Utility-scale solar":0.20031,
     "Wind":0.098,
@@ -13814,7 +13814,7 @@
   {
     "Country":"Czech Republic",
     "Year":2014,
-    "Coal":8.3711,
+    "Coal":8.426,
     "Oil and gas":1.696,
     "Utility-scale solar":0.20031,
     "Wind":0.098,
@@ -13826,7 +13826,7 @@
   {
     "Country":"Czech Republic",
     "Year":2015,
-    "Coal":8.3711,
+    "Coal":8.426,
     "Oil and gas":1.696,
     "Utility-scale solar":0.20031,
     "Wind":0.098,
@@ -13838,7 +13838,7 @@
   {
     "Country":"Czech Republic",
     "Year":2016,
-    "Coal":8.7011,
+    "Coal":8.756,
     "Oil and gas":1.696,
     "Utility-scale solar":0.20031,
     "Wind":0.098,
@@ -13850,7 +13850,7 @@
   {
     "Country":"Czech Republic",
     "Year":2017,
-    "Coal":8.7011,
+    "Coal":8.756,
     "Oil and gas":1.696,
     "Utility-scale solar":1.06061,
     "Wind":0.124,
@@ -13862,7 +13862,7 @@
   {
     "Country":"Czech Republic",
     "Year":2018,
-    "Coal":8.7011,
+    "Coal":8.756,
     "Oil and gas":1.696,
     "Utility-scale solar":2.43891,
     "Wind":0.124,
@@ -13874,7 +13874,7 @@
   {
     "Country":"Czech Republic",
     "Year":2019,
-    "Coal":8.5011,
+    "Coal":8.556,
     "Oil and gas":1.696,
     "Utility-scale solar":2.44771,
     "Wind":0.14,
@@ -13886,7 +13886,7 @@
   {
     "Country":"Czech Republic",
     "Year":2020,
-    "Coal":8.1011,
+    "Coal":8.156,
     "Oil and gas":1.719,
     "Utility-scale solar":2.45771,
     "Wind":0.14,
@@ -13898,7 +13898,7 @@
   {
     "Country":"Czech Republic",
     "Year":2021,
-    "Coal":7.5546,
+    "Coal":7.61,
     "Oil and gas":1.719,
     "Utility-scale solar":2.46101,
     "Wind":0.14,
@@ -13910,7 +13910,7 @@
   {
     "Country":"Czech Republic",
     "Year":2022,
-    "Coal":7.5546,
+    "Coal":7.61,
     "Oil and gas":1.719,
     "Utility-scale solar":2.46211,
     "Wind":0.14,
@@ -13922,7 +13922,7 @@
   {
     "Country":"Czech Republic",
     "Year":2023,
-    "Coal":7.5136,
+    "Coal":7.569,
     "Oil and gas":1.719,
     "Utility-scale solar":2.59671,
     "Wind":0.14,
@@ -13934,7 +13934,7 @@
   {
     "Country":"Czech Republic",
     "Year":2024,
-    "Coal":7.5136,
+    "Coal":7.569,
     "Oil and gas":1.769,
     "Utility-scale solar":2.64671,
     "Wind":0.151,
@@ -13946,7 +13946,7 @@
   {
     "Country":"Czech Republic",
     "Year":2025,
-    "Coal":6.9136,
+    "Coal":6.969,
     "Oil and gas":1.819,
     "Utility-scale solar":2.79911,
     "Wind":0.151,
@@ -18110,7 +18110,7 @@
   {
     "Country":"Finland",
     "Year":2000,
-    "Coal":3.5372,
+    "Coal":3.537,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -18122,7 +18122,7 @@
   {
     "Country":"Finland",
     "Year":2001,
-    "Coal":3.5372,
+    "Coal":3.537,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -18134,7 +18134,7 @@
   {
     "Country":"Finland",
     "Year":2002,
-    "Coal":3.5372,
+    "Coal":3.537,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -18146,7 +18146,7 @@
   {
     "Country":"Finland",
     "Year":2003,
-    "Coal":3.5022,
+    "Coal":3.502,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -18158,7 +18158,7 @@
   {
     "Country":"Finland",
     "Year":2004,
-    "Coal":3.5022,
+    "Coal":3.502,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0115,
@@ -18170,7 +18170,7 @@
   {
     "Country":"Finland",
     "Year":2005,
-    "Coal":3.5022,
+    "Coal":3.502,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0115,
@@ -18182,7 +18182,7 @@
   {
     "Country":"Finland",
     "Year":2006,
-    "Coal":3.4242,
+    "Coal":3.424,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0115,
@@ -18194,7 +18194,7 @@
   {
     "Country":"Finland",
     "Year":2007,
-    "Coal":3.4242,
+    "Coal":3.424,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0115,
@@ -18206,7 +18206,7 @@
   {
     "Country":"Finland",
     "Year":2008,
-    "Coal":3.4242,
+    "Coal":3.424,
     "Oil and gas":1.661,
     "Utility-scale solar":0.0,
     "Wind":0.0385,
@@ -18218,7 +18218,7 @@
   {
     "Country":"Finland",
     "Year":2009,
-    "Coal":3.4242,
+    "Coal":3.424,
     "Oil and gas":1.895,
     "Utility-scale solar":0.0,
     "Wind":0.0385,
@@ -18230,7 +18230,7 @@
   {
     "Country":"Finland",
     "Year":2010,
-    "Coal":3.4242,
+    "Coal":3.424,
     "Oil and gas":1.895,
     "Utility-scale solar":0.0,
     "Wind":0.0795,
@@ -18242,7 +18242,7 @@
   {
     "Country":"Finland",
     "Year":2011,
-    "Coal":3.4242,
+    "Coal":3.424,
     "Oil and gas":1.895,
     "Utility-scale solar":0.0,
     "Wind":0.0795,
@@ -18254,7 +18254,7 @@
   {
     "Country":"Finland",
     "Year":2012,
-    "Coal":3.4242,
+    "Coal":3.424,
     "Oil and gas":1.895,
     "Utility-scale solar":0.0,
     "Wind":0.1035,
@@ -18266,7 +18266,7 @@
   {
     "Country":"Finland",
     "Year":2013,
-    "Coal":3.3442,
+    "Coal":3.344,
     "Oil and gas":2.215,
     "Utility-scale solar":0.0,
     "Wind":0.2895,
@@ -18278,7 +18278,7 @@
   {
     "Country":"Finland",
     "Year":2014,
-    "Coal":2.3442,
+    "Coal":2.344,
     "Oil and gas":2.215,
     "Utility-scale solar":0.0,
     "Wind":0.4235,
@@ -18290,7 +18290,7 @@
   {
     "Country":"Finland",
     "Year":2015,
-    "Coal":2.3442,
+    "Coal":2.344,
     "Oil and gas":2.215,
     "Utility-scale solar":0.0,
     "Wind":0.8055,
@@ -18302,7 +18302,7 @@
   {
     "Country":"Finland",
     "Year":2016,
-    "Coal":2.3442,
+    "Coal":2.344,
     "Oil and gas":2.34,
     "Utility-scale solar":0.0,
     "Wind":1.3315,
@@ -18314,7 +18314,7 @@
   {
     "Country":"Finland",
     "Year":2017,
-    "Coal":1.8772,
+    "Coal":1.877,
     "Oil and gas":2.34,
     "Utility-scale solar":0.0,
     "Wind":1.7945,
@@ -18326,7 +18326,7 @@
   {
     "Country":"Finland",
     "Year":2018,
-    "Coal":1.8772,
+    "Coal":1.877,
     "Oil and gas":2.371,
     "Utility-scale solar":0.0044182099,
     "Wind":1.7945,
@@ -18338,7 +18338,7 @@
   {
     "Country":"Finland",
     "Year":2019,
-    "Coal":1.7392,
+    "Coal":1.739,
     "Oil and gas":2.371,
     "Utility-scale solar":0.0061854938,
     "Wind":2.0353,
@@ -18350,7 +18350,7 @@
   {
     "Country":"Finland",
     "Year":2020,
-    "Coal":1.3432,
+    "Coal":1.343,
     "Oil and gas":2.371,
     "Utility-scale solar":0.0061854938,
     "Wind":2.3373,
@@ -18362,7 +18362,7 @@
   {
     "Country":"Finland",
     "Year":2021,
-    "Coal":1.3432,
+    "Coal":1.343,
     "Oil and gas":2.371,
     "Utility-scale solar":0.0082178704,
     "Wind":3.0083,
@@ -18374,7 +18374,7 @@
   {
     "Country":"Finland",
     "Year":2022,
-    "Coal":1.3432,
+    "Coal":1.343,
     "Oil and gas":2.311,
     "Utility-scale solar":0.014315,
     "Wind":5.0057,
@@ -18386,7 +18386,7 @@
   {
     "Country":"Finland",
     "Year":2023,
-    "Coal":1.1152,
+    "Coal":1.115,
     "Oil and gas":2.311,
     "Utility-scale solar":0.0458610185,
     "Wind":6.6836,
@@ -18398,7 +18398,7 @@
   {
     "Country":"Finland",
     "Year":2024,
-    "Coal":0.9102,
+    "Coal":0.91,
     "Oil and gas":2.311,
     "Utility-scale solar":0.1090414198,
     "Wind":8.0964,
@@ -18410,7 +18410,7 @@
   {
     "Country":"Finland",
     "Year":2025,
-    "Coal":0.6532,
+    "Coal":0.653,
     "Oil and gas":2.311,
     "Utility-scale solar":0.1927387654,
     "Wind":8.5584,
@@ -19694,7 +19694,7 @@
   {
     "Country":"Germany",
     "Year":2000,
-    "Coal":48.9533,
+    "Coal":52.604,
     "Oil and gas":14.9866,
     "Utility-scale solar":0.00087,
     "Wind":1.68,
@@ -19706,7 +19706,7 @@
   {
     "Country":"Germany",
     "Year":2001,
-    "Coal":48.3683,
+    "Coal":52.019,
     "Oil and gas":15.1606,
     "Utility-scale solar":0.00087,
     "Wind":3.0095,
@@ -19718,7 +19718,7 @@
   {
     "Country":"Germany",
     "Year":2002,
-    "Coal":48.8583,
+    "Coal":52.509,
     "Oil and gas":15.2736,
     "Utility-scale solar":0.00087,
     "Wind":4.4441,
@@ -19730,7 +19730,7 @@
   {
     "Country":"Germany",
     "Year":2003,
-    "Coal":48.4373,
+    "Coal":52.088,
     "Oil and gas":15.5686,
     "Utility-scale solar":0.00174,
     "Wind":5.9311,
@@ -19742,7 +19742,7 @@
   {
     "Country":"Germany",
     "Year":2004,
-    "Coal":48.3473,
+    "Coal":51.998,
     "Oil and gas":16.2205,
     "Utility-scale solar":0.035757,
     "Wind":6.9741,
@@ -19754,7 +19754,7 @@
   {
     "Country":"Germany",
     "Year":2005,
-    "Coal":47.8373,
+    "Coal":51.488,
     "Oil and gas":18.0658,
     "Utility-scale solar":0.084738,
     "Wind":8.1681,
@@ -19766,7 +19766,7 @@
   {
     "Country":"Germany",
     "Year":2006,
-    "Coal":47.8373,
+    "Coal":51.488,
     "Oil and gas":18.5438,
     "Utility-scale solar":0.131718,
     "Wind":9.7451,
@@ -19778,7 +19778,7 @@
   {
     "Country":"Germany",
     "Year":2007,
-    "Coal":47.6373,
+    "Coal":51.288,
     "Oil and gas":19.8948,
     "Utility-scale solar":0.266481,
     "Wind":10.6701,
@@ -19790,7 +19790,7 @@
   {
     "Country":"Germany",
     "Year":2008,
-    "Coal":47.6373,
+    "Coal":51.288,
     "Oil and gas":20.7328,
     "Utility-scale solar":0.451791,
     "Wind":11.1971,
@@ -19802,7 +19802,7 @@
   {
     "Country":"Germany",
     "Year":2009,
-    "Coal":47.6683,
+    "Coal":51.319,
     "Oil and gas":21.1513,
     "Utility-scale solar":1.131686,
     "Wind":12.5071,
@@ -19814,7 +19814,7 @@
   {
     "Country":"Germany",
     "Year":2010,
-    "Coal":47.6683,
+    "Coal":51.319,
     "Oil and gas":23.56926,
     "Utility-scale solar":2.436959,
     "Wind":13.2591,
@@ -19826,7 +19826,7 @@
   {
     "Country":"Germany",
     "Year":2011,
-    "Coal":46.9223,
+    "Coal":50.573,
     "Oil and gas":24.51326,
     "Utility-scale solar":4.43603,
     "Wind":14.0201,
@@ -19838,7 +19838,7 @@
   {
     "Country":"Germany",
     "Year":2012,
-    "Coal":46.8343,
+    "Coal":50.485,
     "Oil and gas":24.69426,
     "Utility-scale solar":7.045978,
     "Wind":15.6321,
@@ -19850,7 +19850,7 @@
   {
     "Country":"Germany",
     "Year":2013,
-    "Coal":47.1207,
+    "Coal":50.772,
     "Oil and gas":26.35916,
     "Utility-scale solar":8.03381,
     "Wind":17.6091,
@@ -19862,7 +19862,7 @@
   {
     "Country":"Germany",
     "Year":2014,
-    "Coal":46.5018,
+    "Coal":50.153,
     "Oil and gas":26.59476,
     "Utility-scale solar":8.539193,
     "Wind":21.3001,
@@ -19874,7 +19874,7 @@
   {
     "Country":"Germany",
     "Year":2015,
-    "Coal":48.8088,
+    "Coal":52.46,
     "Oil and gas":26.91676,
     "Utility-scale solar":9.072785,
     "Wind":25.7276,
@@ -19886,7 +19886,7 @@
   {
     "Country":"Germany",
     "Year":2016,
-    "Coal":48.1288,
+    "Coal":51.78,
     "Oil and gas":28.66696,
     "Utility-scale solar":9.691463,
     "Wind":28.8721,
@@ -19898,7 +19898,7 @@
   {
     "Country":"Germany",
     "Year":2017,
-    "Coal":44.7788,
+    "Coal":48.43,
     "Oil and gas":28.89396,
     "Utility-scale solar":10.05956,
     "Wind":33.7266,
@@ -19910,7 +19910,7 @@
   {
     "Country":"Germany",
     "Year":2018,
-    "Coal":43.7268,
+    "Coal":47.378,
     "Oil and gas":28.97766,
     "Utility-scale solar":10.55894,
     "Wind":35.7316,
@@ -19922,7 +19922,7 @@
   {
     "Country":"Germany",
     "Year":2019,
-    "Coal":42.4823,
+    "Coal":46.133,
     "Oil and gas":29.38056,
     "Utility-scale solar":11.058494,
     "Wind":38.1721,
@@ -19934,7 +19934,7 @@
   {
     "Country":"Germany",
     "Year":2020,
-    "Coal":42.7383,
+    "Coal":46.389,
     "Oil and gas":30.12806,
     "Utility-scale solar":12.0153,
     "Wind":38.9301,
@@ -19946,7 +19946,7 @@
   {
     "Country":"Germany",
     "Year":2021,
-    "Coal":36.0542,
+    "Coal":39.705,
     "Oil and gas":30.12806,
     "Utility-scale solar":13.625441601,
     "Wind":40.3291,
@@ -19958,7 +19958,7 @@
   {
     "Country":"Germany",
     "Year":2022,
-    "Coal":35.5325,
+    "Coal":39.184,
     "Oil and gas":31.86346,
     "Utility-scale solar":16.555849601,
     "Wind":42.107,
@@ -19970,7 +19970,7 @@
   {
     "Country":"Germany",
     "Year":2023,
-    "Coal":35.4205,
+    "Coal":39.072,
     "Oil and gas":33.71321,
     "Utility-scale solar":20.475744601,
     "Wind":44.4064,
@@ -19982,7 +19982,7 @@
   {
     "Country":"Germany",
     "Year":2024,
-    "Coal":28.6915,
+    "Coal":32.342,
     "Oil and gas":34.44121,
     "Utility-scale solar":26.329936601,
     "Wind":46.7681,
@@ -19994,7 +19994,7 @@
   {
     "Country":"Germany",
     "Year":2025,
-    "Coal":28.3231,
+    "Coal":31.974,
     "Oil and gas":34.55521,
     "Utility-scale solar":32.739835601,
     "Wind":48.9736,
@@ -22622,7 +22622,7 @@
   {
     "Country":"Hungary",
     "Year":2000,
-    "Coal":1.579,
+    "Coal":1.709,
     "Oil and gas":1.245,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -22634,7 +22634,7 @@
   {
     "Country":"Hungary",
     "Year":2001,
-    "Coal":1.579,
+    "Coal":1.709,
     "Oil and gas":1.295,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -22646,7 +22646,7 @@
   {
     "Country":"Hungary",
     "Year":2002,
-    "Coal":1.579,
+    "Coal":1.709,
     "Oil and gas":1.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -22658,7 +22658,7 @@
   {
     "Country":"Hungary",
     "Year":2003,
-    "Coal":1.579,
+    "Coal":1.709,
     "Oil and gas":1.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -22670,7 +22670,7 @@
   {
     "Country":"Hungary",
     "Year":2004,
-    "Coal":1.479,
+    "Coal":1.609,
     "Oil and gas":1.535,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -22682,7 +22682,7 @@
   {
     "Country":"Hungary",
     "Year":2005,
-    "Coal":1.479,
+    "Coal":1.609,
     "Oil and gas":1.569,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -22694,7 +22694,7 @@
   {
     "Country":"Hungary",
     "Year":2006,
-    "Coal":1.479,
+    "Coal":1.609,
     "Oil and gas":1.747,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -22706,7 +22706,7 @@
   {
     "Country":"Hungary",
     "Year":2007,
-    "Coal":1.479,
+    "Coal":1.609,
     "Oil and gas":1.904,
     "Utility-scale solar":0.0,
     "Wind":0.048,
@@ -22718,7 +22718,7 @@
   {
     "Country":"Hungary",
     "Year":2008,
-    "Coal":1.479,
+    "Coal":1.609,
     "Oil and gas":1.904,
     "Utility-scale solar":0.0,
     "Wind":0.095,
@@ -22730,7 +22730,7 @@
   {
     "Country":"Hungary",
     "Year":2009,
-    "Coal":1.479,
+    "Coal":1.609,
     "Oil and gas":1.904,
     "Utility-scale solar":0.0,
     "Wind":0.095,
@@ -22742,7 +22742,7 @@
   {
     "Country":"Hungary",
     "Year":2010,
-    "Coal":1.479,
+    "Coal":1.609,
     "Oil and gas":1.904,
     "Utility-scale solar":0.0,
     "Wind":0.223,
@@ -22754,7 +22754,7 @@
   {
     "Country":"Hungary",
     "Year":2011,
-    "Coal":1.174,
+    "Coal":1.304,
     "Oil and gas":2.846,
     "Utility-scale solar":0.0,
     "Wind":0.319,
@@ -22766,7 +22766,7 @@
   {
     "Country":"Hungary",
     "Year":2012,
-    "Coal":1.064,
+    "Coal":1.194,
     "Oil and gas":2.846,
     "Utility-scale solar":0.0,
     "Wind":0.319,
@@ -22778,7 +22778,7 @@
   {
     "Country":"Hungary",
     "Year":2013,
-    "Coal":1.064,
+    "Coal":1.194,
     "Oil and gas":2.846,
     "Utility-scale solar":0.0,
     "Wind":0.319,
@@ -22790,7 +22790,7 @@
   {
     "Country":"Hungary",
     "Year":2014,
-    "Coal":1.064,
+    "Coal":1.194,
     "Oil and gas":2.846,
     "Utility-scale solar":0.0,
     "Wind":0.319,
@@ -22802,7 +22802,7 @@
   {
     "Country":"Hungary",
     "Year":2015,
-    "Coal":1.064,
+    "Coal":1.194,
     "Oil and gas":2.846,
     "Utility-scale solar":0.0,
     "Wind":0.319,
@@ -22814,7 +22814,7 @@
   {
     "Country":"Hungary",
     "Year":2016,
-    "Coal":1.064,
+    "Coal":1.194,
     "Oil and gas":2.846,
     "Utility-scale solar":0.0,
     "Wind":0.319,
@@ -22826,7 +22826,7 @@
   {
     "Country":"Hungary",
     "Year":2017,
-    "Coal":1.064,
+    "Coal":1.194,
     "Oil and gas":2.846,
     "Utility-scale solar":0.1767,
     "Wind":0.319,
@@ -22838,7 +22838,7 @@
   {
     "Country":"Hungary",
     "Year":2018,
-    "Coal":1.004,
+    "Coal":1.134,
     "Oil and gas":2.846,
     "Utility-scale solar":0.7720822747,
     "Wind":0.319,
@@ -22850,7 +22850,7 @@
   {
     "Country":"Hungary",
     "Year":2019,
-    "Coal":1.004,
+    "Coal":1.134,
     "Oil and gas":2.846,
     "Utility-scale solar":1.3881558798,
     "Wind":0.319,
@@ -22862,7 +22862,7 @@
   {
     "Country":"Hungary",
     "Year":2020,
-    "Coal":1.004,
+    "Coal":1.134,
     "Oil and gas":2.91,
     "Utility-scale solar":1.8497958798,
     "Wind":0.319,
@@ -22874,7 +22874,7 @@
   {
     "Country":"Hungary",
     "Year":2021,
-    "Coal":1.004,
+    "Coal":1.134,
     "Oil and gas":2.91,
     "Utility-scale solar":2.3040958798,
     "Wind":0.319,
@@ -22886,7 +22886,7 @@
   {
     "Country":"Hungary",
     "Year":2022,
-    "Coal":1.004,
+    "Coal":1.134,
     "Oil and gas":2.91,
     "Utility-scale solar":2.7611958798,
     "Wind":0.319,
@@ -22898,7 +22898,7 @@
   {
     "Country":"Hungary",
     "Year":2023,
-    "Coal":1.004,
+    "Coal":1.134,
     "Oil and gas":2.96,
     "Utility-scale solar":3.4105265665,
     "Wind":0.319,
@@ -22910,7 +22910,7 @@
   {
     "Country":"Hungary",
     "Year":2024,
-    "Coal":1.004,
+    "Coal":1.134,
     "Oil and gas":2.96,
     "Utility-scale solar":3.8279700515,
     "Wind":0.319,
@@ -22922,7 +22922,7 @@
   {
     "Country":"Hungary",
     "Year":2025,
-    "Coal":0.884,
+    "Coal":1.014,
     "Oil and gas":2.96,
     "Utility-scale solar":3.8644700515,
     "Wind":0.319,
@@ -23246,7 +23246,7 @@
   {
     "Country":"India",
     "Year":2000,
-    "Coal":62.1377,
+    "Coal":62.253,
     "Oil and gas":9.4837,
     "Utility-scale solar":0.0,
     "Wind":0.145,
@@ -23258,7 +23258,7 @@
   {
     "Country":"India",
     "Year":2001,
-    "Coal":63.1427,
+    "Coal":63.258,
     "Oil and gas":10.2517,
     "Utility-scale solar":0.0,
     "Wind":0.204,
@@ -23270,7 +23270,7 @@
   {
     "Country":"India",
     "Year":2002,
-    "Coal":64.1827,
+    "Coal":64.298,
     "Oil and gas":10.6277,
     "Utility-scale solar":0.0,
     "Wind":0.204,
@@ -23282,7 +23282,7 @@
   {
     "Country":"India",
     "Year":2003,
-    "Coal":65.6757,
+    "Coal":65.791,
     "Oil and gas":11.0531,
     "Utility-scale solar":0.0,
     "Wind":0.204,
@@ -23294,7 +23294,7 @@
   {
     "Country":"India",
     "Year":2004,
-    "Coal":66.2132,
+    "Coal":66.328,
     "Oil and gas":11.2601,
     "Utility-scale solar":0.0,
     "Wind":0.253,
@@ -23306,7 +23306,7 @@
   {
     "Country":"India",
     "Year":2005,
-    "Coal":69.5382,
+    "Coal":69.653,
     "Oil and gas":11.6001,
     "Utility-scale solar":0.0,
     "Wind":0.358,
@@ -23318,7 +23318,7 @@
   {
     "Country":"India",
     "Year":2006,
-    "Coal":71.8262,
+    "Coal":71.941,
     "Oil and gas":13.3021,
     "Utility-scale solar":0.0,
     "Wind":0.4662,
@@ -23330,7 +23330,7 @@
   {
     "Country":"India",
     "Year":2007,
-    "Coal":77.0042,
+    "Coal":77.149,
     "Oil and gas":14.4661,
     "Utility-scale solar":0.0,
     "Wind":0.6177,
@@ -23342,7 +23342,7 @@
   {
     "Country":"India",
     "Year":2008,
-    "Coal":82.2002,
+    "Coal":82.345,
     "Oil and gas":14.5581,
     "Utility-scale solar":0.0,
     "Wind":1.1537,
@@ -23354,7 +23354,7 @@
   {
     "Country":"India",
     "Year":2009,
-    "Coal":87.6607,
+    "Coal":87.806,
     "Oil and gas":16.5451,
     "Utility-scale solar":0.0,
     "Wind":1.5207,
@@ -23366,7 +23366,7 @@
   {
     "Country":"India",
     "Year":2010,
-    "Coal":98.7397,
+    "Coal":99.074,
     "Oil and gas":17.9745,
     "Utility-scale solar":0.0,
     "Wind":2.0727,
@@ -23378,7 +23378,7 @@
   {
     "Country":"India",
     "Year":2011,
-    "Coal":113.0957,
+    "Coal":113.47,
     "Oil and gas":18.0825,
     "Utility-scale solar":0.0944449091,
     "Wind":2.6767,
@@ -23390,7 +23390,7 @@
   {
     "Country":"India",
     "Year":2012,
-    "Coal":131.1792,
+    "Coal":131.633,
     "Oil and gas":19.3485,
     "Utility-scale solar":0.7066699091,
     "Wind":4.0187,
@@ -23402,7 +23402,7 @@
   {
     "Country":"India",
     "Year":2013,
-    "Coal":148.5547,
+    "Coal":149.389,
     "Oil and gas":20.353,
     "Utility-scale solar":1.4366025,
     "Wind":5.4847,
@@ -23414,7 +23414,7 @@
   {
     "Country":"India",
     "Year":2014,
-    "Coal":168.6962,
+    "Coal":169.53,
     "Oil and gas":23.507,
     "Utility-scale solar":2.148666,
     "Wind":6.4367,
@@ -23426,7 +23426,7 @@
   {
     "Country":"India",
     "Year":2015,
-    "Coal":188.7562,
+    "Coal":189.624,
     "Oil and gas":25.635,
     "Utility-scale solar":3.3450092727,
     "Wind":8.2387,
@@ -23438,7 +23438,7 @@
   {
     "Country":"India",
     "Year":2016,
-    "Coal":206.2562,
+    "Coal":207.124,
     "Oil and gas":26.574,
     "Utility-scale solar":6.5618370682,
     "Wind":10.5377,
@@ -23450,7 +23450,7 @@
   {
     "Country":"India",
     "Year":2017,
-    "Coal":211.6782,
+    "Coal":212.512,
     "Oil and gas":26.769,
     "Utility-scale solar":18.3498346364,
     "Wind":13.1917,
@@ -23462,7 +23462,7 @@
   {
     "Country":"India",
     "Year":2018,
-    "Coal":217.1992,
+    "Coal":218.033,
     "Oil and gas":26.8388,
     "Utility-scale solar":27.0171745682,
     "Wind":15.4257,
@@ -23474,7 +23474,7 @@
   {
     "Country":"India",
     "Year":2019,
-    "Coal":224.8392,
+    "Coal":225.673,
     "Oil and gas":26.8388,
     "Utility-scale solar":32.9239532045,
     "Wind":17.5527,
@@ -23486,7 +23486,7 @@
   {
     "Country":"India",
     "Year":2020,
-    "Coal":224.8992,
+    "Coal":225.733,
     "Oil and gas":26.9372,
     "Utility-scale solar":36.4805399318,
     "Wind":18.1007,
@@ -23498,7 +23498,7 @@
   {
     "Country":"India",
     "Year":2021,
-    "Coal":230.2142,
+    "Coal":231.048,
     "Oil and gas":27.1622,
     "Utility-scale solar":43.6243971818,
     "Wind":19.5457,
@@ -23510,7 +23510,7 @@
   {
     "Country":"India",
     "Year":2022,
-    "Coal":231.3952,
+    "Coal":232.229,
     "Oil and gas":27.1622,
     "Utility-scale solar":56.6254707727,
     "Wind":21.4097,
@@ -23522,7 +23522,7 @@
   {
     "Country":"India",
     "Year":2023,
-    "Coal":236.7102,
+    "Coal":237.544,
     "Oil and gas":27.2132,
     "Utility-scale solar":61.8473090455,
     "Wind":24.0232,
@@ -23534,7 +23534,7 @@
   {
     "Country":"India",
     "Year":2024,
-    "Coal":240.7002,
+    "Coal":241.534,
     "Oil and gas":26.9932,
     "Utility-scale solar":76.6647593864,
     "Wind":25.7802,
@@ -23546,7 +23546,7 @@
   {
     "Country":"India",
     "Year":2025,
-    "Coal":249.8602,
+    "Coal":250.694,
     "Oil and gas":27.3632,
     "Utility-scale solar":89.1343798864,
     "Wind":27.0554,
@@ -23642,7 +23642,7 @@
   {
     "Country":"Indonesia",
     "Year":2007,
-    "Coal":10.5804,
+    "Coal":10.58,
     "Oil and gas":11.5972,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -23726,7 +23726,7 @@
   {
     "Country":"Indonesia",
     "Year":2014,
-    "Coal":23.376,
+    "Coal":23.406,
     "Oil and gas":14.5493,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -23738,7 +23738,7 @@
   {
     "Country":"Indonesia",
     "Year":2015,
-    "Coal":25.712,
+    "Coal":25.742,
     "Oil and gas":15.219,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -23750,7 +23750,7 @@
   {
     "Country":"Indonesia",
     "Year":2016,
-    "Coal":27.082,
+    "Coal":27.112,
     "Oil and gas":16.0524,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -23762,7 +23762,7 @@
   {
     "Country":"Indonesia",
     "Year":2017,
-    "Coal":29.559,
+    "Coal":29.589,
     "Oil and gas":16.1094,
     "Utility-scale solar":0.016,
     "Wind":0.01,
@@ -23774,7 +23774,7 @@
   {
     "Country":"Indonesia",
     "Year":2018,
-    "Coal":30.349,
+    "Coal":30.379,
     "Oil and gas":16.1094,
     "Utility-scale solar":0.0243,
     "Wind":0.085,
@@ -23786,7 +23786,7 @@
   {
     "Country":"Indonesia",
     "Year":2019,
-    "Coal":34.76,
+    "Coal":34.79,
     "Oil and gas":17.5713,
     "Utility-scale solar":0.0958,
     "Wind":0.157,
@@ -23798,7 +23798,7 @@
   {
     "Country":"Indonesia",
     "Year":2020,
-    "Coal":37.686,
+    "Coal":37.716,
     "Oil and gas":18.7733,
     "Utility-scale solar":0.1162,
     "Wind":0.157,
@@ -23810,7 +23810,7 @@
   {
     "Country":"Indonesia",
     "Year":2021,
-    "Coal":40.046,
+    "Coal":40.076,
     "Oil and gas":19.5138,
     "Utility-scale solar":0.1464,
     "Wind":0.157,
@@ -23822,7 +23822,7 @@
   {
     "Country":"Indonesia",
     "Year":2022,
-    "Coal":47.126,
+    "Coal":46.481,
     "Oil and gas":20.418,
     "Utility-scale solar":0.32205,
     "Wind":0.157,
@@ -23834,7 +23834,7 @@
   {
     "Country":"Indonesia",
     "Year":2023,
-    "Coal":53.68,
+    "Coal":53.71,
     "Oil and gas":20.618,
     "Utility-scale solar":0.53249,
     "Wind":0.157,
@@ -23846,7 +23846,7 @@
   {
     "Country":"Indonesia",
     "Year":2024,
-    "Coal":56.775,
+    "Coal":56.805,
     "Oil and gas":23.258,
     "Utility-scale solar":0.76566,
     "Wind":0.157,
@@ -23858,7 +23858,7 @@
   {
     "Country":"Indonesia",
     "Year":2025,
-    "Coal":60.61,
+    "Coal":60.64,
     "Oil and gas":23.908,
     "Utility-scale solar":0.8788601558,
     "Wind":0.157,
@@ -25118,7 +25118,7 @@
   {
     "Country":"Italy",
     "Year":2000,
-    "Coal":6.69,
+    "Coal":8.67,
     "Oil and gas":9.6851,
     "Utility-scale solar":0.0,
     "Wind":0.159,
@@ -25130,7 +25130,7 @@
   {
     "Country":"Italy",
     "Year":2001,
-    "Coal":6.622,
+    "Coal":8.602,
     "Oil and gas":11.4461,
     "Utility-scale solar":0.0,
     "Wind":0.253,
@@ -25142,7 +25142,7 @@
   {
     "Country":"Italy",
     "Year":2002,
-    "Coal":6.622,
+    "Coal":8.602,
     "Oil and gas":13.0661,
     "Utility-scale solar":0.0,
     "Wind":0.3508,
@@ -25154,7 +25154,7 @@
   {
     "Country":"Italy",
     "Year":2003,
-    "Coal":6.622,
+    "Coal":8.602,
     "Oil and gas":17.0921,
     "Utility-scale solar":0.0,
     "Wind":0.3838,
@@ -25166,7 +25166,7 @@
   {
     "Country":"Italy",
     "Year":2004,
-    "Coal":6.372,
+    "Coal":8.352,
     "Oil and gas":21.9601,
     "Utility-scale solar":0.0,
     "Wind":0.4198,
@@ -25178,7 +25178,7 @@
   {
     "Country":"Italy",
     "Year":2005,
-    "Coal":6.722,
+    "Coal":8.702,
     "Oil and gas":26.3211,
     "Utility-scale solar":0.0,
     "Wind":0.8408,
@@ -25190,7 +25190,7 @@
   {
     "Country":"Italy",
     "Year":2006,
-    "Coal":6.722,
+    "Coal":8.702,
     "Oil and gas":31.4161,
     "Utility-scale solar":0.0,
     "Wind":0.9838,
@@ -25202,7 +25202,7 @@
   {
     "Country":"Italy",
     "Year":2007,
-    "Coal":6.722,
+    "Coal":8.702,
     "Oil and gas":34.2591,
     "Utility-scale solar":0.0,
     "Wind":1.6168,
@@ -25214,7 +25214,7 @@
   {
     "Country":"Italy",
     "Year":2008,
-    "Coal":6.082,
+    "Coal":8.062,
     "Oil and gas":38.6701,
     "Utility-scale solar":0.0,
     "Wind":2.3338,
@@ -25226,7 +25226,7 @@
   {
     "Country":"Italy",
     "Year":2009,
-    "Coal":6.082,
+    "Coal":8.722,
     "Oil and gas":39.6561,
     "Utility-scale solar":0.03915,
     "Wind":3.1108,
@@ -25238,7 +25238,7 @@
   {
     "Country":"Italy",
     "Year":2010,
-    "Coal":6.082,
+    "Coal":10.042,
     "Oil and gas":42.4931,
     "Utility-scale solar":0.155819,
     "Wind":3.7568,
@@ -25250,7 +25250,7 @@
   {
     "Country":"Italy",
     "Year":2011,
-    "Coal":6.082,
+    "Coal":10.042,
     "Oil and gas":44.1091,
     "Utility-scale solar":0.322946,
     "Wind":4.8448,
@@ -25262,7 +25262,7 @@
   {
     "Country":"Italy",
     "Year":2012,
-    "Coal":6.082,
+    "Coal":10.042,
     "Oil and gas":44.9531,
     "Utility-scale solar":0.359486,
     "Wind":5.5418,
@@ -25274,7 +25274,7 @@
   {
     "Country":"Italy",
     "Year":2013,
-    "Coal":6.082,
+    "Coal":10.042,
     "Oil and gas":45.0877,
     "Utility-scale solar":0.387239,
     "Wind":5.8048,
@@ -25286,7 +25286,7 @@
   {
     "Country":"Italy",
     "Year":2014,
-    "Coal":5.942,
+    "Coal":9.902,
     "Oil and gas":45.0877,
     "Utility-scale solar":0.388239,
     "Wind":5.8938,
@@ -25298,7 +25298,7 @@
   {
     "Country":"Italy",
     "Year":2015,
-    "Coal":5.802,
+    "Coal":9.762,
     "Oil and gas":45.2797,
     "Utility-scale solar":0.405639,
     "Wind":6.1088,
@@ -25310,7 +25310,7 @@
   {
     "Country":"Italy",
     "Year":2016,
-    "Coal":4.822,
+    "Coal":8.782,
     "Oil and gas":45.2797,
     "Utility-scale solar":0.405639,
     "Wind":6.2048,
@@ -25322,7 +25322,7 @@
   {
     "Country":"Italy",
     "Year":2017,
-    "Coal":4.667,
+    "Coal":8.627,
     "Oil and gas":45.2797,
     "Utility-scale solar":0.752939,
     "Wind":6.4138,
@@ -25334,7 +25334,7 @@
   {
     "Country":"Italy",
     "Year":2018,
-    "Coal":4.667,
+    "Coal":8.627,
     "Oil and gas":45.4597,
     "Utility-scale solar":0.816859,
     "Wind":6.6318,
@@ -25346,7 +25346,7 @@
   {
     "Country":"Italy",
     "Year":2019,
-    "Coal":4.517,
+    "Coal":8.477,
     "Oil and gas":45.4597,
     "Utility-scale solar":0.816859,
     "Wind":7.1478,
@@ -25358,7 +25358,7 @@
   {
     "Country":"Italy",
     "Year":2020,
-    "Coal":3.142,
+    "Coal":7.102,
     "Oil and gas":45.1897,
     "Utility-scale solar":1.0552641613,
     "Wind":7.1478,
@@ -25370,7 +25370,7 @@
   {
     "Country":"Italy",
     "Year":2021,
-    "Coal":2.206,
+    "Coal":6.166,
     "Oil and gas":45.1897,
     "Utility-scale solar":1.0761030143,
     "Wind":7.2658,
@@ -25382,7 +25382,7 @@
   {
     "Country":"Italy",
     "Year":2022,
-    "Coal":2.206,
+    "Coal":6.166,
     "Oil and gas":45.7717,
     "Utility-scale solar":1.1089997312,
     "Wind":7.6633,
@@ -25394,7 +25394,7 @@
   {
     "Country":"Italy",
     "Year":2023,
-    "Coal":1.566,
+    "Coal":5.526,
     "Oil and gas":47.8775,
     "Utility-scale solar":1.2262223477,
     "Wind":7.8667,
@@ -25406,7 +25406,7 @@
   {
     "Country":"Italy",
     "Year":2024,
-    "Coal":1.23,
+    "Coal":5.19,
     "Oil and gas":47.8775,
     "Utility-scale solar":1.4859273477,
     "Wind":8.1917,
@@ -25418,7 +25418,7 @@
   {
     "Country":"Italy",
     "Year":2025,
-    "Coal":1.23,
+    "Coal":5.19,
     "Oil and gas":48.6775,
     "Utility-scale solar":1.6351323477,
     "Wind":8.2457,
@@ -25742,7 +25742,7 @@
   {
     "Country":"Japan",
     "Year":2000,
-    "Coal":30.6988,
+    "Coal":31.808,
     "Oil and gas":71.8438,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -25754,7 +25754,7 @@
   {
     "Country":"Japan",
     "Year":2001,
-    "Coal":31.4628,
+    "Coal":32.932,
     "Oil and gas":73.0838,
     "Utility-scale solar":0.0,
     "Wind":0.107,
@@ -25766,7 +25766,7 @@
   {
     "Country":"Japan",
     "Year":2002,
-    "Coal":35.0128,
+    "Coal":36.482,
     "Oil and gas":74.0023,
     "Utility-scale solar":0.0,
     "Wind":0.107,
@@ -25778,7 +25778,7 @@
   {
     "Country":"Japan",
     "Year":2003,
-    "Coal":37.1508,
+    "Coal":38.62,
     "Oil and gas":76.3497,
     "Utility-scale solar":0.0,
     "Wind":0.332,
@@ -25790,7 +25790,7 @@
   {
     "Country":"Japan",
     "Year":2004,
-    "Coal":39.4641,
+    "Coal":40.933,
     "Oil and gas":76.8097,
     "Utility-scale solar":0.0,
     "Wind":0.451,
@@ -25802,7 +25802,7 @@
   {
     "Country":"Japan",
     "Year":2005,
-    "Coal":39.6546,
+    "Coal":41.124,
     "Oil and gas":76.9144,
     "Utility-scale solar":0.0,
     "Wind":0.634,
@@ -25814,7 +25814,7 @@
   {
     "Country":"Japan",
     "Year":2006,
-    "Coal":39.7496,
+    "Coal":41.219,
     "Oil and gas":78.3444,
     "Utility-scale solar":0.0,
     "Wind":0.797,
@@ -25826,7 +25826,7 @@
   {
     "Country":"Japan",
     "Year":2007,
-    "Coal":40.1496,
+    "Coal":41.619,
     "Oil and gas":78.9204,
     "Utility-scale solar":0.0,
     "Wind":0.99,
@@ -25838,7 +25838,7 @@
   {
     "Country":"Japan",
     "Year":2008,
-    "Coal":40.5536,
+    "Coal":42.023,
     "Oil and gas":82.4748,
     "Utility-scale solar":0.0,
     "Wind":1.283,
@@ -25850,7 +25850,7 @@
   {
     "Country":"Japan",
     "Year":2009,
-    "Coal":41.1536,
+    "Coal":42.623,
     "Oil and gas":86.0758,
     "Utility-scale solar":0.0,
     "Wind":1.501,
@@ -25862,7 +25862,7 @@
   {
     "Country":"Japan",
     "Year":2010,
-    "Coal":42.1327,
+    "Coal":43.602,
     "Oil and gas":89.541,
     "Utility-scale solar":0.0,
     "Wind":1.697,
@@ -25874,7 +25874,7 @@
   {
     "Country":"Japan",
     "Year":2011,
-    "Coal":42.1327,
+    "Coal":43.602,
     "Oil and gas":89.8029,
     "Utility-scale solar":0.02436,
     "Wind":1.853,
@@ -25886,7 +25886,7 @@
   {
     "Country":"Japan",
     "Year":2012,
-    "Coal":42.1327,
+    "Coal":43.602,
     "Oil and gas":90.8704,
     "Utility-scale solar":0.02436,
     "Wind":1.897,
@@ -25898,7 +25898,7 @@
   {
     "Country":"Japan",
     "Year":2013,
-    "Coal":43.9827,
+    "Coal":45.452,
     "Oil and gas":93.7844,
     "Utility-scale solar":2.05486,
     "Wind":1.913,
@@ -25910,7 +25910,7 @@
   {
     "Country":"Japan",
     "Year":2014,
-    "Coal":43.9827,
+    "Coal":45.452,
     "Oil and gas":99.3784,
     "Utility-scale solar":4.929621,
     "Wind":2.019,
@@ -25922,7 +25922,7 @@
   {
     "Country":"Japan",
     "Year":2015,
-    "Coal":44.0565,
+    "Coal":45.526,
     "Oil and gas":101.2038,
     "Utility-scale solar":8.890245023,
     "Wind":2.226,
@@ -25934,7 +25934,7 @@
   {
     "Country":"Japan",
     "Year":2016,
-    "Coal":44.237,
+    "Coal":45.706,
     "Oil and gas":104.4989,
     "Utility-scale solar":12.1985430862,
     "Wind":2.346,
@@ -25946,7 +25946,7 @@
   {
     "Country":"Japan",
     "Year":2017,
-    "Coal":44.642,
+    "Coal":46.111,
     "Oil and gas":105.6869,
     "Utility-scale solar":15.1402302816,
     "Wind":2.424,
@@ -25958,7 +25958,7 @@
   {
     "Country":"Japan",
     "Year":2018,
-    "Coal":44.819,
+    "Coal":46.288,
     "Oil and gas":107.2996,
     "Utility-scale solar":17.7997684425,
     "Wind":2.656,
@@ -25970,7 +25970,7 @@
   {
     "Country":"Japan",
     "Year":2019,
-    "Coal":45.491,
+    "Coal":47.072,
     "Oil and gas":108.4931,
     "Utility-scale solar":20.5806643736,
     "Wind":2.843,
@@ -25982,7 +25982,7 @@
   {
     "Country":"Japan",
     "Year":2020,
-    "Coal":47.163,
+    "Coal":48.744,
     "Oil and gas":108.5502,
     "Utility-scale solar":24.5258376379,
     "Wind":3.322,
@@ -25994,7 +25994,7 @@
   {
     "Country":"Japan",
     "Year":2021,
-    "Coal":48.993,
+    "Coal":50.574,
     "Oil and gas":102.8922,
     "Utility-scale solar":26.8639238333,
     "Wind":3.4681,
@@ -26006,7 +26006,7 @@
   {
     "Country":"Japan",
     "Year":2022,
-    "Coal":51.745,
+    "Coal":53.326,
     "Oil and gas":99.5764,
     "Utility-scale solar":28.6275722816,
     "Wind":3.6381,
@@ -26018,7 +26018,7 @@
   {
     "Country":"Japan",
     "Year":2023,
-    "Coal":54.039,
+    "Coal":55.62,
     "Oil and gas":94.3984,
     "Utility-scale solar":30.1712998678,
     "Wind":4.3905,
@@ -26030,7 +26030,7 @@
   {
     "Country":"Japan",
     "Year":2024,
-    "Coal":53.667,
+    "Coal":55.248,
     "Oil and gas":95.3584,
     "Utility-scale solar":30.5558715172,
     "Wind":4.9589,
@@ -26042,7 +26042,7 @@
   {
     "Country":"Japan",
     "Year":2025,
-    "Coal":53.0,
+    "Coal":54.581,
     "Oil and gas":96.2364,
     "Utility-scale solar":30.9708305977,
     "Wind":5.3287,
@@ -26546,7 +26546,7 @@
   {
     "Country":"Kazakhstan",
     "Year":2015,
-    "Coal":13.176,
+    "Coal":13.296,
     "Oil and gas":3.37,
     "Utility-scale solar":0.0435,
     "Wind":0.0967,
@@ -33470,7 +33470,7 @@
   {
     "Country":"Moldova",
     "Year":2000,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33482,7 +33482,7 @@
   {
     "Country":"Moldova",
     "Year":2001,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33494,7 +33494,7 @@
   {
     "Country":"Moldova",
     "Year":2002,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33506,7 +33506,7 @@
   {
     "Country":"Moldova",
     "Year":2003,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33518,7 +33518,7 @@
   {
     "Country":"Moldova",
     "Year":2004,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33530,7 +33530,7 @@
   {
     "Country":"Moldova",
     "Year":2005,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33542,7 +33542,7 @@
   {
     "Country":"Moldova",
     "Year":2006,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33554,7 +33554,7 @@
   {
     "Country":"Moldova",
     "Year":2007,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33566,7 +33566,7 @@
   {
     "Country":"Moldova",
     "Year":2008,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33578,7 +33578,7 @@
   {
     "Country":"Moldova",
     "Year":2009,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33590,7 +33590,7 @@
   {
     "Country":"Moldova",
     "Year":2010,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33602,7 +33602,7 @@
   {
     "Country":"Moldova",
     "Year":2011,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33614,7 +33614,7 @@
   {
     "Country":"Moldova",
     "Year":2012,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33626,7 +33626,7 @@
   {
     "Country":"Moldova",
     "Year":2013,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33638,7 +33638,7 @@
   {
     "Country":"Moldova",
     "Year":2014,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33650,7 +33650,7 @@
   {
     "Country":"Moldova",
     "Year":2015,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33662,7 +33662,7 @@
   {
     "Country":"Moldova",
     "Year":2016,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33674,7 +33674,7 @@
   {
     "Country":"Moldova",
     "Year":2017,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -33686,7 +33686,7 @@
   {
     "Country":"Moldova",
     "Year":2018,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.002,
     "Wind":0.0,
@@ -33698,7 +33698,7 @@
   {
     "Country":"Moldova",
     "Year":2019,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.002,
     "Wind":0.0,
@@ -33710,7 +33710,7 @@
   {
     "Country":"Moldova",
     "Year":2020,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0033,
     "Wind":0.0,
@@ -33722,7 +33722,7 @@
   {
     "Country":"Moldova",
     "Year":2021,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0273,
     "Wind":0.0,
@@ -33734,7 +33734,7 @@
   {
     "Country":"Moldova",
     "Year":2022,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.0458,
     "Wind":0.0,
@@ -33746,7 +33746,7 @@
   {
     "Country":"Moldova",
     "Year":2023,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.1016,
     "Wind":0.0,
@@ -33758,7 +33758,7 @@
   {
     "Country":"Moldova",
     "Year":2024,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.1657,
     "Wind":0.0,
@@ -33770,7 +33770,7 @@
   {
     "Country":"Moldova",
     "Year":2025,
-    "Coal":0.0,
+    "Coal":1.4,
     "Oil and gas":1.168,
     "Utility-scale solar":0.1657,
     "Wind":0.0,
@@ -35234,7 +35234,7 @@
   {
     "Country":"Myanmar",
     "Year":2017,
-    "Coal":0.12,
+    "Coal":0.16,
     "Oil and gas":1.1538,
     "Utility-scale solar":0.0037,
     "Wind":0.0,
@@ -35246,7 +35246,7 @@
   {
     "Country":"Myanmar",
     "Year":2018,
-    "Coal":0.15,
+    "Coal":0.19,
     "Oil and gas":1.4848,
     "Utility-scale solar":0.0037,
     "Wind":0.0,
@@ -35258,7 +35258,7 @@
   {
     "Country":"Myanmar",
     "Year":2019,
-    "Coal":0.15,
+    "Coal":0.19,
     "Oil and gas":1.9243,
     "Utility-scale solar":0.0472,
     "Wind":0.0,
@@ -35270,7 +35270,7 @@
   {
     "Country":"Myanmar",
     "Year":2020,
-    "Coal":0.15,
+    "Coal":0.19,
     "Oil and gas":2.1154,
     "Utility-scale solar":0.0472,
     "Wind":0.0,
@@ -35282,7 +35282,7 @@
   {
     "Country":"Myanmar",
     "Year":2021,
-    "Coal":0.15,
+    "Coal":0.19,
     "Oil and gas":2.1154,
     "Utility-scale solar":0.0752,
     "Wind":0.21,
@@ -35294,7 +35294,7 @@
   {
     "Country":"Myanmar",
     "Year":2022,
-    "Coal":0.15,
+    "Coal":0.19,
     "Oil and gas":2.2504,
     "Utility-scale solar":0.1102636364,
     "Wind":0.21,
@@ -35306,7 +35306,7 @@
   {
     "Country":"Myanmar",
     "Year":2023,
-    "Coal":0.15,
+    "Coal":0.19,
     "Oil and gas":2.2504,
     "Utility-scale solar":0.2972636364,
     "Wind":0.21,
@@ -35318,7 +35318,7 @@
   {
     "Country":"Myanmar",
     "Year":2024,
-    "Coal":0.15,
+    "Coal":0.19,
     "Oil and gas":2.2504,
     "Utility-scale solar":0.2997636364,
     "Wind":0.21,
@@ -35330,7 +35330,7 @@
   {
     "Country":"Myanmar",
     "Year":2025,
-    "Coal":0.18,
+    "Coal":0.22,
     "Oil and gas":3.0774,
     "Utility-scale solar":0.3028636364,
     "Wind":0.21,
@@ -37586,7 +37586,7 @@
   {
     "Country":"Nigeria",
     "Year":2015,
-    "Coal":0.1495,
+    "Coal":0.284,
     "Oil and gas":8.978,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37598,7 +37598,7 @@
   {
     "Country":"Nigeria",
     "Year":2016,
-    "Coal":0.2845,
+    "Coal":0.284,
     "Oil and gas":9.104,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37610,7 +37610,7 @@
   {
     "Country":"Nigeria",
     "Year":2017,
-    "Coal":0.2845,
+    "Coal":0.284,
     "Oil and gas":9.104,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37622,7 +37622,7 @@
   {
     "Country":"Nigeria",
     "Year":2018,
-    "Coal":0.2845,
+    "Coal":0.284,
     "Oil and gas":9.679,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37634,7 +37634,7 @@
   {
     "Country":"Nigeria",
     "Year":2019,
-    "Coal":0.2845,
+    "Coal":0.284,
     "Oil and gas":9.792,
     "Utility-scale solar":0.007245,
     "Wind":0.0,
@@ -37646,7 +37646,7 @@
   {
     "Country":"Nigeria",
     "Year":2020,
-    "Coal":0.2845,
+    "Coal":0.284,
     "Oil and gas":9.918,
     "Utility-scale solar":0.0493250518,
     "Wind":0.0,
@@ -37658,7 +37658,7 @@
   {
     "Country":"Nigeria",
     "Year":2021,
-    "Coal":0.2845,
+    "Coal":0.284,
     "Oil and gas":10.208,
     "Utility-scale solar":0.0493250518,
     "Wind":0.01,
@@ -37670,7 +37670,7 @@
   {
     "Country":"Nigeria",
     "Year":2022,
-    "Coal":0.3445,
+    "Coal":0.344,
     "Oil and gas":10.208,
     "Utility-scale solar":0.0564250518,
     "Wind":0.01,
@@ -37682,7 +37682,7 @@
   {
     "Country":"Nigeria",
     "Year":2023,
-    "Coal":0.3445,
+    "Coal":0.344,
     "Oil and gas":10.258,
     "Utility-scale solar":0.1050517358,
     "Wind":0.01,
@@ -37694,7 +37694,7 @@
   {
     "Country":"Nigeria",
     "Year":2024,
-    "Coal":0.3445,
+    "Coal":0.344,
     "Oil and gas":10.828,
     "Utility-scale solar":0.1231247358,
     "Wind":0.01,
@@ -37706,7 +37706,7 @@
   {
     "Country":"Nigeria",
     "Year":2025,
-    "Coal":0.3445,
+    "Coal":0.344,
     "Oil and gas":10.828,
     "Utility-scale solar":0.1452947358,
     "Wind":0.01,
@@ -37718,7 +37718,7 @@
   {
     "Country":"North Korea",
     "Year":2000,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37730,7 +37730,7 @@
   {
     "Country":"North Korea",
     "Year":2001,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37742,7 +37742,7 @@
   {
     "Country":"North Korea",
     "Year":2002,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37754,7 +37754,7 @@
   {
     "Country":"North Korea",
     "Year":2003,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37766,7 +37766,7 @@
   {
     "Country":"North Korea",
     "Year":2004,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37778,7 +37778,7 @@
   {
     "Country":"North Korea",
     "Year":2005,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37790,7 +37790,7 @@
   {
     "Country":"North Korea",
     "Year":2006,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37802,7 +37802,7 @@
   {
     "Country":"North Korea",
     "Year":2007,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37814,7 +37814,7 @@
   {
     "Country":"North Korea",
     "Year":2008,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37826,7 +37826,7 @@
   {
     "Country":"North Korea",
     "Year":2009,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37838,7 +37838,7 @@
   {
     "Country":"North Korea",
     "Year":2010,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37850,7 +37850,7 @@
   {
     "Country":"North Korea",
     "Year":2011,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37862,7 +37862,7 @@
   {
     "Country":"North Korea",
     "Year":2012,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37874,7 +37874,7 @@
   {
     "Country":"North Korea",
     "Year":2013,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37886,7 +37886,7 @@
   {
     "Country":"North Korea",
     "Year":2014,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37898,7 +37898,7 @@
   {
     "Country":"North Korea",
     "Year":2015,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37910,7 +37910,7 @@
   {
     "Country":"North Korea",
     "Year":2016,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37922,7 +37922,7 @@
   {
     "Country":"North Korea",
     "Year":2017,
-    "Coal":2.45,
+    "Coal":2.9,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37934,7 +37934,7 @@
   {
     "Country":"North Korea",
     "Year":2018,
-    "Coal":3.25,
+    "Coal":3.7,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37946,7 +37946,7 @@
   {
     "Country":"North Korea",
     "Year":2019,
-    "Coal":3.25,
+    "Coal":3.7,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37958,7 +37958,7 @@
   {
     "Country":"North Korea",
     "Year":2020,
-    "Coal":3.25,
+    "Coal":3.7,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37970,7 +37970,7 @@
   {
     "Country":"North Korea",
     "Year":2021,
-    "Coal":3.25,
+    "Coal":3.7,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37982,7 +37982,7 @@
   {
     "Country":"North Korea",
     "Year":2022,
-    "Coal":3.25,
+    "Coal":3.7,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -37994,7 +37994,7 @@
   {
     "Country":"North Korea",
     "Year":2023,
-    "Coal":3.25,
+    "Coal":3.7,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -38006,7 +38006,7 @@
   {
     "Country":"North Korea",
     "Year":2024,
-    "Coal":3.25,
+    "Coal":3.7,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -38018,7 +38018,7 @@
   {
     "Country":"North Korea",
     "Year":2025,
-    "Coal":3.25,
+    "Coal":3.7,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -38966,7 +38966,7 @@
   {
     "Country":"Pakistan",
     "Year":2000,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.1769,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -38978,7 +38978,7 @@
   {
     "Country":"Pakistan",
     "Year":2001,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.4119,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -38990,7 +38990,7 @@
   {
     "Country":"Pakistan",
     "Year":2002,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.4119,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39002,7 +39002,7 @@
   {
     "Country":"Pakistan",
     "Year":2003,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.4119,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39014,7 +39014,7 @@
   {
     "Country":"Pakistan",
     "Year":2004,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.4119,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39026,7 +39026,7 @@
   {
     "Country":"Pakistan",
     "Year":2005,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.4119,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39038,7 +39038,7 @@
   {
     "Country":"Pakistan",
     "Year":2006,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.4119,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39050,7 +39050,7 @@
   {
     "Country":"Pakistan",
     "Year":2007,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.4119,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39062,7 +39062,7 @@
   {
     "Country":"Pakistan",
     "Year":2008,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.4119,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39074,7 +39074,7 @@
   {
     "Country":"Pakistan",
     "Year":2009,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":10.9692,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39086,7 +39086,7 @@
   {
     "Country":"Pakistan",
     "Year":2010,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":12.271,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39098,7 +39098,7 @@
   {
     "Country":"Pakistan",
     "Year":2011,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":12.8809,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -39110,7 +39110,7 @@
   {
     "Country":"Pakistan",
     "Year":2012,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":13.6718,
     "Utility-scale solar":0.0,
     "Wind":0.05,
@@ -39122,7 +39122,7 @@
   {
     "Country":"Pakistan",
     "Year":2013,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":13.6718,
     "Utility-scale solar":0.0,
     "Wind":0.1,
@@ -39134,7 +39134,7 @@
   {
     "Country":"Pakistan",
     "Year":2014,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":15.3898,
     "Utility-scale solar":0.0,
     "Wind":0.2,
@@ -39146,7 +39146,7 @@
   {
     "Country":"Pakistan",
     "Year":2015,
-    "Coal":0.0,
+    "Coal":0.15,
     "Oil and gas":15.6378,
     "Utility-scale solar":0.1,
     "Wind":0.3,
@@ -39158,7 +39158,7 @@
   {
     "Country":"Pakistan",
     "Year":2016,
-    "Coal":0.07,
+    "Coal":0.22,
     "Oil and gas":15.6378,
     "Utility-scale solar":0.374,
     "Wind":0.583,
@@ -39170,7 +39170,7 @@
   {
     "Country":"Pakistan",
     "Year":2017,
-    "Coal":2.328,
+    "Coal":2.478,
     "Oil and gas":15.7378,
     "Utility-scale solar":0.4014,
     "Wind":0.932,
@@ -39182,7 +39182,7 @@
   {
     "Country":"Pakistan",
     "Year":2018,
-    "Coal":2.988,
+    "Coal":3.138,
     "Oil and gas":19.4678,
     "Utility-scale solar":0.4646,
     "Wind":1.181,
@@ -39194,7 +39194,7 @@
   {
     "Country":"Pakistan",
     "Year":2019,
-    "Coal":4.968,
+    "Coal":5.118,
     "Oil and gas":19.4678,
     "Utility-scale solar":0.539475,
     "Wind":1.231,
@@ -39206,7 +39206,7 @@
   {
     "Country":"Pakistan",
     "Year":2020,
-    "Coal":4.968,
+    "Coal":5.118,
     "Oil and gas":19.3358,
     "Utility-scale solar":0.577575,
     "Wind":1.231,
@@ -39218,7 +39218,7 @@
   {
     "Country":"Pakistan",
     "Year":2021,
-    "Coal":4.998,
+    "Coal":5.148,
     "Oil and gas":19.3358,
     "Utility-scale solar":0.651375,
     "Wind":1.331,
@@ -39230,7 +39230,7 @@
   {
     "Country":"Pakistan",
     "Year":2022,
-    "Coal":5.988,
+    "Coal":6.138,
     "Oil and gas":19.5988,
     "Utility-scale solar":0.8781105532,
     "Wind":1.841,
@@ -39242,7 +39242,7 @@
   {
     "Country":"Pakistan",
     "Year":2023,
-    "Coal":7.638,
+    "Coal":7.788,
     "Oil and gas":20.8618,
     "Utility-scale solar":1.0465630773,
     "Wind":1.841,
@@ -39254,7 +39254,7 @@
   {
     "Country":"Pakistan",
     "Year":2024,
-    "Coal":7.638,
+    "Coal":7.788,
     "Oil and gas":20.8618,
     "Utility-scale solar":1.2754630773,
     "Wind":1.941,
@@ -39266,7 +39266,7 @@
   {
     "Country":"Pakistan",
     "Year":2025,
-    "Coal":8.298,
+    "Coal":8.448,
     "Oil and gas":20.8618,
     "Utility-scale solar":1.2971630773,
     "Wind":1.941,
@@ -40754,7 +40754,7 @@
   {
     "Country":"Philippines",
     "Year":2010,
-    "Coal":4.7085,
+    "Coal":4.708,
     "Oil and gas":4.753,
     "Utility-scale solar":0.0,
     "Wind":0.033,
@@ -40790,7 +40790,7 @@
   {
     "Country":"Philippines",
     "Year":2013,
-    "Coal":5.7746,
+    "Coal":5.775,
     "Oil and gas":5.1084,
     "Utility-scale solar":0.0,
     "Wind":0.033,
@@ -40802,7 +40802,7 @@
   {
     "Country":"Philippines",
     "Year":2014,
-    "Coal":5.8566,
+    "Coal":5.857,
     "Oil and gas":5.1084,
     "Utility-scale solar":0.01914,
     "Wind":0.202,
@@ -40814,7 +40814,7 @@
   {
     "Country":"Philippines",
     "Year":2015,
-    "Coal":6.3366,
+    "Coal":6.337,
     "Oil and gas":5.2084,
     "Utility-scale solar":0.10092,
     "Wind":0.346,
@@ -40826,7 +40826,7 @@
   {
     "Country":"Philippines",
     "Year":2016,
-    "Coal":7.4486,
+    "Coal":7.449,
     "Oil and gas":5.6284,
     "Utility-scale solar":0.6272142778,
     "Wind":0.346,
@@ -40838,7 +40838,7 @@
   {
     "Country":"Philippines",
     "Year":2017,
-    "Coal":8.0316,
+    "Coal":8.032,
     "Oil and gas":5.6284,
     "Utility-scale solar":0.7047642778,
     "Wind":0.346,
@@ -40850,7 +40850,7 @@
   {
     "Country":"Philippines",
     "Year":2018,
-    "Coal":8.7356,
+    "Coal":8.736,
     "Oil and gas":5.6284,
     "Utility-scale solar":0.7047642778,
     "Wind":0.346,
@@ -40862,7 +40862,7 @@
   {
     "Country":"Philippines",
     "Year":2019,
-    "Coal":10.2566,
+    "Coal":10.257,
     "Oil and gas":5.6284,
     "Utility-scale solar":0.7872830278,
     "Wind":0.362,
@@ -40874,7 +40874,7 @@
   {
     "Country":"Philippines",
     "Year":2020,
-    "Coal":10.7464,
+    "Coal":10.746,
     "Oil and gas":5.6284,
     "Utility-scale solar":0.9218309444,
     "Wind":0.362,
@@ -40886,7 +40886,7 @@
   {
     "Country":"Philippines",
     "Year":2021,
-    "Coal":10.7464,
+    "Coal":10.746,
     "Oil and gas":5.7791,
     "Utility-scale solar":1.1248889444,
     "Wind":0.362,
@@ -40898,7 +40898,7 @@
   {
     "Country":"Philippines",
     "Year":2022,
-    "Coal":12.0824,
+    "Coal":12.082,
     "Oil and gas":5.7791,
     "Utility-scale solar":1.3567759444,
     "Wind":0.362,
@@ -40910,7 +40910,7 @@
   {
     "Country":"Philippines",
     "Year":2023,
-    "Coal":12.0424,
+    "Coal":12.042,
     "Oil and gas":5.7791,
     "Utility-scale solar":1.5464106667,
     "Wind":0.362,
@@ -40922,7 +40922,7 @@
   {
     "Country":"Philippines",
     "Year":2024,
-    "Coal":12.4924,
+    "Coal":12.492,
     "Oil and gas":5.7791,
     "Utility-scale solar":2.5320505556,
     "Wind":0.522,
@@ -40934,7 +40934,7 @@
   {
     "Country":"Philippines",
     "Year":2025,
-    "Coal":12.6424,
+    "Coal":12.642,
     "Oil and gas":6.6541,
     "Utility-scale solar":3.1304841944,
     "Wind":0.522,
@@ -40946,7 +40946,7 @@
   {
     "Country":"Poland",
     "Year":2000,
-    "Coal":29.1606,
+    "Coal":29.161,
     "Oil and gas":0.393,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -40958,7 +40958,7 @@
   {
     "Country":"Poland",
     "Year":2001,
-    "Coal":29.1606,
+    "Coal":29.161,
     "Oil and gas":0.393,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -40970,7 +40970,7 @@
   {
     "Country":"Poland",
     "Year":2002,
-    "Coal":29.5066,
+    "Coal":29.507,
     "Oil and gas":0.66,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -40982,7 +40982,7 @@
   {
     "Country":"Poland",
     "Year":2003,
-    "Coal":29.5646,
+    "Coal":29.565,
     "Oil and gas":0.761,
     "Utility-scale solar":0.0,
     "Wind":0.05,
@@ -40994,7 +40994,7 @@
   {
     "Country":"Poland",
     "Year":2004,
-    "Coal":29.5646,
+    "Coal":29.565,
     "Oil and gas":0.959,
     "Utility-scale solar":0.0,
     "Wind":0.05,
@@ -41006,7 +41006,7 @@
   {
     "Country":"Poland",
     "Year":2005,
-    "Coal":29.5646,
+    "Coal":29.565,
     "Oil and gas":0.959,
     "Utility-scale solar":0.0,
     "Wind":0.061,
@@ -41018,7 +41018,7 @@
   {
     "Country":"Poland",
     "Year":2006,
-    "Coal":29.5646,
+    "Coal":29.565,
     "Oil and gas":0.959,
     "Utility-scale solar":0.0,
     "Wind":0.152,
@@ -41030,7 +41030,7 @@
   {
     "Country":"Poland",
     "Year":2007,
-    "Coal":29.4976,
+    "Coal":29.498,
     "Oil and gas":1.001,
     "Utility-scale solar":0.0,
     "Wind":0.279,
@@ -41042,7 +41042,7 @@
   {
     "Country":"Poland",
     "Year":2008,
-    "Coal":29.8996,
+    "Coal":29.9,
     "Oil and gas":1.022,
     "Utility-scale solar":0.0,
     "Wind":0.429,
@@ -41054,7 +41054,7 @@
   {
     "Country":"Poland",
     "Year":2009,
-    "Coal":30.1196,
+    "Coal":30.12,
     "Oil and gas":1.022,
     "Utility-scale solar":0.0,
     "Wind":0.706,
@@ -41066,7 +41066,7 @@
   {
     "Country":"Poland",
     "Year":2010,
-    "Coal":29.9836,
+    "Coal":29.984,
     "Oil and gas":1.022,
     "Utility-scale solar":0.0,
     "Wind":1.05,
@@ -41078,7 +41078,7 @@
   {
     "Country":"Poland",
     "Year":2011,
-    "Coal":30.6166,
+    "Coal":30.617,
     "Oil and gas":1.022,
     "Utility-scale solar":0.0,
     "Wind":1.417,
@@ -41090,7 +41090,7 @@
   {
     "Country":"Poland",
     "Year":2012,
-    "Coal":29.8326,
+    "Coal":29.833,
     "Oil and gas":1.062,
     "Utility-scale solar":0.0,
     "Wind":2.024,
@@ -41102,7 +41102,7 @@
   {
     "Country":"Poland",
     "Year":2013,
-    "Coal":29.3766,
+    "Coal":29.377,
     "Oil and gas":1.062,
     "Utility-scale solar":0.0,
     "Wind":2.562,
@@ -41114,7 +41114,7 @@
   {
     "Country":"Poland",
     "Year":2014,
-    "Coal":28.9966,
+    "Coal":28.997,
     "Oil and gas":1.1115,
     "Utility-scale solar":0.0,
     "Wind":3.002,
@@ -41126,7 +41126,7 @@
   {
     "Country":"Poland",
     "Year":2015,
-    "Coal":28.7586,
+    "Coal":28.759,
     "Oil and gas":1.1825,
     "Utility-scale solar":0.0,
     "Wind":4.383,
@@ -41138,7 +41138,7 @@
   {
     "Country":"Poland",
     "Year":2016,
-    "Coal":28.5836,
+    "Coal":28.584,
     "Oil and gas":1.1825,
     "Utility-scale solar":0.0,
     "Wind":4.464,
@@ -41150,7 +41150,7 @@
   {
     "Country":"Poland",
     "Year":2017,
-    "Coal":29.0586,
+    "Coal":29.059,
     "Oil and gas":1.8955,
     "Utility-scale solar":0.0,
     "Wind":4.584,
@@ -41162,7 +41162,7 @@
   {
     "Country":"Poland",
     "Year":2018,
-    "Coal":29.2146,
+    "Coal":29.215,
     "Oil and gas":2.5255,
     "Utility-scale solar":0.0,
     "Wind":4.596,
@@ -41174,7 +41174,7 @@
   {
     "Country":"Poland",
     "Year":2019,
-    "Coal":30.3016,
+    "Coal":30.302,
     "Oil and gas":2.5255,
     "Utility-scale solar":0.00609,
     "Wind":4.638,
@@ -41186,7 +41186,7 @@
   {
     "Country":"Poland",
     "Year":2020,
-    "Coal":29.4066,
+    "Coal":29.407,
     "Oil and gas":2.9755,
     "Utility-scale solar":0.08999,
     "Wind":5.097,
@@ -41198,7 +41198,7 @@
   {
     "Country":"Poland",
     "Year":2021,
-    "Coal":29.1366,
+    "Coal":29.137,
     "Oil and gas":3.4655,
     "Utility-scale solar":0.20657,
     "Wind":6.015,
@@ -41210,7 +41210,7 @@
   {
     "Country":"Poland",
     "Year":2022,
-    "Coal":29.0716,
+    "Coal":29.072,
     "Oil and gas":3.474,
     "Utility-scale solar":0.4785102703,
     "Wind":7.035,
@@ -41222,7 +41222,7 @@
   {
     "Country":"Poland",
     "Year":2023,
-    "Coal":28.6216,
+    "Coal":28.622,
     "Oil and gas":3.474,
     "Utility-scale solar":1.3468824324,
     "Wind":7.605,
@@ -42506,7 +42506,7 @@
   {
     "Country":"Romania",
     "Year":2000,
-    "Coal":7.37,
+    "Coal":7.685,
     "Oil and gas":1.81,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42518,7 +42518,7 @@
   {
     "Country":"Romania",
     "Year":2001,
-    "Coal":7.37,
+    "Coal":7.685,
     "Oil and gas":1.87,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42530,7 +42530,7 @@
   {
     "Country":"Romania",
     "Year":2002,
-    "Coal":7.37,
+    "Coal":7.685,
     "Oil and gas":1.87,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42542,7 +42542,7 @@
   {
     "Country":"Romania",
     "Year":2003,
-    "Coal":7.37,
+    "Coal":7.685,
     "Oil and gas":1.87,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42554,7 +42554,7 @@
   {
     "Country":"Romania",
     "Year":2004,
-    "Coal":7.37,
+    "Coal":7.685,
     "Oil and gas":1.87,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42566,7 +42566,7 @@
   {
     "Country":"Romania",
     "Year":2005,
-    "Coal":7.37,
+    "Coal":7.685,
     "Oil and gas":1.87,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42578,7 +42578,7 @@
   {
     "Country":"Romania",
     "Year":2006,
-    "Coal":7.04,
+    "Coal":7.355,
     "Oil and gas":1.87,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42590,7 +42590,7 @@
   {
     "Country":"Romania",
     "Year":2007,
-    "Coal":7.04,
+    "Coal":7.355,
     "Oil and gas":1.931,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42602,7 +42602,7 @@
   {
     "Country":"Romania",
     "Year":2008,
-    "Coal":6.84,
+    "Coal":7.155,
     "Oil and gas":1.931,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42614,7 +42614,7 @@
   {
     "Country":"Romania",
     "Year":2009,
-    "Coal":6.84,
+    "Coal":7.155,
     "Oil and gas":2.1173,
     "Utility-scale solar":0.0,
     "Wind":0.027,
@@ -42626,7 +42626,7 @@
   {
     "Country":"Romania",
     "Year":2010,
-    "Coal":6.79,
+    "Coal":7.105,
     "Oil and gas":2.1433,
     "Utility-scale solar":0.0,
     "Wind":0.19,
@@ -42638,7 +42638,7 @@
   {
     "Country":"Romania",
     "Year":2011,
-    "Coal":6.79,
+    "Coal":7.105,
     "Oil and gas":2.1433,
     "Utility-scale solar":0.0,
     "Wind":0.635,
@@ -42650,7 +42650,7 @@
   {
     "Country":"Romania",
     "Year":2012,
-    "Coal":6.58,
+    "Coal":6.895,
     "Oil and gas":3.0033,
     "Utility-scale solar":0.0,
     "Wind":2.831,
@@ -42662,7 +42662,7 @@
   {
     "Country":"Romania",
     "Year":2013,
-    "Coal":6.43,
+    "Coal":6.745,
     "Oil and gas":3.0033,
     "Utility-scale solar":0.21716,
     "Wind":4.206,
@@ -42674,7 +42674,7 @@
   {
     "Country":"Romania",
     "Year":2014,
-    "Coal":6.43,
+    "Coal":6.745,
     "Oil and gas":3.0033,
     "Utility-scale solar":0.3932457895,
     "Wind":4.449,
@@ -42686,7 +42686,7 @@
   {
     "Country":"Romania",
     "Year":2015,
-    "Coal":5.7,
+    "Coal":6.015,
     "Oil and gas":3.0033,
     "Utility-scale solar":0.3932457895,
     "Wind":4.614,
@@ -42698,7 +42698,7 @@
   {
     "Country":"Romania",
     "Year":2016,
-    "Coal":5.6,
+    "Coal":5.915,
     "Oil and gas":3.0488,
     "Utility-scale solar":0.3932457895,
     "Wind":4.626,
@@ -42710,7 +42710,7 @@
   {
     "Country":"Romania",
     "Year":2017,
-    "Coal":5.6,
+    "Coal":5.915,
     "Oil and gas":3.0488,
     "Utility-scale solar":1.8767457895,
     "Wind":4.707,
@@ -42722,7 +42722,7 @@
   {
     "Country":"Romania",
     "Year":2018,
-    "Coal":5.6,
+    "Coal":5.915,
     "Oil and gas":3.0488,
     "Utility-scale solar":1.9124457895,
     "Wind":4.717,
@@ -42734,7 +42734,7 @@
   {
     "Country":"Romania",
     "Year":2019,
-    "Coal":4.64,
+    "Coal":4.955,
     "Oil and gas":3.0488,
     "Utility-scale solar":1.9395457895,
     "Wind":4.717,
@@ -42746,7 +42746,7 @@
   {
     "Country":"Romania",
     "Year":2020,
-    "Coal":4.64,
+    "Coal":4.955,
     "Oil and gas":3.0488,
     "Utility-scale solar":1.9420457895,
     "Wind":4.717,
@@ -42758,7 +42758,7 @@
   {
     "Country":"Romania",
     "Year":2021,
-    "Coal":2.92,
+    "Coal":3.235,
     "Oil and gas":3.0698,
     "Utility-scale solar":1.9525457895,
     "Wind":4.717,
@@ -42770,7 +42770,7 @@
   {
     "Country":"Romania",
     "Year":2022,
-    "Coal":2.92,
+    "Coal":3.235,
     "Oil and gas":3.0698,
     "Utility-scale solar":2.0281457895,
     "Wind":4.717,
@@ -42782,7 +42782,7 @@
   {
     "Country":"Romania",
     "Year":2023,
-    "Coal":2.59,
+    "Coal":2.905,
     "Oil and gas":3.0698,
     "Utility-scale solar":2.5305589474,
     "Wind":4.717,
@@ -42794,7 +42794,7 @@
   {
     "Country":"Romania",
     "Year":2024,
-    "Coal":2.59,
+    "Coal":2.905,
     "Oil and gas":3.0698,
     "Utility-scale solar":2.9894704211,
     "Wind":4.825,
@@ -42806,7 +42806,7 @@
   {
     "Country":"Romania",
     "Year":2025,
-    "Coal":2.2,
+    "Coal":2.515,
     "Oil and gas":3.3498,
     "Utility-scale solar":3.462642,
     "Wind":4.873,
@@ -42818,7 +42818,7 @@
   {
     "Country":"Russia",
     "Year":2000,
-    "Coal":40.9796,
+    "Coal":40.98,
     "Oil and gas":74.932,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42830,7 +42830,7 @@
   {
     "Country":"Russia",
     "Year":2001,
-    "Coal":41.1946,
+    "Coal":41.195,
     "Oil and gas":75.244,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42842,7 +42842,7 @@
   {
     "Country":"Russia",
     "Year":2002,
-    "Coal":41.1446,
+    "Coal":41.145,
     "Oil and gas":75.465,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42854,7 +42854,7 @@
   {
     "Country":"Russia",
     "Year":2003,
-    "Coal":41.3786,
+    "Coal":41.379,
     "Oil and gas":76.375,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42866,7 +42866,7 @@
   {
     "Country":"Russia",
     "Year":2004,
-    "Coal":41.5886,
+    "Coal":41.589,
     "Oil and gas":76.375,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42878,7 +42878,7 @@
   {
     "Country":"Russia",
     "Year":2005,
-    "Coal":41.9886,
+    "Coal":41.989,
     "Oil and gas":77.335,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42890,7 +42890,7 @@
   {
     "Country":"Russia",
     "Year":2006,
-    "Coal":42.1686,
+    "Coal":42.169,
     "Oil and gas":78.315,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42902,7 +42902,7 @@
   {
     "Country":"Russia",
     "Year":2007,
-    "Coal":42.1686,
+    "Coal":42.169,
     "Oil and gas":78.6,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42914,7 +42914,7 @@
   {
     "Country":"Russia",
     "Year":2008,
-    "Coal":42.2186,
+    "Coal":42.219,
     "Oil and gas":80.895,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42926,7 +42926,7 @@
   {
     "Country":"Russia",
     "Year":2009,
-    "Coal":42.4926,
+    "Coal":42.493,
     "Oil and gas":81.5333,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42938,7 +42938,7 @@
   {
     "Country":"Russia",
     "Year":2010,
-    "Coal":42.4926,
+    "Coal":42.493,
     "Oil and gas":82.6913,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -42998,7 +42998,7 @@
   {
     "Country":"Russia",
     "Year":2015,
-    "Coal":43.153,
+    "Coal":43.262,
     "Oil and gas":100.89318,
     "Utility-scale solar":0.0350427039,
     "Wind":0.0,
@@ -43010,7 +43010,7 @@
   {
     "Country":"Russia",
     "Year":2016,
-    "Coal":43.087,
+    "Coal":43.196,
     "Oil and gas":102.86908,
     "Utility-scale solar":0.0539045064,
     "Wind":0.0,
@@ -43022,7 +43022,7 @@
   {
     "Country":"Russia",
     "Year":2017,
-    "Coal":41.662,
+    "Coal":41.771,
     "Oil and gas":105.49208,
     "Utility-scale solar":0.2083107296,
     "Wind":0.0,
@@ -43034,7 +43034,7 @@
   {
     "Country":"Russia",
     "Year":2018,
-    "Coal":41.263,
+    "Coal":41.372,
     "Oil and gas":106.75148,
     "Utility-scale solar":0.4561523605,
     "Wind":0.035,
@@ -43046,7 +43046,7 @@
   {
     "Country":"Russia",
     "Year":2019,
-    "Coal":40.699,
+    "Coal":40.808,
     "Oil and gas":107.57348,
     "Utility-scale solar":0.8795009871,
     "Wind":0.085,
@@ -43058,7 +43058,7 @@
   {
     "Country":"Russia",
     "Year":2020,
-    "Coal":40.162,
+    "Coal":40.222,
     "Oil and gas":107.05748,
     "Utility-scale solar":1.1465004378,
     "Wind":0.8,
@@ -43070,7 +43070,7 @@
   {
     "Country":"Russia",
     "Year":2021,
-    "Coal":38.865,
+    "Coal":38.925,
     "Oil and gas":106.56048,
     "Utility-scale solar":1.4222802661,
     "Wind":1.9372,
@@ -43082,7 +43082,7 @@
   {
     "Country":"Russia",
     "Year":2022,
-    "Coal":38.388,
+    "Coal":38.448,
     "Oil and gas":107.27748,
     "Utility-scale solar":1.5076116052,
     "Wind":2.1382,
@@ -44606,7 +44606,7 @@
   {
     "Country":"Serbia",
     "Year":2000,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44618,7 +44618,7 @@
   {
     "Country":"Serbia",
     "Year":2001,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44630,7 +44630,7 @@
   {
     "Country":"Serbia",
     "Year":2002,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44642,7 +44642,7 @@
   {
     "Country":"Serbia",
     "Year":2003,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44654,7 +44654,7 @@
   {
     "Country":"Serbia",
     "Year":2004,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44666,7 +44666,7 @@
   {
     "Country":"Serbia",
     "Year":2005,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44678,7 +44678,7 @@
   {
     "Country":"Serbia",
     "Year":2006,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44690,7 +44690,7 @@
   {
     "Country":"Serbia",
     "Year":2007,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44702,7 +44702,7 @@
   {
     "Country":"Serbia",
     "Year":2008,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -44714,7 +44714,7 @@
   {
     "Country":"Serbia",
     "Year":2009,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -44726,7 +44726,7 @@
   {
     "Country":"Serbia",
     "Year":2010,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -44738,7 +44738,7 @@
   {
     "Country":"Serbia",
     "Year":2011,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -44750,7 +44750,7 @@
   {
     "Country":"Serbia",
     "Year":2012,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -44762,7 +44762,7 @@
   {
     "Country":"Serbia",
     "Year":2013,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -44774,7 +44774,7 @@
   {
     "Country":"Serbia",
     "Year":2014,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -44786,7 +44786,7 @@
   {
     "Country":"Serbia",
     "Year":2015,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -44798,7 +44798,7 @@
   {
     "Country":"Serbia",
     "Year":2016,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0,
     "Wind":0.02,
@@ -44810,7 +44810,7 @@
   {
     "Country":"Serbia",
     "Year":2017,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0115,
     "Wind":0.02,
@@ -44822,7 +44822,7 @@
   {
     "Country":"Serbia",
     "Year":2018,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0221,
     "Wind":0.062,
@@ -44834,7 +44834,7 @@
   {
     "Country":"Serbia",
     "Year":2019,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0256,
     "Wind":0.394,
@@ -44846,7 +44846,7 @@
   {
     "Country":"Serbia",
     "Year":2020,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0256,
     "Wind":0.394,
@@ -44858,7 +44858,7 @@
   {
     "Country":"Serbia",
     "Year":2021,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.405,
     "Utility-scale solar":0.0269,
     "Wind":0.394,
@@ -44870,7 +44870,7 @@
   {
     "Country":"Serbia",
     "Year":2022,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.594,
     "Utility-scale solar":0.0318,
     "Wind":0.394,
@@ -44882,7 +44882,7 @@
   {
     "Country":"Serbia",
     "Year":2023,
-    "Coal":4.435,
+    "Coal":4.467,
     "Oil and gas":0.594,
     "Utility-scale solar":0.0744,
     "Wind":0.394,
@@ -44894,7 +44894,7 @@
   {
     "Country":"Serbia",
     "Year":2024,
-    "Coal":4.785,
+    "Coal":4.817,
     "Oil and gas":0.594,
     "Utility-scale solar":0.1394,
     "Wind":0.5941,
@@ -44906,7 +44906,7 @@
   {
     "Country":"Serbia",
     "Year":2025,
-    "Coal":4.785,
+    "Coal":4.817,
     "Oil and gas":0.594,
     "Utility-scale solar":0.196548113,
     "Wind":0.5941,
@@ -46058,7 +46058,7 @@
   {
     "Country":"Slovenia",
     "Year":2000,
-    "Coal":0.659,
+    "Coal":1.004,
     "Oil and gas":0.297,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46070,7 +46070,7 @@
   {
     "Country":"Slovenia",
     "Year":2001,
-    "Coal":0.659,
+    "Coal":1.004,
     "Oil and gas":0.297,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46082,7 +46082,7 @@
   {
     "Country":"Slovenia",
     "Year":2002,
-    "Coal":0.659,
+    "Coal":1.004,
     "Oil and gas":0.297,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46094,7 +46094,7 @@
   {
     "Country":"Slovenia",
     "Year":2003,
-    "Coal":0.659,
+    "Coal":1.004,
     "Oil and gas":0.297,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46106,7 +46106,7 @@
   {
     "Country":"Slovenia",
     "Year":2004,
-    "Coal":0.659,
+    "Coal":1.004,
     "Oil and gas":0.297,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46118,7 +46118,7 @@
   {
     "Country":"Slovenia",
     "Year":2005,
-    "Coal":0.659,
+    "Coal":1.004,
     "Oil and gas":0.297,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46130,7 +46130,7 @@
   {
     "Country":"Slovenia",
     "Year":2006,
-    "Coal":0.659,
+    "Coal":1.004,
     "Oil and gas":0.297,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46142,7 +46142,7 @@
   {
     "Country":"Slovenia",
     "Year":2007,
-    "Coal":0.659,
+    "Coal":1.004,
     "Oil and gas":0.297,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46154,7 +46154,7 @@
   {
     "Country":"Slovenia",
     "Year":2008,
-    "Coal":0.629,
+    "Coal":0.974,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46166,7 +46166,7 @@
   {
     "Country":"Slovenia",
     "Year":2009,
-    "Coal":0.629,
+    "Coal":0.974,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46178,7 +46178,7 @@
   {
     "Country":"Slovenia",
     "Year":2010,
-    "Coal":0.599,
+    "Coal":0.944,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46190,7 +46190,7 @@
   {
     "Country":"Slovenia",
     "Year":2011,
-    "Coal":0.599,
+    "Coal":0.944,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46202,7 +46202,7 @@
   {
     "Country":"Slovenia",
     "Year":2012,
-    "Coal":0.599,
+    "Coal":0.944,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46214,7 +46214,7 @@
   {
     "Country":"Slovenia",
     "Year":2013,
-    "Coal":0.599,
+    "Coal":0.944,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46226,7 +46226,7 @@
   {
     "Country":"Slovenia",
     "Year":2014,
-    "Coal":0.524,
+    "Coal":0.869,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46238,7 +46238,7 @@
   {
     "Country":"Slovenia",
     "Year":2015,
-    "Coal":1.124,
+    "Coal":1.469,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46250,7 +46250,7 @@
   {
     "Country":"Slovenia",
     "Year":2016,
-    "Coal":1.124,
+    "Coal":1.469,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46262,7 +46262,7 @@
   {
     "Country":"Slovenia",
     "Year":2017,
-    "Coal":1.124,
+    "Coal":1.469,
     "Oil and gas":0.381,
     "Utility-scale solar":0.0391,
     "Wind":0.0,
@@ -46274,7 +46274,7 @@
   {
     "Country":"Slovenia",
     "Year":2018,
-    "Coal":0.724,
+    "Coal":1.069,
     "Oil and gas":0.434,
     "Utility-scale solar":0.0546,
     "Wind":0.0,
@@ -46286,7 +46286,7 @@
   {
     "Country":"Slovenia",
     "Year":2019,
-    "Coal":0.724,
+    "Coal":1.069,
     "Oil and gas":0.434,
     "Utility-scale solar":0.0546,
     "Wind":0.0,
@@ -46298,7 +46298,7 @@
   {
     "Country":"Slovenia",
     "Year":2020,
-    "Coal":0.724,
+    "Coal":1.069,
     "Oil and gas":0.49,
     "Utility-scale solar":0.0546,
     "Wind":0.0,
@@ -46310,7 +46310,7 @@
   {
     "Country":"Slovenia",
     "Year":2021,
-    "Coal":0.724,
+    "Coal":1.069,
     "Oil and gas":0.421,
     "Utility-scale solar":0.0546,
     "Wind":0.0,
@@ -46322,7 +46322,7 @@
   {
     "Country":"Slovenia",
     "Year":2022,
-    "Coal":0.724,
+    "Coal":1.069,
     "Oil and gas":0.421,
     "Utility-scale solar":0.0675544549,
     "Wind":0.0,
@@ -46334,7 +46334,7 @@
   {
     "Country":"Slovenia",
     "Year":2023,
-    "Coal":0.724,
+    "Coal":1.069,
     "Oil and gas":0.421,
     "Utility-scale solar":0.0799544549,
     "Wind":0.0,
@@ -46346,7 +46346,7 @@
   {
     "Country":"Slovenia",
     "Year":2024,
-    "Coal":0.724,
+    "Coal":1.069,
     "Oil and gas":0.535,
     "Utility-scale solar":0.0845544549,
     "Wind":0.0,
@@ -46358,7 +46358,7 @@
   {
     "Country":"Slovenia",
     "Year":2025,
-    "Coal":0.724,
+    "Coal":1.069,
     "Oil and gas":0.535,
     "Utility-scale solar":0.0930696226,
     "Wind":0.0,
@@ -46610,7 +46610,7 @@
   {
     "Country":"South Africa",
     "Year":2000,
-    "Coal":35.9193,
+    "Coal":38.389,
     "Oil and gas":0.342,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46622,7 +46622,7 @@
   {
     "Country":"South Africa",
     "Year":2001,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":0.342,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46634,7 +46634,7 @@
   {
     "Country":"South Africa",
     "Year":2002,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":0.342,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46646,7 +46646,7 @@
   {
     "Country":"South Africa",
     "Year":2003,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":0.342,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46658,7 +46658,7 @@
   {
     "Country":"South Africa",
     "Year":2004,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":0.342,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46670,7 +46670,7 @@
   {
     "Country":"South Africa",
     "Year":2005,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":0.342,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46682,7 +46682,7 @@
   {
     "Country":"South Africa",
     "Year":2006,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":0.342,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46694,7 +46694,7 @@
   {
     "Country":"South Africa",
     "Year":2007,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":1.3828,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46706,7 +46706,7 @@
   {
     "Country":"South Africa",
     "Year":2008,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":1.3828,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46718,7 +46718,7 @@
   {
     "Country":"South Africa",
     "Year":2009,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":2.4203,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46730,7 +46730,7 @@
   {
     "Country":"South Africa",
     "Year":2010,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":2.4203,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -46742,7 +46742,7 @@
   {
     "Country":"South Africa",
     "Year":2011,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":2.7003,
     "Utility-scale solar":0.0,
     "Wind":0.138,
@@ -46754,7 +46754,7 @@
   {
     "Country":"South Africa",
     "Year":2012,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":2.7003,
     "Utility-scale solar":0.0,
     "Wind":0.238,
@@ -46766,7 +46766,7 @@
   {
     "Country":"South Africa",
     "Year":2013,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":2.7003,
     "Utility-scale solar":0.0890682778,
     "Wind":0.238,
@@ -46778,7 +46778,7 @@
   {
     "Country":"South Africa",
     "Year":2014,
-    "Coal":36.6353,
+    "Coal":39.105,
     "Oil and gas":2.7003,
     "Utility-scale solar":0.9927468704,
     "Wind":0.661,
@@ -46790,7 +46790,7 @@
   {
     "Country":"South Africa",
     "Year":2015,
-    "Coal":37.4301,
+    "Coal":39.9,
     "Oil and gas":3.0353,
     "Utility-scale solar":1.1273977963,
     "Wind":1.095,
@@ -46802,7 +46802,7 @@
   {
     "Country":"South Africa",
     "Year":2016,
-    "Coal":37.4301,
+    "Coal":39.9,
     "Oil and gas":3.7053,
     "Utility-scale solar":1.5849677963,
     "Wind":1.517,
@@ -46814,7 +46814,7 @@
   {
     "Country":"South Africa",
     "Year":2017,
-    "Coal":39.0197,
+    "Coal":41.49,
     "Oil and gas":3.7053,
     "Utility-scale solar":1.9352777963,
     "Wind":2.281,
@@ -46826,7 +46826,7 @@
   {
     "Country":"South Africa",
     "Year":2018,
-    "Coal":39.8197,
+    "Coal":42.29,
     "Oil and gas":3.7053,
     "Utility-scale solar":2.1569777963,
     "Wind":2.546,
@@ -46838,7 +46838,7 @@
   {
     "Country":"South Africa",
     "Year":2019,
-    "Coal":41.4093,
+    "Coal":43.879,
     "Oil and gas":3.7053,
     "Utility-scale solar":2.2485977963,
     "Wind":2.546,
@@ -46850,7 +46850,7 @@
   {
     "Country":"South Africa",
     "Year":2020,
-    "Coal":42.2093,
+    "Coal":44.679,
     "Oil and gas":3.7053,
     "Utility-scale solar":2.7428777963,
     "Wind":2.857,
@@ -46862,7 +46862,7 @@
   {
     "Country":"South Africa",
     "Year":2021,
-    "Coal":43.8041,
+    "Coal":46.274,
     "Oil and gas":3.7053,
     "Utility-scale solar":2.9706277963,
     "Wind":3.39,
@@ -46874,7 +46874,7 @@
   {
     "Country":"South Africa",
     "Year":2022,
-    "Coal":43.4241,
+    "Coal":45.894,
     "Oil and gas":3.7053,
     "Utility-scale solar":3.1030370556,
     "Wind":3.677,
@@ -46886,7 +46886,7 @@
   {
     "Country":"South Africa",
     "Year":2023,
-    "Coal":43.4241,
+    "Coal":45.894,
     "Oil and gas":3.7053,
     "Utility-scale solar":3.3004626111,
     "Wind":3.677,
@@ -46898,7 +46898,7 @@
   {
     "Country":"South Africa",
     "Year":2024,
-    "Coal":44.2241,
+    "Coal":46.694,
     "Oil and gas":3.7053,
     "Utility-scale solar":4.1919826111,
     "Wind":3.746,
@@ -46910,7 +46910,7 @@
   {
     "Country":"South Africa",
     "Year":2025,
-    "Coal":45.0241,
+    "Coal":47.494,
     "Oil and gas":3.7053,
     "Utility-scale solar":4.9674527037,
     "Wind":4.263,
@@ -47402,7 +47402,7 @@
   {
     "Country":"Spain",
     "Year":2000,
-    "Coal":13.4056,
+    "Coal":13.793,
     "Oil and gas":2.846,
     "Utility-scale solar":0.005,
     "Wind":1.8614,
@@ -47414,7 +47414,7 @@
   {
     "Country":"Spain",
     "Year":2001,
-    "Coal":13.4056,
+    "Coal":13.793,
     "Oil and gas":3.492,
     "Utility-scale solar":0.005,
     "Wind":2.8054,
@@ -47426,7 +47426,7 @@
   {
     "Country":"Spain",
     "Year":2002,
-    "Coal":13.4056,
+    "Coal":13.793,
     "Oil and gas":6.6609,
     "Utility-scale solar":0.005,
     "Wind":4.1024,
@@ -47438,7 +47438,7 @@
   {
     "Country":"Spain",
     "Year":2003,
-    "Coal":13.4056,
+    "Coal":13.793,
     "Oil and gas":9.4904,
     "Utility-scale solar":0.005,
     "Wind":5.8174,
@@ -47450,7 +47450,7 @@
   {
     "Country":"Spain",
     "Year":2004,
-    "Coal":13.4056,
+    "Coal":13.793,
     "Oil and gas":11.0746,
     "Utility-scale solar":0.005,
     "Wind":7.4034,
@@ -47462,7 +47462,7 @@
   {
     "Country":"Spain",
     "Year":2005,
-    "Coal":13.4056,
+    "Coal":13.793,
     "Oil and gas":15.8717,
     "Utility-scale solar":0.005,
     "Wind":9.1504,
@@ -47474,7 +47474,7 @@
   {
     "Country":"Spain",
     "Year":2006,
-    "Coal":13.3256,
+    "Coal":13.713,
     "Oil and gas":21.1734,
     "Utility-scale solar":0.020138,
     "Wind":10.9954,
@@ -47486,7 +47486,7 @@
   {
     "Country":"Spain",
     "Year":2007,
-    "Coal":12.5726,
+    "Coal":12.96,
     "Oil and gas":24.6282,
     "Utility-scale solar":0.1397979016,
     "Wind":13.1294,
@@ -47498,7 +47498,7 @@
   {
     "Country":"Spain",
     "Year":2008,
-    "Coal":12.5046,
+    "Coal":12.892,
     "Oil and gas":27.2932,
     "Utility-scale solar":0.8940264565,
     "Wind":15.2004,
@@ -47510,7 +47510,7 @@
   {
     "Country":"Spain",
     "Year":2009,
-    "Coal":12.5046,
+    "Coal":12.892,
     "Oil and gas":27.856,
     "Utility-scale solar":1.2427284565,
     "Wind":17.0444,
@@ -47522,7 +47522,7 @@
   {
     "Country":"Spain",
     "Year":2010,
-    "Coal":12.5046,
+    "Coal":12.892,
     "Oil and gas":29.145,
     "Utility-scale solar":1.5741984565,
     "Wind":17.8524,
@@ -47534,7 +47534,7 @@
   {
     "Country":"Spain",
     "Year":2011,
-    "Coal":12.3446,
+    "Coal":12.732,
     "Oil and gas":30.592,
     "Utility-scale solar":2.0492054565,
     "Wind":18.7704,
@@ -47546,7 +47546,7 @@
   {
     "Country":"Spain",
     "Year":2012,
-    "Coal":11.5486,
+    "Coal":11.936,
     "Oil and gas":30.617,
     "Utility-scale solar":2.9029054565,
     "Wind":19.7954,
@@ -47558,7 +47558,7 @@
   {
     "Country":"Spain",
     "Year":2013,
-    "Coal":10.9586,
+    "Coal":11.346,
     "Oil and gas":30.667,
     "Utility-scale solar":3.2121754565,
     "Wind":19.9314,
@@ -47570,7 +47570,7 @@
   {
     "Country":"Spain",
     "Year":2014,
-    "Coal":10.9586,
+    "Coal":11.346,
     "Oil and gas":30.667,
     "Utility-scale solar":3.2794754565,
     "Wind":19.9814,
@@ -47582,7 +47582,7 @@
   {
     "Country":"Spain",
     "Year":2015,
-    "Coal":10.7046,
+    "Coal":11.092,
     "Oil and gas":30.724,
     "Utility-scale solar":3.2942654565,
     "Wind":20.0014,
@@ -47594,7 +47594,7 @@
   {
     "Country":"Spain",
     "Year":2016,
-    "Coal":10.174,
+    "Coal":10.561,
     "Oil and gas":30.724,
     "Utility-scale solar":3.2942654565,
     "Wind":20.0114,
@@ -47606,7 +47606,7 @@
   {
     "Country":"Spain",
     "Year":2017,
-    "Coal":10.174,
+    "Coal":10.561,
     "Oil and gas":30.724,
     "Utility-scale solar":7.1564654565,
     "Wind":20.0404,
@@ -47618,7 +47618,7 @@
   {
     "Country":"Spain",
     "Year":2018,
-    "Coal":9.809,
+    "Coal":10.196,
     "Oil and gas":30.747,
     "Utility-scale solar":7.4372654565,
     "Wind":20.3154,
@@ -47630,7 +47630,7 @@
   {
     "Country":"Spain",
     "Year":2019,
-    "Coal":9.559,
+    "Coal":9.946,
     "Oil and gas":30.747,
     "Utility-scale solar":10.1787640599,
     "Wind":22.0344,
@@ -47642,7 +47642,7 @@
   {
     "Country":"Spain",
     "Year":2020,
-    "Coal":4.8007,
+    "Coal":5.151,
     "Oil and gas":30.544,
     "Utility-scale solar":12.8744246762,
     "Wind":22.8024,
@@ -47654,7 +47654,7 @@
   {
     "Country":"Spain",
     "Year":2021,
-    "Coal":3.2837,
+    "Coal":3.634,
     "Oil and gas":30.544,
     "Utility-scale solar":16.2219349914,
     "Wind":23.6346,
@@ -47666,7 +47666,7 @@
   {
     "Country":"Spain",
     "Year":2022,
-    "Coal":2.5505,
+    "Coal":2.9,
     "Oil and gas":30.544,
     "Utility-scale solar":20.1016667218,
     "Wind":25.4573,
@@ -47678,7 +47678,7 @@
   {
     "Country":"Spain",
     "Year":2023,
-    "Coal":2.5505,
+    "Coal":2.9,
     "Oil and gas":30.544,
     "Utility-scale solar":25.7591632382,
     "Wind":25.8399,
@@ -47690,7 +47690,7 @@
   {
     "Country":"Spain",
     "Year":2024,
-    "Coal":1.7652,
+    "Coal":2.115,
     "Oil and gas":30.544,
     "Utility-scale solar":28.5769544265,
     "Wind":26.403,
@@ -47702,7 +47702,7 @@
   {
     "Country":"Spain",
     "Year":2025,
-    "Coal":0.26,
+    "Coal":0.61,
     "Oil and gas":31.038,
     "Utility-scale solar":30.3914136976,
     "Wind":26.9409,
@@ -49394,7 +49394,7 @@
   {
     "Country":"Syria",
     "Year":2010,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":5.8783,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49406,7 +49406,7 @@
   {
     "Country":"Syria",
     "Year":2011,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":6.3583,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49418,7 +49418,7 @@
   {
     "Country":"Syria",
     "Year":2012,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":6.3583,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49430,7 +49430,7 @@
   {
     "Country":"Syria",
     "Year":2013,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49442,7 +49442,7 @@
   {
     "Country":"Syria",
     "Year":2014,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49454,7 +49454,7 @@
   {
     "Country":"Syria",
     "Year":2015,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49466,7 +49466,7 @@
   {
     "Country":"Syria",
     "Year":2016,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49478,7 +49478,7 @@
   {
     "Country":"Syria",
     "Year":2017,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49490,7 +49490,7 @@
   {
     "Country":"Syria",
     "Year":2018,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.0083,
     "Wind":0.0,
@@ -49502,7 +49502,7 @@
   {
     "Country":"Syria",
     "Year":2019,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.0237,
     "Wind":0.0,
@@ -49514,7 +49514,7 @@
   {
     "Country":"Syria",
     "Year":2020,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.042,
     "Wind":0.0,
@@ -49526,7 +49526,7 @@
   {
     "Country":"Syria",
     "Year":2021,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.08641,
     "Wind":0.0,
@@ -49538,7 +49538,7 @@
   {
     "Country":"Syria",
     "Year":2022,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1083,
     "Utility-scale solar":0.09971,
     "Wind":0.0,
@@ -49550,7 +49550,7 @@
   {
     "Country":"Syria",
     "Year":2023,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.1323,
     "Utility-scale solar":0.14441,
     "Wind":0.0,
@@ -49562,7 +49562,7 @@
   {
     "Country":"Syria",
     "Year":2024,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.5983,
     "Utility-scale solar":0.15781,
     "Wind":0.0,
@@ -49574,7 +49574,7 @@
   {
     "Country":"Syria",
     "Year":2025,
-    "Coal":0.0,
+    "Coal":0.06,
     "Oil and gas":7.5983,
     "Utility-scale solar":0.1792957143,
     "Wind":0.0,
@@ -49586,7 +49586,7 @@
   {
     "Country":"Taiwan",
     "Year":2000,
-    "Coal":10.7257,
+    "Coal":12.826,
     "Oil and gas":7.28865,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49598,7 +49598,7 @@
   {
     "Country":"Taiwan",
     "Year":2001,
-    "Coal":10.8877,
+    "Coal":12.988,
     "Oil and gas":7.28865,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49610,7 +49610,7 @@
   {
     "Country":"Taiwan",
     "Year":2002,
-    "Coal":14.0647,
+    "Coal":16.165,
     "Oil and gas":7.97865,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49622,7 +49622,7 @@
   {
     "Country":"Taiwan",
     "Year":2003,
-    "Coal":14.0647,
+    "Coal":16.165,
     "Oil and gas":9.44265,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49634,7 +49634,7 @@
   {
     "Country":"Taiwan",
     "Year":2004,
-    "Coal":14.3647,
+    "Coal":16.465,
     "Oil and gas":10.91265,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -49646,7 +49646,7 @@
   {
     "Country":"Taiwan",
     "Year":2005,
-    "Coal":14.9147,
+    "Coal":17.015,
     "Oil and gas":10.91265,
     "Utility-scale solar":0.0,
     "Wind":0.123,
@@ -49658,7 +49658,7 @@
   {
     "Country":"Taiwan",
     "Year":2006,
-    "Coal":15.6267,
+    "Coal":17.727,
     "Oil and gas":12.39965,
     "Utility-scale solar":0.0,
     "Wind":0.131,
@@ -49670,7 +49670,7 @@
   {
     "Country":"Taiwan",
     "Year":2007,
-    "Coal":15.2267,
+    "Coal":17.327,
     "Oil and gas":13.84565,
     "Utility-scale solar":0.0,
     "Wind":0.2856,
@@ -49682,7 +49682,7 @@
   {
     "Country":"Taiwan",
     "Year":2008,
-    "Coal":15.2267,
+    "Coal":17.327,
     "Oil and gas":14.56865,
     "Utility-scale solar":0.0,
     "Wind":0.3316,
@@ -49694,7 +49694,7 @@
   {
     "Country":"Taiwan",
     "Year":2009,
-    "Coal":15.2267,
+    "Coal":17.327,
     "Oil and gas":15.78165,
     "Utility-scale solar":0.0,
     "Wind":0.3616,
@@ -49706,7 +49706,7 @@
   {
     "Country":"Taiwan",
     "Year":2010,
-    "Coal":15.2267,
+    "Coal":17.327,
     "Oil and gas":15.78165,
     "Utility-scale solar":0.0,
     "Wind":0.4766,
@@ -49718,7 +49718,7 @@
   {
     "Country":"Taiwan",
     "Year":2011,
-    "Coal":15.2707,
+    "Coal":17.371,
     "Oil and gas":15.78165,
     "Utility-scale solar":0.22231125,
     "Wind":0.4882,
@@ -49730,7 +49730,7 @@
   {
     "Country":"Taiwan",
     "Year":2012,
-    "Coal":14.7057,
+    "Coal":16.806,
     "Oil and gas":15.78165,
     "Utility-scale solar":0.22231125,
     "Wind":0.5002,
@@ -49742,7 +49742,7 @@
   {
     "Country":"Taiwan",
     "Year":2013,
-    "Coal":14.7057,
+    "Coal":16.806,
     "Oil and gas":15.78165,
     "Utility-scale solar":0.22231125,
     "Wind":0.5762,
@@ -49754,7 +49754,7 @@
   {
     "Country":"Taiwan",
     "Year":2014,
-    "Coal":14.1057,
+    "Coal":16.206,
     "Oil and gas":15.78165,
     "Utility-scale solar":0.22231125,
     "Wind":0.5992,
@@ -49766,7 +49766,7 @@
   {
     "Country":"Taiwan",
     "Year":2015,
-    "Coal":14.1057,
+    "Coal":16.206,
     "Oil and gas":15.78165,
     "Utility-scale solar":0.22231125,
     "Wind":0.6042,
@@ -49778,7 +49778,7 @@
   {
     "Country":"Taiwan",
     "Year":2016,
-    "Coal":14.9057,
+    "Coal":17.006,
     "Oil and gas":15.78165,
     "Utility-scale solar":0.22231125,
     "Wind":0.6462,
@@ -49790,7 +49790,7 @@
   {
     "Country":"Taiwan",
     "Year":2017,
-    "Coal":15.072,
+    "Coal":17.172,
     "Oil and gas":16.38165,
     "Utility-scale solar":0.373536625,
     "Wind":0.6462,
@@ -49802,7 +49802,7 @@
   {
     "Country":"Taiwan",
     "Year":2018,
-    "Coal":16.721,
+    "Coal":18.821,
     "Oil and gas":17.27465,
     "Utility-scale solar":0.76856975,
     "Wind":0.6582,
@@ -49814,7 +49814,7 @@
   {
     "Country":"Taiwan",
     "Year":2019,
-    "Coal":17.521,
+    "Coal":19.621,
     "Oil and gas":18.16765,
     "Utility-scale solar":0.98386975,
     "Wind":0.8092,
@@ -49826,7 +49826,7 @@
   {
     "Country":"Taiwan",
     "Year":2020,
-    "Coal":17.521,
+    "Coal":19.621,
     "Oil and gas":19.08285,
     "Utility-scale solar":1.2810307812,
     "Wind":0.8274,
@@ -49838,7 +49838,7 @@
   {
     "Country":"Taiwan",
     "Year":2021,
-    "Coal":17.485,
+    "Coal":19.585,
     "Oil and gas":19.59285,
     "Utility-scale solar":2.0113680938,
     "Wind":1.0186,
@@ -49850,7 +49850,7 @@
   {
     "Country":"Taiwan",
     "Year":2022,
-    "Coal":16.833,
+    "Coal":18.893,
     "Oil and gas":19.07485,
     "Utility-scale solar":2.4913303125,
     "Wind":1.1366,
@@ -49862,7 +49862,7 @@
   {
     "Country":"Taiwan",
     "Year":2023,
-    "Coal":16.833,
+    "Coal":18.893,
     "Oil and gas":19.31885,
     "Utility-scale solar":3.8755914375,
     "Wind":2.4564,
@@ -49874,7 +49874,7 @@
   {
     "Country":"Taiwan",
     "Year":2024,
-    "Coal":16.793,
+    "Coal":18.893,
     "Oil and gas":20.44285,
     "Utility-scale solar":4.4226533125,
     "Wind":3.2904,
@@ -49886,7 +49886,7 @@
   {
     "Country":"Taiwan",
     "Year":2025,
-    "Coal":16.193,
+    "Coal":16.543,
     "Oil and gas":22.65885,
     "Utility-scale solar":4.5796923125,
     "Wind":4.4624,
@@ -50822,7 +50822,7 @@
   {
     "Country":"Thailand",
     "Year":2025,
-    "Coal":5.838,
+    "Coal":5.238,
     "Oil and gas":34.3047,
     "Utility-scale solar":4.4772516571,
     "Wind":2.117,
@@ -52322,7 +52322,7 @@
   {
     "Country":"Türkiye",
     "Year":2000,
-    "Coal":6.191,
+    "Coal":6.591,
     "Oil and gas":4.4286,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -52334,7 +52334,7 @@
   {
     "Country":"Türkiye",
     "Year":2001,
-    "Coal":6.191,
+    "Coal":6.591,
     "Oil and gas":4.5796,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -52346,7 +52346,7 @@
   {
     "Country":"Türkiye",
     "Year":2002,
-    "Coal":6.191,
+    "Coal":6.591,
     "Oil and gas":7.0536,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -52358,7 +52358,7 @@
   {
     "Country":"Türkiye",
     "Year":2003,
-    "Coal":7.911,
+    "Coal":8.311,
     "Oil and gas":8.9246,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -52370,7 +52370,7 @@
   {
     "Country":"Türkiye",
     "Year":2004,
-    "Coal":7.911,
+    "Coal":8.311,
     "Oil and gas":9.9346,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -52382,7 +52382,7 @@
   {
     "Country":"Türkiye",
     "Year":2005,
-    "Coal":8.406,
+    "Coal":8.806,
     "Oil and gas":10.1616,
     "Utility-scale solar":0.0,
     "Wind":0.01,
@@ -52394,7 +52394,7 @@
   {
     "Country":"Türkiye",
     "Year":2006,
-    "Coal":9.486,
+    "Coal":9.886,
     "Oil and gas":10.3506,
     "Utility-scale solar":0.0,
     "Wind":0.053,
@@ -52406,7 +52406,7 @@
   {
     "Country":"Türkiye",
     "Year":2007,
-    "Coal":9.5635,
+    "Coal":9.964,
     "Oil and gas":10.6006,
     "Utility-scale solar":0.0,
     "Wind":0.2179,
@@ -52418,7 +52418,7 @@
   {
     "Country":"Türkiye",
     "Year":2008,
-    "Coal":9.5635,
+    "Coal":9.964,
     "Oil and gas":10.6006,
     "Utility-scale solar":0.0,
     "Wind":0.4529,
@@ -52430,7 +52430,7 @@
   {
     "Country":"Türkiye",
     "Year":2009,
-    "Coal":9.9685,
+    "Coal":10.369,
     "Oil and gas":10.9666,
     "Utility-scale solar":0.0,
     "Wind":0.9537,
@@ -52442,7 +52442,7 @@
   {
     "Country":"Türkiye",
     "Year":2010,
-    "Coal":11.3585,
+    "Coal":11.758,
     "Oil and gas":12.8853,
     "Utility-scale solar":0.0,
     "Wind":1.3127,
@@ -52454,7 +52454,7 @@
   {
     "Country":"Türkiye",
     "Year":2011,
-    "Coal":11.9585,
+    "Coal":12.358,
     "Oil and gas":14.3284,
     "Utility-scale solar":0.0,
     "Wind":1.8777,
@@ -52466,7 +52466,7 @@
   {
     "Country":"Türkiye",
     "Year":2012,
-    "Coal":11.9585,
+    "Coal":12.358,
     "Oil and gas":14.4304,
     "Utility-scale solar":0.0,
     "Wind":2.3757,
@@ -52478,7 +52478,7 @@
   {
     "Country":"Türkiye",
     "Year":2013,
-    "Coal":12.1465,
+    "Coal":12.546,
     "Oil and gas":18.2863,
     "Utility-scale solar":0.001566,
     "Wind":2.9293,
@@ -52490,7 +52490,7 @@
   {
     "Country":"Türkiye",
     "Year":2014,
-    "Coal":13.7632,
+    "Coal":14.163,
     "Oil and gas":20.2643,
     "Utility-scale solar":0.004263,
     "Wind":3.7525,
@@ -52502,7 +52502,7 @@
   {
     "Country":"Türkiye",
     "Year":2015,
-    "Coal":14.9032,
+    "Coal":15.303,
     "Oil and gas":20.2643,
     "Utility-scale solar":0.057072,
     "Wind":4.5815,
@@ -52514,7 +52514,7 @@
   {
     "Country":"Türkiye",
     "Year":2016,
-    "Coal":16.7532,
+    "Coal":17.153,
     "Oil and gas":21.7245,
     "Utility-scale solar":0.1040749091,
     "Wind":6.0017,
@@ -52526,7 +52526,7 @@
   {
     "Country":"Türkiye",
     "Year":2017,
-    "Coal":18.0732,
+    "Coal":18.473,
     "Oil and gas":24.3333,
     "Utility-scale solar":3.3253279091,
     "Wind":6.6427,
@@ -52538,7 +52538,7 @@
   {
     "Country":"Türkiye",
     "Year":2018,
-    "Coal":18.4032,
+    "Coal":18.803,
     "Oil and gas":25.5833,
     "Utility-scale solar":5.4263204242,
     "Wind":7.2457,
@@ -52550,7 +52550,7 @@
   {
     "Country":"Türkiye",
     "Year":2019,
-    "Coal":18.9532,
+    "Coal":19.353,
     "Oil and gas":25.5833,
     "Utility-scale solar":6.2096112121,
     "Wind":7.8947,
@@ -52562,7 +52562,7 @@
   {
     "Country":"Türkiye",
     "Year":2020,
-    "Coal":18.9532,
+    "Coal":19.353,
     "Oil and gas":25.5833,
     "Utility-scale solar":6.8162203636,
     "Wind":9.2483,
@@ -52574,7 +52574,7 @@
   {
     "Country":"Türkiye",
     "Year":2021,
-    "Coal":19.0982,
+    "Coal":19.498,
     "Oil and gas":25.5833,
     "Utility-scale solar":7.3913809697,
     "Wind":10.2856,
@@ -52586,7 +52586,7 @@
   {
     "Country":"Türkiye",
     "Year":2022,
-    "Coal":20.4732,
+    "Coal":20.873,
     "Oil and gas":25.5833,
     "Utility-scale solar":7.8279063636,
     "Wind":10.642,
@@ -52598,7 +52598,7 @@
   {
     "Country":"Türkiye",
     "Year":2023,
-    "Coal":20.4732,
+    "Coal":20.873,
     "Oil and gas":25.5833,
     "Utility-scale solar":11.8632505455,
     "Wind":10.7652,
@@ -52610,7 +52610,7 @@
   {
     "Country":"Türkiye",
     "Year":2024,
-    "Coal":20.4732,
+    "Coal":21.018,
     "Oil and gas":25.5833,
     "Utility-scale solar":13.6610576364,
     "Wind":11.0152,
@@ -52622,7 +52622,7 @@
   {
     "Country":"Türkiye",
     "Year":2025,
-    "Coal":20.4732,
+    "Coal":21.018,
     "Oil and gas":25.5833,
     "Utility-scale solar":14.0734812727,
     "Wind":11.1721,
@@ -52946,7 +52946,7 @@
   {
     "Country":"Ukraine",
     "Year":2000,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0104,
@@ -52958,7 +52958,7 @@
   {
     "Country":"Ukraine",
     "Year":2001,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0324,
@@ -52970,7 +52970,7 @@
   {
     "Country":"Ukraine",
     "Year":2002,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0387,
@@ -52982,7 +52982,7 @@
   {
     "Country":"Ukraine",
     "Year":2003,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0387,
@@ -52994,7 +52994,7 @@
   {
     "Country":"Ukraine",
     "Year":2004,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0387,
@@ -53006,7 +53006,7 @@
   {
     "Country":"Ukraine",
     "Year":2005,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0387,
@@ -53018,7 +53018,7 @@
   {
     "Country":"Ukraine",
     "Year":2006,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0387,
@@ -53030,7 +53030,7 @@
   {
     "Country":"Ukraine",
     "Year":2007,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0387,
@@ -53042,7 +53042,7 @@
   {
     "Country":"Ukraine",
     "Year":2008,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0387,
@@ -53054,7 +53054,7 @@
   {
     "Country":"Ukraine",
     "Year":2009,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.0,
     "Wind":0.0387,
@@ -53066,7 +53066,7 @@
   {
     "Country":"Ukraine",
     "Year":2010,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.006525,
     "Wind":0.0387,
@@ -53078,7 +53078,7 @@
   {
     "Country":"Ukraine",
     "Year":2011,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.133545,
     "Wind":0.0387,
@@ -53090,7 +53090,7 @@
   {
     "Country":"Ukraine",
     "Year":2012,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.255345,
     "Wind":0.0507,
@@ -53102,7 +53102,7 @@
   {
     "Country":"Ukraine",
     "Year":2013,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.47676,
     "Wind":0.1007,
@@ -53114,7 +53114,7 @@
   {
     "Country":"Ukraine",
     "Year":2014,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.48372,
     "Wind":0.1257,
@@ -53126,7 +53126,7 @@
   {
     "Country":"Ukraine",
     "Year":2015,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.494943,
     "Wind":0.1557,
@@ -53138,7 +53138,7 @@
   {
     "Country":"Ukraine",
     "Year":2016,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.509296,
     "Wind":0.1557,
@@ -53150,7 +53150,7 @@
   {
     "Country":"Ukraine",
     "Year":2017,
-    "Coal":7.983,
+    "Coal":23.628,
     "Oil and gas":1.655,
     "Utility-scale solar":0.53718475,
     "Wind":0.1757,
@@ -53162,7 +53162,7 @@
   {
     "Country":"Ukraine",
     "Year":2018,
-    "Coal":6.252,
+    "Coal":21.897,
     "Oil and gas":2.0184,
     "Utility-scale solar":0.71710075,
     "Wind":0.1757,
@@ -53174,7 +53174,7 @@
   {
     "Country":"Ukraine",
     "Year":2019,
-    "Coal":6.252,
+    "Coal":21.897,
     "Oil and gas":2.7591,
     "Utility-scale solar":2.155084,
     "Wind":0.3217,
@@ -53186,7 +53186,7 @@
   {
     "Country":"Ukraine",
     "Year":2020,
-    "Coal":6.052,
+    "Coal":21.697,
     "Oil and gas":2.7591,
     "Utility-scale solar":2.324734,
     "Wind":0.3357,
@@ -53198,7 +53198,7 @@
   {
     "Country":"Ukraine",
     "Year":2021,
-    "Coal":5.832,
+    "Coal":21.697,
     "Oil and gas":2.9791,
     "Utility-scale solar":2.529184,
     "Wind":0.3757,
@@ -53210,7 +53210,7 @@
   {
     "Country":"Ukraine",
     "Year":2022,
-    "Coal":5.832,
+    "Coal":21.477,
     "Oil and gas":2.9791,
     "Utility-scale solar":2.529184,
     "Wind":0.4117,
@@ -53222,7 +53222,7 @@
   {
     "Country":"Ukraine",
     "Year":2023,
-    "Coal":5.832,
+    "Coal":21.477,
     "Oil and gas":2.9791,
     "Utility-scale solar":2.529184,
     "Wind":0.4897,
@@ -53234,7 +53234,7 @@
   {
     "Country":"Ukraine",
     "Year":2024,
-    "Coal":3.48,
+    "Coal":19.125,
     "Oil and gas":3.7991,
     "Utility-scale solar":2.529184,
     "Wind":0.5487,
@@ -53246,7 +53246,7 @@
   {
     "Country":"Ukraine",
     "Year":2025,
-    "Coal":3.48,
+    "Coal":19.125,
     "Oil and gas":3.7991,
     "Utility-scale solar":2.529184,
     "Wind":0.5487,
@@ -53570,7 +53570,7 @@
   {
     "Country":"United Kingdom",
     "Year":2000,
-    "Coal":34.6566,
+    "Coal":34.657,
     "Oil and gas":18.0516,
     "Utility-scale solar":0.0,
     "Wind":0.3435,
@@ -53582,7 +53582,7 @@
   {
     "Country":"United Kingdom",
     "Year":2001,
-    "Coal":34.6566,
+    "Coal":34.657,
     "Oil and gas":18.6396,
     "Utility-scale solar":0.0,
     "Wind":0.4354,
@@ -53594,7 +53594,7 @@
   {
     "Country":"United Kingdom",
     "Year":2002,
-    "Coal":33.6566,
+    "Coal":33.657,
     "Oil and gas":19.5556,
     "Utility-scale solar":0.0,
     "Wind":0.5629,
@@ -53606,7 +53606,7 @@
   {
     "Country":"United Kingdom",
     "Year":2003,
-    "Coal":31.5816,
+    "Coal":31.582,
     "Oil and gas":20.1556,
     "Utility-scale solar":0.0,
     "Wind":0.6915,
@@ -53618,7 +53618,7 @@
   {
     "Country":"United Kingdom",
     "Year":2004,
-    "Coal":31.5816,
+    "Coal":31.582,
     "Oil and gas":21.9986,
     "Utility-scale solar":0.0,
     "Wind":1.1154,
@@ -53630,7 +53630,7 @@
   {
     "Country":"United Kingdom",
     "Year":2005,
-    "Coal":31.5816,
+    "Coal":31.582,
     "Oil and gas":22.0516,
     "Utility-scale solar":0.0,
     "Wind":1.6112,
@@ -53642,7 +53642,7 @@
   {
     "Country":"United Kingdom",
     "Year":2006,
-    "Coal":31.5816,
+    "Coal":31.582,
     "Oil and gas":22.0516,
     "Utility-scale solar":0.0,
     "Wind":2.1193,
@@ -53882,7 +53882,7 @@
   {
     "Country":"United States",
     "Year":2000,
-    "Coal":331.7921,
+    "Coal":334.162,
     "Oil and gas":173.978,
     "Utility-scale solar":0.2758,
     "Wind":2.4638,
@@ -53894,7 +53894,7 @@
   {
     "Country":"United States",
     "Year":2001,
-    "Coal":332.8708,
+    "Coal":335.241,
     "Oil and gas":214.1359,
     "Utility-scale solar":0.2795,
     "Wind":4.0975,
@@ -53906,7 +53906,7 @@
   {
     "Country":"United States",
     "Year":2002,
-    "Coal":332.8475,
+    "Coal":335.218,
     "Oil and gas":278.8232,
     "Utility-scale solar":0.2825,
     "Wind":4.5528,
@@ -53918,7 +53918,7 @@
   {
     "Country":"United States",
     "Year":2003,
-    "Coal":331.5314,
+    "Coal":333.901,
     "Oil and gas":333.3422,
     "Utility-scale solar":0.2825,
     "Wind":6.1669,
@@ -53930,7 +53930,7 @@
   {
     "Country":"United States",
     "Year":2004,
-    "Coal":331.5464,
+    "Coal":333.916,
     "Oil and gas":358.4942,
     "Utility-scale solar":0.2825,
     "Wind":6.5356,
@@ -53942,7 +53942,7 @@
   {
     "Country":"United States",
     "Year":2005,
-    "Coal":331.6968,
+    "Coal":334.067,
     "Oil and gas":374.566,
     "Utility-scale solar":0.2846,
     "Wind":8.8369,
@@ -53954,7 +53954,7 @@
   {
     "Country":"United States",
     "Year":2006,
-    "Coal":331.9686,
+    "Coal":334.339,
     "Oil and gas":385.9399,
     "Utility-scale solar":0.2856,
     "Wind":11.2624,
@@ -53966,7 +53966,7 @@
   {
     "Country":"United States",
     "Year":2007,
-    "Coal":330.6683,
+    "Coal":333.038,
     "Oil and gas":393.4069,
     "Utility-scale solar":0.3904,
     "Wind":16.656,
@@ -53978,7 +53978,7 @@
   {
     "Country":"United States",
     "Year":2008,
-    "Coal":331.5929,
+    "Coal":333.963,
     "Oil and gas":402.9886,
     "Utility-scale solar":0.4133,
     "Wind":24.6126,
@@ -53990,7 +53990,7 @@
   {
     "Country":"United States",
     "Year":2009,
-    "Coal":332.9679,
+    "Coal":335.338,
     "Oil and gas":413.5235,
     "Utility-scale solar":0.5239,
     "Wind":34.8256,
@@ -54002,7 +54002,7 @@
   {
     "Country":"United States",
     "Year":2010,
-    "Coal":336.3947,
+    "Coal":338.765,
     "Oil and gas":421.9571,
     "Utility-scale solar":0.8384,
     "Wind":39.7463,
@@ -54014,7 +54014,7 @@
   {
     "Country":"United States",
     "Year":2011,
-    "Coal":337.2317,
+    "Coal":339.602,
     "Oil and gas":433.5679,
     "Utility-scale solar":1.606,
     "Wind":46.7318,
@@ -54026,7 +54026,7 @@
   {
     "Country":"United States",
     "Year":2012,
-    "Coal":330.8215,
+    "Coal":333.192,
     "Oil and gas":444.5819,
     "Utility-scale solar":3.2296,
     "Wind":59.9161,
@@ -54038,7 +54038,7 @@
   {
     "Country":"United States",
     "Year":2013,
-    "Coal":325.8335,
+    "Coal":328.204,
     "Oil and gas":452.8366,
     "Utility-scale solar":6.7142,
     "Wind":60.7395,
@@ -54050,7 +54050,7 @@
   {
     "Country":"United States",
     "Year":2014,
-    "Coal":321.3574,
+    "Coal":323.727,
     "Oil and gas":464.5034,
     "Utility-scale solar":10.4707,
     "Wind":65.9611,
@@ -54062,7 +54062,7 @@
   {
     "Country":"United States",
     "Year":2015,
-    "Coal":298.7315,
+    "Coal":301.102,
     "Oil and gas":474.3227,
     "Utility-scale solar":13.9736,
     "Wind":73.4625,
@@ -54074,7 +54074,7 @@
   {
     "Country":"United States",
     "Year":2016,
-    "Coal":283.7244,
+    "Coal":286.094,
     "Oil and gas":489.1117,
     "Utility-scale solar":22.0421,
     "Wind":81.8469,
@@ -54086,7 +54086,7 @@
   {
     "Country":"United States",
     "Year":2017,
-    "Coal":274.8536,
+    "Coal":277.224,
     "Oil and gas":501.4196,
     "Utility-scale solar":27.331,
     "Wind":88.8675,
@@ -54098,7 +54098,7 @@
   {
     "Country":"United States",
     "Year":2018,
-    "Coal":258.9275,
+    "Coal":260.388,
     "Oil and gas":524.9811,
     "Utility-scale solar":32.2587,
     "Wind":96.0554,
@@ -54110,7 +54110,7 @@
   {
     "Country":"United States",
     "Year":2019,
-    "Coal":242.6777,
+    "Coal":244.138,
     "Oil and gas":535.4019,
     "Utility-scale solar":38.1599,
     "Wind":104.132,
@@ -54122,7 +54122,7 @@
   {
     "Country":"United States",
     "Year":2020,
-    "Coal":231.0142,
+    "Coal":232.475,
     "Oil and gas":538.5414,
     "Utility-scale solar":48.8009,
     "Wind":120.1725,
@@ -54134,7 +54134,7 @@
   {
     "Country":"United States",
     "Year":2021,
-    "Coal":222.3124,
+    "Coal":223.773,
     "Oil and gas":545.1945,
     "Utility-scale solar":62.1395,
     "Wind":133.7148,
@@ -54146,7 +54146,7 @@
   {
     "Country":"United States",
     "Year":2022,
-    "Coal":207.1483,
+    "Coal":208.609,
     "Oil and gas":551.7728,
     "Utility-scale solar":74.0960352941,
     "Wind":142.7995,
@@ -54158,7 +54158,7 @@
   {
     "Country":"United States",
     "Year":2023,
-    "Coal":196.9437,
+    "Coal":198.404,
     "Oil and gas":558.351,
     "Utility-scale solar":93.4749827451,
     "Wind":148.8728,
@@ -54170,7 +54170,7 @@
   {
     "Country":"United States",
     "Year":2024,
-    "Coal":189.921,
+    "Coal":191.382,
     "Oil and gas":560.709,
     "Utility-scale solar":126.3837477451,
     "Wind":153.7664,
@@ -54182,7 +54182,7 @@
   {
     "Country":"United States",
     "Year":2025,
-    "Coal":185.2903,
+    "Coal":187.66,
     "Oil and gas":564.2695,
     "Utility-scale solar":152.008025,
     "Wind":158.5555,
@@ -56474,7 +56474,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2000,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56486,7 +56486,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2001,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56498,7 +56498,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2002,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56510,7 +56510,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2003,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56522,7 +56522,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2004,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56534,7 +56534,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2005,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56546,7 +56546,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2006,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56558,7 +56558,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2007,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56570,7 +56570,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2008,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56582,7 +56582,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2009,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56594,7 +56594,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2010,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56606,7 +56606,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2011,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56618,7 +56618,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2012,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56630,7 +56630,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2013,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56642,7 +56642,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2014,
-    "Coal":0.92,
+    "Coal":1.06,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56654,7 +56654,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2015,
-    "Coal":0.92,
+    "Coal":0.95,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0,
     "Wind":0.0,
@@ -56666,7 +56666,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2016,
-    "Coal":0.92,
+    "Coal":0.95,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0019858705,
     "Wind":0.0,
@@ -56678,7 +56678,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2017,
-    "Coal":0.92,
+    "Coal":0.95,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0019858705,
     "Wind":0.0,
@@ -56690,7 +56690,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2018,
-    "Coal":0.92,
+    "Coal":0.95,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0019858705,
     "Wind":0.0,
@@ -56702,7 +56702,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2019,
-    "Coal":0.92,
+    "Coal":0.95,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0069505466,
     "Wind":0.0,
@@ -56714,7 +56714,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2020,
-    "Coal":0.92,
+    "Coal":0.95,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0092974845,
     "Wind":0.0,
@@ -56726,7 +56726,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2021,
-    "Coal":0.92,
+    "Coal":0.95,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0194073705,
     "Wind":0.0,
@@ -56738,7 +56738,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2022,
-    "Coal":0.97,
+    "Coal":1.0,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0210321736,
     "Wind":0.0,
@@ -56750,7 +56750,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2023,
-    "Coal":1.305,
+    "Coal":1.335,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0462659223,
     "Wind":0.0,
@@ -56762,7 +56762,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2024,
-    "Coal":1.64,
+    "Coal":1.72,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0796646528,
     "Wind":0.0,
@@ -56774,7 +56774,7 @@
   {
     "Country":"Zimbabwe",
     "Year":2025,
-    "Coal":1.74,
+    "Coal":1.97,
     "Oil and gas":0.0,
     "Utility-scale solar":0.0796646528,
     "Wind":0.0,
