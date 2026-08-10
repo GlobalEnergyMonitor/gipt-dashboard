@@ -31,7 +31,7 @@ TICKER_OUTPUT_FILE = (
 )
 MAP_OUTPUT_FILE = (
     PUBLIC_DATA_DIRECTORY
-    / f"operating_plants_map_{OUTPUT_VERSION}_30k.json"
+    / f"operating_plants_map_{OUTPUT_VERSION}.json"
 )
 # The dashboard uses a manually curated map-bounds_edit.json. Keep newly
 # calculated bounds separate so they can be inspected before any live change.
@@ -1355,8 +1355,18 @@ for selection, member_countries in development_scopes:
 
 development_capacity = pd.concat(development_parts, ignore_index=True)
 
-# Keep development values in MW. Flourish visualisation 18923725 divides the
-# values by 1,000 when displaying them as GW.
+# Store every public summary-table capacity in GW. The Flourish development
+# visualisation must therefore use these values directly, without dividing by
+# 1,000 again.
+development_value_columns = [
+    "Construction",
+    "Pre-construction",
+    "Announced",
+]
+development_capacity[development_value_columns] = (
+    development_capacity[development_value_columns] / 1_000
+)
+
 if len(development_capacity) != len(dashboard_selections) * len(
     dashboard_type_order
 ):
@@ -1365,6 +1375,12 @@ if development_capacity.duplicated(["Country", "Source"]).any():
     raise ValueError("Development output contains duplicate Country/Source rows")
 if development_capacity.isna().any().any():
     raise ValueError("Development output contains missing values")
+if not np.isfinite(
+    development_capacity[development_value_columns].to_numpy()
+).all():
+    raise ValueError("Development output contains non-finite capacity")
+if development_capacity[development_value_columns].lt(0).any().any():
+    raise ValueError("Development output contains negative capacity")
 
 expected_world_development = (
     gipt.loc[gipt["Status"].isin(prospective_statuses)]
@@ -1376,6 +1392,7 @@ expected_world_development = (
         columns=prospective_statuses,
         fill_value=0.0,
     )
+    / 1_000
 )
 actual_world_development = (
     development_capacity.loc[development_capacity["Country"].eq("World")]
@@ -1484,6 +1501,10 @@ for selection, member_countries in fossil_scopes:
     fossil_split_parts.append(selection_fossil)
 
 fossil_split = pd.concat(fossil_split_parts, ignore_index=True)
+fossil_capacity_columns = ["Non-fossil", "Fossil"]
+fossil_split[fossil_capacity_columns] = (
+    fossil_split[fossil_capacity_columns] / 1_000
+)
 
 if len(fossil_split) != len(dashboard_selections) * len(
     fossil_status_order
@@ -1517,6 +1538,7 @@ expected_world_fossil = (
         columns=["Non-fossil", "Fossil"],
         fill_value=0.0,
     )
+    / 1_000
 )
 actual_world_fossil = (
     fossil_split.loc[fossil_split["Country"].eq("World")]
@@ -1539,18 +1561,40 @@ fossil_split.to_json(
 
 fossil_share = fossil_split.copy()
 fossil_total = fossil_share["Non-fossil"] + fossil_share["Fossil"]
-fossil_share["Non-fossil share"] = np.divide(
+fossil_share["Non-fossil share (%)"] = 100 * np.divide(
     fossil_share["Non-fossil"],
     fossil_total,
     out=np.zeros(len(fossil_share), dtype=float),
     where=fossil_total.ne(0),
 )
-fossil_share["Fossil share"] = np.divide(
+fossil_share["Fossil share (%)"] = 100 * np.divide(
     fossil_share["Fossil"],
     fossil_total,
     out=np.zeros(len(fossil_share), dtype=float),
     where=fossil_total.ne(0),
 )
+fossil_share = fossil_share.rename(
+    columns={
+        "Non-fossil": "Non-fossil (GW)",
+        "Fossil": "Fossil (GW)",
+    }
+)
+fossil_share_percentage_columns = [
+    "Non-fossil share (%)",
+    "Fossil share (%)",
+]
+if not fossil_share[fossil_share_percentage_columns].apply(
+    lambda column: column.between(0, 100)
+).all().all():
+    raise ValueError("Fossil/non-fossil percentages fall outside 0 to 100")
+positive_fossil_total = fossil_total.gt(0)
+if not np.allclose(
+    fossil_share.loc[
+        positive_fossil_total, fossil_share_percentage_columns
+    ].sum(axis=1),
+    100,
+):
+    raise ValueError("Positive fossil/non-fossil percentages do not sum to 100")
 fossil_share.to_csv(
     FOSSIL_SHARE_CSV_FILE,
     index=False,
