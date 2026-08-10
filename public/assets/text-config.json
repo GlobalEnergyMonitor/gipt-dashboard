@@ -1,36 +1,36 @@
 {
   "title": "Explore data in the Global Integrated Power Tracker",
-  "footer": "All data comes from GEM's [Global Integrated Power Tracker](https://globalenergymonitor.org/projects/global-integrated-power-tracker/), last updated in March 2026. Units on this page are in gigawatts (GW).  Under development includes all capacity with status announced, pre-permit, permitted, and construction.",
+  "footer": "All data comes from GEM's [Global Integrated Power Tracker](https://globalenergymonitor.org/projects/global-integrated-power-tracker/) and was last updated in August 2026. “In development” includes announced, pre-construction, and construction capacity.",
   "dropdown_label": "Select a country or area: ",
-  "no_data": "No data available for {{selected}}",
+  "no_data": "No data available for {{selected}}.",
   "dropdown": [
   {
     "Country": "World",
-    "overall_summary": "Globally, non-fossil capacity under construction is twice that of coal, oil, and gas and mainly comprises utility-scale solar, wind, and hydropower projects."
+    "overall_summary": "Globally, non-fossil capacity under construction is more than twice fossil capacity under construction and mainly comprises utility-scale solar, wind, and hydropower."
   },
   {
     "Country": "BRICS",
-    "overall_summary": "Wind and utility-scale solar capacity in development outnumber power projects fueled by coal, oil, and gas by more than two to one in the BRICS."
+    "overall_summary": "In the BRICS, wind and utility-scale solar capacity in development is more than twice fossil capacity in development."
   },
   {
     "Country": "EU27",
-    "overall_summary": "In-development wind and utility-scale solar capacity outnumber power projects fueled by oil and gas by fifteen to one in the European Union."
+    "overall_summary": "In the European Union, wind and utility-scale solar capacity in development is more than twelve times fossil capacity capacity in development."
   },
   {
     "Country": "G7",
-    "overall_summary": "In-development wind and utility-scale solar capacity outnumber power projects fueled by oil and gas by nearly four to one in the G7."
+    "overall_summary": "In the G7, including the EU27, wind and utility-scale solar capacity in development is about three times fossil capacity in development."
   },
   {
     "Country": "G20",
-    "overall_summary": "Utility-scale solar and wind are the first and third leading sources of under-construction capacity in the G20, and total 50% more than all fossil capacity under construction."
+    "overall_summary": "Utility-scale solar and wind are the two largest sources of capacity under construction in the G20. Together, they exceed fossil capacity under construction by more than 80%."
   },
   {
     "Country": "OECD",
-    "overall_summary": "Wind and utility-scale solar comprise 80% of total capacity in development in the OECD."
+    "overall_summary": "Wind and utility-scale solar account for over 70% of capacity in development across OECD countries."
   },
   {
     "Country": "African Union",
-    "overall_summary": "Oil and gas plant projects lead capacity under construction across the African Union."
+    "overall_summary": "Utility-scale solar and wind are the two largest sources of capacity under construction across African Union member states."
   },
   {
     "Country": "Afghanistan",
@@ -62,7 +62,7 @@
   },
   {
     "Country": "Australia",
-    "overall_summary": "Australia's 372 GW of wind and utility-scale solar capacity in development is the thrid largest globally after China and Brazil."
+    "overall_summary": "Australia's 368 GW of wind and utility-scale solar capacity in development is the third-largest total globally, after China and Brazil."
   },
   {
     "Country": "Austria",
@@ -118,7 +118,7 @@
   },
   {
     "Country": "Brazil",
-    "overall_summary": "Brazil's 418 GW of wind and utility-scale solar capacity in development is the second largest globally after China."
+    "overall_summary": "Brazil's 400 GW of wind and utility-scale solar capacity in development is the second-largest total globally, after China."
   },
   {
     "Country": "Brunei",
@@ -150,7 +150,7 @@
   },
   {
     "Country": "Canada",
-    "overall_summary": "Wind, solar and hydropower make up over two-thirds of capacity under construction in Canada"
+    "overall_summary": "Wind and utility-scale solar account for almost three-quarters of capacity under construction in Canada."
   },
   {
     "Country": "Cayman Islands",
@@ -170,7 +170,7 @@
   },
   {
     "Country": "China",
-    "overall_summary": "China's 234GW of under-construction utility-scale solar capacity is greater than the same figure for the rest of the world combined."
+    "overall_summary": "China's 236 GW of utility-scale solar capacity under construction exceeds the amount tracked across the rest of the world combined."
   },
   {
     "Country": "Colombia",
@@ -226,7 +226,7 @@
   },
   {
     "Country": "Egypt",
-    "overall_summary": "Nearly four times more non-fossil power than oil and gas capacity under construction in Egypt"
+    "overall_summary": "Egypt has more than ten times as much non-fossil capacity as oil and gas capacity under construction."
   },
   {
     "Country": "El Salvador",
@@ -250,7 +250,7 @@
   },
   {
     "Country": "Ethiopia",
-    "overall_summary": "Hydropower makes up almost all power capacity underconstruction in Ethiopia"
+    "overall_summary": "Hydropower accounts for almost all capacity under construction in Ethiopia."
   },
   {
     "Country": "Faroe Islands",
@@ -266,7 +266,7 @@
   },
   {
     "Country": "France",
-    "overall_summary": "France has no fossil-fuelled power projects in development."
+    "overall_summary": ""
   },
   {
     "Country": "French Guiana",
@@ -282,7 +282,7 @@
   },
   {
     "Country": "Germany",
-    "overall_summary": "Around half of capacity under construction in Germany is wind and solar."
+    "overall_summary": "Wind and utility-scale solar account for around half of capacity under construction in Germany."
   },
   {
     "Country": "Ghana",
@@ -334,7 +334,7 @@
   },
   {
     "Country": "India",
-    "overall_summary": "India's 111GW of coal plant capacity in development is the second largest globally after China."
+    "overall_summary": "India's 138 GW of coal capacity in development is the second-largest total globally, after China."
   },
   {
     "Country": "Indonesia",
@@ -342,7 +342,7 @@
   },
   {
     "Country": "Iran",
-    "overall_summary": "60% of Iran’s power capacity in development is oil & gas"
+    "overall_summary": "About 60% of capacity in development in Iran is oil and gas."
   },
   {
     "Country": "Iraq",
@@ -358,7 +358,7 @@
   },
   {
     "Country": "Italy",
-    "overall_summary": "Oil and gas plants are the largest source of capacity under construction in Italy."
+    "overall_summary": "Italy has more oil and gas capacity under construction than capacity from any other power source."
   },
   {
     "Country": "Jamaica",
@@ -366,7 +366,7 @@
   },
   {
     "Country": "Japan",
-    "overall_summary": "Oil and gas plants are the largest source of capacity under construction in Japan."
+    "overall_summary": "Nuclear is the largest source of capacity under construction in Japan."
   },
   {
     "Country": "Jordan",
@@ -602,7 +602,7 @@
   },
   {
     "Country": "Russia",
-    "overall_summary": "GEM data tracks no wind or utility-scale solar capacity under construction in Russia."
+    "overall_summary": "GIPT tracks less than 0.3 GW of wind and utility-scale solar capacity under construction in Russia."
   },
   {
     "Country": "Rwanda",
@@ -650,7 +650,7 @@
   },
   {
     "Country": "South Africa",
-    "overall_summary": "Nearly four times more wind and utility-scale solar capacity than coal under construction in South Africa"
+    "overall_summary": ""
   },
   {
     "Country": "South Korea",
@@ -738,15 +738,15 @@
   },
   {
     "Country": "United Arab Emirates",
-    "overall_summary": "Virtually all of the UAE's power capacity under construction is oil & gas"
+    "overall_summary": "The UAE has more than three times as much utility-scale solar capacity under construction as oil and gas capacity."
   },
   {
     "Country": "United Kingdom",
-    "overall_summary": "The UK has 14 GW of non-fossil capacity under construction, with over half of from wind power."
+    "overall_summary": "The UK has 15 GW of non-fossil capacity under construction, with wind accounting for more than half of that total."
   },
   {
     "Country": "United States",
-    "overall_summary": "The United States has nearly **three times** as much clean power in construction than fossil fuel capacity."
+    "overall_summary": "The United States has about one-third more non-fossil capacity under construction than fossil capacity."
   },
   {
     "Country": "Uruguay",

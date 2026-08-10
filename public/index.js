@@ -354,14 +354,17 @@ function renderMap(id, selected) {
 
   let filtered;
 
-  if (sel === "world" || sel === "g20") {
-    // ✅ World & G20 case: only keep plants above 50 MW
-    filtered = fullData.filter(entry => {
-      const cap = Number(entry["Capacity (MW)"]);
-      return !isNaN(cap) && cap >= 50;
-    });
+  // Phase-level map points retain the full plant total for the 50 MW filter.
+  const meetsMapThreshold = entry => {
+    const cap = Number(
+      entry["Plant total capacity (MW)"] ?? entry["Capacity (MW)"]
+    );
+    return !isNaN(cap) && cap >= 50;
+  };
+
+  if (sel === "world") {
+    filtered = fullData.filter(meetsMapThreshold);
   } else {
-    // ✅ Country/region case: existing filter
     filtered = fullData.filter(entry => {
       const country = entry["Country/area"]?.trim().toLowerCase();
       const regions = Array.isArray(entry["Region"])
@@ -369,6 +372,9 @@ function renderMap(id, selected) {
         : [];
       return country === sel || regions.includes(sel);
     });
+
+    // Apply the 50 MW threshold to G20 members after membership filtering.
+    if (sel === "g20") filtered = filtered.filter(meetsMapThreshold);
   }
 
   // Column order must match base viz 28357063's data structure
