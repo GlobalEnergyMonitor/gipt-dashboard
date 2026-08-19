@@ -15,14 +15,14 @@ REPOSITORY_ROOT = DATA_PREP_DIRECTORY.parent
 PUBLIC_ASSETS_DIRECTORY = REPOSITORY_ROOT / "public" / "assets"
 PUBLIC_DATA_DIRECTORY = PUBLIC_ASSETS_DIRECTORY / "data"
 
-GIPT_FILE = REPOSITORY_ROOT / "Global Integrated Power August 2026.xlsx"
+GIPT_FILE = REPOSITORY_ROOT / "Global Integrated Power August 2026 II.xlsx"
 SOLAR_FILE = REPOSITORY_ROOT / "Global-Solar-Power-Tracker-February-2026.xlsx"
 COAL_HISTORY_FILE = (
     DATA_PREP_DIRECTORY
     / "Cumulative coal-fired power capacity by year.xlsx"
 )
 
-OUTPUT_VERSION = "augI2026"
+OUTPUT_VERSION = "augII2026"
 TEXT_CONFIG_INITIALIZER_FILE = (
     DATA_PREP_DIRECTORY / f"gipt_textconfig_{OUTPUT_VERSION}.json"
 )
@@ -1826,42 +1826,46 @@ def parse_ownership_entries(value):
 
 
 def normalize_ownership_name(value):
-    """Harmonize only explicit unknown/other ownership labels."""
+    """Combine exact generic source labels under one Unknown category."""
     name = " ".join(str(value).split()).strip()
     if not name or name.casefold() in {
         "nan",
         "unknown",
+        "other",
+        "others",
         "not found",
         "not available",
         "n/a",
+        "na",
+        "undisclosed",
+        "unspecified",
+        "none",
+        "null",
     }:
         return "Unknown"
-    if name.casefold() in {"other", "others"}:
-        return "Others"
     return name
 
 
 def allocate_ownership_capacity(entries, capacity):
-    """Allocate one unit's capacity across the real entities listed."""
+    """Allocate one unit's capacity and report any unexplained remainder."""
     if not entries:
-        return [("Unknown", capacity)], "unknown"
+        return [("Unknown", capacity)], 0.0, "unknown"
 
     normalized_entries = [
         (normalize_ownership_name(name), percentage)
         for name, percentage in entries
     ]
 
-    # Ignore placeholder unknowns when at least one real entity is listed.
-    # If every entry is unknown-like, retain one Unknown allocation.
+    # If every entry is unknown-like, the whole ownership is unknown. When a
+    # source explicitly lists Unknown beside named entities, retain it as one
+    # of the stated or unstated entries.
     real_entries = [
         (name, percentage)
         for name, percentage in normalized_entries
         if name != "Unknown"
     ]
-    if real_entries:
-        normalized_entries = real_entries
-    else:
-        return [("Unknown", capacity)], "unknown"
+    if not real_entries:
+        return [("Unknown", capacity)], 0.0, "unknown"
 
     # Consolidate duplicate names before allocating. If the same entity is
     # listed both with and without a percentage, retain its stated percentage
@@ -1898,6 +1902,7 @@ def allocate_ownership_capacity(entries, capacity):
     if not explicit_entries:
         equal_share = capacity / len(all_names)
         allocations = [(name, equal_share) for name in all_names]
+        unallocated_capacity = 0.0
         method = (
             "single_unspecified"
             if len(all_names) == 1
@@ -1909,24 +1914,34 @@ def allocate_ownership_capacity(entries, capacity):
         )
         all_entries_have_percentages = not unspecified_names
         allocations = []
+        unallocated_capacity = 0.0
 
         if all_entries_have_percentages:
-            if explicit_total > 0:
-                # Preserve reported relative shares while scaling incomplete
-                # or over-100 totals back to exactly 100%.
+            if explicit_total > 100 and not np.isclose(
+                explicit_total, 100, rtol=0, atol=1e-9
+            ):
+                # An over-100 total is inconsistent, so keep the relative
+                # weights while scaling the total down to 100%.
                 allocations = [
                     (name, capacity * percentage / explicit_total)
                     for name, percentage in explicit_entries
                 ]
-                method = (
-                    "explicit_complete"
-                    if np.isclose(explicit_total, 100, rtol=0, atol=1e-9)
-                    else "normalized_all_percentages"
-                )
+                method = "normalized_over_100"
+            elif np.isclose(explicit_total, 100, rtol=0, atol=1e-9):
+                allocations = [
+                    (name, capacity * percentage / 100)
+                    for name, percentage in explicit_entries
+                ]
+                method = "explicit_complete"
             else:
-                equal_share = capacity / len(all_names)
-                allocations = [(name, equal_share) for name in all_names]
-                method = "equal_split_zero_percentages"
+                # Do not inflate stated shares simply because the source total
+                # is incomplete. Leave the unexplained gap unallocated.
+                allocations = [
+                    (name, capacity * percentage / 100)
+                    for name, percentage in explicit_entries
+                ]
+                unallocated_capacity = capacity * (1 - explicit_total / 100)
+                method = "explicit_under_100_unallocated"
         elif explicit_total < 100 and not np.isclose(
             explicit_total, 100, rtol=0, atol=1e-9
         ):
@@ -1942,37 +1957,34 @@ def allocate_ownership_capacity(entries, capacity):
                 (name, equal_remainder) for name in unspecified_names
             )
             method = "mixed_remainder_split"
-        else:
-            # A 100% or over-100 stated total cannot also accommodate owners
-            # with no stated percentage. Treat those percentages as unusable
-            # and split the unit equally among all actual listed entities.
+        elif np.isclose(explicit_total, 100, rtol=0, atol=1e-9):
+            # A complete 100% share assigned to one or more entities conflicts
+            # with additional unpercentaged names. Treat the shares as
+            # unusable and split equally across everyone listed.
             equal_share = capacity / len(all_names)
             allocations = [(name, equal_share) for name in all_names]
             method = "equal_split_conflicting_mixed"
-
-    allocation_frame = pd.DataFrame(
-        allocations,
-        columns=["Parent", "Capacity (MW)"],
-    )
-    allocation_frame = (
-        allocation_frame.groupby("Parent", as_index=False)["Capacity (MW)"]
-        .sum()
-    )
-    allocations = list(
-        allocation_frame[["Parent", "Capacity (MW)"]].itertuples(
-            index=False, name=None
-        )
-    )
+        else:
+            # When the stated shares exceed 100%, they still provide relative
+            # weights. Normalize those stated entities down to 100% and do not
+            # allocate capacity to the additional unpercentaged names.
+            allocations = [
+                (name, capacity * percentage / explicit_total)
+                for name, percentage in explicit_entries
+            ]
+            method = "mixed_normalized_over_100_stated_only"
 
     if not np.isclose(
-        sum(value for _, value in allocations),
+        sum(value for _, value in allocations) + unallocated_capacity,
         capacity,
         rtol=0,
         atol=max(abs(capacity) * 1e-9, 1e-7),
     ):
-        raise ValueError("Ownership allocation changed a unit's capacity")
+        raise ValueError(
+            "Allocated plus unallocated ownership changed a unit's capacity"
+        )
 
-    return allocations, method
+    return allocations, unallocated_capacity, method
 
 
 ownership_source = gipt_country.loc[
@@ -1988,6 +2000,7 @@ ownership_source = gipt_country.loc[
 ].copy()
 
 ownership_records = []
+ownership_unallocated_records = []
 ownership_method_counts = {}
 parent_id_alignment_mismatches = 0
 parent_percentage_conflicts = 0
@@ -2046,7 +2059,11 @@ for (
         owner_fallback_rows += 1
         ownership_entries = parse_ownership_entries(owner_value)
 
-    allocations, allocation_method = allocate_ownership_capacity(
+    (
+        allocations,
+        unallocated_capacity,
+        allocation_method,
+    ) = allocate_ownership_capacity(
         ownership_entries,
         float(capacity),
     )
@@ -2055,12 +2072,23 @@ for (
     )
 
     for parent_name, allocated_capacity in allocations:
+        if allocated_capacity <= 0:
+            continue
         ownership_records.append(
             {
                 "Country/area": country,
                 "Type": facility_type,
                 "Parent": parent_name,
                 "Capacity (MW)": allocated_capacity,
+            }
+        )
+
+    if unallocated_capacity > 0:
+        ownership_unallocated_records.append(
+            {
+                "Country/area": country,
+                "Type": facility_type,
+                "Capacity (MW)": unallocated_capacity,
             }
         )
 
@@ -2072,6 +2100,14 @@ ownership_allocated = (
     .sum()
 )
 
+ownership_unallocated = pd.DataFrame(
+    ownership_unallocated_records,
+    columns=["Country/area", "Type", "Capacity (MW)"],
+)
+ownership_unallocated = ownership_unallocated.groupby(
+    ["Country/area", "Type"]
+)["Capacity (MW)"].sum()
+
 ownership_source_totals = ownership_source.groupby(
     ["Country/area", "Type"]
 )["Capacity (MW)"].sum()
@@ -2079,17 +2115,24 @@ ownership_allocated_totals = ownership_allocated.groupby(
     ["Country/area", "Type"]
 )["Capacity (MW)"].sum()
 ownership_total_check = pd.concat(
-    [ownership_source_totals, ownership_allocated_totals],
+    [
+        ownership_source_totals,
+        ownership_allocated_totals,
+        ownership_unallocated,
+    ],
     axis=1,
-    keys=["source", "allocated"],
+    keys=["source", "allocated", "unallocated"],
 ).fillna(0.0)
 if not np.allclose(
     ownership_total_check["source"],
-    ownership_total_check["allocated"],
+    ownership_total_check["allocated"]
+    + ownership_total_check["unallocated"],
     rtol=0,
     atol=1e-6,
 ):
-    raise ValueError("Ownership allocation changed country/type capacity")
+    raise ValueError(
+        "Allocated plus unallocated ownership changed country/type capacity"
+    )
 
 ownership_scopes = [("World", None)]
 ownership_scopes.extend(
@@ -2137,14 +2180,23 @@ for selection, member_countries in ownership_scopes:
         if type_ownership.empty:
             continue
 
-        type_ownership = type_ownership.sort_values(
+        # Unknown is a source-data category, while Others is the generated
+        # tail of named entities outside the top 20. Keep Unknown outside the
+        # ranking so it can never be relabelled as Others.
+        unknown_ownership = type_ownership.loc[
+            type_ownership["Parent"].eq("Unknown")
+        ].copy()
+        named_ownership = type_ownership.loc[
+            ~type_ownership["Parent"].eq("Unknown")
+        ].copy()
+        named_ownership = named_ownership.sort_values(
             ["Capacity (MW)", "Parent"],
             ascending=[False, True],
             kind="stable",
         ).reset_index(drop=True)
 
-        top_owners = type_ownership.iloc[:20].copy()
-        remaining_capacity = type_ownership.iloc[20:]["Capacity (MW)"].sum()
+        top_owners = named_ownership.iloc[:20].copy()
+        remaining_capacity = named_ownership.iloc[20:]["Capacity (MW)"].sum()
 
         if remaining_capacity > 0:
             if top_owners["Parent"].eq("Others").any():
@@ -2165,6 +2217,11 @@ for selection, member_countries in ownership_scopes:
                     ],
                     ignore_index=True,
                 )
+
+        top_owners = pd.concat(
+            [top_owners, unknown_ownership],
+            ignore_index=True,
+        )
 
         top_owners = (
             top_owners.groupby(["Type", "Parent"], as_index=False)[
@@ -2209,8 +2266,10 @@ if not ownership_output["Capacity (GW)"].gt(0).all():
     raise ValueError("Ownership output capacity must be positive")
 
 ownership_group_sizes = ownership_output.groupby(["Country", "Type"]).size()
-if ownership_group_sizes.gt(21).any():
-    raise ValueError("Ownership output contains more than top 20 plus Others")
+if ownership_group_sizes.gt(22).any():
+    raise ValueError(
+        "Ownership output contains more than top 20 plus Unknown and Others"
+    )
 
 world_ownership_mask = ownership_output["Country"].eq("World")
 if ownership_output.loc[
@@ -2255,6 +2314,10 @@ print(
     f"parent percentage conflicts={parent_percentage_conflicts:,}"
 )
 print(f"Ownership allocation methods: {ownership_method_counts}")
+print(
+    "Ownership capacity left unallocated where complete stated shares total "
+    f"under 100%: {ownership_unallocated.sum() / 1_000:,.3f} GW"
+)
 print(
     "World ownership capacity excluded because owner is Unknown: "
     f"{world_unknown_ownership_capacity_mw / 1_000:,.3f} GW"
