@@ -1,6 +1,6 @@
 {
   "title": "Explore data in the Global Integrated Power Tracker",
-  "footer": "All data comes from GEM's [Global Integrated Power Tracker](https://globalenergymonitor.org/projects/global-integrated-power-tracker/) and was last updated in August 2026. “In development” includes announced, pre-construction, and construction capacity.",
+  "footer": "All data comes from GEM's [Global Integrated Power Tracker](https://globalenergymonitor.org/projects/global-integrated-power-tracker/) and was last updated in September 2026. “In development” includes announced, pre-construction, and construction capacity.",
   "dropdown_label": "Select a country or area: ",
   "no_data": "No data available for {{selected}}.",
   "dropdown": [
